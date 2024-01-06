@@ -2,12 +2,12 @@ let isEnglish = false
 
 const portuguese = {
     aboutMe: 'Sobre mim',
-    description: 'Eu sou gay por que nenhuma mulher me quis.'
+    description: 'Verto é gay e gosta de dick.'
 }
 
 const english = {
     aboutMe: 'About me',
-    description: 'I\'m gay because none woman wants me.'
+    description: 'Verto is gay and like rola.'
 }
 
 const changeLanguage = () => {
