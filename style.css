@@ -49,3 +49,6 @@ height: 100vh;
     width:70vh;
     height: 99vh;
 }
+li{
+    list-style-type: none;
+}
