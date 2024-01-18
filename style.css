@@ -47,6 +47,7 @@
 .conteiner{
 width: auto;
 height: 100vh;
+
 }
 
 .img2{
@@ -68,5 +69,6 @@ border: 5px;
 padding-right:6px;
 font-weight: bold;
 color: rgba(34, 34, 248, 0.767);
+padding-right: -90px;
 }
 
