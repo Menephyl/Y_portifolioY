@@ -2,7 +2,9 @@ let isEnglish = false
 
 const portuguese = {
     aboutMe: 'Sobre mim',
-    description: 'Sou Yan Isonel Pereira. tenho prática com tecnologia front-end e estou em busca da primeira oportunidade'
+    description: 'Sou Yan Isonel Pereira. tenho prática com tecnologia front-end e estou em busca da primeira oportunidade.'
+   
+    
 }
 
 const english = {
@@ -37,3 +39,5 @@ document.querySelector('.about-me-text').innerHTML="TESTE ABACATE COM AVEIA"
 const contact=( ) => {
 document.querySelector('.about-me-text').innerHTML="TESTE ABACATE COM PÃO"
 }
+
+

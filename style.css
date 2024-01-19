@@ -18,6 +18,7 @@ h1{
     text-align: center;
     padding: 2em;
     font-family: "Quicksand", Arial, sans-serif;
+    border: 1px solid white;
 }
 
 .menu-lateral,  h1 {
@@ -47,6 +48,7 @@ h1{
     height: 100vh;
     text-align: center;
     color: #63AFF2;
+    border: 1px solid white
 }
 .conteiner{
 width: auto;
@@ -78,5 +80,3 @@ padding-right: -98px;
 footer{
     color: aliceblue;
 }
-
- 
