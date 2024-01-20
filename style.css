@@ -18,14 +18,15 @@ h1{
     text-align: center;
     padding: 2em;
     font-family: "Quicksand", Arial, sans-serif;
-    border: 1px solid white;
+   
 }
 
 .menu-lateral,  h1 {
     font-weight: bold;
     font-size: 50px;
-    padding-bottom: 30px;
+    
 
+w
 }
 
 .menu-lateral img {
@@ -45,10 +46,10 @@ h1{
 .conteudo {
     background-color: #3b383832;
     width: 70%;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     color: #63AFF2;
-    border: 1px solid white
+    border: 1px solid white;
 }
 .conteiner{
 width: auto;
