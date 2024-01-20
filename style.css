@@ -55,8 +55,10 @@
   
 
 }
-
+section{
+  display: inline-block;
 }
+
 .conteudo> h1, .conteudo>div>h1{
     color: black;
 }
@@ -86,3 +88,4 @@ padding-right: -98px;
 footer{
     color: rgb(0, 1, 4);
 }
+
