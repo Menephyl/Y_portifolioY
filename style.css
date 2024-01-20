@@ -1,16 +1,16 @@
+
+
 .principal {
     display: flex;
     gap: 2em;
   padding-bottom:  2px;
   background-color: #000000;
 }
-h1{
-    color: aliceblue;
-}
+
 .menu-lateral {
     background-color: #000000;
     color: aliceblue;
-    height: 100vh;
+    height: 100%;
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -18,18 +18,15 @@ h1{
     text-align: center;
     padding: 2em;
     font-family: "Quicksand", Arial, sans-serif;
-   
+   border: solid 1px white;
 }
 
 .menu-lateral,  h1 {
     font-weight: bold;
     font-size: 50px;
-    
+    }
 
-w
-}
-
-.menu-lateral img {
+.menu-lateral> img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -44,18 +41,26 @@ w
 }
 
 .conteudo {
-    background-color: #3b383832;
+    min-height: 100%;
     width: 70%;
     height: 100%;
     text-align: center;
-    color: #63AFF2;
-    border: 1px solid white;
-}
-.conteiner{
-width: auto;
-height: 100vh;
+    color: #000000;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url(ya\ \(1\).jpg) ;
+    
+    background-size: cover;
+    background-position: center center;  /*https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Publishing_your_website*    ou background: url(imagem.jpg) center center cover no-repeat fixed;*/
+    background-size: no-repeat;
+  
 
 }
+
+}
+.conteudo> h1, .conteudo>div>h1{
+    color: black;
+}
+
 
 .img2{
     width:70vh;
@@ -79,5 +84,5 @@ color: rgba(79, 129, 246, 0.941);
 padding-right: -98px;
 }
 footer{
-    color: aliceblue;
+    color: rgb(0, 1, 4);
 }
