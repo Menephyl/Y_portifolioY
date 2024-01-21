@@ -1,80 +1,45 @@
-
-
+ *{   margin: 0px;
+    border: 0px;
+}
 .principal {
     display: flex;
-    gap: 2em;
-  padding-bottom:  2px;
+  gap: 1px;
   background-color: #000000;
+  height: max-content;
 }
 
 .menu-lateral {
     background-color: #000000;
     color: aliceblue;
-    height: 100%;
+    height: auto;
     width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2em;
-    font-family: "Quicksand", Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
    border: solid 1px white;
+   margin: 20px;
 }
 
-.menu-lateral,  h1 {
-    font-weight: bold;
-    font-size: 50px;
-    }
-
+.ul>li{
+list-style-type: none;
+line-height: 2.0;
+  }
 .menu-lateral> img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin: 20px;
 }
-
-.menu-lateral .cargo {
-    opacity: 70%;
-}
-
 .menu-lateral .cargo .azul {
     color: #63AFF2;
-}
-
-.conteudo {
-    min-height: 100%;
-    width: 70%;
-    height: 100%;
-    text-align: center;
-    color: #000000;
-    border: 1px solid rgb(255, 255, 255);
-    background-image: url(ya\ \(1\).jpg) ;
-    
-    background-size: cover;
-    background-position: center center;  /*https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Publishing_your_website*    ou background: url(imagem.jpg) center center cover no-repeat fixed;*/
-    background-size: no-repeat;
-  
+    margin: 10px;
 
 }
-section{
-  display: inline-block;
-}
-
-.conteudo> h1, .conteudo>div>h1{
-    color: black;
-}
-
-
-.img2{
-    width:70vh;
-    height: 99vh;
-}
- li{
-    font-family: "Quicksand", Arial, sans-serif;
-    list-style-type: none;
- padding-bottom: 10px;
-}
-.caixa-de-textos {
-    padding: 5px;
+.caixa-de-textos>ul {
+        font-family: Arial, Helvetica, sans-serif
+        padding-bottom: 50px; 
 }
 .btn1{
 font-size: large;
@@ -85,7 +50,36 @@ font-weight: bold;
 color: rgba(79, 129, 246, 0.941);
 padding-right: -98px;
 }
+.conteudo {
+    min-height: fit-content;
+    width: 70%;
+    height: auto;
+    text-align: center;
+    color: #fffdfd;
+   /* border: 1px solid rgb(255, 255, 255);*/
+    background-image: url(d481f3c72e283309071f79e01b05c06d.gif) ;
+    background-size: cover;
+    background-position: center center;  /*https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Publishing_your_website*    ou background: url(imagem.jpg) center center cover no-repeat fixed;*/
+  }
+.conteudo>section>div{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+section{
+  display: inline-block;
+}
+
+.conteudo> h1, .conteudo>div>h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+.conteudo2{
+    background-image:url(d481f3c72e283309071f79e01b05c06d.gif);
+    background-size: cover;
+    background-position:center center;
+}
 footer{
-    color: rgb(0, 1, 4);
+    color: rgb(103, 138, 244);
 }
 
