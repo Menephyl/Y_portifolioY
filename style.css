@@ -79,6 +79,8 @@ section{
     background-size: cover;
     background-position:center center;
 }
+element.style {
+}
 footer{
     color: rgb(103, 138, 244);
 }
