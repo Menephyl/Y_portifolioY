@@ -1,6 +1,4 @@
- *{   margin: 0px;
-    border: 0px;
-}
+
 .principal {
     display: flex;
   gap: 1px;
@@ -37,9 +35,8 @@ line-height: 2.0;
     margin: 10px;
 
 }
-.caixa-de-textos>ul {
-        font-family: Arial, Helvetica, sans-serif
-        padding-bottom: 50px; 
+.caixa-de-textos .ul{
+  padding: 30px 0px 0px 25px;
 }
 .btn1{
 font-size: large;
@@ -78,9 +75,9 @@ section{
     background-image:url(d481f3c72e283309071f79e01b05c06d.gif);
     background-size: cover;
     background-position:center center;
+    opacity: 50%;
 }
-element.style {
-}
+
 footer{
     color: rgb(103, 138, 244);
 }

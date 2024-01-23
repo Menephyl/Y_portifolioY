@@ -1,0 +1,118 @@
+/* CSS Reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote,
+figure,
+figcaption,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove default padding */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote,
+figure,
+figcaption,
+dl,
+dd {
+  padding: 0;
+}
+
+/* Set default font family and size */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove hyperlink styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default button styles */
+button {
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* Remove outline on focus */
+:focus {
+  outline: none;
+}
+
+/* Add a border to table elements for better consistency */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset form elements */
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Override some common element styles that vary between browsers */
+button,
+input {
+  overflow: visible;
+}
+
+/* Hide the 'reset' button in input[type="reset"] */
+input[type="reset"] {
+  appearance: none;
+}
+
+/* Remove default styles for select */
+select {
+  appearance: none;
+  background: none;
+  border: 1px solid #ccc;
+  padding: 0.5em;
+}
+
+/* End of CSS Reset */
