@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Evita problemas com tamanhos de elementos */
+}
 .principal {
     display: flex;
   gap: 1px;
@@ -7,9 +11,9 @@
 }
 
 .menu-lateral {
-    background-color: #000000;
-    color: aliceblue;
-    height: auto;
+    background-color: #242424;
+    color: rgb(84, 142, 193); 
+    min-height: 100vh; /* Mínimo 100% da altura da viewport */
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -18,11 +22,13 @@
     font-family: 'Times New Roman', Times, serif;
    border: solid 1px white;
    margin: 20px;
+   
 }
 
-.ul>li{
+.menu-lateral ul li{
 list-style-type: none;
 line-height: 2.0;
+margin-bottom: 10px;  /* Adicione esta linha para espaçamento entre os itens da lista */
   }
 .menu-lateral> img {
     width: 150px;
@@ -35,7 +41,7 @@ line-height: 2.0;
     margin: 10px;
 
 }
-.caixa-de-textos .ul{
+.caixa-de-textos ul li{
   padding: 30px 0px 0px 25px;
 }
 .btn1{
