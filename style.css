@@ -30,7 +30,7 @@ list-style-type: none;
 line-height: 2.0;
 margin-bottom: 10px;  /* Adicione esta linha para espaçamento entre os itens da lista */
   }
-.menu-lateral> img {
+.menu-lateral > img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -51,7 +51,7 @@ border: 5px;
 padding-right:6px;
 font-weight: bold;
 color: rgba(79, 129, 246, 0.941);
-padding-right: -98px;
+padding:3vh 3vw;
 }
 .conteudo {
     min-height: fit-content;
