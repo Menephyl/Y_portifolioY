@@ -83,7 +83,6 @@ padding:2vw;
   }
   .conteudo section{
     background-image: url(promt.jpg);
-    border-radius: ;
   }
 .conteudo > section > div{
     display: flex;
@@ -107,7 +106,6 @@ section > div img{
   
 }
 .conteudo2{
-    background-color: ;
     background-size: cover;
     background-position:center center;
 }
