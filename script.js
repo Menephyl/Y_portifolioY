@@ -1,6 +1,5 @@
-/*    
-4- utilizar js para inserção das informações do projeto.
-
+/*    4- utilizar js para inserção das informações do projeto.
+    modify contents
 */
 
 let isEnglish = false
