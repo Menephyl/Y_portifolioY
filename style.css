@@ -37,8 +37,7 @@ list-style-type: none;
 line-height: 2;
 margin-bottom: 10px;  /* Adicione esta linha para espaçamento entre os itens da lista */
   }
-.menu-lateral  img {
-   
+.menu-lateral  img {   
   height: 10vw; /* Utilizando viewport width (vw) para a altura da imagem */ 
     height: 15vh;
     border-radius: 50%;
@@ -46,9 +45,7 @@ margin-bottom: 10px;  /* Adicione esta linha para espaçamento entre os itens da
 }
 .menu-lateral .cargo .azul {
     color: #63AFF2;   
-    margin: 1vw; /* Utilizando viewport width (vw) para a margem */
-  
- 
+    margin: 1vw; /* Utilizando viewport width (vw) para a margem */ 
 }
 .caixa-de-textos ul li{
   padding: 1.5vw 0 0 1.5vw;
@@ -60,7 +57,6 @@ margin-bottom: 10px;  /* Adicione esta linha para espaçamento entre os itens da
   border-radius: 2em;
 font-size: large;
 text-align: center;
-
 padding-right:0.6vw;
 font-weight: bold;
 color: rgba(79, 129, 246, 0.941);
@@ -72,7 +68,7 @@ padding:2vw;
     width: 100%;
     height: auto;
     text-align: center;
-    color: #fffdfd;
+    color: #020000;
     background-image: url(hacker.png);
    /* border: 1px solid rgb(255, 255, 255);*/
     /* background-image: url(d481f3c72e283309071f79e01b05c06d.gif) ; */
