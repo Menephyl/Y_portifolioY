@@ -21,15 +21,16 @@ p{
     color: rgb(84, 142, 193); 
     min-height: 100vh; /* Mínimo 100% da altura da viewport */
     width: 20%;
-    display: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
    border: solid 0.1em white; /* Utilizando border em vez de border-width */
    margin: 5vw; /* Utilizando viewport width (vw) para a margem */
    border-radius: 5em;
    padding: 2em;
-
-
-  }
+}
 
 .menu-lateral ul li{
 list-style-type: none;
