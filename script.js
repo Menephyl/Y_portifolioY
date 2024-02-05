@@ -1,3 +1,8 @@
+/*    
+4- utilizar js para inserção das informações do projeto.
+
+*/
+
 let isEnglish = false
 
 const portuguese = {

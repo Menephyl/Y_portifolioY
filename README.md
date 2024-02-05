@@ -6,8 +6,11 @@ imagem de teste abaixo 💪
 
 objetivos do projeto
 
-1- Apresentação pessoal e informações basicas de no inicio contendo nome função e objetivo profissional. 
+1- Apresentação pessoal e informações basicas de no inicio contendo nome função e objetivo profissional.
+ ao clicar nas navegações, ir direto pro conteudo referente com links  
 2- Divulgar informações profissionais a meu respeito para empregadores. Tais como: serviços que faço, projetos feitos, projetos em andamento, habilidades, educação, experiencia e meio de contato. 
 3- no menu inicial. Na primeira tela da barra de rolagem  tem o menu inicial e o aside com uma navegação entre os conteudos do objetivo 2.
-4- utilizar js para inserção das informações do projeto.
+4- Com js para inserção das informações do projeto.
+   
+
  

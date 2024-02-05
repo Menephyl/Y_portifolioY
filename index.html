@@ -2,21 +2,32 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Yan Portfolio</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="103452_computer_settings_icon.png" type="image/x-icon">
-   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+    integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 
+   
+<!-- Conteúdo. 
+DEVE ESTAR BEM ESTRUTURADO: NAV ASIDE PARA NAVEGAÇÃO DAS INFORMAÇÕES. 
+HOME - APRESENTAÇÃO INICIAL 
+ABOUT-ME - RESUMO SOBRE MIM, QUEM SOU, O QUE SOU E O QUE PRETENDO.
+PROJECTS - PROJETOS PRINCIPAIS 
+SKILLS - HABILIDADES PRINCIPAIS 
+EDUCATION- INFORMAR EDUCAÇÃO E CURSOS 
+CONTACT - INFORMAÇÕES DE CONTATO -  FORMULARIO -->
 </head>
 <body>
 
     <section>
         <div class="principal">
-            <div class="menu-lateral">
+            <aside class="menu-lateral">
                 <img
                     src=87574460.jpg alt="profile">
                 <div class="caixa-de-textos">
@@ -28,27 +39,27 @@
                     <nav class="menu-nav">
                         <ul>
                             <a href="#">
-                                <li onclick="home()">Home</li>
+                                <li onclick="Home()">Home</li>
                             </a>
                             <a href="#">
-                                <li onclick="about()">About</li>
+                                <li onclick="About()">About</li>
                             </a>
                             <a href="#">
-                                <li onclick="projects()">Projects</li>
+                                <li onclick="Projects()">Projects</li>
                             </a>
                             <a href="#">
-                                <li onclick="skills()">Skills</li>
+                                <li onclick="Skills()">Skills</li>
                             </a>
                             <a href="#">
-                                <li onclick="education()">Education</li>
+                                <li onclick="Education()">Education</li>
                             </a>
                             <a href="#">
-                                <li onclick="contact()">Contact</li>
+                                <li onclick="Contact()">Contact</li>
                             </a>
                         </ul>
                     </nav>
                       </div>
-                </div>
+            </aside>
             <div class="conteudo">
                 <h1 class="about-me">About me</h1>
                 <h3 class="about-me-text"> Hey there!! Click in the boxes aside.</h2>
@@ -62,14 +73,14 @@
                         <br>
                         <h1>a Developer</h1>
                     </div>
-                    <div class="about-me"><h4>About-me</h4>
+                    <div class="about-me"><h4 >About-me</h4>
                         <p>Hi! I'm Yan Isonel Pereira.</p>
                         <p></p>
                          <p> T.I Since 2017 and I'like to craft with technology Front-end and learn more to improve my skills</p>
                             <p>My objective is to work with my new passion and I am open to all opportunities in the way</p>
                         </div>
                     <section>
-                        <h1>  Projects</h1>
+                        <h1>Projects</h1>
                         <div class="projects">
                             <div class="p1">
                                 <a href="https://idade-y.vercel.app/" target="_blank"><img src="p1.png" alt="Projeto1"></a> <br>
@@ -85,7 +96,7 @@
                     </section>
                     <div class="conteudo2">
                         <div> <h1>Skills</h1>
-                            <div class="row" ::before></div>
+                            <div></div>
                             <div> 
                                 <span>
                                     <a href="#">
@@ -94,12 +105,12 @@
                                 </span>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="#">
                                         <h2><span>CSS3</span></h2>
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="#">
                                     <h2><span>Javascript</span></h2>
                                 </a>
                             </div>
