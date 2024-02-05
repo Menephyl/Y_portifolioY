@@ -1,8 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* Evita problemas com tamanhos de elementos */
-}
+/* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
+quero de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
+*/
 h1{
   padding: 1vw;
 }
@@ -10,15 +8,16 @@ p{
   padding: 2vw;
 }
 .principal {
-    display: flex;
+  display: flex;
+  flex-direction: row;
   gap: 1vw;
-  background-color: #000000;
+  background-color: #f5f2f2;
   min-height: 100vh;
+  border: solid 0.1em rgb(236, 6, 6); 
 }
 
 .menu-lateral {
-    background-color: #242424;
-    color: rgb(84, 142, 193); 
+    background-color: #191d1d2c;
     min-height: 100vh; /* Mínimo 100% da altura da viewport */
     width: 20%;
     display: flex;
@@ -26,7 +25,7 @@ p{
     align-items: center;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-   border: solid 0.1em white; /* Utilizando border em vez de border-width */
+   border: solid 0.1em rgb(236, 6, 6); /* Utilizando border em vez de border-width */
    margin: 5vw; /* Utilizando viewport width (vw) para a margem */
    border-radius: 5em;
    padding: 2em;
@@ -36,81 +35,95 @@ p{
 list-style-type: none;
 line-height: 2;
 margin-bottom: 10px;  /* Adicione esta linha para espaçamento entre os itens da lista */
+border: solid 0.1em rgb(236, 6, 6); 
   }
-.menu-lateral  img {
-   
+.menu-lateral  img {   
   height: 10vw; /* Utilizando viewport width (vw) para a altura da imagem */ 
     height: 15vh;
     border-radius: 50%;
     margin:1em;
+    border: solid 0.1em rgb(236, 6, 6); 
 }
 .menu-lateral .cargo .azul {
     color: #63AFF2;   
-    margin: 1vw; /* Utilizando viewport width (vw) para a margem */
-  
- 
+    margin: 1vw; /* Utilizando viewport width (vw) para a margem */ 
+    border: solid 0.1em rgb(236, 6, 6); 
 }
 .caixa-de-textos ul li{
   padding: 1.5vw 0 0 1.5vw;
+  border: solid 0.1em rgb(236, 6, 6); 
 }
 .btn1{
-  
   padding: 2vw;
   background-color: #000000;
   border-radius: 2em;
 font-size: large;
 text-align: center;
-
 padding-right:0.6vw;
 font-weight: bold;
 color: rgba(79, 129, 246, 0.941);
 padding:2vw;
+border: solid 0.1em rgb(236, 6, 6); 
 }
 .conteudo {
-  background-color: #121212;
+  background-color: #fff8f8;
     min-height: fit-content;
     width: 100%;
     height: auto;
     text-align: center;
-    color: #fffdfd;
-    background-image: url(hacker.png);
+    color: #020000;
+   /* background-image: url(hacker.png);*/
    /* border: 1px solid rgb(255, 255, 255);*/
     /* background-image: url(d481f3c72e283309071f79e01b05c06d.gif) ; */
     background-size: cover;
     background-position: center center;  /*https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Publishing_your_website*    ou background: url(imagem.jpg) center center cover no-repeat fixed;*/
-
+    border: solid 0.1em rgb(236, 6, 6); 
      /* Adicione outras propriedades conforme necessário */
   }
-  .conteudo section{
+ /* .conteudo section{
     background-image: url(promt.jpg);
-  }
+  
+  }*/
+
 .conteudo > section > div{
     display: flex;
     flex-direction: row;
-    border: 0.3em solid black;
     margin: 2em;
-}
+    border: solid 0.1em rgb(236, 6, 6); 
+    color: #000000;
+  }
 .projects{
   padding: 1vw;
+  border: solid 0.1em rgb(236, 6, 6); 
+color: black;
 }
 .section{
   display: inline-block;
+  border: solid 0.1em rgb(236, 6, 6); 
+  color: black;
 }
-section > div img{
+.section > div img{
  margin: auto;
  padding: 2vw;
+ border: solid 0.1em rgb(236, 6, 6); 
+ color: #000000;
+
 }
 
 .conteudo> h1, .conteudo > div > h1{
-    color: rgb(255, 255, 255);
+    color: rgb(17, 5, 5);
+    border: solid 0.1em rgb(236, 6, 6); 
   
 }
 .conteudo2{
     background-size: cover;
     background-position:center center;
+    border: solid 0.1em rgb(236, 6, 6); 
+    color: #000000;
 }
 
 footer{
     color: rgb(103, 138, 244);
+    border: solid 0.1em rgb(236, 6, 6); 
 }
 
