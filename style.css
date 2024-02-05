@@ -17,11 +17,12 @@ p{
 }
 
 .menu-lateral {
+
     background-color: #242424;
     color: rgb(84, 142, 193); 
     min-height: 100vh; /* Mínimo 100% da altura da viewport */
     width: 20%;
-    display: flex;
+    display: absolute;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -36,6 +37,7 @@ p{
 list-style-type: none;
 line-height: 2;
 margin-bottom: 10px;  /* Adicione esta linha para espaçamento entre os itens da lista */
+
   }
 .menu-lateral  img {   
   height: 10vw; /* Utilizando viewport width (vw) para a altura da imagem */ 
