@@ -1,4 +1,3 @@
-alert('WELCOME! Click in the boxes aside to know more')
 let isEnglish = false
 
 const portuguese = {
