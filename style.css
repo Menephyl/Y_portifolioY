@@ -2,29 +2,33 @@
 quero de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
 */
 
-.body{
-  
-}
+
 #all{
-  background-color: #444;
+  background-color: #fff8f8;
   margin: 0;
   padding: 0;
   display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
  
 }
 h1{
-  padding: 10px;
+  padding: 1em;
 }
 p{
-  padding: 10px;
+  padding: 1em;
+}
+div{
+  padding: 1em;
 }
 .menu-lateral {
+  position:fixed;
+    display: flex;
+   flex-direction: column; 
   z-index: 1;
     background-color: #ffffffec;   /*background-color: #07344eec; */
     height: 100%;
     width: 220px;
-    position:fixed;
-    display: block;
+    
     text-align: center;
     overflow-y: auto;
     font-family: 'Times New Roman', Times, serif;
@@ -34,8 +38,8 @@ p{
 }
 .menu-lateral  img {   
   /* Utilizando viewport width (vw) para a altura da imagem */ 
-   height: 15vw;
-   width: 12vw;
+   height: 15em;
+   width: 12em;
    border-radius: 50%;
    display: flex;
    margin: auto;
@@ -61,14 +65,16 @@ border-radius: 3px;
 }
 .btn1{
   margin: 1vw;
-  background-color: #020000;
+  background-color: #ffffff;
   border-radius: 2em;
   font-size: large;
   text-align: center;
   padding-right:0.6vw;
   font-weight: bold;
   color: rgba(48, 106, 241, 0.941); 
-  padding:2vw;  
+  padding:2em;  
+  border: 1px solid black;
+  cursor: pointer;
 }
  /* body é configurado para usar flex para organizar a aside e a main em linha (lado a lado).
 menu-lateral é configurado como fixo à esquerda e com uma altura de 100% da janela, tornando-o fixo enquanto o conteúdo da main rola.
@@ -79,8 +85,9 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   z-index: 0;
   display: flex;
   flex-direction: column;
-  margin-left: 300em; /*ajuste da margem esquerda para corresponder à largura da aside */
-  padding: 20px; /* Adicione algum preenchimento para separar o conteúdo da aside */
+  flex-wrap: wrap;
+   /*ajuste da margem esquerda para corresponder à largura da aside */
+  padding: 2em; /* Adicione algum preenchimento para separar o conteúdo da aside */
   flex: 1;  
   background-color: #fff8f8;
     min-height: fit-content;
@@ -89,7 +96,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
     text-align: center;
     color: #020000;
     flex-direction: column;
-    margin-left: 240px;
+    margin-left: 24em;
     
    /* background-image: url(hacker.png);*/
    /* border: 1px solid rgb(255, 255, 255);*/
@@ -100,14 +107,13 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
      /* Adicione outras propriedades conforme necessário */
   }
 
-
-  .oi{
-  font-size:100px;
+.oi{
+  font-size:2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .funcao{
-  font-size: 100px;
+  font-size: 2em;;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .about-me{
@@ -124,7 +130,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .projects{
   display: flex;
-  flex: auto;
+  flex-flow: row wrap;  
   font-weight: 300;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   
@@ -166,7 +172,7 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             font-size: 16px;
 
 }
-.btn2:hover{
+.btn1:hover, .btn2:hover{
   background-color: #001a6e;
 
 }
