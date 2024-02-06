@@ -6,7 +6,7 @@ quero de inicio o estilo do documento em branco primeiramente. seguido com os me
   margin: 0;
   padding: 0;
   display: flex;
-  background-color: #fff;
+ 
 }
 #all{
   background-color: #444;
