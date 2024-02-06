@@ -20,7 +20,7 @@ p{
 }
 .menu-lateral {
   z-index: 1;
-    background-color: #07344e9d; 
+    background-color: #ffffffec;   /*background-color: #07344eec; */
     height: 100%;
     width: 220px;
     position:fixed;
