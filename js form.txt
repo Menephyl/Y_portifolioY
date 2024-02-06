@@ -1,0 +1,32 @@
+js form
+ <!-- Seus scripts podem ser adicionados aqui -->
+    <script>
+        function enviarFormulario() {
+            // Coletar dados do formulário
+            var formulario = document.getElementById("meuFormulario");
+            var nome = formulario.elements["nome"].value;
+            // Outros campos do formulário podem ser coletados da mesma maneira
+
+            // Realizar operações com os dados (validação, manipulação, etc.)
+
+            // Simular envio para o servidor (pode ser substituído por chamada AJAX)
+            alert("Dados enviados:\nNome: " + nome);
+
+            // Resetar o formulário (opcional)
+            formulario.reset();
+        }
+    </script>
+
+</body>
+</html>
+Neste exemplo, o atributo type do botão de envio foi alterado para "button" e é adicionado um evento onclick que chama a função enviarFormulario() quando o botão é clicado. Essa função coleta os dados do formulário, realiza operações com eles (simuladas por um alert no exemplo) e pode realizar um envio assíncrono usando AJAX, por exemplo.
+
+Lembre-se de que este é apenas um exemplo básico, e você pode adaptá-lo conforme necessário para atender aos requisitos específicos do seu aplicat
+
+
+
+
+
+
+
+
