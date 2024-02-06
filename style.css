@@ -3,13 +3,14 @@ quero de inicio o estilo do documento em branco primeiramente. seguido com os me
 */
 
 .body{
+  
+}
+#all{
+  background-color: #444;
   margin: 0;
   padding: 0;
   display: flex;
  
-}
-#all{
-  background-color: #444;
 }
 h1{
   padding: 10px;
