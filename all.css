@@ -1,0 +1,17 @@
+#all{
+    background-color: #fff8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+  }
+  h1{
+    padding: 1em;
+  }
+  p{
+    padding: 1em;
+  }
+  div{
+    padding: 1em;
+  }
