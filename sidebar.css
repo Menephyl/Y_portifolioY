@@ -1,0 +1,73 @@
+.menu-js{
+display: flex;
+flex-direction: row;
+}
+.menu-js .btn3{
+    display: flex;
+ margin-left:1.5px;
+text-align: center;
+background-color: #b3b3b300;
+border-radius: 2px;
+margin-top: 5px;
+ border: 0.5px solid black;
+
+}
+
+
+.menu-lateral {
+    position:fixed;
+      display: flex;
+     flex-direction: column; 
+    z-index: 1;
+      background-color: #d5ebf069;   /*background-color: #07344eec; */
+      height: 100%;
+      width: 220px;
+      text-align: center;
+      overflow-y: auto;
+      font-family: 'Times New Roman', Times, serif;
+     margin: 1vw;/* Utilizando viewport width (vw)  */
+     border-radius: 1em;
+     padding: 0 2px 0 2px;
+  }
+  .menu-lateral  img {   
+    /* Utilizando viewport width (vw) para a altura da imagem */ 
+     height: 15em;
+     width: 12em;
+     border-radius: 50%;
+     display: flex;
+     margin: auto;
+     padding: 2px;
+     
+  }
+  .menu-lateral .cargo .azul {
+    color: #449deb;   
+    margin: 1vw; /* Utilizando viewport width (vw) para a margem */ 
+   
+  }
+  .menu-lateral ul li{
+  list-style-type: none;
+  line-height: 1vw;
+  margin: 3vh;  /* Adicione esta linha para espaçamento entre os itens da lista */
+  padding: 10px 0px 20px 0px;
+  border-radius: 3px;
+  }
+  
+  .caixa-de-textos ul li{
+    padding: 1vw 0 0 1.5vw;
+   
+  }
+  .btn1{
+    margin: 1vw;
+    background-color: #ffffff;
+    border-radius: 1em;
+    font-size: large;
+    text-align: center;
+    padding-right:0.6vw;
+    font-weight: bold;
+    color: rgba(48, 106, 241, 0.941); 
+    padding:1em;  
+    border: 1px solid black;
+    cursor: pointer;
+  
+  }
+  

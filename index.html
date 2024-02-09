@@ -9,27 +9,29 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/103452_computer_settings_icon.png" type="image/x-icon">
    <link rel="stylesheet" href="all.css">
-
-   
+   <link rel="stylesheet" href="sidebar.css">
 <!-- Conteúdo. 
 DEVE ESTAR BEM ESTRUTURADO: NAV ASIDE PARA NAVEGAÇÃO DAS INFORMAÇÕES. 
-HOME - APRESENTAÇÃO INICIAL 
+button light toggle dark
+HOME - APRESENTAÇÃO INICIAL  ---- colocar icons??
 ABOUT-ME - RESUMO SOBRE MIM, QUEM SOU, O QUE SOU E O QUE PRETENDO.
 PROJECTS - PROJETOS PRINCIPAIS 
 SKILLS - HABILIDADES PRINCIPAIS 
-EDUCATION- INFORMAR EDUCAÇÃO E CURSOS 
-CONTACT - INFORMAÇÕES DE CONTATO -  FORMULARIO -->
+EDUCATION- INFORMAR EDUCAÇÃO E CURSOS ao clicar , descer e mostrar descrições 
+CONTACT - INFORMAÇÕES DE CONTATO -  FORMULARIO - ao clicar enviar pro meu e-mail
+ -->
 </head>
-<body>
-    <div  id="all" class="all">
-        <aside class="menu-lateral">
-            <img src=images/87574460.jpg alt="profile">
-            <div class="caixa-de-textos">
-                <h1 class="y1">Yan Menephyl</h1>
-                <h3 class="cargo">
-                    <span class="azul">Front-end Developer</span>in Brazil</h3>
-                <button href="#" class="btn1"  onclick="changeLanguage()"> PT-BR 🔁 EN-USA</button>
-                <nav class="menu-nav">
+<body> 
+ <div  id="all" class="all">
+ <aside class="menu-lateral">
+     <form class="menu-js"> <button class="btn3"> light</button></form>
+      <img src=images/87574460.jpg alt="profile">
+        <div class="caixa-de-textos">
+          <h1 class="y1">Yan Menephyl</h1>
+            <h3 class="cargo">
+                <span class="azul">Front-end Developer</span>in Brazil</h3>
+                    <button href="#" class="btn1"  onclick="changeLanguage()"> PT-BR 🔁 EN-USA</button>
+            <nav class="menu-nav">
                     <ul>
                         <a href="#">
                             <li >Home</li>
@@ -53,6 +55,8 @@ CONTACT - INFORMAÇÕES DE CONTATO -  FORMULARIO -->
                 </nav>
                   </div>
         </aside>
+
+        <!-- MAIN -->
         <main class="main">
         <section class="conteudo">
                 <div class="principal">
@@ -98,34 +102,37 @@ CONTACT - INFORMAÇÕES DE CONTATO -  FORMULARIO -->
                                     </div>        
                             </section>
                             <div class="conteudo2">
+
                                 <div class="skills"><h1>My Skills</h1>
-                                    <div>
-                                        <span><a href="#">
-                                              <a href="https://aandroid.vercel.app/" target="_blank"><p>HTML5 + CSS3</p></a>
-                                            </a>
-                                        </span>
+                                    <div style="width:100%" text-align="center">
+                                        <div       style="background-color:rgb(255, 145, 0); height:23px;width: 80%;font-size: 10px; text-align: end; border-radius: 3px; font-style: italic; font-weight: 700; border:1px solid black; ">
+                                              <a href="https://aandroid.vercel.app/" target="_blank" st>HTML5</a >
+                                        </div>
+
+                                </br>
+                                <a href="#" target="self" > <div style="background-color:rgba(0, 55, 255, 0.623); height:23px;width: 65%;font-size: 10px; text-align: end; border-radius: 3px; font-style: italic; font-weight:bold;  border:1px solid black;">CSS3</div></a>
+                                <br>
+                        
+                                <a href="#" target="self" > <div style="background-color:rgb(221, 255, 0); height:23px;width: 45%;font-size: 10px; text-align: end; border-radius: 3px; font-style: italic;font-weight: 700; border:1px solid black;" >Javascript</div></a>
+                                <br>
+                                       
+                                <a href="#" target="self" > <div style="background-color:rgb(255, 42, 0); height:23px;width: 10%;font-size: 10px; text-align: end; border-radius: 3px; font-style: italic;font-weight: 700; border:1px solid black;">Git</div></a>       
+                                
                                     </div>
-                                    <div class="js">
-                                        <a href="#" target="self" ><p>Javascript</p>
-                                        </a>
-                                        <ul class="progress-bar">
-                                            <li>
-
-                                            </li>
-                                        <li>
-                                            
-                                        </li>
-                                        <li>
-
-                                        </li>
-                                    </ul>
                                     </div>
                                     
                                 </div>
                                 <div class="education">
                                     <h1>Education</h1>
-                                    <p class="tecnico">Diploma if Technician information technology</p>
-                                    <p class="ensinomedio">High Scholl Secundary Education</p>
+                                   <!-- ao clicar, descer o conteudo mostrando a descrição-->
+                                        <a href="#">
+                                            <p class="tecnico">Diploma in Technician information technology</p>
+
+                                        </a>
+                                        <a href="#">
+                                            <p class="ensinomedio">High Scholl Secundary Education</p>
+                                        </a>
+                                  
                                 </div>
                                 <div class="contact">
                                     <h1>Formulário de Contato</h1>
@@ -154,7 +161,7 @@ CONTACT - INFORMAÇÕES DE CONTATO -  FORMULARIO -->
                             </div>
                 </div>
         </section>
-        <footer>
+        <footer class="footer">
             <p> ©2024 Yan Menephyl - All rights reserved.</p>
         </footer>
         </main>
