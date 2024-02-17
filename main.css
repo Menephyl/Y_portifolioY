@@ -21,7 +21,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
     text-align: center;
     color: #020000;
     flex-direction: column;
-    margin-left: 24em;
+    margin-left: 20em;
     
    /* background-image: url(hacker.png);*/
    /* border: 1px solid rgb(255, 255, 255);*/
