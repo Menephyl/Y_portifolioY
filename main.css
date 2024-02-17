@@ -45,6 +45,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 text-align: left;
 box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
+
 .conteudo{
 background: url();
 box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
