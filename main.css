@@ -29,7 +29,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
     background-size: cover;
     background-position: center center;  /*https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Publishing_your_website*    ou background: url(imagem.jpg) center center cover no-repeat fixed;*/
       /* Adicione outras propriedades conforme necessário */
-      box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
   }
   
   
@@ -56,9 +56,9 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 #projects{
-  display: flex;
+  display: grid;
   flex-wrap: wrap ;
-  grid-row: inherit;
+
   margin: 2em;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   
@@ -74,6 +74,7 @@ box-shadow: 0 0 1px black;
 border: 1px solid black;
 
 }
+
 .education{
  box-shadow: 0 0 1px black;
 }
