@@ -56,25 +56,29 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 #projects{
-  display: grid;
+  display: flex;
   flex-wrap: wrap ;
-
+align-items: center;
+align-content: space-between;
   margin: 2em;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
   
   
 }
 .p{
+
 display: flex;
 flex-wrap: wrap;
 margin: 5px;
--ms-flex-item-align: inherit;
-width: 500px;
+width: 300px;
+height: 250px;
 box-shadow: 0 0 1px black;
-border: 1px solid black;
+border: 1px solid rgba(0, 0, 0, 0.387);
 
 }
-
+em{
+  font-size: 10px;
+}
 .education{
  box-shadow: 0 0 1px black;
 }
