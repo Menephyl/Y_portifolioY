@@ -30,12 +30,14 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
     background-position: center center;  /*https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Publishing_your_website*    ou background: url(imagem.jpg) center center cover no-repeat fixed;*/
       /* Adicione outras propriedades conforme necessário */
       box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
+
   }
   
   
 .oi{
   font-size:2em;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  
 }
 
 .funcao{
@@ -45,6 +47,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 .about-me{
 text-align: left;
 box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+
 }
 
 .conteudo{
