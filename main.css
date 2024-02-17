@@ -86,7 +86,7 @@ border: 1px solid black;
   box-sizing: border-box;
   background-color:  #FFF ;/* #f4f4f4; */
   font-family: Arial, sans-serif;
-
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 .contact .h1{
   text-align: center;
