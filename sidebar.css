@@ -1,25 +1,11 @@
-.menu-js{
-display: flex;
-flex-direction: row;
-}
-.menu-js .btn3{
-    display: flex;
- margin-left:1.5px;
-text-align: center;
-background-color: #b3b3b300;
-border-radius: 2px;
-margin-top: 5px;
- border: 0.5px solid black;
-
-}
-
-
+/*ABRIR E FEHCAR*/
 .menu-lateral {
     position:fixed;
       display: flex;
      flex-direction: column; 
     z-index: 1;
-      background-color: #d5ebf069;   /*background-color: #07344eec; */
+      background-color: #f4f4f4b9;   
+      *background-color: #07344eec; */
       height: 100%;
       width: 220px;
       text-align: center;
@@ -28,6 +14,21 @@ margin-top: 5px;
      margin: 1vw;/* Utilizando viewport width (vw)  */
      border-radius: 1em;
      padding: 0 2px 0 2px;
+  }
+  .menu-js .btn3{
+    display: flex;
+ margin-left:1.5px;
+text-align: center;
+background-color: #b3b3b300;
+border-radius: 2px;
+margin-top: 5px;
+ border: 0.5px solid black;
+  }
+  .menu-lateral >i{
+    display: flex;
+    align-self: right;
+   width: 100%;
+   padding: 2px;
   }
   .menu-lateral  img {   
     /* Utilizando viewport width (vw) para a altura da imagem */ 

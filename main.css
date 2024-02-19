@@ -14,7 +14,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    /*ajuste da margem esquerda para corresponder à largura da aside */
   padding: 1em; /* Adicione algum preenchimento para separar o conteúdo da aside */
   flex: 1;  
-  background-color: #FFF;
     min-height: fit-content;
     width: 100%;
     height: auto;
@@ -22,7 +21,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
     color: #020000;
     flex-direction: column;
     margin-left: 20em;
-    
    /* background-image: url(hacker.png);*/
    /* border: 1px solid rgb(255, 255, 255);*/
     /* background-image: url(d481f3c72e283309071f79e01b05c06d.gif) ; */
@@ -31,32 +29,23 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
       /* Adicione outras propriedades conforme necessário */
       box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
       padding: 2em;
-
   }
-  
-  
 .oi{
   font-size:2em;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   background-image: url(images/men-white.jpg);
   padding-bottom: 10px;
-  
 }
 .funcao{
   color: #FFF;
   font-size: 2em;;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),url(images/d481f3c72e283309071f79e01b05c06d.gif )  ;
-  
-  
 }
-
 .about-me{
 text-align: left;
 box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-
 }
-
 .conteudo{
 background: url();
 box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
@@ -68,26 +57,29 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 #projects{
   display: flex;
   flex-wrap: wrap ;
-align-items: center;
-align-content: space-between;
+ align-items: center;
+ align-content: space-between;
   margin: 2em;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
-  padding-bottom: 200px;
-  
+  padding-bottom: 200px; 
 }
 .p{
-
 display: flex;
 flex-wrap: wrap;
 margin: 5px;
-width: 290px;
-height: 250px;
+width: 17em;
+height: 15em;
 box-shadow: 0 0 1px black;
 border: 1px solid rgba(0, 0, 0, 0.387);
-
+border-radius: 3px;
 }
 em{
   font-size: 10px;
+}
+img{
+  border-radius: 10px;
+  text-align: center;
+  padding: 1px;
 }
 .conteudo2{
   box-shadow: 0 0 2px #020000;
@@ -97,14 +89,16 @@ em{
 }
 .education p{
   text-align: initial;
-
   border: 1px solid rgba(0, 0, 0, 0.603);
+
 }
 .contact{
-  margin: 0;
-  padding: 0;
+  width: 95%;
+  margin: 5px;
+  padding: 2px ;
   box-sizing: border-box;
   background-color:  #FFF ;/* #f4f4f4; */
+  border-radius: 20px;
   font-family: Arial, sans-serif;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
@@ -134,11 +128,9 @@ em{
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
-
 }
 .btn1:hover, .btn2:hover{
   background-color: #001a6e;
-
 }
 .input{
              width: 100%;
@@ -162,15 +154,10 @@ em{
   text-align: center;
 }
 /*
-
-;
-            
-            
-        }
-
+; }
         h1 {
             text-align: center;
-            
+   
         }
 
         form {
@@ -211,8 +198,6 @@ em{
             background-color: #45a049;
         }
 */
-
-
 .footer{
     color: rgb(103, 138, 244);
   margin-left: 400px;  
