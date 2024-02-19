@@ -5,7 +5,7 @@
      flex-direction: column; 
     z-index: 1;
       background-color: #f4f4f4b9;   
-      *background-color: #07344eec; */
+      /*background-color: #07344eec; */
       height: 100%;
       width: 220px;
       text-align: center;
@@ -29,6 +29,9 @@ margin-top: 5px;
     align-self: right;
    width: 100%;
    padding: 2px;
+  }
+  .menu-lateral li:hover{
+    background-color: #449deb;
   }
   .menu-lateral  img {   
     /* Utilizando viewport width (vw) para a altura da imagem */ 
