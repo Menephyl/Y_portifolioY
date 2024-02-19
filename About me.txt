@@ -27,9 +27,8 @@ Projeto site androidProjeto4
 
 
 Skills
-html5 + CSS3
-
-Javascript
+ menu bar
+html5  CSS3 Javascript git nodeJs react
 
 Education
 Diploma if Technician information technology

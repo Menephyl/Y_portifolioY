@@ -4,7 +4,7 @@
     padding: 0;
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
+   width: 100%;
   }
   h1{
     padding: 1em;
