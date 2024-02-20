@@ -56,6 +56,7 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 #projects{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap ;
  align-items: center;
  align-content: space-between;
@@ -67,7 +68,7 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 display: flex;
 flex-wrap: wrap;
 margin: 5px;
-width: 17em;
+width: 18em;
 height: 15em;
 box-shadow: 0 0 1px black;
 border: 1px solid rgba(0, 0, 0, 0.387);
@@ -90,7 +91,6 @@ img{
 .education p{
   text-align: initial;
   border: 1px solid rgba(0, 0, 0, 0.603);
-
 }
 .contact{
   width: 95%;
@@ -200,7 +200,8 @@ img{
 */
 .footer{
     color: rgb(103, 138, 244);
-  margin-left: 400px;  
-  font-size: 15px;
+  margin-left: 300px;  
+  text-align: center;
+  font-size: 10px;
 }
 
