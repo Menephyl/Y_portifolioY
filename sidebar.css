@@ -1,7 +1,7 @@
 /*ABRIR E FEHCAR*/
 .menu-lateral {
     position:fixed;
-      display: flex;
+      display: block;
      flex-direction: column; 
     z-index: 1;
       background-color: #f4f4f4b9;   
