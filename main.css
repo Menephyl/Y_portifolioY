@@ -60,19 +60,20 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   flex-wrap: wrap ;
  align-items: center;
  align-content: space-between;
-  margin: 2em;
+  margin: 1em;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
-  padding-bottom: 200px; 
+  padding-bottom: 20px; 
 }
 .p{
 display: flex;
 flex-wrap: wrap;
+flex-flow: row;
 margin: 5px;
 width: 18em;
 height: 15em;
 box-shadow: 0 0 1px black;
 border: 1px solid rgba(0, 0, 0, 0.387);
-border-radius: 3px;
+border-radius: 5px;
 }
 em{
   font-size: 10px;
