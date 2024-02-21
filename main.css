@@ -16,7 +16,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   padding: 1em; /* Adicione algum preenchimento para separar o conteúdo da aside */
   flex: 1;  
     min-height: fit-content;
-    width: 100%;
     height: auto;
     text-align: center;
     color: #020000;
