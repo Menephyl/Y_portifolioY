@@ -7,9 +7,11 @@
 flex-direction: column;
 z-index: 1;
 overflow-y: auto;
-margin: 0.1vw;
+
 padding: 0 0.2em 0 0.2em;
 border-radius: 1em;
+width: 20%;
+height: 100%;
 }
 .menu-lateral i{
 text-align: right;
@@ -38,15 +40,17 @@ margin: 1vh;
     width: 12em;
     border-radius: 50%;
     display: flex;
-    margin: auto;
+    margin: 10px;
     padding: 2px;
 }
 .menu-lateral ul li{
+    display: flex;
     list-style-type: none;
     line-height: 1vw;
     margin: 3vh;  /* Adicione esta linha para espaçamento entre os itens da lista */
     padding: 10px 0px 20px 0px;
     border-radius: 3px;
+    
     }
     
     .caixa-de-textos ul li{
@@ -67,6 +71,30 @@ margin: 1vh;
       cursor: pointer;
     }
     */
+    .main {
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+         /*ajuste da margem esquerda para corresponder à largura da aside */
+        padding: 1em; /* Adicione algum preenchimento para separar o conteúdo da aside */
+        flex: 1;  
+          min-height: fit-content;
+          width: 80%;
+          height: auto;
+          text-align: center;
+          color: #020000;
+          flex-direction: column;
+          margin-left: 20em;
+         /* background-image: url(hacker.png);*/
+         /* border: 1px solid rgb(255, 255, 255);*/
+          /* background-image: url(d481f3c72e283309071f79e01b05c06d.gif) ; */
+          background-size: cover;
+          background-position: center center;  /*https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Publishing_your_website*    ou background: url(imagem.jpg) center center cover no-repeat fixed;*/
+            /* Adicione outras propriedades conforme necessário */
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
+            padding: 2em;
+        }    
 .contact .form{
     border-radius: 20px;
 }

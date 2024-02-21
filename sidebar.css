@@ -39,7 +39,7 @@ margin-top: 5px;
      width: 12em;
      border-radius: 50%;
      display: flex;
-     margin: auto;
+     margin: 10px;
      padding: 2px;
      
   }
@@ -51,9 +51,12 @@ margin-top: 5px;
   .menu-lateral ul li{
   list-style-type: none;
   line-height: 1vw;
-  margin: 3vh;  /* Adicione esta linha para espaçamento entre os itens da lista */
+  margin: 3em;  /* Adicione esta linha para espaçamento entre os itens da lista */
   padding: 10px 0px 20px 0px;
   border-radius: 3px;
+  text-align: center;
+  align-content: center;
+  font-style: italic;
   }
   
   .caixa-de-textos ul li{
