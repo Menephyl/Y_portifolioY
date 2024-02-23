@@ -5,6 +5,7 @@
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
    width: 100%;
+  background-color: #fff ;
   }
   h1{
     padding: 1em;
