@@ -16,6 +16,50 @@
     color: rgba(0,0,0,0.7);
     margin: 0;
   }
+
+
+  a {
+    color: #2c98f0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    a:hover, a:active, a:focus {
+      color: #2c98f0;
+      outline: none;
+      text-decoration: none !important; }
+  
+  p {
+    margin-bottom: 1.5em; }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: "Playfair Display", Georgia, serif;
+    font-weight: 400;
+    margin: 0 0 30px 0; }
+  
+  figure {
+    margin-bottom: 2.5em;
+    float: left;
+    width: 100%; }
+    figure figcaption {
+      font-size: 16px;
+      width: 80%;
+      margin: 20px auto 0px auto;
+      color: #b3b3b3;
+      font-style: italic;
+      font-family: "Quicksand", Arial, sans-serif; }
+    
+  ::-webkit-selection {
+    color: #fff;
+    background: #2c98f0; }
+  
+  ::-moz-selection {
+    color: #fff;
+    background: #2c98f0; }
+  
+  ::selection {
+    color: #fff;
+    background: #2c98f0; }
   h1{
     padding: 1em;
   }

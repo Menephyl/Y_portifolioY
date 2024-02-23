@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@media screen and (max-width: 480px) {
+  figure figcaption {
+    width: 100%; } }
+
+    
 @media screen and (max-width:600px){
 
 .menu-lateral{  /*ABRIR E FEHCAR*/
@@ -123,3 +128,13 @@ width: 100%;
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (
  @media screen and(max-width:600px) {
     
+
+/* @media screen and (max-width: 768px) {
+        #colorlib-aside #colorlib-main-menu ul {
+          margin: 0 0 2em 0; } }
+          
+
+
+
+
+*/  
