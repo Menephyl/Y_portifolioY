@@ -3,18 +3,19 @@
   padding-top: 3em; 
   position:fixed;
       display: block;
-     flex-direction: column; 
+  
     z-index: 1001;
       background-color: #f4f4f4b9;   
       /*background-color: #07344eec; */
       height: 100%;
       width: 300px;
       text-align: center;
-      overflow-y: auto;
+      overflow-y: scroll;
       font-family: 'Times New Roman', Times, serif;
      margin: 1vw;/* Utilizando viewport width (vw)  */
      border-radius: 1em;
      padding: 0 2px 0 2px;
+
   }
   .menu-js .btn3{
     display: flex;

@@ -1,11 +1,18 @@
 #all{
     /*background-color:  rgb(179, 206, 206);*/
-    margin: 0;
-    padding: 0;
-    display: flex;
+    
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
    width: 100%;
   background-color: #fff ;
+  }
+  body{
+    font-family: 'Quicksand',Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(0,0,0,0.7);
+    margin: 0;
   }
   h1{
     padding: 1em;
