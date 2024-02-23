@@ -1,11 +1,16 @@
 /*ABRIR E FEHCAR*/
+#aside{
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  float: left;
+}
+
 .menu-lateral {
-  padding-top: 3em; 
   position:fixed;
       display: block;
-  
     z-index: 1001;
-      background-color: #f4f4f4b9;   
+      background-color: #f2f3f7;   
       /*background-color: #07344eec; */
       height: 100%;
       width: 300px;
@@ -14,7 +19,7 @@
       font-family: 'Times New Roman', Times, serif;
      margin: 1vw;/* Utilizando viewport width (vw)  */
      border-radius: 1em;
-     padding: 0 2px 0 2px;
+     padding-top: 3em;   
 
   }
   .menu-js .btn3{

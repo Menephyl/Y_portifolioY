@@ -1,10 +1,12 @@
 #all{
     /*background-color:  rgb(179, 206, 206);*/
-    
-    
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+   box-sizing: border-box; 
     font-family: Georgia, 'Times New Roman', Times, serif;
    width: 100%;
   background-color: #fff ;
+  -moz-box-sizing: border-box;
   }
   body{
     font-family: 'Quicksand',Arial, sans-serif;
