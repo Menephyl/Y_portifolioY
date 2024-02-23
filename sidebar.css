@@ -1,13 +1,14 @@
 /*ABRIR E FEHCAR*/
 .menu-lateral {
-    position:fixed;
+  padding-top: 3em; 
+  position:fixed;
       display: block;
      flex-direction: column; 
-    z-index: 1;
+    z-index: 1001;
       background-color: #f4f4f4b9;   
       /*background-color: #07344eec; */
       height: 100%;
-      width: 220px;
+      width: 300px;
       text-align: center;
       overflow-y: auto;
       font-family: 'Times New Roman', Times, serif;
