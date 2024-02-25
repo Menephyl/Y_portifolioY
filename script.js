@@ -5,7 +5,7 @@
 let isEnglish = false
 
 const portuguese = {
-    aboutMe: 'Sobre mim',
+    aboutMe: 'Sobre mim...',
     description: 'Sou Yan Isonel Pereira. tenho prática com tecnologia front-end e estou em busca da primeira oportunidade.',
     home:'Olá, eu sou o Yan'
    
@@ -13,7 +13,7 @@ const portuguese = {
 }
 
 const english = {
-    aboutMe: 'About me',
+    aboutMe: 'About me...',
     description: 'I am Yan Isonel Pereira. I have practice with technology front-end and I have in search to the first opportunity '
 /* Amante da tecnologia desde 1999.  */
 
