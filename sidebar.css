@@ -6,7 +6,11 @@
   float: left;
   color: #0000;
 }
-
+#aside i{
+  text-align: left;
+  margin-top: 0px;
+margin-left:  130px;
+}
 .menu-lateral {
   color: #0000;
   position:fixed;
