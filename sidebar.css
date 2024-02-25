@@ -4,9 +4,11 @@
   -o-transition: 0.5s;
   transition: 0.5s;
   float: left;
+  color: #0000;
 }
 
 .menu-lateral {
+  color: #0000;
   position:fixed;
       display: block;
     z-index: 1001;
@@ -38,7 +40,7 @@ margin-top: 5px;
    padding: 2px;
   }
   .menu-lateral li:hover{
-    background-color: #449deb;
+    background-color: #449deb63;
   }
   .menu-lateral  img {   
     /* Utilizando viewport width (vw) para a altura da imagem */ 
@@ -63,7 +65,7 @@ margin-top: 5px;
   border-radius: 3px;
   text-align: center;
   align-content: center;
- 
+ color: #000000b3;
   }
   
   .caixa-de-textos ul li{
