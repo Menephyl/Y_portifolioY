@@ -87,8 +87,8 @@ main #funcao {
   flex-direction: row;
   flex-wrap: wrap ;
   flex-direction: row;
- align-items: center;
- align-content: space-between;
+  align-items: center;
+  align-content: space-between;
   margin: 1em;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
   padding-bottom: 20px; 
