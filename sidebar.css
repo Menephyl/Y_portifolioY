@@ -89,4 +89,8 @@ margin-top: 5px;
     border: 1px solid black;
     cursor: pointer;
   }
+  .footer{
+    text-align: center;
+    margin: auto;
+  }
   
