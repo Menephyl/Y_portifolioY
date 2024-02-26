@@ -6,6 +6,11 @@ menu-lateral é configurado como fixo à esquerda e com uma altura de 100% da ja
 main tem uma margem esquerda para deixar espaço para a aside.
 overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o conteúdo for maior do que a altura da janela. */
 /* CONTEUDO CENTRAL */
+i{
+  text-align: left;
+  margin-top: 0px;
+margin-left:  7em;
+}
 .about-me{
   text-align: left;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
