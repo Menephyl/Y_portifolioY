@@ -44,7 +44,7 @@ margin-left:  1em;
    /* border: 1px solid rgb(255, 255, 255);*/
     /* background-image: url(d481f3c72e283309071f79e01b05c06d.gif) ; */
     background-size: cover;
-    background-position: center center;  /*https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Publishing_your_website*    ou background: url(imagem.jpg) center center cover no-repeat fixed;*/
+   
       /* Adicione outras propriedades conforme necessário */
       box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
       padding: 2em;
@@ -70,8 +70,17 @@ main #funcao {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  
 }
- .funcao>h1{
+main .oi:hover{
+  background-image: url(images/ya\ \(1\).jpg);
+  transition: background-image 0.5s ease;
+}
+main #funcao:hover{
+  background-image: url(https://th.bing.com/th/id/OIG2.sTMPSjiBU9EMopxO0xEg?w=1024&h=1024&rs=1&pid=ImgDetMain);
+  transition: background-image 0.2s ease-out;
+}
+.funcao>h1{
  color: #FFF;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
  font-size: 60px;
