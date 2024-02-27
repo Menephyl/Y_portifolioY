@@ -46,7 +46,6 @@ margin-left:  1em;
    /* border: 1px solid rgb(255, 255, 255);*/
     /* background-image: url(d481f3c72e283309071f79e01b05c06d.gif) ; */
     background-size: cover;
-   
       /* Adicione outras propriedades conforme necessário */
       box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
       padding: 2em;
@@ -58,6 +57,7 @@ h3{
   font-size:2em;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   background-image: url(images/men-white.jpg);
+  border-radius: 10px;
   padding-bottom: 10px;
   background-repeat: no-repeat;
   background-position: center;
@@ -72,6 +72,7 @@ main #funcao {
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
+  border-radius: 10px;
 }
 main .oi:hover{
   background-image: url(images/ya\ \(1\).jpg);

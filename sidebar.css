@@ -19,7 +19,7 @@
       overflow-y: scroll;
       font-family: 'Times New Roman', Times, serif;
      margin: 1vw;/* Utilizando viewport width (vw)  */
-     border-radius: 1em;
+     border-radius: 1rem;
      padding-top: 3em;   
 
   }
