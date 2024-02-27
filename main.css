@@ -1,5 +1,5 @@
 /* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
-quero de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
+p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
 */
  /* body é configurado para usar flex para organizar a aside e a main em linha (lado a lado).
 menu-lateral é configurado como fixo à esquerda e com uma altura de 100% da janela, tornando-o fixo enquanto o conteúdo da main rola.
@@ -12,14 +12,16 @@ i{
 margin-left:  1em;
 }
 .about-me{
+  
   text-align: left;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  margin: 0 0 72px;
   }
   .about-me-text{
     color: #000000;
   }
   .conteudo{
-  background: url();
+  background: url(images/d481f3c72e283309071f79e01b05c06d.gif);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   }
   .principal{
