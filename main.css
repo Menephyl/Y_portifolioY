@@ -102,12 +102,27 @@ main #funcao:hover{
 #design{
   width: 160px;
   height: 150px;
-  border-bottom:1px solid #1046f6;
+  border-bottom:1px solid #080009;
 }
 .icon3{
 text-align: center;
 margin: auto;
+}
+#design2{
+  width: 160px;
+  height: 105px;
+  border-bottom:1px solid #1046f6;
+}
 
+.icon4 img{
+  height: 80px;
+  width: 68px;
+  display: flex;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
 }
 .icon3 img{
   height: 80px;
