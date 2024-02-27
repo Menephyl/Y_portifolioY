@@ -122,6 +122,11 @@ img{
   max-width:100%;
   max-height: 100%;
 }
+.services h3 {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
 .conteudo2{
   box-shadow: 0 0 2px #020000;
 }
