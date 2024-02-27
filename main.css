@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
 p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
 */
@@ -89,11 +96,36 @@ main #funcao:hover{
 }
 .rowservices{
   background-color: #4c8baf3b;
+  display: flex;
+  flex-direction: row;
+}
+#design{
+  width: 160px;
+  height: 150px;
+  border-bottom:1px solid #1046f6;
+}
+.icon3{
+text-align: center;
+margin: auto;
+
+}
+.icon3 img{
+  height: 80px;
+  width: 68px;
+  display: flex;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  
+
+
+  
 }
 h3{
   text-align: left;
 }
-
 #projects{
   display: flex;
   flex-direction: row;
