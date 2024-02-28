@@ -95,23 +95,33 @@ main #funcao:hover{
   background-color: #fff;
 }
 .rowservices{
-  background-color: #4c8baf3b;
+  background-color: #33637f3b;
   display: flex;
   flex-direction: row;
 }
 #design{
   width: 160px;
   height: 150px;
-  border-bottom:1px solid #080009;
+  border-bottom:1px solid #d60c0c;
+
+  margin-right: 2rem;
 }
 .icon3{
 text-align: center;
 margin: auto;
 }
-#design2{
-  width: 160px;
-  height: 105px;
-  border-bottom:1px solid #1046f6;
+
+.icon3 img{
+  height: 80px;
+  width: 68px;
+  display: flex;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;  
+}
+h3{
+  text-align: left;
 }
 
 .icon4 img{
@@ -122,24 +132,14 @@ margin: auto;
   left: 50%;
   right: 0;
   bottom: 0;
-  opacity: 0.5;
-}
-.icon3 img{
-  height: 80px;
-  width: 68px;
-  display: flex;
-  top: 0;
-  left: 50%;
-  right: 0;
-  bottom: 0;
-  opacity: 0.5;
-  
-
-
   
 }
-h3{
-  text-align: left;
+#design2{
+  width: 160px;
+  height: 150px;
+  margin-top: -2px;
+  border-bottom:1px solid #d3d60c;
+  margin-right: 2rem;
 }
 #projects{
   display: flex;
