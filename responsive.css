@@ -1,5 +1,6 @@
 @charset "utf-8";
-
+/* Utilizando viewport width (vw) para a altura da imagem */ 
+/* ver novamente a estrutura para melhor responsividade */
 @media screen and (max-width: 480px) {
   figure figcaption {
     width: 100%; } }

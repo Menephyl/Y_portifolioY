@@ -32,25 +32,22 @@ margin-left:  1em;
     padding: 10px 0 30px 0;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   }
-.main {
+     /*ajuste da margem esquerda para corresponder à largura da aside */
+     /* Adicione algum preenchimento para separar o conteúdo da aside */
+      /* Adicione outras propriedades conforme necessário */
+#main, .main {
   z-index: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-   /*ajuste da margem esquerda para corresponder à largura da aside */
-  padding: 1em; /* Adicione algum preenchimento para separar o conteúdo da aside */
   flex: 1;  
     min-height: fit-content;
     height: auto;
     text-align: center;
     color: #020000;
     flex-direction: column;
-    margin-left: 20rem;
-   /* background-image: url(hacker.png);*/
-   /* border: 1px solid rgb(255, 255, 255);*/
-    /* background-image: url(d481f3c72e283309071f79e01b05c06d.gif) ; */
+
     background-size: cover;
-      /* Adicione outras propriedades conforme necessário */
       box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
       padding: 2em;
   }
@@ -82,16 +79,14 @@ main .oi:hover{
 }
 main #funcao:hover{
   background-image: url(https://th.bing.com/th/id/OIG2.sTMPSjiBU9EMopxO0xEg?w=1024&h=1024&rs=1&pid=ImgDetMain);
- 
+  transition: ease;
 }
 .funcao>h1{
  color: #FFF;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
  font-size: 60px;
-
 }
  .funcao{
-
   background-color: #fff;
 }
 .rowservices{
@@ -103,13 +98,11 @@ main #funcao:hover{
   height: 150px;
   border-bottom:1px solid #d60c0c;
   margin-right: 5rem;
-
 }
 .icon3{
 text-align: center;
 margin: auto;
 }
-
 .icon3 img{
   height: 80px;
   width: 68px;
@@ -123,7 +116,6 @@ margin: auto;
 h3{
   text-align: left;
 }
-
 .icon4 img{
   height: 80px;
   width: 68px;
@@ -132,8 +124,7 @@ h3{
   left: 50%;
   right: 0;
   bottom: 0;
-  box-shadow: 10px;
-  
+  box-shadow: 10px; 
 }
 #design2{
   width: 160px;
@@ -166,11 +157,13 @@ section h1{
 #imagem{
   display: flex;
   flex-direction: row;
-  
 }
 #img01{
   display: flex;
   flex-direction: row;
+  height: 20rem;
+  background-image: url(images/digitando.jpg);
+  background-position: left center;
   
 }
 #img01 .imagem {
@@ -179,19 +172,11 @@ section h1{
   box-shadow: inset 6px 6px 13px 0px black;
   background-size: cover;
   background-attachment: fixed;
-  
-}
-section#img01 {
-  width: 87rem;
- height: 20rem;
-  background-image: url(images/digitando.jpg);
-  background-position: left center;
 }
 #projects{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap ;
-  flex-direction: row;
   align-items: center;
   align-content: space-between;
   margin: 1em;
@@ -222,7 +207,7 @@ img{
 .services h3 {
   font-family: "Quicksand", Arial, sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
 }
 #skills{
   box-shadow: 0 0 2px #020000;
@@ -264,12 +249,12 @@ img{
 }
 .btn2{
   background-color: #4c8baf;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
+ color: #fff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 4px;
+font-size: 16px;
+cursor: pointer;
 }
 .btn1:hover, .btn2:hover{
   background-color: #001a6e;
