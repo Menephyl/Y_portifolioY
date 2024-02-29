@@ -11,20 +11,19 @@
   color: #0000;
   position:fixed;
       display: block;
-    z-index: 1001;
+    z-index: 0;
       height: 100%;
       width: 300px;
       text-align: center;
       overflow-y: scroll;
-      font-family: 'Times New Roman', Times, serif;
-     margin: 1vw;/* Utilizando viewport width (vw)  */
+     margin: 1vw; /* Utilizando viewport width (vw)  */
      border-radius: 1rem;
      padding-top: 3em;   
      flex: 0;
 
   }
   .menu-js .btn3{
-    display: flex;
+  display: flex;
  margin-left:1.5px;
 text-align: center;
 background-color: #b3b3b300;
@@ -42,8 +41,7 @@ margin-top: 5px;
   .menu-lateral li:hover{
     background-color: #449deb63;
   }
-  .menu-lateral  img {   
-    
+  .menu-lateral  img {      
      height: 15em;
      width: 12em;
      border-radius: 50%;
