@@ -230,7 +230,7 @@ h3{
   flex-direction: row;
   height: 20rem;
   background-image: url(https://technext.github.io/jackson/images/cover_bg_1.jpg);
-
+  background-position: center center;
   
 }
 #img01 .imagem {
