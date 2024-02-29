@@ -182,8 +182,8 @@ section h1{
   
 }
 section#img01 {
-  width: auto;
- height: 200px;
+  width: 87rem;
+ height: 20rem;
   background-image: url(images/digitando.jpg);
   background-position: left center;
 }
