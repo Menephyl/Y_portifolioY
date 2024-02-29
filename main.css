@@ -36,7 +36,6 @@ margin-left:  1em;
 }
  
   .conteudo{
-  background: #fff;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   }
   .principal{
@@ -110,6 +109,8 @@ main #funcao:hover{
 .rowservices{
   display: flex;
   flex-direction: row;
+  padding: 0 15px;
+  margin-bottom: 2.5rem;
 }
 #design{
   width: 160px;
@@ -201,13 +202,15 @@ h3{
 #imagem span{
   margin: 30px;
 }
-.hire {
-  font-family: "Quicksand", Arial, sans-serif;
+.hire  h2{
+  
       font-size: 16px;
       font-weight: 500;
       text-transform: uppercase;
   padding: 2em;
   background: #f9bf3f;
+  padding: 0 15px;
+  margin-bottom: 2.5rem;
 }
 .hire a {
   background-color: transparent;
