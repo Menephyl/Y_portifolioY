@@ -48,7 +48,7 @@ margin-left:  1em;
   background-size: cover;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
   padding: 2em;
-  margin-left: 18em;
+  margin-left: 20rem;
   }
  .oi{
   font-size:2em;
@@ -64,7 +64,7 @@ margin-left:  1em;
   font: 18px "Quicksand",Arial, sans-serif; margin:0 0 30px;
   text-align: left;
 }
-main #funcao {
+.main #funcao {
   background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.5)),url(https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/376255784_6499514060139996_4088225505402921876_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHa1R0Lk8E7LEkklwPdlneIXx8iz9RzYe5fHyLP1HNh7t9Hm7FA-x9pUh7OOthJfsmaP_YhZ-qcMAfFBeFLZpSG&_nc_ohc=aEqwQ_K8z0oAX9IsDaz&_nc_ht=scontent-gru1-1.xx&oh=00_AfBnXVdnt4dkiUelNXEYHQjJiuJfpRruN2ZTv_E9du5yOA&oe=65E2B857);
   background-repeat: no-repeat;
   background-position: center;
