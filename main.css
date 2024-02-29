@@ -163,6 +163,13 @@ section h1{
   text-align: left;
   font-weight: 700;
 }
+section.imagem {
+  background-color: rgba(28, 27, 27, 0.361);
+  color: white;
+  box-shadow: inset 6px 6px 13px 0px black;
+  background-size: cover;
+  background-attachment: fixed;
+}
 #projects{
   display: flex;
   flex-direction: row;
