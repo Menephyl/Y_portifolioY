@@ -1,4 +1,14 @@
 /*ABRIR E FEHCAR*/
+
+/* @media screen and (max-width: 768px) { BASE PARA ABRIR E FECHAR SIDEBAR
+  #colorlib-aside {
+    width: 300px;
+    -moz-transform: translateX(-300px);
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    -o-transform: translateX(-300px);
+    transform: translateX(-300px);
+    padding-top: 4em; } } */
 #aside{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;

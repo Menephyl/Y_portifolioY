@@ -5,6 +5,13 @@
   font-weight: normal;
   font-style: normal; }
 
+  /* *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+
+
 /* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
 p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
 */
@@ -112,6 +119,13 @@ margin: auto;
   box-shadow: 10px;
 }
 h3{
+  display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
   text-align: left;
 }
 .icon4 img{
@@ -174,7 +188,22 @@ h3{
 #imagem span{
   margin: 30px;
 }
+.hire {
+  font-family: "Quicksand", Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+  padding: 2em;
+  background: #f9bf3f;
+}
+.hire a {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  padding: 1px;
+}
 #projects{
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap ;
@@ -227,7 +256,6 @@ img{
   box-sizing: border-box;
   background-color:  #FFF ;/* #f4f4f4; */
   border-radius: 20px;
-  font-family: Arial, sans-serif;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 .contact .h1{
