@@ -148,7 +148,7 @@ h3{
   border-bottom:1px solid #990cd6;
   margin-right: 5rem;
 }
-section h1{
+section, h1{
   text-align: left;
   font-weight: 700;
 }
