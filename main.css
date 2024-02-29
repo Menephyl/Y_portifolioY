@@ -34,7 +34,6 @@ margin-left:  1em;
   font-size: 15px;
   margin: 0 0 0 25px;
 }
- 
   .conteudo{
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   }
@@ -59,7 +58,8 @@ margin-left:  1em;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
   padding: 2em;
   margin-left: 20rem;
-  }
+background-color: rgba(128, 128, 128, 0.056); 
+}
  .oi{
   font-family: "Playfair Display", Georgia, serif ; 
   font-size:3em;
