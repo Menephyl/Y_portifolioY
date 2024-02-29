@@ -266,6 +266,8 @@ border-radius: 5px;
 }
 em{
   font-size: 10px;
+  display: flex;
+   flex-wrap: wrap;
 }
 img{
   border-radius: 10px;
