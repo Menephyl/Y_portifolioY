@@ -163,7 +163,17 @@ section h1{
   text-align: left;
   font-weight: 700;
 }
-/* section.imagem {
+#imagem{
+  display: flex;
+  flex-direction: row;
+  color: #FFF;
+}
+#img01{
+  display: flex;
+  flex-direction: row;
+  color: #FFF;
+}
+section.imagem {
   background-color: rgba(28, 27, 27, 0.361);
   color: white;
   box-shadow: inset 6px 6px 13px 0px black;
@@ -171,8 +181,11 @@ section h1{
   background-attachment: fixed;
 }
 section#img01 {
-  background-image: url(../imagens/background003.jpg);
-  background-position: right center; */
+  width: auto;
+ height: 200px;
+  background-image: url(images/digitando.jpg);
+  background-position: left center;
+}
 #projects{
   display: flex;
   flex-direction: row;
