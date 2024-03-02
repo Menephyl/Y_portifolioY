@@ -243,20 +243,20 @@ h3{
 #imagem span{
   margin: 30px;
 }
-.hire{
+#hire{
   padding: 2em;
   background: #f9bf3f;
   padding:  30px;
   margin-bottom: 2.5rem;
 
 }
-.hire  h2{
+#hire h2{
   text-align: justify;
       font-size: 25px;
       font-weight: 500;
       text-transform: uppercase;
 }
-.hire a {
+#hire a {
   font-size: 16px;
   font-family: 'Quicksand';
   background-color: transparent;
@@ -264,6 +264,10 @@ h3{
   border: 1px solid black;
   padding: 10px;
   cursor: pointer;
+}
+#expertise h2{
+font-size: 18px;
+font-weight: 700;
 }
 #hex{
  background-color: #001a6e;
