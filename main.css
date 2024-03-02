@@ -265,8 +265,13 @@ h3{
   padding: 10px;
   cursor: pointer;
 }
+#hex{
+ background-color: #001a6e;
+ content: "";
+}
+
+
 #projects{
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap ;
