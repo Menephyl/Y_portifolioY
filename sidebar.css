@@ -75,6 +75,7 @@ margin-top: 5px;
   text-align: center;
   align-content: center;
  color: #000000b3;
+ text-decoration: underline blue;
   }
   .caixa-de-textos ul li{
     padding: 1vw 0 0 1.5vw;
