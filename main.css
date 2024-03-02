@@ -269,6 +269,12 @@ h3{
 font-size: 18px;
 font-weight: 700;
 }
+#epertise{
+  font-family: 'Quicksand',Arial, sans-serif;
+}
+#expertise h3{
+ font-family: 'Quicksand' arial serif;
+}
 #hex{
  background-color: #001a6e;
  content: "";
