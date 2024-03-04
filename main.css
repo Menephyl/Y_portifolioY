@@ -302,6 +302,24 @@ height: 140px;
  background-color: #0b226e;
  content: "";
  width: 100px;
+ height: 55px;
+ position: relative;
+margin: 50px auto;
+}
+.conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+.hex::before{
+  top: -25px;
+  border-bottom: 25px solid #007bff;
+}
+.hex::after{
+  bottom: -25px;
+  border-top:25px solid #007bff
 }
 #projects{
   display: flex;
