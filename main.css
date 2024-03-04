@@ -284,6 +284,8 @@ text-align: left;
   text-transform: uppercase;
   font-size: 15px;
   margin: 0 0 0 80px;
+  width: 250px;
+  height: 250px;
 }
 .desc{
   background-color: #4caf91;
