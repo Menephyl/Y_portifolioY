@@ -278,8 +278,12 @@ text-align: left;
   height: 721.19px;
   font: 15px 'Quicksand'arial sans-serif;
   padding: 45px 0 0 0 ;
+  
 }
-#hex{
+.desc span{
+  text-transform: uppercase;
+}
+ #expertise .desc .hex{
  background-color: #001a6e;
  content: "";
 }
