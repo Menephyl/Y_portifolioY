@@ -303,13 +303,15 @@ height: 140px;
  content: "";
  width: 100px;
  height: 55px;
- position: relative;
-margin: 50px auto;
+ position: absolute;
+margin: -10px 0 -100px 0 ;
+padding: 0 0 0 0 ;
 }
 .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
   content: '';
   position: absolute;
   width: 0;
+  border-top: -50px solid transparent;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
 }
