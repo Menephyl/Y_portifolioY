@@ -330,6 +330,14 @@ padding: 30px 0 0 0 ;
   border-top:25px solid #007bff;
 
 }
+#bulb{
+  display: flex;
+  color: white;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: -10px;
+ 
+}
  .conteudo #expertise .desc .hex2{
   background-color:#ec5353;
   content: "";
@@ -382,7 +390,7 @@ padding: 30px 0 0 0 ;
  .hex3::before{
    top: -25px;
    left: -1px;
-   border-bottom: 25px solid #f9be3f9f
+   border-bottom: 25px solid #f9be3f
  }
  .hex3::after{
    bottom: -25px;
