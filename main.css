@@ -263,7 +263,7 @@ h3{
   color: black;
   border: 1px solid black;
   padding: 10px;
-  cursor: pointer;
+  cursor: point;
 }
 #expertise h2{
 font-size: 18px;
@@ -274,21 +274,20 @@ text-align: left;
   font-family: 'Quicksand',Arial, sans-serif;
 }
 .desc{
-  width: 825px;
-  height: 721.19px;
+  width: 750px;
+  height: 700px;
   font: 15px 'Quicksand'arial sans-serif;
   padding: 10px 0 0 0 ;
 }
 .desc span{
   text-transform: uppercase;
   font-size: 15px;
-  margin: 75px 0 30px 27px;
+  margin: 75px 0 30px 25px;
   justify-content: space-between;
  width: 180px;
  height: 140px;
   background: #fff;
-  
-  padding: 0 0 0 10px;
+  padding: 0 0 0 5px;
   border-top: 20px;
 }
 .desc{
@@ -344,7 +343,7 @@ padding: 30px 0 0 0 ;
   width: 100px;
   height: 55px;
   position: absolute;
- margin: -80px -120px  ;
+ margin: -80px -100px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
@@ -355,7 +354,6 @@ padding: 30px 0 0 0 ;
    border-top: -50px solid transparent;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   
  }
  .hex2::before{
    top: -25px;
@@ -374,7 +372,7 @@ padding: 30px 0 0 0 ;
   width: 100px;
   height: 55px;
   position: absolute;
- margin: -80px -120px  ;
+ margin: -80px -100px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
@@ -403,7 +401,7 @@ padding: 30px 0 0 0 ;
   width: 100px;
   height: 55px;
   position: absolute;
- margin: -80px -120px  ;
+ margin: -80px -90px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
@@ -433,7 +431,7 @@ padding: 30px 0 0 0 ;
   width: 100px;
   height: 55px;
   position: absolute;
- margin: -80px -120px  ;
+ margin: -80px -100px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
@@ -463,7 +461,7 @@ padding: 30px 0 0 0 ;
   width: 100px;
   height: 55px;
   position: absolute;
- margin: -80px -120px  ;
+ margin: -80px -100px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
