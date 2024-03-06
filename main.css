@@ -331,14 +331,6 @@ padding: 30px 0 0 0 ;
   border-top:25px solid #007bff;
 
 }
-#bulb{
-  display: flex;
-  color: white;
-  text-align: center;
-  margin-left: 40px;
-  margin-top: -10px;
- 
-}
 .fa-lightbulb{
   display: flex;
   color: white;
@@ -355,10 +347,53 @@ padding: 30px 0 0 0 ;
     margin-top: -10px;
     font-size: 28px;
     color: white;
-    
-  
-  }
- .conteudo #expertise .desc .hex2{
+    }
+    .fa-mobile{
+      display: flex;
+      color: white;
+      text-align: center;
+      margin-left: 40px;
+      margin-top: -10px;
+      font-size: 28px;
+      color: white;
+    }
+    .fa-layer-group{
+      display: flex;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: -10px;
+    font-size: 28px;
+    color: white;
+    }
+    .fa{
+      display: flex;
+      color: white;
+      text-align: center;
+      margin-left: 40px;
+      margin-top: -10px;
+      font-size: 28px;
+      color: white;
+    }
+    .fa{
+      display: flex;
+      color: white;
+      text-align: center;
+      margin-left: 40px;
+      margin-top: -10px;
+      font-size: 28px;
+      color: white;
+    }
+    .fa{
+      display: flex;
+      color: white;
+      text-align: center;
+      margin-left: 40px;
+      margin-top: -10px;
+      font-size: 28px;
+      color: white;
+    }
+    .conteudo #expertise .desc .hex2{
   background-color:#ec5353;
   content: "";
   width: 100px;
