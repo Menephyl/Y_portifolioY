@@ -277,35 +277,36 @@ text-align: left;
   width: 825px;
   height: 721.19px;
   font: 15px 'Quicksand'arial sans-serif;
-  padding: 45px 0 0 0 ;
-  
+  padding: 10px 0 0 0 ;
 }
 .desc span{
   text-transform: uppercase;
   font-size: 15px;
-  margin: 0 0 0 50px;
-width: 180px;
-height: 140px;
+  margin: 75px 0 30px 27px;
+  justify-content: space-between;
+ width: 180px;
+ height: 140px;
   background: #fff;
   border: 0.2px solid rgba(0, 0, 0, 0.34);
-  border-radius:6px;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 10px;
+  border-top: 20px;
 }
 .desc{
-  background-color: #4caf91;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 0 18.5rem 0;
+  margin: 0 0 1rem 0;
 }
  .conteudo #expertise .desc .hex{
- background-color: #0b226e;
+ background-color: #007bff;
  content: "";
  width: 100px;
  height: 55px;
  position: absolute;
-margin: -10px 0 -100px 0 ;
-padding: 0 0 0 0 ;
+margin: -60px -120px  ;
+padding: 30px 0 0 0 ;
+
 }
 .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
   content: '';
@@ -314,14 +315,19 @@ padding: 0 0 0 0 ;
   border-top: -50px solid transparent;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
+  
 }
 .hex::before{
   top: -25px;
+  left: -1px;
   border-bottom: 25px solid #007bff;
+  
 }
 .hex::after{
   bottom: -25px;
-  border-top:25px solid #007bff
+  left: -1px;
+  border-top:25px solid #007bff;
+
 }
 #projects{
   display: flex;
