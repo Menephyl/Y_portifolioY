@@ -292,7 +292,7 @@ text-align: left;
   border-top: 20px;
 }
 .hex,.hex2,.hex3,.hex4,.hex5,.hex6{
-padding-bottom: 50px;
+font-weight: bolder;
 }
 .desc{
   justify-content: space-between;
