@@ -287,7 +287,7 @@ text-align: left;
  width: 180px;
  height: 140px;
   background: #fff;
-  border: 0.2px solid rgba(0, 0, 0, 0.34);
+  
   padding: 0 0 0 10px;
   border-top: 20px;
 }
@@ -306,7 +306,7 @@ text-align: left;
  position: absolute;
 margin: -60px -120px  ;
 padding: 30px 0 0 0 ;
-border-bottom: transparent ;
+
 }
 .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
   content: '';
@@ -329,7 +329,37 @@ border-bottom: transparent ;
   border-top:25px solid #007bff91;
 
 }
-.conteudo #expertise .desc .hex{
+ .conteudo #expertise .desc .hex2{
+  background-color:#ec53537f;
+  content: "";
+  width: 100px;
+  height: 55px;
+  position: absolute;
+ margin: -60px -120px  ;
+ padding: 30px 0 0 0 ;
+ border-bottom: transparent ;
+ }
+ .conteudo #expertise .desc .hex2::before, .conteudo #expertise .desc .hex2::after{
+   content: '';
+   position: absolute;
+   width: 0;
+   border-top: -50px solid transparent;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   
+ }
+ .hex2::before{
+   top: -25px;
+   left: -1px;
+   border-bottom: 25px solid#ec53537f;
+   
+ }
+ .hex2::after{
+   bottom: -25px;
+   left: -1px;
+   border-top:25px solid #ec53537f;
+ 
+ }.conteudo #expertise .desc .hex3{
   background-color: #007bff91;
   content: "";
   width: 100px;
@@ -339,7 +369,7 @@ border-bottom: transparent ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
- .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
+ .conteudo #expertise .desc .hex3::before, .conteudo #expertise .desc .hex3::after{
    content: '';
    position: absolute;
    width: 0;
@@ -348,18 +378,18 @@ border-bottom: transparent ;
    border-right: 50px solid transparent;
    
  }
- .hex::before{
+ .hex3::before{
    top: -25px;
    left: -1px;
    border-bottom: 25px solid #007bff91;
    
  }
- .hex::after{
+ .hex3::after{
    bottom: -25px;
    left: -1px;
    border-top:25px solid #007bff91;
  
- }.conteudo #expertise .desc .hex{
+ }.conteudo #expertise .desc .hex4{
   background-color: #007bff91;
   content: "";
   width: 100px;
@@ -369,7 +399,7 @@ border-bottom: transparent ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
- .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
+ .conteudo #expertise .desc .hex4::before, .conteudo #expertise .desc .hex4::after{
    content: '';
    position: absolute;
    width: 0;
@@ -378,18 +408,18 @@ border-bottom: transparent ;
    border-right: 50px solid transparent;
    
  }
- .hex::before{
+ .hex4::before{
    top: -25px;
    left: -1px;
    border-bottom: 25px solid #007bff91;
    
  }
- .hex::after{
+ .hex4::after{
    bottom: -25px;
    left: -1px;
    border-top:25px solid #007bff91;
  
- }.conteudo #expertise .desc .hex{
+ }.conteudo #expertise .desc .hex5{
   background-color: #007bff91;
   content: "";
   width: 100px;
@@ -399,7 +429,7 @@ border-bottom: transparent ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
- .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
+ .conteudo #expertise .desc .hex5::before, .conteudo #expertise .desc .hex5::after{
    content: '';
    position: absolute;
    width: 0;
@@ -408,73 +438,13 @@ border-bottom: transparent ;
    border-right: 50px solid transparent;
    
  }
- .hex::before{
+ .hex5::before{
    top: -25px;
    left: -1px;
    border-bottom: 25px solid #007bff91;
    
  }
- .hex::after{
-   bottom: -25px;
-   left: -1px;
-   border-top:25px solid #007bff91;
- 
- }.conteudo #expertise .desc .hex{
-  background-color: #007bff91;
-  content: "";
-  width: 100px;
-  height: 55px;
-  position: absolute;
- margin: -60px -120px  ;
- padding: 30px 0 0 0 ;
- border-bottom: transparent ;
- }
- .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
-   content: '';
-   position: absolute;
-   width: 0;
-   border-top: -50px solid transparent;
-   border-left: 50px solid transparent;
-   border-right: 50px solid transparent;
-   
- }
- .hex::before{
-   top: -25px;
-   left: -1px;
-   border-bottom: 25px solid #007bff91;
-   
- }
- .hex::after{
-   bottom: -25px;
-   left: -1px;
-   border-top:25px solid #007bff91;
- 
- }.conteudo #expertise .desc .hex{
-  background-color: #007bff91;
-  content: "";
-  width: 100px;
-  height: 55px;
-  position: absolute;
- margin: -60px -120px  ;
- padding: 30px 0 0 0 ;
- border-bottom: transparent ;
- }
- .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
-   content: '';
-   position: absolute;
-   width: 0;
-   border-top: -50px solid transparent;
-   border-left: 50px solid transparent;
-   border-right: 50px solid transparent;
-   
- }
- .hex::before{
-   top: -25px;
-   left: -1px;
-   border-bottom: 25px solid #007bff91;
-   
- }
- .hex::after{
+ .hex5::after{
    bottom: -25px;
    left: -1px;
    border-top:25px solid #007bff91;
@@ -489,7 +459,7 @@ border-bottom: transparent ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
- .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex6::after{
+ .conteudo #expertise .desc .hex6::before, .conteudo #expertise .desc .hex6::after{
    content: '';
    position: absolute;
    width: 0;
