@@ -299,14 +299,14 @@ text-align: left;
   margin: 0 0 1rem 0;
 }
  .conteudo #expertise .desc .hex{
- background-color: #007bff;
+ background-color: #007bff91;
  content: "";
  width: 100px;
  height: 55px;
  position: absolute;
 margin: -60px -120px  ;
 padding: 30px 0 0 0 ;
-
+border-bottom: transparent ;
 }
 .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
   content: '';
@@ -320,15 +320,196 @@ padding: 30px 0 0 0 ;
 .hex::before{
   top: -25px;
   left: -1px;
-  border-bottom: 25px solid #007bff;
+  border-bottom: 25px solid #007bff91;
   
 }
 .hex::after{
   bottom: -25px;
   left: -1px;
-  border-top:25px solid #007bff;
+  border-top:25px solid #007bff91;
 
 }
+.conteudo #expertise .desc .hex{
+  background-color: #007bff91;
+  content: "";
+  width: 100px;
+  height: 55px;
+  position: absolute;
+ margin: -60px -120px  ;
+ padding: 30px 0 0 0 ;
+ border-bottom: transparent ;
+ }
+ .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
+   content: '';
+   position: absolute;
+   width: 0;
+   border-top: -50px solid transparent;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   
+ }
+ .hex::before{
+   top: -25px;
+   left: -1px;
+   border-bottom: 25px solid #007bff91;
+   
+ }
+ .hex::after{
+   bottom: -25px;
+   left: -1px;
+   border-top:25px solid #007bff91;
+ 
+ }.conteudo #expertise .desc .hex{
+  background-color: #007bff91;
+  content: "";
+  width: 100px;
+  height: 55px;
+  position: absolute;
+ margin: -60px -120px  ;
+ padding: 30px 0 0 0 ;
+ border-bottom: transparent ;
+ }
+ .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
+   content: '';
+   position: absolute;
+   width: 0;
+   border-top: -50px solid transparent;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   
+ }
+ .hex::before{
+   top: -25px;
+   left: -1px;
+   border-bottom: 25px solid #007bff91;
+   
+ }
+ .hex::after{
+   bottom: -25px;
+   left: -1px;
+   border-top:25px solid #007bff91;
+ 
+ }.conteudo #expertise .desc .hex{
+  background-color: #007bff91;
+  content: "";
+  width: 100px;
+  height: 55px;
+  position: absolute;
+ margin: -60px -120px  ;
+ padding: 30px 0 0 0 ;
+ border-bottom: transparent ;
+ }
+ .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
+   content: '';
+   position: absolute;
+   width: 0;
+   border-top: -50px solid transparent;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   
+ }
+ .hex::before{
+   top: -25px;
+   left: -1px;
+   border-bottom: 25px solid #007bff91;
+   
+ }
+ .hex::after{
+   bottom: -25px;
+   left: -1px;
+   border-top:25px solid #007bff91;
+ 
+ }.conteudo #expertise .desc .hex{
+  background-color: #007bff91;
+  content: "";
+  width: 100px;
+  height: 55px;
+  position: absolute;
+ margin: -60px -120px  ;
+ padding: 30px 0 0 0 ;
+ border-bottom: transparent ;
+ }
+ .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
+   content: '';
+   position: absolute;
+   width: 0;
+   border-top: -50px solid transparent;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   
+ }
+ .hex::before{
+   top: -25px;
+   left: -1px;
+   border-bottom: 25px solid #007bff91;
+   
+ }
+ .hex::after{
+   bottom: -25px;
+   left: -1px;
+   border-top:25px solid #007bff91;
+ 
+ }.conteudo #expertise .desc .hex{
+  background-color: #007bff91;
+  content: "";
+  width: 100px;
+  height: 55px;
+  position: absolute;
+ margin: -60px -120px  ;
+ padding: 30px 0 0 0 ;
+ border-bottom: transparent ;
+ }
+ .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
+   content: '';
+   position: absolute;
+   width: 0;
+   border-top: -50px solid transparent;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   
+ }
+ .hex::before{
+   top: -25px;
+   left: -1px;
+   border-bottom: 25px solid #007bff91;
+   
+ }
+ .hex::after{
+   bottom: -25px;
+   left: -1px;
+   border-top:25px solid #007bff91;
+ 
+ }.conteudo #expertise .desc .hex6{
+  background-color: #007bff91;
+  content: "";
+  width: 100px;
+  height: 55px;
+  position: absolute;
+ margin: -60px -120px  ;
+ padding: 30px 0 0 0 ;
+ border-bottom: transparent ;
+ }
+ .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex6::after{
+   content: '';
+   position: absolute;
+   width: 0;
+   border-top: -50px solid transparent;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   
+ }
+ .hex6::before{
+   top: -25px;
+   left: -1px;
+   border-bottom: 25px solid #007bff91;
+   
+ }
+ .hex6::after{
+   bottom: -25px;
+   left: -1px;
+   border-top:25px solid #007bff91;
+ 
+ }
 #projects{
   display: flex;
   flex-direction: row;
