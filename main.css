@@ -415,6 +415,10 @@ padding: 30px 0 0 0 ;
    border-right: 50px solid transparent;
    
  }
+ .conteudo #expertise .desc span{
+  border: 1px solid rgba(0, 0, 0, 0.149);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+ }
  .hex3::before{
    top: -25px;
    left: -1px;
@@ -516,6 +520,7 @@ padding: 30px 0 0 0 ;
    border-top:25px solid #4055b2;;
  
  }
+ 
 #projects{
   display: flex;
   flex-direction: row;
