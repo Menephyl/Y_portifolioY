@@ -299,7 +299,7 @@ text-align: left;
   margin: 0 0 1rem 0;
 }
  .conteudo #expertise .desc .hex{
- background-color: #007bff91;
+ background-color: #007bff;
  content: "";
  width: 100px;
  height: 55px;
@@ -320,17 +320,17 @@ padding: 30px 0 0 0 ;
 .hex::before{
   top: -25px;
   left: -1px;
-  border-bottom: 25px solid #007bff91;
+  border-bottom: 25px solid #007bff;
   
 }
 .hex::after{
   bottom: -25px;
   left: -1px;
-  border-top:25px solid #007bff91;
+  border-top:25px solid #007bff;
 
 }
  .conteudo #expertise .desc .hex2{
-  background-color:#ec53537f;
+  background-color:#ec5353;
   content: "";
   width: 100px;
   height: 55px;
@@ -351,16 +351,16 @@ padding: 30px 0 0 0 ;
  .hex2::before{
    top: -25px;
    left: -1px;
-   border-bottom: 25px solid#ec53537f;
+   border-bottom: 25px solid#ec5353;
    
  }
  .hex2::after{
    bottom: -25px;
    left: -1px;
-   border-top:25px solid #ec53537f;
+   border-top:25px solid #ec5353;
  
  }.conteudo #expertise .desc .hex3{
-  background-color: #f9be3f9f;
+  background-color: #f9be3f;
   content: "";
   width: 100px;
   height: 55px;
