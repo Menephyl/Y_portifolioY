@@ -365,7 +365,7 @@ padding: 30px 0 0 0 ;
   width: 100px;
   height: 55px;
   position: absolute;
- margin: -60px -120px  ;
+ margin: -80px -120px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
@@ -386,15 +386,15 @@ padding: 30px 0 0 0 ;
  .hex3::after{
    bottom: -25px;
    left: -1px;
-   border-top:25px solid #f9be3f9f;
+   border-top:25px solid #f9be3f;
  
  }.conteudo #expertise .desc .hex4{
-  background-color:#a84cb8a1;
+  background-color:#a84cb8;
   content: "";
   width: 100px;
   height: 55px;
   position: absolute;
- margin: -60px -120px  ;
+ margin: -80px -120px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
@@ -410,21 +410,21 @@ padding: 30px 0 0 0 ;
  .hex4::before{
    top: -25px;
    left: -1px;
-   border-bottom: 25px solid#a84cb8a1;
+   border-bottom: 25px solid#a84cb8;
    
  }
  .hex4::after{
    bottom: -25px;
    left: -1px;
-   border-top:25px solid#a84cb8a1;
+   border-top:25px solid rgb(168, 76, 184);
  
  }.conteudo #expertise .desc .hex5{
-  background-color:  #2fa4989b;
+  background-color:  #2fa498;
   content: "";
   width: 100px;
   height: 55px;
   position: absolute;
- margin: -60px -120px  ;
+ margin: -80px -120px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
@@ -440,21 +440,21 @@ padding: 30px 0 0 0 ;
  .hex5::before{
    top: -25px;
    left: -1px;
-   border-bottom: 25px solid  #2fa498a9;
+   border-bottom: 25px solid  #2fa498;
    
  }
  .hex5::after{
    bottom: -25px;
    left: -1px;
-   border-top:25px solid  #2fa4989c;
+   border-top:25px solid  #2fa498;
  
  }.conteudo #expertise .desc .hex6{
-  background-color: #4055b280;
+  background-color: #4055b2;
   content: "";
   width: 100px;
   height: 55px;
   position: absolute;
- margin: -60px -120px  ;
+ margin: -80px -120px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
  }
@@ -470,13 +470,13 @@ padding: 30px 0 0 0 ;
  .hex6::before{
    top: -25px;
    left: -1px;
-   border-bottom: 25px solid #4055b289;;
+   border-bottom: 25px solid #4055b2;;
    
  }
  .hex6::after{
    bottom: -25px;
    left: -1px;
-   border-top:25px solid #4055b27e;;
+   border-top:25px solid #4055b2;;
  
  }
 #projects{
