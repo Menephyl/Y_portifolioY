@@ -292,7 +292,7 @@ text-align: left;
   border-top: 20px;
 }
 .hex,.hex2,.hex3,.hex4,.hex5,.hex6{
-font-weight: bolder;
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
 }
 .desc{
   justify-content: space-between;
