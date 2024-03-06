@@ -12,13 +12,26 @@
     <link rel="shortcut icon" href="images/103452_computer_settings_icon.png" type="image/x-icon">
    <link rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="impressao.css" media="print"> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ad0bcb4a1f.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="icons.css">
    <title>Yan Portfolio</title>
 
  
 <!-- Conteúdo. 
+
+    colocaar na nav sidebar 
+    propriedadename = name
+    data-nav-section="about"
+data-nav-section="services"
+data-nav-section="skills">
+data-nav-section="education"
+data-nav-section="experience"
+data-nav-section="work"
+data-nav-section="blog"
+data-nav-section="contact"
+ 
 DEVE ESTAR BEM ESTRUTURADO: NAV ASIDE PARA NAVEGAÇÃO DAS INFORMAÇÕES.  deve abrir e fechar. 
 button light toggle dark
 HOME - APRESENTAÇÃO INICIAL  ---- colocar icons??
@@ -42,182 +55,234 @@ aside stile border js-fullheight style: height:777px;
 
 
 </head>
-<body> 
+<body class> 
  <div  id="all" class="all">
     <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fa-solid fa-bars"></i></a>
  <aside id="aside" class="menu-lateral" style="height: 777px;">
-      <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/414479828_2112296452485640_3046117938739614579_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeGGrKjj43M0CmAEUMHS8YANuIABuyhlkBW4gAG7KGWQFWh1V2HiXslciPJ8SI6lJ6NhIDXAV1doG1QYH4XUwEqP&_nc_ohc=Wmj1XAZT3fUAX-LxF2v&_nc_ht=scontent-gru2-1.xx&oh=00_AfC5srADA_2SI9FbtsNzRcJWYRMpzuU3hjj9H6NQuELJGw&oe=65DE5BFB" alt="profile">
-        <div class="caixa-de-textos">
-          <h1 class="y1">Yan Menephyl</h1>
-            <h3 class="cargo">
-                <span class="azul">Front-end Developer</span>in Brazil</h3>
-                    <button href="#" class="btn1"  onclick="changeLanguage()"> PT-BR 🔁 EN-USA</button>
-            <nav class="menu-nav">
-                    <ul>
-                        <a href="#">
+<img src="images/87574460.jpg" alt="profile">
+ <div class="caixa-de-textos">
+     <h1 class="y1">Yan Menephyl</h1>
+     <h3 class="cargo">
+     <span class="azul">Front-end Developer</span>in Brazil</h3>
+       <button href="#" class="btn1"  onclick="changeLanguage()"> PT-BR 🔁 EN-USA</button>
+   <nav class="menu-nav">
+             <ul>
+                   <a href="#home">
                             <li >Home</li>
-                        </a>
-                        <a href="#">
+                   </a>
+                   <a href="#about">
                             <li >About</li>
-                        </a>
-                        <a href="#">
-                            <li >Projects</li>
-                        </a>
-                        <a href="#">
-                            <li ">Skills</li>
-                        </a>
-                        <a href="#">
-                            <li ">Education</li>
-                        </a>
-                        <a href="#">
-                            <li >Contact</li>
-                        </a>
-                    </ul>
-                </nav>
-                  </div>
-                  <footer class="footer">
-                    <em style="color: black;">Cv site Made with Html5, Css3 and Javascript by <a href="https://github.com/menephyl"></a>  </em>
-                    <p> ©2024 Yan Menephyl - All rights reserved.</p>
-                </footer>
+                  </a>
+                  <a href="#services">
+                      <li>Services</li>
+                  </a>
+                  <a href="#projects">
+                      <li >Projects</li>
+                  </a>
+                  <a href="#skills">
+                      <li>Skills</li>
+                   </a>
+                  <a href="#education">
+                       <li>Education</li>
+                   </a>
+                   <a href="#contact">
+                       <li>Contact</li>
+                   </a>
+              </ul>
+          </nav>
+           </div>
+            <footer class="footer">
+              <em style="color: black;">Cv site Made with Html5, Css3 and Javascript by <a href="https://github.com/menephyl"></a>  em>
+              <p> ©2024 Yan Menephyl - All rights reserved.</p>
+              <!-- <script>document.write(new Date().getFullYear());</script> -->
+          </footer>
         </aside>
 
         <!-- MAIN -->
        
-        <main class="main">
+        <main  id=main class="main">
             <i class="fa-solid fa-circle-half-stroke"></i>
-                <h1 class="about-me">About me</h1>                     
-                      <div class="oi">
-                        <h1>Hi!
+                <em style="text-align: left;">Home</em>              
+                <div id="home"class="oi">
+                <h1>Hi!
                         <i class="fa-solid fa-code"></i><br>
                         I'm Yan </h1>  
                         <h2>Cv 100% Html5, Css3 and Javascript pure</h2>
-                            
+                            <a href="#">Donwload CV <i class="fa-solid fa-download"></i></a>
                         </div>
                          <div id="funcao" class="funcao">
-                           <h1>I am<br>a Developer</h1>                          
+                           <h1>I am<br>a Developer</h1>          
+                           <a href="#">View Portifolio<i class="fa-solid fa-briefcase"></i></a>                
                           </div>
-            
         <section class="conteudo">
             <div class="principal">  
-                
-                        <div class="about-me1"><em class="em">About-me</em></div>
-                        <h3 class="about-me-text">Who am I?</h3>
-                        <p>Hi! I'm Yan Isonel Pereira.</p>
-                                 <p> T.I Since 2017 and craft with technology Front-end since 2023.  Just now learning more to improve my skills</p>
-                                <p>My objective is to work with my new passion and I am open to all opportunities in the way</p>
-                                <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-                                <p>Even the all-powerful Pointing has no control about the blind text  s it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar</p>
-                                </div>
-                            <section >
-                                <a href="#">
-                                    <em class="em">My works</em>
-                                    <h1>Here some work expertise:</h1> <!-- IMAGEM MOSTRANDO A TELA DE CADA PROJETO AO CLICAR EM CADA PROJETO MOSTRAR OUTRA IMAGEM DO COGIGO COM TRANSIÇÃO, AINDA VOU COLCOAR OS OUTROS PROJETOS PENDENTES  -->
-                                </a>
-                             <div id="projects">
-                                    <div class="p">
-                                        <p><a href=https://gta-page-clone.vercel.app/ target="_blank"><img width="250px "height="200px"  "    src="images/gta.gif" alt="Projeto"></a></p> 
-                                    </div>
-                                    <div class="p">
-                                        <p><a href=https://spotify-clone-excercise.vercel.app/  target="_blank"><img  width="290px "  height="200px"  src="images/recording-2024-02-13-14-48-14.gif" alt="Projeto"></a></p> 
-                                    </div>
-                                    <div class="p">
-                                        <p> <a href=https://ahcardapio.vercel.app/ target="_blank"><img height="200px"  width="width="100px   src="images/recording-2024-02-03-14-06-42.gif" alt="Projeto"></a></p> 
-                                    </div>
-                                    <div class="p"> 
-                                        <p><a href="https://applewatch-three.vercel.app/" target="_blank"><img  width="230px " width="150px " src="images/papplejs.png" alt="Projeto"></p></a> 
-                                    </div>
-                                    <div class="p">
-                                        <p><a href=https://audiobook-js-theta.vercel.app/  target="_blank"><img width="220px " height="190px"   src="images/audiobook.gif" alt="Projeto"></a></p> 
-                                    </div>
-                                        <div class="p">
-                                            <em> Js exercises</em>
-                                            <p><a href="https://idade-y.vercel.app/" target="_blank"><img width="200px "height="150px" src="images/pidade.png" alt="Projeto"></a></p> 
-                                        </div>
-                                        <div class="p">
-                                            <p><a href="https://jsprojects-kohl.vercel.app/" target="_blank"><img  width="250px " width="150px " src="images/ptabela.png" alt="Projeto"></p></a> 
-                                        </div>
-                                        <div class="p">
-                                            <p><a href="https://count-y.vercel.app/" target="_blank"><img  width="230px " width="150px " src="images/pcont.png" alt="Projeto"></p></a> 
-                                        </div>       
-                                        <div class="p"> <em>Just html and CSS3</em>
-                                            <p><a href="https://Menephyl.github.io" target"_blank"><img  height="180px " width="190px " src="images/menephyl.gif" alt="Projeto"></p></a> 
-                                        </div>       
-                                        <div class="p">
-                                            <p><em>Landing page Poema Tecnológico </em><a href="https://projetocordel.vercel.app/ target="_blank"><img  width="230px " width="150px " src="images/cordel.gif" alt="Projeto"></p></a> 
-                                        </div>       
-                                        <div class="p">
-                                            <p><em>Artigo android</em><a href="https://https://aandroid.vercel.app/" target="_blank"><img  width="230px " width="150px " src="images/d481f3c72e283309071f79e01b05c06d.gif" alt="Projeto"></p></a> 
-                                        </div>       
-                    
-                                    </div>
-                  </section>
-                     <br>
-                     <div class="conteudo2">
-                        <div class="skills"><h1>My Skills</h1>
-                            <div style="width:100%" text-align="center">
-                                 <div       style="background-color:rgba(255, 115, 0, 0.884);color:black; height:23px;width: 80%;font-size: 14px; text-align: end; border-radius: 3px; font-style: italic; font-weight: 700; border:1px solid black; ">
-                                   HTML5</a >
-                                 </div>
-
-                                </br>
-                                <a href="#" target="self" > <div style="background-color:rgba(0, 55, 255, 0.623);color: black;font-size: 14px;
-                                ; height:23px;width: 65%; text-align: end; border-radius: 3px; font-style: italic; font-weight:bold;  border:1px solid black;">CSS3</div></a>
-                                <br>
+                        <div class="about-me"><em class="em">About-me</em></div>
+                        <h2 class="about-me-text">WHO AM I?</h2>
                         
-                                <a href="#" target="self" > <div style="background-color:rgb(232, 248, 10); height:23px;width: 45%;font-size: 12px; text-align: end; border-radius: 3px; font-style: italic;font-weight: 700; color:black;
-                            border:1px solid black;" >Javascript</div></a>
-                                <br>
-                                       
-                                <a href="#" target="self" > <div style="background-color:rgb(255, 42, 0);color:black; height:23px;width: 15%;font-size: 12px; text-align: end; border-radius: 3px; font-style: italic;font-weight: 700; border:1px solid black;">Git</div></a>       
-                                <br>
-                                <div       style="background-color:rgb(0, 217, 255);color:black; height:23px;width:10%;font-size: 12px; text-align: end; border-radius: 3px; font-style: italic; font-weight: 700; border:1px solid black; ">Typescript</a ></div>
-                                <br>
-                                <div       style="background-color:rgb(21, 197, 89);olor:black; height:23px;width:10%;font-size: 12px; text-align: end; border-radius: 3px; font-style: italic; font-weight: 700; border:1px solid black; ">NodeJs</a ></div>        
-                            </div>
-                        </div>
-                                    
-                                </div>
-                                <div class="education">
-                                    <h1>Education</h1>
-                                   <!-- ao clicar, descer o conteudo mostrando a descrição-->
-                                        <a href="#">
-                                            <p class="tecnico">Diploma in Technician information technology</p>
-
-                                        </a>
-                                        <a href="#">
-                                            <p class="ensinomedio">High Scholl Secundary Education</p>
-                                        </a>
-                                  
-                                </div>
-                                <div class="contact">
-                                    <h1>Contact</h1>
-                                     <form class="form" action="#" method="post">
-                                        <!-- Campo Nome -->
-                                        <label class='label'for="nome">Nome:</label>
-                                        <input type="text" id="nome" name="nome" required  class="input">
-        
-                                        <!-- Campo E-mail -->
-                                        <label class="label"  for="email">E-mail:</label>
-                                        <input type="email" id="email" name="email" required class="input">
-        
-                                        <!-- Campo Assunto -->
-                                        <label class="label"id="assunto">Assunto:</label>
-                                        <input type="text" id="assunto" name="assunto" class="input">
-        
-                                        <!-- Campo Mensagem -->
-                                        <label class="label">Mensagem:</label>
-                                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea class="input">
-                                        <!-- Botão de Envio -->
-                                        <button class="btn2"type="submit">Enviar</button>
-                                    </form>
-                                </div>
-                            </div>
-                </div>
-        </section>
-       
+ 
+         <p><strong>Hi! I'm Yan Menephyl</strong> I am a  T.I Since 2017 and craft with technology Front-end since 2022. Just now learning more to improve my skills</p>
+        <p>My objective is to work with my new passion and I am open to all opportunities in the way</p></div>
+     <div class="rowservices" id="services">
+         <div id="design">
+            <span class="icon3"><img src="images/webd1.png" alt="a"></span>
+             <h3>Web Design</h3>
+           </div>
+          <div id="design2">
+             <span class="icon4"><img src="images/soft1.jpg" alt="a"></span>
+             <h3>Software</h3>
+          </div>
+          <div id="design3">
+             <span class="icon4"><img src="images/app1.png" alt="a"></span>
+             <h3>Aplication</h3>
+          </div>                 
+      </div>
+      <div id="hire">
+        <h2> I'm happy to know you 
+            <br>
+            That 30+ projects done sucessfully! <span class="fa fas fa-book"></span>
+            <br>
+           <a href="#" class="btn-hire">Hire me!!</a>
+        </h2>
+      </div>
+    <div id="expertise">
+        <em>WHAT I DO?</em>
+        <h2>HERE ARE SOME OF MY EXPERTISE</h2>
+        <div>
+          
+        <div class="desc">
+          <span>Inovative Ideas
+            <span class="hex"></span>
+            <p style="font-size: 10px;">Separated they live in Bookmarksgrove right at the coast of the semantics</p>
+          </span>
+          
+          <span>Software
+            <span class="hex2"></span>
+            <p style="font-size: 10px;">Separated they live in Bookmarksgrove right at the coast of the semantics</p>
+           
+          </span>
+          <span>Aplication
+            <span class="hex3"></span>
+            <p style="font-size: 10px;">Separated they live in Bookmarksgrove right at the coast of the semantics</p>
+          </span>
+          <span>Design
+            <span class="hex4"></span>
+            <p style="font-size: 10px;">Separated they live in Bookmarksgrove right at the coast of the semantics</p>
+          </span>
+          <span>Software
+            <span class="hex5"></span>
+            <p style="font-size: 10px;">Separated they live in Bookmarksgrove right at the coast of the semantics</p>
+          </span>
+          <span>Aplication
+            <span class="hex6"></span>
+            <p style="font-size: 10px;">Separated they live in Bookmarksgrove right at the coast of the semantics</p>
+          </span>
+         
+        </div>
+        </div>
+   
+    </div>
+  <section id="img01">
+       <div  id=imagem class="imagem">
+        <!-- contador -->
+       <span>  0  <br> Cups of Coffe </span>
+       <span>  0  <br> Cups of Coffe </span>
+       <span>  0  <br> Cups of Coffe </span>
+       <span>  0  <br> Cups of Coffe </span>
+         </div>
+      </section>
+  <div id="skills"><em class="em" > Training on</em>
+   <div class="skills"><h1>My Skills</h1>
+       <div style="width:100%" text-align="center">
+        <div style="background-color:rgba(255, 115, 0, 0.884);color:black; height:23px;width:87%;font-size: 14px; text-align: end; border-radius: 3px; font-style: italic; font-weight: 700; border:solid 1px black; "> HTML5</a >
+       </div> </br>
+        <a href="#" target="self" > <div style="background-color:rgba(0, 55, 255, 0.623);color:black;font-size: 14px;
+        height:23px;width: 65%; text-align: end; border-radius: 3px; font-style: italic; border:1px solid black; font-weight: bolder;">CSS3</div></a>
+         <br> <a href="#" target="self" > <div style="background-color:rgb(232, 248, 10); height:23px;width:27%; font-size: 12px; text-align: end; border-radius: 3px; font-style: italic;font-weight: 700; color:black;
+    border:1px solid black;" >Javascript</div></a>
+        <br> 
+     <a href="#" target="self" > <div style="background-color:rgb(255, 0, 0);color:black; height:23px;width: 15%;font-size: 12px; text-align: end; border-radius: 3px; font-style: italic;font-weight: 700; border:1px solid black;">Git</div></a>       
+         <br>
+     <div style="background-color:rgb(0, 217, 255);color:black; height:23px;width:10%;font-size: 12px; text-align: end; border-radius: 3px; font-style: italic; font-weight: 700; border:1px solid black; ">Typescript</a ></div>
+          <br>
+      <div style="background-color:rgb(21, 197, 89);color:black; height:23px;width:10%;font-size: 12px; text-align: end; border-radius: 3px; font-style: italic; font-weight: 700; border:1px solid black; ">NodeJs</a ></div>        
+        </div>
+          </div>
+ <section >
+      <a href="#">
+          <em class="em">My works</em>
+           <h1>Here some work expertise in little projects:</h1> <!-- IMAGEM MOSTRANDO A TELA DE CADA PROJETO AO CLICAR EM CADA PROJETO MOSTRAR OUTRA IMAGEM DO COGIGO COM TRANSIÇÃO, AINDA VOU COLCOAR OS OUTROS PROJETOS PENDENTES  -->
+    <div id="projects">
+         <div class="p">
+              <p><a href=https://gta-page-clone.vercel.app/ target="_blank"><img width="250px "height="200px"src="images/gta.gif" alt="Projeto"></a></p> 
+           </div>
+        <div class="p">
+           <p><a href=https://spotify-clone-excercise.vercel.app/  target="_blank"><img  width="290px "  height="200px"  src="images/recording-2024-02-13-14-48-14.gif" alt="Projeto"></a></p> 
+     </div>
+      <div class="p">
+        <p> <a href=https://ahcardapio.vercel.app/ target="_blank"><img height="200px"  width="width="100px   src="images/recording-2024-02-03-14-06-42.gif" alt="Projeto"></a></p> 
+     </div>
+      <div class="p"> 
+         <p><a href="https://applewatch-three.vercel.app/" target="_blank"><img  width="230px " width="150px " src="images/papplejs.png" alt="Projeto"></p></a> 
+     </div>
+     <div class="p">
+         <p><a href=https://audiobook-js-theta.vercel.app/  target="_blank"><img width="220px " height="190px"   src="images/audiobook.gif" alt="Projeto"></a></p> 
+     </div>
+        <div class="p">
+            <em> Js exercises</em>
+            <p><a href="https://idade-y.vercel.app/" target="_blank"><img width="200px "height="150px" src="images/pidade.png" alt="Projeto"></a></p> 
+         </div>
+         <div class="p">
+             <p><a href="https://jsprojects-kohl.vercel.app/" target="_blank"><img  width="250px " width="150px " src="images/ptabela.png" alt="Projeto"></p></a> 
+          </div>
+          <div class="p">
+              <p><a href="https://count-y.vercel.app/" target="_blank"><img  width="230px " width="150px " src="images/pcont.png" alt="Projeto"></p></a> 
+          </div>       
+          <div class="p"> <em>Just html and CSS3</em>
+             <p><a href="https://Menephyl.github.io" target="_blank"><img  height="180px " width="190px " src="images/menephyl.gif" alt="Projeto"></p></a> 
+         </div>       
+         <div class="p">
+              <p><em>Landing page Poema Tecnológico </em><a href="https://projetocordel.vercel.app/" target="_blank"><img  width="230px " width="150px " src="images/cordel.gif" alt="Projeto"></p></a> 
+         </div>       
+         <div class="p">
+             <p><em>Artigo android</em><a href="https://https://aandroid.vercel.app/" target="_blank"><img  width="230px " width="150px " src="images/d481f3c72e283309071f79e01b05c06d.gif" alt="Projeto"></p></a> 
+         </div>       
+           </div>
+  </section>
+    <br>                                  
+      </div>
+       <em class="em" style="display: flex; flex-wrap: wrap;"> My studies</em>
+       <div id="education" class="education">
+         <h1>Education</h1>
+         <!-- ao clicar, descer o conteudo mostrando a descrição-->
+      <a href="#">
+        <p class="tecnico">Diploma in Technician information technology<i class="fa-solid fa-plus"></i></p></a>
+      <a href="#">
+          <p class="ensinomedio">High Scholl Secundary Education <i class="fa-solid fa-plus"></i></p></a>   
+ </div>
+ <div class="contact">
+     <h1>Contact</h1>
+  <form class="form" action="#" method="post">
+      <!-- Campo Nome -->
+       <label class='label'for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required  class="input">
+       <!-- Campo E-mail -->
+       <label class="label"  for="email">E-mail:</label>
+       <input type="email" id="email" name="email" required class="input">
+       <!-- Campo Assunto -->
+       <label class="label"id="assunto">Assunto:</label>
+       <input type="text" id="assunto" name="assunto" class="input">
+       <!-- Campo Mensagem -->
+     <label class="label">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea class="input">
+      <!-- Botão de Envio -->
+       <button class="btn2"type="submit">Enviar</button>
+      </form>
+         </div>
+    </div>
+   </div>
+      </section>       
         </main>
     </div>
-    
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,47 +1,56 @@
+html{ font-family: sans-serif;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: 'Quicksand',Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px; 
+  line-height: 1.8;
+  color: rgba(0,0,0,0.7);
+  margin: 0;
+  background-color: rgba(128, 128, 128, 0.056); 
+}
 #all{
     /*background-color:  rgb(179, 206, 206);*/
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
    box-sizing: border-box; 
   -moz-box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   width: 100%;
  background-color: #fff ;
   }
   .em{
-    margin-right: 600px;
+    margin-right: 42rem;
     text-align: left;
     color: #000;
   }
-  body{
-    font-family: 'Quicksand',Arial, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.8;
-    color: rgba(0,0,0,0.7);
-    margin: 0;
-  }
+  
 
 
   a {
     color: #2c98f0;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s; }
+    transition: 0.5s; 
+    font-family: 'Quicksand', Arial, sans-serif;  
+  }
     a:hover, a:active, a:focus {
       color: #093d68;
       outline: none;
-      text-decoration: none !important; }
+      text-decoration: none !important; 
+    }
+
   
   p {
     margin-bottom: 1.5em; }
   
-  h1, h2, h3, h4, h5, h6 {
-    color: #000;
-    font-family: "Playfair Display", Georgia, serif;
-    font-weight: 400;
-    margin: 0 0 30px 0; }
-  
+    h1, h2, h3, h4, h5, h6 {
+      color: #000;
+      font-family: "Playfair Display", Georgia, serif ; 
+      font-weight: 400;
+      margin: 0 0 30px 0; }
+    
   figure {
     margin-bottom: 2.5em;
     float: left;

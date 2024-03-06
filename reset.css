@@ -48,6 +48,7 @@ dd {
 
 /* Set default font family and size */
 body {
+  margin: 100px;
   font-family: 'Arial', sans-serif;
   font-size: 16px;
 }
