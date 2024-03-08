@@ -220,7 +220,6 @@ h3{
   text-align: left;
   font-weight: 700;
 }
-
 #img01{
   display: flex;
   flex-direction: row;
@@ -285,7 +284,6 @@ span .t1{
   padding: 10px;
   cursor: point;
 }
-
 #expertise h2{
 font-size: 18px;
 font-weight: 700;
@@ -326,7 +324,6 @@ text-align: left;
  position: absolute;
 margin: -80px -120px  ;
 padding: 30px 0 0 0 ;
-
 }
 .conteudo #expertise .desc  .hex span {
   box-shadow: inset 6px 6px 13px 0px black;
@@ -343,13 +340,11 @@ padding: 30px 0 0 0 ;
   top: -25px;
   left: -1px;
   border-bottom: 25px solid #007bff;
-  
 }
 .hex::after{
   bottom: -25px;
   left: -1px;
   border-top:25px solid #007bff;
-
 }
 .fa-lightbulb{
   display: flex;
@@ -386,8 +381,7 @@ padding: 30px 0 0 0 ;
     font-size: 28px;
     color: white;
     }
-    
-    .conteudo #expertise .desc .hex2{
+  .conteudo #expertise .desc .hex2{
   background-color:#ec5353;
   content: "";
   width: 100px;
@@ -424,7 +418,6 @@ padding: 30px 0 0 0 ;
  margin: -80px -100px  ;
  padding: 30px 0 0 0 ;
  border-bottom: transparent ;
- 
 }
  .conteudo #expertise .desc .hex3::before, .conteudo #expertise .desc .hex3::after{
    content: '';
@@ -447,7 +440,6 @@ padding: 30px 0 0 0 ;
    bottom: -25px;
    left: -1px;
    border-top:25px solid #f9be3f;
- 
  }.conteudo #expertise .desc .hex4{
   background-color:#a84cb8;
   content: "";
@@ -502,7 +494,6 @@ padding: 30px 0 0 0 ;
    bottom: -25px;
    left: -1px;
    border-top:25px solid  #2fa498;
- 
  }.conteudo #expertise .desc .hex6{
   background-color: #4055b2;
   content: "";
@@ -520,7 +511,6 @@ padding: 30px 0 0 0 ;
    border-top: -50px solid transparent;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   
  }
  .hex6::before{
    top: -25px;
@@ -573,6 +563,9 @@ img{
 }
 #skills{
   box-shadow: 0 0 2px #020000;
+}
+#skills h2{
+  font-size: 18px;
 }
 .education{
  box-shadow: 0 0 1px black;
