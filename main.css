@@ -577,6 +577,12 @@ margin-right: -30rem;
   font: 14px 'Quicksand',arial, sans-serif;
   text-align: justify;
 }
+.o{
+ color:rgba(255, 115, 0, 0.884);
+}
+.b{
+  color:rgba(0, 55, 255, 0.623)
+}
 .education{
  box-shadow: 0 0 1px black;
 }
