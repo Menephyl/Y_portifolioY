@@ -581,10 +581,19 @@ margin-right: -30rem;
  color:rgba(255, 115, 0, 0.884);
 }
 .b{
-  color:rgba(0, 55, 255, 0.623)
+  color:rgba(0, 55, 255, 0.623);
 }
 .y{
-  color: rgba(232, 248, 10)
+  color: rgba(232, 248, 10);
+}
+.bl{
+  color:rgb(0, 217, 255);
+}
+.r{
+  color:rgb(255, 0, 0);
+}
+.g{
+  color:rgb(21, 197, 89);
 }
 .education{
  box-shadow: 0 0 1px black;
