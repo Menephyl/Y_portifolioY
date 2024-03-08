@@ -601,6 +601,9 @@ margin-right: -30rem;
 .education h1{ font: 30px 'Playfair-Display',Georgia, serif;
   text-align: left;
 }
+.education div{
+  padding: 0;
+}
 .education div a{
   text-transform: uppercase;
   height: 57px;
