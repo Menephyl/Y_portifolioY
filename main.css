@@ -610,11 +610,17 @@ margin-right: -30rem;
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.296);
 }
-.fa-plus{
-  margin-right: -100px;
+.education div::after {
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  background-color: black;
+  margin-left: 10px;
+}
+.education div .fa-plus{
+ text-align: right;
   position: absolute;
-  color:white;
-  
+  color:yellow
 }
 .education a{
   color: black;
