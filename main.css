@@ -601,11 +601,10 @@ margin-right: -30rem;
 .education h1{ font: 30px 'Playfair-Display',Georgia, serif;
   text-align: left;
 }
-.education div{
+.education div a{
   position: relative;
-  display: flex;
-  align-items: center;
-  text-align: left;
+  display: inline-block;
+ 
   margin-left: -10px;
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.296);
