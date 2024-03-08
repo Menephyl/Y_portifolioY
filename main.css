@@ -601,11 +601,19 @@ margin-right: -30rem;
 .education h1{ font: 30px 'Playfair-Display',Georgia, serif;
   text-align: left;
 }
-.education {
-  
+.education .p{
+  color: black;
+  width: 750px;
   text-align: justify;
   border: 1px solid rgba(0, 0, 0, 0.603);
-   
+  background-color: rgba(128, 128, 128, 0.459);
+}
+.education a{
+  font-size: 14px;
+  color: black;
+  width: 720px;
+  text-align: left;
+  margin-left: -24em;
 }
 .contact{
   width: 95%;
