@@ -215,15 +215,12 @@ h3{
   border-left:50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 25px solid red;
-  
 }
 .imagem{
   display: flex;
   flex-direction: row;
   text-align: left;
   font-weight: 700;
-  
-  
 }
 
 #img01{
@@ -232,7 +229,6 @@ h3{
   height: 20rem;
   background-image: url(https://technext.github.io/jackson/images/cover_bg_1.jpg);
   background-position: center center;
-  f
 }
 #img01 .imagem {
   background-color: rgba(28, 27, 27, 0.361);
@@ -250,7 +246,6 @@ h3{
   background: #f9bf3f;
   padding:  30px;
   margin-bottom: 2.5rem;
-
 }
 #hire h2{
   text-align: justify;
@@ -288,8 +283,8 @@ text-align: left;
   font-size: 15px;
   margin: 75px 0 30px 25px;
   justify-content: space-between;
- width: 180px;
- height: 140px;
+  width: 180px;
+  height: 140px;
   background: #fff;
   padding: 0 0 0 5px;
   border-top: 20px;
@@ -321,7 +316,6 @@ padding: 30px 0 0 0 ;
   border-top: -50px solid transparent;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  
 }
 .hex::before{
   top: -25px;
@@ -329,7 +323,6 @@ padding: 30px 0 0 0 ;
   border-bottom: 25px solid #007bff;
   
 }
-
 .hex::after{
   bottom: -25px;
   left: -1px;
@@ -418,8 +411,7 @@ padding: 30px 0 0 0 ;
    width: 0;
    border-top: -50px solid transparent;
    border-left: 50px solid transparent;
-   border-right: 50px solid transparent;
-   
+   border-right: 50px solid transparent;  
  }
  .conteudo #expertise .desc span{
   border: 1px solid rgba(0, 0, 0, 0.149);
@@ -479,13 +471,11 @@ padding: 30px 0 0 0 ;
    border-top: -50px solid transparent;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   
  }
  .hex5::before{
    top: -25px;
    left: -1px;
    border-bottom: 25px solid  #2fa498;
-   
  }
  .hex5::after{
    bottom: -25px;
@@ -521,9 +511,7 @@ padding: 30px 0 0 0 ;
    bottom: -25px;
    left: -1px;
    border-top:25px solid #4055b2;;
- 
  }
- 
 #projects{
   display: flex;
   flex-direction: row;
