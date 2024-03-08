@@ -608,13 +608,7 @@ margin-right: -30rem;
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.459);
 }
-#education a{
-  width: auto;
-  font-size: 14px;
-  color: black;
-  text-align: left;
-  margin-left: -24em;
-}
+
 .contact{
   width: 95%;
   margin: 5px;
