@@ -615,6 +615,9 @@ margin-right: -30rem;
   text-align: left;
   margin-left: -24em;
 }
+.education a::after{
+  
+}
 .contact{
   width: 95%;
   margin: 5px;
