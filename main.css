@@ -231,6 +231,7 @@ h3{
   background-image: url(https://technext.github.io/jackson/images/cover_bg_1.jpg);
   background-position: right center;
   background-size: cover;
+  background-attachment: fixed;
 }
 #img01 .imagem {
   background-color: rgba(28, 27, 27, 0.361);
