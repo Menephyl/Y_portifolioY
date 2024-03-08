@@ -602,10 +602,19 @@ margin-right: -30rem;
   text-align: left;
 }
 .education div{
+  position: relative;
+  display: flex;
+  align-items: center;
   text-align: left;
   margin-left: -10px;
   border: 1px solid rgba(0, 0, 0, 0.603);
-  background-color: rgba(128, 128, 128, 0.459);
+  background-color: rgba(128, 128, 128, 0.296);
+}
+.fa-plus{
+  margin-right: -80px;
+  position: absolute;
+  color:white;
+  
 }
 .education a{
   color: black;
