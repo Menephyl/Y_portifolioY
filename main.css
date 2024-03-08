@@ -565,6 +565,7 @@ img{
   box-shadow: 0 0 2px #020000;
 }
 #skills h2{
+  font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   text-align: start;
