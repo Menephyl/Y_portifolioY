@@ -569,6 +569,10 @@ img{
   text-transform: uppercase;
   text-align: start;
 }
+#skills p{
+  font: 15px 'Quicksand',arial, sans-serif;
+  text-align: justify;
+}
 .education{
  box-shadow: 0 0 1px black;
 }
