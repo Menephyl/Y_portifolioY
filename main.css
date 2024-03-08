@@ -601,8 +601,8 @@ margin-right: -30rem;
 .education h1{ font: 30px 'Playfair-Display',Georgia, serif;
   text-align: left;
 }
-.education p{
-
+.p{
+  width: 750px;
   text-align: justify;
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.459);
