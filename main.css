@@ -566,6 +566,8 @@ img{
 }
 #skills h2{
   font-size: 18px;
+  text-transform: uppercase;
+  text-align: start;
 }
 .education{
  box-shadow: 0 0 1px black;
