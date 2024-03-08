@@ -603,6 +603,7 @@ margin-right: -30rem;
   
 }
 .education p{
+  position: relative;
   background-color: rgba(128, 128, 128, 0.348);
   text-align: initial;
   border: 1px solid rgba(0, 0, 0, 0.603);
