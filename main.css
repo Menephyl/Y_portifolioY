@@ -249,8 +249,14 @@ h3{
   margin-top: 40px;
 }
 .n{ 
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 700;
+  text-align: center;
+}
+.t{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 #hire{
   padding: 2em;
