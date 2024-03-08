@@ -602,6 +602,7 @@ margin-right: -30rem;
   text-align: left;
 }
 .education div a{
+  text-transform: uppercase;
   height: 57px;
   position: relative;
   display: flex;
@@ -610,6 +611,7 @@ margin-right: -30rem;
   margin-left: -10px;
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.296);
+  padding: 20px 25px;
 }
 .education div::after {
   content: '';
