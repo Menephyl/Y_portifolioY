@@ -599,6 +599,8 @@ margin-right: -30rem;
  box-shadow: 0 0 1px black;
 }
 .education h1{ font: 30px 'Playfair-Display',Georgia, serif;
+  text-align: left;
+  margin-left:-20px
 }
 .education p{
   text-align: initial;
