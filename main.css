@@ -236,10 +236,22 @@ h3{
   box-shadow: inset 6px 6px 13px 0px black;
   background-size: cover;
   background-attachment: fixed;
+  
 }
+
 #imagem span{
+  width: 100px;
+  height: 200px;
+  justify-content: space-between;
+  text-align: center;
   font:  "Quicksand", Arial, sans-serif 16px 700;
-  margin: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.n{ 
+  font-size: 25px;
 }
 #hire{
   padding: 2em;
@@ -386,8 +398,7 @@ padding: 30px 0 0 0 ;
  .hex2::before{
    top: -25px;
    left: -1px;
-   border-bottom: 25px solid#ec5353;
-   
+   border-bottom: 25px solid#ec5353; 
  }
  .hex2::after{
    bottom: -25px;
@@ -462,7 +473,7 @@ padding: 30px 0 0 0 ;
   position: absolute;
  margin: -80px -100px  ;
  padding: 30px 0 0 0 ;
- border-bottom: transparent ;
+ border-bottom: transparent;
  }
  .conteudo #expertise .desc .hex5::before, .conteudo #expertise .desc .hex5::after{
    content: '';
@@ -600,24 +611,23 @@ cursor: pointer;
   background-color: #001a6e;
 }
 .input{
-             width: 100%;
-            padding: 10px;
-            margin-bottom: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            display: flex;
-          }
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 16px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ display: flex;
+ }
 #mensagem{
   width: 100%;
-            padding: 10px;
-            margin-bottom: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            display: flex;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
 }
-
 /*
 ; }
         h1 {
@@ -669,4 +679,3 @@ cursor: pointer;
   text-align: center;
   font-size: 10px;
 }
-
