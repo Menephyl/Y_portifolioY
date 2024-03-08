@@ -608,15 +608,12 @@ margin-right: -30rem;
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.459);
 }
-.education a{
+#education a{
+  width: auto;
   font-size: 14px;
   color: black;
-  width: 720px;
   text-align: left;
   margin-left: -24em;
-}
-.education a::after{
-  
 }
 .contact{
   width: 95%;
