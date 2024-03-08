@@ -217,21 +217,22 @@ h3{
   border-bottom: 25px solid red;
   
 }
-#imagem, h1{
-  text-align: left;
-  font-weight: 700;
-}
-#imagem{
+.imagem{
   display: flex;
   flex-direction: row;
+  text-align: left;
+  font-weight: 700;
+  
+  
 }
+
 #img01{
   display: flex;
   flex-direction: row;
   height: 20rem;
   background-image: url(https://technext.github.io/jackson/images/cover_bg_1.jpg);
   background-position: center center;
-  
+  f
 }
 #img01 .imagem {
   background-color: rgba(28, 27, 27, 0.361);
@@ -241,6 +242,7 @@ h3{
   background-attachment: fixed;
 }
 #imagem span{
+  font:  "Quicksand", Arial, sans-serif 16px 700;
   margin: 30px;
 }
 #hire{
@@ -450,19 +452,16 @@ padding: 30px 0 0 0 ;
    border-top: -50px solid transparent;
    border-left: 50px solid transparent;
    border-right: 50px solid transparent;
-   
  }
  .hex4::before{
    top: -25px;
    left: -1px;
    border-bottom: 25px solid#a84cb8;
-   
  }
  .hex4::after{
    bottom: -25px;
    left: -1px;
    border-top:25px solid rgb(168, 76, 184);
- 
  }.conteudo #expertise .desc .hex5{
   background-color:  #2fa498;
   content: "";
