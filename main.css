@@ -602,8 +602,10 @@ margin-right: -30rem;
   text-align: left;
 }
 .education p{
-  text-align: initial;
+
+  text-align: justify;
   border: 1px solid rgba(0, 0, 0, 0.603);
+  background-color: rgba(128, 128, 128, 0.459);
 }
 .contact{
   width: 95%;
