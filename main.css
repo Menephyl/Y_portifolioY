@@ -701,7 +701,7 @@ margin-right: -30rem;
 .work-menu > span > a{
 color: black;
 } 
-.work-menu > span > a > .active{
+.work-menu > span > .active{
  color: #007bff;
 }
 
