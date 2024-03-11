@@ -737,13 +737,15 @@ padding: 20px;
   width: 368px;
   height: 300px;
   background:url(https://technext.github.io/jackson/images/img-4.jpg);
-  
+  background-position: center;
 border: 1px solid black;
 padding: 20px;
 }
 .con_5{
   width: 368px;
   height: 300px;
+  background:url(https://technext.github.io/jackson/images/img-5.jpg);
+  background-position: center ;
 border: 1px solid black;
 padding: 20px;
 }
