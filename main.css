@@ -705,7 +705,9 @@ color: black;
  color: #007bff;
 }
 .desc{
+  background-color: white;
 margin: 0 0 30px 0;
+height: 1000px;
 }
 .con{
   width: 368px;
