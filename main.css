@@ -632,17 +632,24 @@ margin-right: -30rem;
 .education a{
   color: black;
 }
+.works h3 > span{
+  font-weight: 300;
+  margin-left: 1em;
+  font-size: 15px;
+}
+.works h3{
+  font-family: 'Quicksand' ,arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+
+}
 .works{
   background-color:#f2f3f7;
   display: flex;
   align-items: center;
   padding: 22.5px;
 }
-.work-menu{
-  font: 14px 'Quicksand', arial, sans-serif;
-    text-align: justify;
-    margin: 0 0 22.5px;
-}
+
 .circle{
   width: 50px;
   height: 50px;
@@ -684,18 +691,14 @@ margin-right: -30rem;
   margin:5px 8px;
   font-size: 15px;
 }
+.work-menu{
+  font: 14px 'Quicksand', arial, sans-serif;
+    text-align: justify;
+    margin: 0 0 22.5px;
+    padding: 0 10px;
+  color: #020000;
+}
 
-.works h3 > span{
-  font-weight: 300;
-  margin-left: 1em;
-  font-size: 15px;
-}
-.works h3{
-  font-family: 'Quicksand' ,arial, sans-serif;
-  font-size: 20px;
-  font-weight: 700;
- 
-}
 .contact{
   width: 95%;
   margin: 5px;
