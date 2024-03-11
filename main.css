@@ -648,6 +648,10 @@ margin-right: -30rem;
 .works{
   background-color:#f2f3f7;
 }
+.works h3{
+  font-weight: 400;
+  font-family: 'Quicksand';
+}
 .contact{
   width: 95%;
   margin: 5px;
