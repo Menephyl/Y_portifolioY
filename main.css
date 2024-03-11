@@ -638,6 +638,10 @@ margin-right: -30rem;
   align-items: center;
   padding: 22.5px;
 }
+.work-menu{
+  font: 14px 'Quicksand', arial, sans-serif;
+    text-align: justify;
+}
 .circle{
   width: 50px;
   height: 50px;
