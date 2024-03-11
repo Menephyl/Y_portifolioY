@@ -632,6 +632,11 @@ margin-right: -30rem;
 .education a{
   color: black;
 }
+.works{
+  background-color:#f2f3f7;
+  display: flex;
+  align-items: center;
+}
 .circle{
   width: 50px;
   height: 50px;
@@ -639,23 +644,23 @@ margin-right: -30rem;
   border-radius: 50%;
   text-align:center;
   color: #fff;
+  margin-right:20px ;
 }
 .fa-pen{
   color: #fff;
   margin:5px 8px;
   font-size: 15px;
 }
-.works{
-  background-color:#f2f3f7;
-}
+
 .works h3 > span{
   font-weight: 300;
   margin-left: 1em;
+  font-size: 15px;
 }
 .works h3{
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Quicksand';
+ 
 }
 .contact{
   width: 95%;
