@@ -570,7 +570,7 @@ img{
   text-transform: uppercase;
   text-align: start;
 }
-#skills span{
+#skills > span{
 margin-right: -30rem;
 }
 #skills p{
@@ -641,6 +641,7 @@ margin-right: -30rem;
 .work-menu{
   font: 14px 'Quicksand', arial, sans-serif;
     text-align: justify;
+    margin: 0 0 22.5px;
 }
 .circle{
   width: 50px;
