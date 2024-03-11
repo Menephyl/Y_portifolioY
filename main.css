@@ -648,6 +648,10 @@ margin-right: -30rem;
 .works{
   background-color:#f2f3f7;
 }
+.works a{
+  text-align: start;
+  margin-left: -80px;
+}
 .contact{
   width: 95%;
   margin: 5px;
