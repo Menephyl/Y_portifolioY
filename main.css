@@ -709,33 +709,30 @@ color: black;
 margin: 0 0 30px 0;
 height: 1000px;
 }
-.con{
+ .con_1{
+  width: 368px;
+ height: 300px;
+ background: url(https://technext.github.io/jackson/images/img-1.jpg);
+ border: 1px solid black;
+ padding: 20px;
+ margin-bottom: 20px;
+}
+.con-2{
   width: 368px;
   height: 300px;
-background-color: #ccc;
 
 border: 1px solid black;
 padding: 20px;
-margin-bottom: 20px;
 }
-.con{
+.con_3{
   width: 368px;
   height: 300px;
-background-color: yellow;
 border: 1px solid black;
 padding: 20px;
 }
-.con{
+.con_4{
   width: 368px;
   height: 300px;
-background-color: yellow;
-border: 1px solid black;
-padding: 20px;
-}
-.con{
-  width: 368px;
-  height: 300px;
-background-color: yellow;
 border: 1px solid black;
 padding: 20px;
 }
