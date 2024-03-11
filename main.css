@@ -648,9 +648,12 @@ margin-right: -30rem;
 .works{
   background-color:#f2f3f7;
 }
-.works a{
-  text-align: start;
-  margin-left: -80px;
+.a{
+  text-align: justify;
+  margin-right: 62em;
+}
+.works span{
+  margin:0;
 }
 .contact{
   width: 95%;
