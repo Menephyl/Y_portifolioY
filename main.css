@@ -698,6 +698,12 @@ margin-right: -30rem;
     padding: 0 10px;
   color: #020000;
 }
+.work-menu > span > a{
+color: black;
+} 
+.work-menu > span > a > .active{
+ color: #007bff;
+}
 
 .contact{
   width: 95%;
