@@ -721,7 +721,7 @@ height: 1000px;
   width: 368px;
   height: 300px;
   background: url(https://technext.github.io/jackson/images/img-2.jpg);
-  background-position: bottom center;
+  background-position: bottom;
 border: 1px solid black;
 padding: 20px;
 }
@@ -745,13 +745,15 @@ padding: 20px;
   width: 368px;
   height: 300px;
   background:url(https://technext.github.io/jackson/images/img-5.jpg);
-  background-position: center ;
+  background-position: contain ;
 border: 1px solid black;
 padding: 20px;
 }
 .con_6{
   width: 368px;
   height: 300px;
+  background: url(https://technext.github.io/jackson/images/img-6.jpg);
+  background-size: contain;
 border: 1px solid black;
 padding: 20px;
 }
