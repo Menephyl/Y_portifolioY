@@ -648,12 +648,12 @@ margin-right: -30rem;
 .works{
   background-color:#f2f3f7;
 }
-.works span{
-  
+.works h3 > span{
+  margin-left: 40em;
 }
 .works h3{
-  width: 700px;
-  font-weight: 400;
+  
+  font-weight: 700;
   font-family: 'Quicksand';
 }
 .contact{
