@@ -710,14 +710,14 @@ margin: 0 0 30px 0;
 height: 1000px;
 }
  .con_1{
-  width: 368px;
- height: 300px;
+  max-width: 368px;
+ max-height: 300px;
  background: url(https://technext.github.io/jackson/images/img-1.jpg);
  border: 1px solid black;
  padding: 20px;
  margin-bottom: 20px;
 }
-.con-2{
+.con_2{
   width: 368px;
   height: 300px;
 
@@ -736,6 +736,25 @@ padding: 20px;
 border: 1px solid black;
 padding: 20px;
 }
+.con_5{
+  width: 368px;
+  height: 300px;
+border: 1px solid black;
+padding: 20px;
+}
+.con_6{
+  width: 368px;
+  height: 300px;
+border: 1px solid black;
+padding: 20px;
+}
+.con_7{
+  width: 368px;
+  height: 300px;
+border: 1px solid black;
+padding: 20px;
+}
+
 .contact{
   width: 95%;
   margin: 5px;
