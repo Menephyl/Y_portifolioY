@@ -636,11 +636,39 @@ margin-right: -30rem;
   background-color:#f2f3f7;
   display: flex;
   align-items: center;
+  padding: 22.5px;
 }
 .circle{
   width: 50px;
   height: 50px;
   background-color:#2c98f0;
+  border-radius: 50%;
+  text-align:center;
+  color: #fff;
+  margin-right:20px ;
+}
+.circle-y{
+  width: 50px;
+  height: 50px;
+  background-color:#f9be3f;
+  border-radius: 50%;
+  text-align:center;
+  color: #fff;
+  margin-right:20px ;
+}
+.circle-p{
+  width: 50px;
+  height: 50px;
+  background-color:#a84cb8;
+  border-radius: 50%;
+  text-align:center;
+  color: #fff;
+  margin-right:20px ;
+}
+.circle-g{
+  width: 50px;
+  height: 50px;
+  background-color:#2fa499;
   border-radius: 50%;
   text-align:center;
   color: #fff;
