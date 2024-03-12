@@ -735,7 +735,7 @@ padding-right: 20px;
     color: #fff;
     box-sizing: border-box;
     z-index: 1;
-    margin: 0 0 10px 10px; 
+    
   }
   .con_1:hover .content {
     display: block;
@@ -775,6 +775,7 @@ padding-right: 20px;
   background-image: url(https://technext.github.io/jackson/images/img-2.jpg);
   transition: background-image 0.3s ease;
   margin: 0 0 10px 10px; 
+  background-position: 50% bottom;  
   }
   .con_2:hover{
     background-color: #007bff;
@@ -831,6 +832,7 @@ padding-right: 20px;
   background-image: url(https://technext.github.io/jackson/images/img-3.jpg);
   transition: background-image 0.3s ease;
   margin: 0 0 10px 10px; 
+  background-position: center;
   }
   .con_3:hover{
     background-color: #007bff;
@@ -845,7 +847,6 @@ padding-right: 20px;
     left: 0;
     background-color: #007bff;
     color: #fff;
-    padding: 10px;
     box-sizing: border-box;
     z-index: 1;
   }
@@ -889,6 +890,7 @@ padding-right: 20px;
   background-image: url(https://technext.github.io/jackson/images/img-4.jpg);
   transition: background-image 0.3s ease;
   margin: 0 0 10px 10px; 
+  background-position: center;
   }
   .con_4:hover{
     background-color: #007bff;
@@ -906,7 +908,6 @@ padding-right: 20px;
     padding: 10px;
     box-sizing: border-box;
     z-index: 1;
-    margin: 0 0 10px 10px; 
   }
   .con_4:hover .content {
     display: block;
@@ -946,7 +947,8 @@ padding-right: 20px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-5.jpg);
   transition: background-image 0.3s ease;
-  margin: 0 0 10px 10px; 
+  margin: 0 0 10px 10px;
+  background-position: center; 
   }
   .con_5:hover{
     background-color: #007bff;
@@ -964,7 +966,7 @@ padding-right: 20px;
     padding: 10px;
     box-sizing: border-box;
     z-index: 1;
-    margin: 0 0 10px 10px; 
+   
   }
   .con_5:hover .content {
     display: block;
@@ -1005,6 +1007,7 @@ padding-right: 20px;
   background-image: url(https://technext.github.io/jackson/images/img-6.jpg);
   transition: background-image 0.3s ease;
   margin: 0 0 10px 10px; 
+  background-position: 50% center;
   }
   .con_6:hover{
     background-color: #007bff;
@@ -1022,7 +1025,7 @@ padding-right: 20px;
     padding: 10px;
     box-sizing: border-box;
     z-index: 1;
-    margin: 0 0 10px 10px; 
+    
   }
   .con_6:hover .content {
     display: block;
