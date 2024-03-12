@@ -714,9 +714,11 @@ padding-right: 20px;
  
 }
 .con_1{
-  background-image: url(https://technext.github.io/jackson/images/img-1.jpg);
+  position: relative;
   width: 380px;
   height: 300px;
+  background-image: url(https://technext.github.io/jackson/images/img-1.jpg);
+  
   
   
 }
