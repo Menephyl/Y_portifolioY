@@ -713,12 +713,17 @@ margin: 0 0 30px 0;
 height: 1000px;
 }
  .con_1{
+  position: relative;
   width: 380px;
   height: 300px;
  background: url(https://technext.github.io/jackson/images/img-1.jpg);
  border: 1px solid black;
 margin-right: 20px;
  margin-bottom: 20px;
+ transition: background-color 0.3s ease;
+}
+.content{
+  
 }
 .con_2{
   width: 380px;
