@@ -721,6 +721,7 @@ color: black;
  background-color: #f0f0f0;
  transition: background-color 0.3s ease;
  padding: 20px;
+ color: #FFF;
 }
 .con_1:hover{
   background-color: #007bff;
