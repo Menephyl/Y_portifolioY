@@ -119,7 +119,7 @@ background-color: rgba(128, 128, 128, 0.056);
 }
 
 #funcao:hover{
-  background-image: url(ihttps://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/415088937_334817939381057_3818325484724943462_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Y4cbiXeudncAX9nKHNg&_nc_ht=scontent-gru2-1.xx&oh=00_AfBtpsZJ2NNkqflxx2NqTGKIWq3ky3YIC45Xvr6NUfTOIg&oe=65F5EB15);
+  background-image: url(images/EU2024JA.jpg);
   transition:backgrond-image  0.5s ease;
 }
 .funcao>h1{
