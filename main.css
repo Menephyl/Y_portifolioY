@@ -646,6 +646,10 @@ margin-right: -30rem;
 .education a{
   color: black;
 }
+.experience,.read h1{
+   font: 30px 'Playfair-Display',Georgia, serif;
+    text-align: left;
+}
 .works h3 > span{
   font-weight: 300;
   margin-left: 1em;
