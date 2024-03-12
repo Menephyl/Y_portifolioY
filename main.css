@@ -814,6 +814,16 @@ padding: 20px;
 border: 1px solid black;
 padding: 20px;
 }
+.a_btn_loadMore{
+  background-color: #007bff;
+  color: white;
+  font-family: 'Quicksand',arial, sans-serif;
+  text-align: center;
+  height: 50px;
+  margin: 0 4px 4px 0;
+  padding: 18px 36px;
+
+}
 .contact{
   width: 95%;
   margin: 5px;
