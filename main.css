@@ -735,6 +735,11 @@ margin-right: 20px;
 }
 .con_1:hover .content{
 display: block;
+color: #fff;
+}
+.con_1:hover .content a{
+  font: 400 14px 'Quicksand',arial,sans-serif;
+  text-align: left;
 }
 .con_2{
   width: 380px;
