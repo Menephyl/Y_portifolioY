@@ -814,12 +814,12 @@ padding: 20px;
 border: 1px solid black;
 padding: 20px;
 }
-a.a_btn_loadMore{
+.a_btn_loadMore{
   background-color: #007bff;
   color: white;
   font-family: 'Quicksand',arial, sans-serif;
   text-align: center;
-  height: 80px;
+
 }
 .contact{
   width: 95%;
