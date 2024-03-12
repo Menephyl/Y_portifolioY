@@ -739,13 +739,12 @@ color: black;
 }
  .con_1:hover .content{
 display: block;
-
+color: #ffffff;
 
 }
 .con_1:hover .content {
   font: 400 14px 'Quicksand',arial,sans-serif;
   text-align: left;
-  color: white;
 }
 .con_2{
   width: 400px;
