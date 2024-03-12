@@ -741,6 +741,7 @@ padding-right: 20px;
     display: block;
   }
   .con_1 .content span{
+    font-size: 13px;
     color: #fff;
     display: flex;
     top: 10px;
@@ -767,6 +768,7 @@ padding-right: 20px;
 }
 .con_1 .content h3>a{
   color: #fff;
+  font-size: 16px;
 }
 .con_2{
   position: relative;
@@ -1068,7 +1070,7 @@ padding-right: 20px;
   text-align: 50% center;
   margin: 0 4px 4px 0;
   padding: 18px 36px;
-  width: 100%;
+  width: 96%;
   height: 70px;
 
 }
