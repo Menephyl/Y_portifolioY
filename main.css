@@ -720,6 +720,21 @@ padding-right: 20px;
   
   
 }
+.con_1 i{
+  font-size: 20px;
+  text-align: left;
+  color:#020000
+}
+.con_1 p{
+  margin-top: 150px;
+  margin-left:-50px;
+}
+.con_1 p a{
+  border-radius: 2px;
+  width: 40px;
+  height: 60px;
+  background-color: #4c8baf;
+}
 /* .con_1{
   display: flex;
   position: relative ;
