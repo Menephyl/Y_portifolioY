@@ -719,7 +719,7 @@ padding-right: 20px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-1.jpg);
   transition: background-image 0.3s ease;
-  padding: 20px;
+
   }
   .con_1:hover{
     background-color: #007bff;
