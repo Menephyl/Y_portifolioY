@@ -817,7 +817,7 @@ padding: 20px;
 .btn-load{
   display: block;
   background-color: #007bff;
-  color: white;
+  color: #ffffff;
   font-family: 'Quicksand',arial, sans-serif;
   font-size: 14px;
   text-align: 50% center;
@@ -826,6 +826,9 @@ padding: 20px;
   width: 1120px;
   height: 100px;
 
+}
+.fa-rotate-right{
+  color: #fff;
 }
 .contact{
   width: 95%;
