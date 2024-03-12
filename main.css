@@ -638,8 +638,6 @@ margin-left: 30em;
   margin-left: 10px;
 }
 .education div .fa-plus{
-display: flex;
-flex: right;
 text-align: right;
   position: absolute;
   color:black;
