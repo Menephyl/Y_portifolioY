@@ -715,10 +715,20 @@ color: black;
   height: 1000px;
 }
  .con_1{
+  position: relative ;
  width: auto;
  height: auto;
  margin: 0 30px 20px 30px;
  background-image: url(https://technext.github.io/jackson/images/img-1.jpg);
+ background-color: #f0f0f0;
+ transition: background-color 0.3s ease;
+ padding: 20px;
+}
+con_1:hover{
+  background-color: #007bff;
+}
+.con_1 .content{
+  
 }
 .con_2{
   width: 400px;
