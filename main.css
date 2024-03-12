@@ -717,7 +717,7 @@ color: black;
  width: 370px;
  height: 300px;
  margin: 0 30px 20px 30px;
- background-image: url(https://technext.github.io/jackson/images/img-1.jpg);
+ /* background-image: url(https://technext.github.io/jackson/images/img-1.jpg); */
  background-color: #f0f0f0;
  transition: background-color 0.3s ease;
  padding: 20px;
