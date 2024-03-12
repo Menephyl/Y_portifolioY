@@ -712,7 +712,7 @@ color: black;
   margin: 0 20px 30px 0;
   height: 1000px;
 }
- .con_1{
+.desc2 .con_1{
   position: relative ;
  width: 370px;
  height: 300px;
@@ -722,10 +722,10 @@ color: black;
  transition: background-color 0.3s ease;
  padding: 20px;
 }
-.con_1:hover{
+.desc2 .con_1:hover{
   background-color: #007bff;
 }
-.con_1 .content{
+.desc2 .con_1 .content{
   display: none;
   position: absolute;
   top: 100%;
