@@ -723,7 +723,18 @@ margin-right: 20px;
  transition: background-color 0.3s ease;
 }
 .content{
-  
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.con_1:hover .content{
+display: block;
 }
 .con_2{
   width: 380px;
