@@ -684,7 +684,7 @@ margin-right: -30rem;
   border-radius: 50%;
   text-align:center;
   color: #fff;
-  margin-right:20px ;
+  margin-right:20px;
 }
 .fa-pen{
   color: #fff;
@@ -715,7 +715,7 @@ padding-right: 20px;
 }
 .con_1{
   position: relative;
-  width: 380px;
+  width: 370px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-1.jpg);
   transition: background-image 0.3s ease;
@@ -724,7 +724,7 @@ padding-right: 20px;
     background-color: #007bff;
   }
   .con_1 .content{
-    width: 380px;
+    width: 370px;
     height: 300px;
     display: none;
     position: absolute;
@@ -769,7 +769,7 @@ padding-right: 20px;
 }
 .con_2{
   position: relative;
-  width: 380px;
+  width: 370px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-2.jpg);
   transition: background-image 0.3s ease;
@@ -779,7 +779,7 @@ padding-right: 20px;
     background-color: #007bff;
   }
   .con_2 .content{
-    width: 380px;
+    width: 370px;
     height: 300px;
     display: none;
     position: absolute;
@@ -825,7 +825,7 @@ padding-right: 20px;
 }
 .con_3{
   position: relative;
-  width: 380px;
+  width: 370px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-3.jpg);
   transition: background-image 0.3s ease;
@@ -836,7 +836,7 @@ padding-right: 20px;
     
   }
   .con_3 .content{
-    width: 380px;
+    width: 370px;
     height: 300px;
     display: none;
     position: absolute;
@@ -883,7 +883,7 @@ padding-right: 20px;
 
 .con_4{
   position: relative;
-  width: 380px;
+  width: 370px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-4.jpg);
   transition: background-image 0.3s ease;
@@ -894,7 +894,7 @@ padding-right: 20px;
     
   }
   .con_4 .content{
-    width: 380px;
+    width: 370px;
     height: 300px;
     display: none;
     position: absolute;
@@ -940,7 +940,7 @@ padding-right: 20px;
 }
 .con_5{
   position: relative;
-  width: 380px;
+  width: 370px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-5.jpg);
   transition: background-image 0.3s ease;
@@ -951,7 +951,7 @@ padding-right: 20px;
     
   }
   .con_5 .content{
-    width: 380px;
+    width: 370px;
     height: 300px;
     display: none;
     position: absolute;
@@ -997,7 +997,7 @@ padding-right: 20px;
 }
 .con_6{
   position: relative;
-  width: 380px;
+  width: 370px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-6.jpg);
   transition: background-image 0.3s ease;
