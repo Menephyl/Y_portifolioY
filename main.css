@@ -726,21 +726,21 @@ padding-right: 20px;
     
   }
 
-.con_1 i{
+.con_1 .content i{
   font-size: 18px;
   text-align: left;
   color:#020000
 }
-.con_1 h3>a{
+.con_1 .content h3>a{
   color: #fff;
 }
-.con_1 p{
+.con_1.content p{
   width: auto;
   height: 70px;
   margin-top: 150px;
   margin-left:-40px;
 }
-.con_1 p a{
+.con_1.content p a{
   border-radius: 5px;
   width: 40px;
   height: 60px;
