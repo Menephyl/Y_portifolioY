@@ -60,10 +60,13 @@ margin-left:  1em;
   margin-left: 20rem;
 background-color: rgba(128, 128, 128, 0.056); 
 }
- #home.oi{
+.oi h1{
+  font-family: 'Playfair Display',Georgia, serif ; 
+  font-size:3em;
+}
+ .oi{
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   background-image: url(images/men-white.jpg);
   border-radius: 10px;
   padding-bottom: 10px;
