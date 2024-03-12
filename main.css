@@ -723,10 +723,10 @@ color: black;
   margin-bottom: 20px;
 }
 .con_1 .content{
-  display: none;
-  position: absolute;
   width: 400px;
   height: 300px;
+  display: none;
+  position: absolute;
   top: 100%;
   left: 0;
   background-color: #007bff;
