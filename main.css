@@ -1106,7 +1106,11 @@ padding-right: 20px;
   color: #fff;
 }
 .img-responsive1,.img-responsive2,.img-responsive3{
-  
+  display: inline-flex;
+  flex-direction: row;
+  width: 240px;
+  height: 170px;
+  background-color: #007bff;
 }
 .contact{
   width: 95%;
