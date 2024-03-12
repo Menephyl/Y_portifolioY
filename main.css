@@ -821,6 +821,7 @@ padding: 20px;
   font-family: 'Quicksand',arial, sans-serif;
   font-size: 14px;
   text-align: center;
+  text-align: calc(50%);
   margin: 10px 0;
   padding: 18px 36px;
   width: 1120px;
