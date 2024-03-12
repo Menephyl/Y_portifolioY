@@ -638,7 +638,7 @@ margin-left: 30em;
   margin-left: 10px;
 }
 .education div a.fa-plus{
- display: flex;
+ display: inline-block;
  right: 100%;
  text-align: right;
   position: absolute;
