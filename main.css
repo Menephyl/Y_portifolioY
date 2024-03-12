@@ -820,7 +820,7 @@ padding: 20px;
   font-family: 'Quicksand',arial, sans-serif;
   text-align: center;
   height: 70px;
-  width: auto;
+  width: fit-content;
   margin: 0 4px 4px 0;
   padding: 18px 36px;
 
