@@ -716,8 +716,8 @@ color: black;
 }
  .con_1{
   position: relative ;
- width: auto;
- height: auto;
+ width: 370px;
+ height: 300px;
  margin: 0 30px 20px 30px;
  background-image: url(https://technext.github.io/jackson/images/img-1.jpg);
  background-color: #f0f0f0;
