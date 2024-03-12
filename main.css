@@ -744,6 +744,7 @@ display: block;
 .con_1:hover .content a{
   font: 400 14px 'Quicksand',arial,sans-serif;
   text-align: left;
+  color: #ffffff;
 }
 .con_2{
   width: 400px;
