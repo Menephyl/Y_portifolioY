@@ -102,7 +102,7 @@ background-color: rgba(128, 128, 128, 0.056);
 .funcao h1{
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:3em;
-  margin: 0 -50px 20px;
+  margin: 0 -60px 20px;
   font-weight: 700;
   text-align: left;
   color: #020000;  
@@ -119,8 +119,8 @@ background-color: rgba(128, 128, 128, 0.056);
 }
 
 #funcao:hover{
-  background-image: url(https://th.bing.com/th/id/OIG2.sTMPSjiBU9EMopxO0xEg?w=1024&h=1024&rs=1&pid=ImgDetMain);
-  transition:backgrond-image  ease;
+  background-image: url(ihttps://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/415088937_334817939381057_3818325484724943462_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Y4cbiXeudncAX9nKHNg&_nc_ht=scontent-gru2-1.xx&oh=00_AfBtpsZJ2NNkqflxx2NqTGKIWq3ky3YIC45Xvr6NUfTOIg&oe=65F5EB15);
+  transition:backgrond-image  0.5s ease;
 }
 .funcao>h1{
  color: #FFF;
