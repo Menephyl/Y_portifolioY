@@ -721,19 +721,24 @@ padding-right: 20px;
   
 }
 .con_1 i{
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   color:#020000
 }
+.con_1 h3>a{
+  color: #020000;
+}
 .con_1 p{
+  width: auto;
+  height: 70px;
   margin-top: 150px;
-  margin-left:-50px;
+  margin-left:-40px;
 }
 .con_1 p a{
-  border-radius: 2px;
+  border-radius: 5px;
   width: 40px;
   height: 60px;
-  background-color: #4c8baf;
+  background-color: #6090ce;
 }
 /* .con_1{
   display: flex;
