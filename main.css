@@ -801,6 +801,7 @@ padding-right: 20px;
   .con_2 .content span{
     color: #fff;
     display: flex;
+    font-size: 14px;
     top: 10px;
     left: 0;
     text-align: left;
@@ -826,6 +827,7 @@ padding-right: 20px;
 }
 .con_2 .content h3>a{
   color: #fff;
+  font-size:16px;
 }
 .con_3{
   position: relative;
@@ -861,6 +863,7 @@ padding-right: 20px;
     top: 10px;
     left: 0;
     text-align: left;
+    font-size: 14px;
     background-color: transparent;
   }
 .con_3 .content i{
@@ -883,6 +886,7 @@ padding-right: 20px;
 }
 .con_3 .content h3>a{
   color: #fff;
+  font-size: 16px;
 }
 
 .con_4{
@@ -917,6 +921,7 @@ padding-right: 20px;
   .con_4 .content span{
     color: #fff;
     display: flex;
+    font-size: 14px;
     top: 10px;
     left: 0;
     text-align: left;
@@ -942,6 +947,7 @@ padding-right: 20px;
 }
 .con_4 .content h3>a{
   color: #fff;
+  font-size: 16px;
 }
 .con_5{
   position: relative;
@@ -980,6 +986,7 @@ padding-right: 20px;
     left: 0;
     text-align: left;
     background-color: transparent;
+    font-size: 14px;
   }
 .con_5 .content i{
   text-align: center;
@@ -1001,6 +1008,7 @@ padding-right: 20px;
 }
 .con_5 .content h3>a{
   color: #fff;
+  font-size: 16px;
 }
 .con_6{
   position: relative;
@@ -1039,6 +1047,7 @@ padding-right: 20px;
     left: 0;
     text-align: left;
     background-color: transparent;
+    font-size: 14px;
   }
 .con_6 .content i{
   text-align: center;
@@ -1060,6 +1069,7 @@ padding-right: 20px;
 }
 .con_6 .content h3>a{
   color: #fff;
+  font-size: 16px;
 }
 .btn-load{
   display: block;
