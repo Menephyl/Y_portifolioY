@@ -715,7 +715,10 @@ color: black;
   height: 1000px;
 }
  .con_1{
- 
+ width: auto;
+ height: auto;
+ margin: 0 30px 20px 30px;
+ background-image: url(https://technext.github.io/jackson/images/img-1.jpg);
 }
 .con_2{
   width: 400px;
