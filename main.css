@@ -715,16 +715,15 @@ color: black;
   height: 1000px;
 }
  .con_1{
-  width: 400px;
+  width: 300px;
   height: 300px;
   margin-right: 30px;
   background: url(https://technext.github.io/jackson/images/img-1.jpg);
   background-position: bottom;
-  border: 1px solid black;
   padding: 20px;
 }
 .con_2{
-  width: 400px;
+  width: 300px;
   height: 300px;
   margin-right: 30px;
   background: url(https://technext.github.io/jackson/images/img-2.jpg);
@@ -733,7 +732,7 @@ color: black;
   padding: 20px;
 }
 .con_3{
-  width: 400px;
+  width: 300px;
   height: 300px;
  margin-right: 30px;
  background: url(https://technext.github.io/jackson/images/img-3.jpg);
@@ -742,7 +741,7 @@ color: black;
  padding: 20px;
 }
 .con_4{
-  width: 400px;
+  width: 300px;
   height: 300px;
   margin-right: 30px;
   background:url(https://technext.github.io/jackson/images/img-4.jpg);
@@ -751,7 +750,7 @@ color: black;
  padding: 20px;
 }
 .con_5{
-  width: 400px;
+  width: 300px;
   height: 300px;
   margin-right: 30px;
   background:url(https://technext.github.io/jackson/images/img-5.jpg);
@@ -760,7 +759,7 @@ border: 1px solid black;
 padding: 20px;
 }
 .con_6{
-  width: 400px;
+  width: 300px;
   height: 300px;
   margin-right: 30px;
   background: url(https://technext.github.io/jackson/images/img-6.jpg);
