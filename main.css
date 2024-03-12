@@ -712,7 +712,7 @@ color: black;
   margin: 0 20px 30px 0;
   height: 1000px;
 }
-.con_1{
+/* .con_1{
   display: flex;
   position: relative ;
  width: 370px;
@@ -780,7 +780,7 @@ color: black;
   background: url(https://technext.github.io/jackson/images/img-6.jpg);
   background-size: contain;
 padding: 20px;
-}
+} */
 .btn-load{
   display: block;
   background-color: #007bff;
