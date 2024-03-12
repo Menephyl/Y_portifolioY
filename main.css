@@ -707,8 +707,6 @@ color: black;
 .desc2{
   display: flex;
   flex-wrap: wrap;
-  text-align: justify;
-  justify-content: space-between;
   align-items: center;
   background-color: white;
   margin: 0 20px 30px 0;
