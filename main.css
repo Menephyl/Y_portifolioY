@@ -584,8 +584,8 @@ img{
   text-transform: uppercase;
   text-align: start;
 }
-#skills > span{
-margin-right: -30rem;
+.skills  span{
+margin-left: 30em;
 }
 #skills p{
   font: 14px 'Quicksand',arial, sans-serif;
