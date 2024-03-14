@@ -1225,17 +1225,14 @@ padding-right: 20px;
   padding: 10px;
 }
 .form-control{
-  width: 100%;
-  height: 100%;
-
+  
   margin-top: -250px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #f2f3f7;
 }
 .form-control2{
-  width: 100%;
-  height: 100%;
+  
   display: flex;
   margin-top: -80px;
   margin-left: 0px;
@@ -1243,8 +1240,7 @@ padding-right: 20px;
   background-color: #f2f3f7;
 }
 .form-control3{
-  width: 100%;
-  height: 100%;
+  
   display: flex;
   margin-top: -90px;
   margin-left: 0px;
