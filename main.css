@@ -1214,6 +1214,7 @@ padding-right: 20px;
   height: 200px;
 }
 .form {
+  flex-direction: column;
   width: 100%;
   height: 100%;
   display: flex;
