@@ -1201,13 +1201,16 @@ padding-right: 20px;
   margin-top: -80px;
   margin-left: 80px;
   margin-right: 370px;
-  
+  width: 200px;
+  height: 200px;
 }
 .text3{
   font: 400 15px "Quicksand",arial, sans-serif;
   margin-top: 0px;
   margin-left: 80px;
   margin-right: 370px;
+  width: 200px;
+  height: 200px;
   
 }
 form{
