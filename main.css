@@ -1162,8 +1162,8 @@ padding-right: 20px;
   font: 30px 'Playfair-Display',Georgia, serif;
 }
 .globe{
-  width: auto;
-  height: auto;
+  width: 30px;
+  height: 30px;
   text-align: center;
   margin:10px;
   color: blue;
