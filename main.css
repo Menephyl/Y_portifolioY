@@ -1106,15 +1106,13 @@ padding-right: 20px;
 .img-responsive1,.img-responsive2,.img-responsive3{
   display: inline-flex;
   flex-direction: row;
-  width: 260px;
-  height: 180px;
+  width: 300px;
+  height: 200px;
   
 }
 .img-responsive1{
   height: auto;
-  background-image:url();
-  width: 260px;
-  height: 180px;
+  height: 200px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
