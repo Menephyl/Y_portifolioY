@@ -78,7 +78,7 @@ border-radius: 2px;
     font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
   list-style-type: none;
-  margin: 1.8em;  /* Adicione esta linha para espaçamento entre os itens da lista */
+  margin: 12px;  /* Adicione esta linha para espaçamento entre os itens da lista */
   padding: 5px 0px 5px 0px;
   border-radius: 3px;
   text-align: center;
