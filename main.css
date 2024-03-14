@@ -1114,6 +1114,13 @@ padding-right: 20px;
   background-image:url(https://technext.github.io/jackson/images/blog-1.jpg);
   background-position: cover;
 }
+.img-responsive2{
+  background-image: url(https://technet.github.io/jackson/images/blog-2.jpg);
+}
+.img-responsive3{
+  background-image: url(https://technet.github.io/jackson/images/blog-3.jpg);
+  
+}
 .contact{
   width: 95%;
   margin: 5px;
