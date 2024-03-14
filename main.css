@@ -1177,8 +1177,7 @@ padding-right: 20px;
   color: blue;
 }
 .fa-phone{
-  width: 30px;
-  height: 30px;
+  font-size: 30px;
   text-align: center;
   margin:10px;
   color: blue;
