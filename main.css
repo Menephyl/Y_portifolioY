@@ -1111,6 +1111,7 @@ padding-right: 20px;
   background-color: #007bff;
 }
 .img-responsive1{
+  margin-left: 20px;
   display: block;
   height: auto;
   background-image:url(https://technext.github.io/jackson/images/blog-1.jpg);
