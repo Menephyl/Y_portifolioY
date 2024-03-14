@@ -23,14 +23,14 @@
   position:fixed;
   display: block;
   z-index: 0;
-    height: 1000px;
-      width: 300px;
-      text-align: center;
-      overflow-y: scroll;
-     margin: 10px; /* Utilizando viewport width (vw)  */
-     border-radius: 1rem;
-     padding-top: 2px;   
-     flex: 0;
+  height: 1000px;
+  width: 300px;
+  text-align: center;
+  overflow-y: scroll;
+  margin: 10px; 
+  border-radius: 1rem;
+  padding-top: 2px;   
+  flex: 0;
   }
   .caixa-de-textos .y1{
     margin: 20px;
