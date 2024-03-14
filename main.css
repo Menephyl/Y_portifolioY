@@ -1161,6 +1161,7 @@ padding-right: 20px;
   text-align: start;
   font: 30px 'Playfair-Display',Georgia, serif;
 }
+
 .globe{
   width: 30px;
   height: 30px;
@@ -1189,4 +1190,12 @@ padding-right: 20px;
   height: 100px;
   margin: 25px;
   background-color: rgba(128, 128, 128, 0.644);
+  color: #007bff;
+}
+.text{
+  display: flex;
+  top: 10px;
+  left: 200px;
+  right: 200px;
+  ;
 }
