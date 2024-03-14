@@ -1106,8 +1106,8 @@ padding-right: 20px;
 .img-responsive1,.img-responsive2,.img-responsive3{
   display: inline-flex;
   flex-direction: row;
-  width: 240px;
-  height: 170px;
+  width: 260px;
+  height: 180px;
   background-color: #007bff;
 }
 .img-responsive1{
