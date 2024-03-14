@@ -1169,9 +1169,8 @@ padding-right: 20px;
   margin:10px;
   color: blue;
 }
-.fa-regular,.fa-map{
-  width: 30px;
-  height: 30px;
+.fa-map{
+  font-size: 30px;
   text-align: center;
   margin:10px;
   color: blue;
