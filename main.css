@@ -1158,6 +1158,11 @@ padding-right: 20px;
   border-radius: 20px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
+.contact em{
+  text-align: center;
+  margin: 15px 15px 15px 15px;
+  font: 400 10px "Quicksand",arial, sans-serif;
+}
 .contact h1{
   text-align: start;
   font: 30px 'Playfair-Display',Georgia, serif;
