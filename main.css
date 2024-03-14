@@ -1195,7 +1195,7 @@ padding-right: 20px;
 .text{
   background-color: #007bff;
   margin-top: -100px;
-  left: 200px;
+  margin-left: 200px;
   right: 200px;
   ;
 }
