@@ -1193,7 +1193,7 @@ padding-right: 20px;
   color: #007bff;
 }
 .text{
-  background-color: #007bff;
+  font: 400 15px "Quicksand",arial, sans-serif;
   margin-top: -100px;
   margin-left: 200px;
   margin-right: 370px;
