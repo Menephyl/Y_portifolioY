@@ -18,21 +18,30 @@
   flex: 0;
   background-color: rgba(128, 128, 128, 0.056); 
 }
-.menu-lateral {
+.menu-lateral-active {
   color: #0000;
   position:fixed;
   display: block;
   z-index: 0;
-    height: 100%;
+    height: 1vh;
       width: 300px;
       text-align: center;
       overflow-y: scroll;
-     margin: 1vw; /* Utilizando viewport width (vw)  */
+     margin: 10px; /* Utilizando viewport width (vw)  */
      border-radius: 1rem;
-     padding-top: 3em;   
+     padding-top: 2px;   
      flex: 0;
   }
-  .menu-js .btn3{
+  .caixa-de-textos .y1{
+    margin: 20px;
+  }
+.menu-lateral-active h3{
+  font: 400 12px "Quicksand",arial, sans-serif;
+    text-transform: uppercase;
+}
+.menu-js .btn3{
+  font: 400 12px "Quicksand",arial, sans-serif;
+    text-transform: uppercase;
 display: flex;
 margin-left:1.5px;
 text-align: center;
@@ -41,43 +50,50 @@ border-radius: 2px;
 margin-top: 5px;
  border: 0.5px solid black;
   }
-  .menu-lateral >i{
+  .menu-lateral-active >i{
    display: flex;
    align-self: right;
    width: 100%;
    padding: 2px;
   }
-  .menu-lateral li:hover{
+  .menu-lateral-active li:hover{
     background-color: #449deb63;
+    text-decoration: underline;
+    transition: 0.3s ease;
   }
-  .menu-lateral  img {      
-     height: 15em;
-     width: 12em;
+  .menu-lateral-active  img {      
+     height: 8.7em;
+     width: 8.7em;
      border-radius: 50%;
      display: flex;
-     margin: 29px;
+     margin: 5px 0 0 60px;
      padding: 2px;
   }
-  .menu-lateral .cargo .azul {
+  .menu-lateral-active .cargo .azul {
+    font: 400 12px "Quicksand",arial, sans-serif;
+    text-transform: uppercase;
     color: #449deb;   
-    margin: 1vw; /* Utilizando viewport width (vw) para a margem */ 
+    margin: 10px /* Utilizando viewport width (vw) para a margem */ 
   }
-  .menu-lateral ul li{
+  .menu-lateral-active ul li{
+    font: 400 12px "Quicksand",arial, sans-serif;
+    text-transform: uppercase;
   list-style-type: none;
-  line-height: 1vw;
-  margin: 3em;  /* Adicione esta linha para espaçamento entre os itens da lista */
-  padding: 10px 0px 10px 0px;
+  margin: 1.8em;  /* Adicione esta linha para espaçamento entre os itens da lista */
+  padding: 5px 0px 5px 0px;
   border-radius: 3px;
   text-align: center;
   align-content: center;
  color: #000000b3;
- text-decoration: underline blue;
+ text-decoration:none;
   }
   .caixa-de-textos ul li{
-    padding: 1vw 0 0 0.5vw;
+    padding: 5px;
   }
   .btn1{
-    margin: 1vw;
+    font: 400 12px "Quicksand",arial, sans-serif;
+    text-transform: uppercase;
+    margin: 5px;
     background-color: #ffffff;
     border-radius: 1em;
     font-size: large;

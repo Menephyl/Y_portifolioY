@@ -638,13 +638,19 @@ margin-left: 30em;
   background-color: black;
   margin-left: 10px;
 }
-.education div .fa-plus{
+.education  .fa-plus{
+  margin-left: 650px;
   text-align: right;
   position: absolute;
   color:black;
 }
 .education a{
+  margin: 10px;
   color: black;
+}
+.education a.active{
+  
+  background-color: #007bff81;
 }
 .experience,.read h1{
    font: 30px 'Playfair-Display',Georgia, serif;
