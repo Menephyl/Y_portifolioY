@@ -1169,9 +1169,19 @@ padding-right: 20px;
   color: blue;
 }
 .map{
-
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin:10px;
+  color: blue;
 }
-.phone
+.phone{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin:10px;
+  color: blue;
+}
 .item{
   display: flex;
   flex-direction: column;
