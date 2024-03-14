@@ -1137,8 +1137,20 @@ padding-right: 20px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
-
 }
+.zoom-img2{
+  transition:transform 0.3s ease;
+}
+.zoom-img2:hover{
+  transform:scale(1.1)
+}
+.zoom-img3{
+  transition:transform 0.3s ease;
+}
+.zoom-img3:hover{
+  transform:scale(1.1)
+}
+
 .contact{
   width: 95%;
   margin: 5px;
