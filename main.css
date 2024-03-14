@@ -1111,15 +1111,21 @@ padding-right: 20px;
   background-color: #007bff;
 }
 .img-responsive1{
-  
   height: auto;
-  background-image:url(https://technext.github.io/jackson/images/blog-1.jpg);
+  background-image:url();
   width: 260px;
   height: 180px;
-
   position: relative;
   max-width: 100%;
+  overflow: hidden;
 }
+.zoom-img1{
+  transition:transform 0.3s ease;
+}
+.zoom-img1:hover{
+  transform:scale()
+}
+
 .img-responsive2{
   background-image: url(https://technext.github.io/jackson/images/blog-2.jpg);
 }
