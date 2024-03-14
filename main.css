@@ -1193,6 +1193,7 @@ padding-right: 20px;
   color: #007bff;
 }
 .text{
+  background-color: #007bff;
   display: flex;
   top: 10px;
   left: 200px;
