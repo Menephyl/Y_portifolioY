@@ -1214,6 +1214,7 @@ padding-right: 20px;
   height: 200px;
 }
 .form {
+  display: flex;
   margin-top: -180px;
   margin-left: 370px;
   margin-right: 0px;
