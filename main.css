@@ -638,7 +638,7 @@ margin-left: 30em;
   margin-left: 10px;
 }
 .education div .fa-plus{
-text-align: right;
+  text-align: right;
   position: absolute;
   color:black;
 }
@@ -1162,7 +1162,9 @@ padding-right: 20px;
 }
 .contact h1{
   text-align: start;
-} 
+  font: 30px 'Playfair-Display',Georgia, serif;
+}
+
 
 .item{
   display: flex;
