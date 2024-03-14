@@ -23,7 +23,7 @@
   position:fixed;
   display: block;
   z-index: 0;
-    height: 1vh;
+    height: 10px;
       width: 300px;
       text-align: center;
       overflow-y: scroll;
