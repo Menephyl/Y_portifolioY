@@ -1164,7 +1164,9 @@ padding-right: 20px;
   text-align: start;
   font: 30px 'Playfair-Display',Georgia, serif;
 }
-
+.globe{
+  
+}
 
 .item{
   display: flex;
