@@ -1163,7 +1163,7 @@ padding-right: 20px;
 .contact .h1{
   text-align: start;
 }
-.form{
+form{
   max-width: 600px;
   margin: 20px auto;
   background-color: #fff;
@@ -1171,47 +1171,12 @@ padding-right: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: justify;
-  border: 1px solid black;
 }
-.label{
-  display: block;
-  margin-bottom: 9px;
-  text-align: justify;
-}
-.btn2{
-  background-color: #4c8baf;
- color: #fff;
- padding: 10px 20px;
- border: none;
- border-radius: 4px;
-font-size: 16px;
-cursor: pointer;
-}
-.btn1:hover, .btn2:hover{
-  background-color: #001a6e;
-}
-.input{
- width: 100%;
- padding: 10px;
- margin-bottom: 16px;
- border: 1px solid #ccc;
- border-radius: 4px;
- box-sizing: border-box;
- display: flex;
- }
-#mensagem{
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.item{
   display: flex;
-}
-
-.footer{
-    color: rgb(103, 138, 244);
-  margin-left: 300px;  
-  text-align: center;
-  font-size: 10px;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  background-color: rgba(128, 128, 128, 0.644);
 }
