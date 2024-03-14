@@ -1215,8 +1215,8 @@ padding-right: 20px;
 }
 .form {
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   display: flex;
   margin-top: -250px;
   margin-left: 370px;
