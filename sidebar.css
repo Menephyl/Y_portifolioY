@@ -75,6 +75,7 @@ border-radius: 2px;
     margin: 10px /* Utilizando viewport width (vw) para a margem */ 
   }
   .menu-lateral-active ul li{
+    height: 900px;
     font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
   list-style-type: none;
