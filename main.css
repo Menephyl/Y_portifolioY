@@ -1165,7 +1165,10 @@ padding-right: 20px;
   font: 30px 'Playfair-Display',Georgia, serif;
 }
 .globe{
-  
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin:10px;
 }
 
 .item{
