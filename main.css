@@ -1213,6 +1213,9 @@ padding-right: 20px;
   width: 260px;
   height: 200px;
 }
-form{
-  background-color: gray;
+.form div{
+  margin-top: -80px;
+  margin-left: 370px;
+  margin-right: 0px;
+  background-color: red;
 }
