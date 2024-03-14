@@ -27,13 +27,17 @@
   width: 300px;
   text-align: center;
   overflow-y: scroll;
-  margin: 10px; 
+  margin: 5px; 
   border-radius: 1rem;
-  padding-top: 2px;   
+  padding-top: 1px;   
   flex: 0;
   }
+  .caixa-de-textos{
+    padding: 10px;
+  }
   .caixa-de-textos .y1{
-    margin: 20px;
+    margin: 10px;
+    padding: 3px;
   }
 .menu-lateral-active h3{
   font: 400 12px "Quicksand",arial, sans-serif;
@@ -65,7 +69,7 @@ border-radius: 2px;
      width: 150px;
      border-radius: 50%;
      display: flex;
-     margin: 5px 0 0 60px;
+     margin: 0px 0 0 60px;
      padding: 2px;
   }
   .menu-lateral-active .cargo .azul {
@@ -90,7 +94,7 @@ height: 800px;
  text-decoration:none;
   }
   .caixa-de-textos ul li{
-    padding: 5px;
+    padding: 3px;
   }
   .btn1{
     font: 400 12px "Quicksand",arial, sans-serif;
