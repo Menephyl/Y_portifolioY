@@ -1112,7 +1112,7 @@ padding-right: 20px;
 }
 .img-responsive1{
   background-image:url(https://technext.github.io/jackson/images/blog-1.jpg);
-  background-position: cover;
+  background-position: right center;
 }
 .img-responsive2{
   background-image: url(https://technext.github.io/jackson/images/blog-2.jpg);
