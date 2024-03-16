@@ -43,13 +43,20 @@
   font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
 }
- .caixa-de-textos .btn1{
+.azul{
+  display: inline-block;
+  text-align: center;
+  text-wrap: nowrap;
+  margin-right:20px;
+}
+  .btn1{
   width: 100px;
   height: 20px;
   font: 400 10px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
   display: flex;
-margin-left:60px;
+margin-left:70px;
+margin-right: -20px;
 text-align: justify;
 background-color: #b3b3b31e;
 border-radius: 5px;
