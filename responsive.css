@@ -121,12 +121,7 @@ margin: 1vh;
     flex: auto; 
     
 }
-.footer{
-    color: rgb(103, 138, 244);
-  margin-left: 200px;  
-  font-size: 1.5em;
-width: 100%;
-}
+
 /* @media print { }
 
 @media only screen and (min-width: 480px) { } @media only screen and (min-width: 600px) { } @media only screen and (min-width: 992px) { } @media only screen and (min-width: 1382px) { }
