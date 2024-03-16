@@ -131,7 +131,7 @@ height: 800px;
     margin: 10px;
     padding-top: 30px;
   }
-  .menu-lateral-active >.footer p{
+  .menu-lateral-active .footer p{
    font: 400 10px "Quicksand",arial , sans-serif;
   }
   
