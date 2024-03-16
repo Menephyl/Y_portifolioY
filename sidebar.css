@@ -122,8 +122,9 @@ height: 800px;
     border: 1px solid black;
     cursor: pointer;
   }
-  .footer{
-    text-align: center;
+  .menu-lateral-active .footer{
+    color: black;
+    text-align: justify;
     margin: 10px;
   }
   
