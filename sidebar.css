@@ -44,12 +44,12 @@
     text-transform: uppercase;
 }
  .btn1{
-  width: 100px;
+  width: 120px;
   height: 50px;
   font: 400 10px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
 display: flex;
-margin-left:30px;
+margin-left:40px;
 text-align: justify;
 background-color: #b3b3b300;
 border-radius: 2px;
@@ -62,8 +62,8 @@ border-radius: 2px;
    padding: 2px;
   }
   .menu-lateral-active li:hover{
-    background-color: #449deb63;
-    text-decoration: underline;
+   
+    text-decoration: underline blue;
     transition: 0.3s ease;
   }
   .menu-lateral-active  img {      
