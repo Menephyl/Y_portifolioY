@@ -122,7 +122,7 @@ height: 800px;
     border: 1px solid black;
     cursor: pointer;
   }
-  .menu-lateral-active >.footer{
+  .menu-lateral-active .footer{
    
     width: 100%;
     bottom: -100px;
