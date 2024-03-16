@@ -69,7 +69,7 @@ border-radius: 5px;
    width: 100%;
    padding: 2px;
   }
-  .menu-lateral-active li:hover{
+  .menu-lateral-active ul li:hover{
    
     text-decoration: underline blue;
     transition: 0.3s ease;
