@@ -100,8 +100,8 @@ height: 800px;
   margin: 10px; 
    border-radius: 3px;
   text-align: center;
- color: #000000b3;
- text-decoration:none;
+ color: #000000bd;
+ text-decoration:underline blue;
 
   }
   .caixa-de-textos ul li{
