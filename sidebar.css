@@ -61,6 +61,7 @@ background-color: #b3b3b31e;
 border-radius: 5px;
  border: 0.5px solid rgba(0, 0, 0, 0.432);
  padding: 0;
+
   }
   .menu-lateral-active >i{
    display: flex;
@@ -85,7 +86,8 @@ border-radius: 5px;
     font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
     color: #449deb;   
-    margin: 10px
+    margin: 10px;
+  }
   .menu-lateral-active ul{
 width: 100%;
 height: 800px; 
