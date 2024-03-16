@@ -47,7 +47,7 @@
   text-wrap: nowrap;
   margin-right:20px;
 }
-  .btn1{
+.menu-lateral-active .btn1{
   width: 100px;
   height: 20px;
   font: 400 10px "Quicksand",arial, sans-serif;
