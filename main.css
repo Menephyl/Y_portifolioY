@@ -705,6 +705,7 @@ text-align: start;
   text-align:center;
   color: #fff;
   margin-right:20px ;
+  padding: 5px;
 }
 .circle-p{
   width: 50px;
@@ -714,6 +715,7 @@ text-align: start;
   text-align:center;
   color: #fff;
   margin-right:20px ;
+  
 }
 .circle-g{
   width: 50px;
