@@ -32,9 +32,7 @@
   padding-top: 1px;   
   flex: 0;
   }
-  .caixa-de-textos{
-    padding: 10px;
-  }
+ 
   .caixa-de-textos .y1{
     margin: 10px;
     padding: 3px;
@@ -55,8 +53,9 @@
   font: 400 10px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
   display: flex;
-margin-left:70px;
-margin-right: -20px;
+margin-top: 2px;
+margin-left: 15px;
+margin-bottom: 10px;
 text-align: justify;
 background-color: #b3b3b31e;
 border-radius: 5px;
@@ -86,8 +85,7 @@ border-radius: 5px;
     font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
     color: #449deb;   
-    margin: 10px /* Utilizando viewport width (vw) para a margem */ 
-  }
+    margin: 10px
   .menu-lateral-active ul{
 width: 100%;
 height: 800px; 
@@ -97,11 +95,12 @@ height: 800px;
     font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
   list-style-type: none;
-  margin: 5px; 
+  margin: 10px; 
    border-radius: 3px;
   text-align: center;
  color: #000000b3;
  text-decoration:none;
+
   }
   .caixa-de-textos ul li{
     padding: 3px;
