@@ -621,7 +621,7 @@ margin-left: 30em;
 .education{
  box-shadow: 0 0 1px black;
 }
-.education h1{ font: 30px 'Playfair-Display',Georgia, serif;
+.education h1{ font: 18px 'Playfair-Display',Georgia, serif;
   text-align: left;
 }
 .education div{
@@ -638,6 +638,7 @@ margin-left: 30em;
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.296);
   padding: 20px 25px;
+  font: 400 14px "Quicksand",arial, sans-serif;
 }
 .education div::after {
   content: '';
@@ -660,9 +661,13 @@ margin-left: 30em;
   
   background-color: #007bff81;
 }
-.experience,.read h1{
-   font: 30px 'Playfair-Display',Georgia, serif;
+.experience{
+   font: 18px 'Playfair-Display',Georgia, serif;
     text-align: left;
+}
+.read h1{
+  font: 18px 'Playfair-Display',Georgia, serif;
+text-align: start;
 }
 .works h3 > span{
   font-weight: 300;
