@@ -47,7 +47,7 @@
   text-wrap: nowrap;
   margin-right:20px;
 }
-.menu-lateral-active .btn1{
+  .btn1{
   width: 100px;
   height: 20px;
   font: 400 10px "Quicksand",arial, sans-serif;
@@ -69,7 +69,7 @@ border-radius: 5px;
    width: 100%;
    padding: 2px;
   }
-  .menu-lateral-active ul li:hover{
+  .menu-lateral-active li:hover{
    
     text-decoration: underline blue;
     transition: 0.3s ease;
@@ -90,22 +90,22 @@ border-radius: 5px;
   }
   .menu-lateral-active ul{
 width: 100%;
-height: 800px; 
+height: 500px; 
   }
 
   .menu-lateral-active ul li{
     font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
   list-style-type: none;
-  margin-bottom: 15px; 
+  margin: 10px; 
    border-radius: 3px;
   text-align: center;
  color: #000000bd;
- text-decoration:none;
+ text-decoration:
 
   }
   .caixa-de-textos ul li{
-  margin: 15px;
+    padding: 3px;
   }
   .btn1{
     font: 400 12px "Quicksand",arial, sans-serif;
@@ -122,16 +122,3 @@ height: 800px;
     border: 1px solid black;
     cursor: pointer;
   }
-  .menu-lateral-active .footer{
-    width: 100%;
-    bottom: -120px;
-   position: fixed;
-    color: black;
-    text-align: justify;
-    margin: 10px;
-    padding-top: 30px;
-  }
-  .menu-lateral-active .footer p{
-   font: 400 10px "Quicksand",arial , sans-serif;
-  }
-  
