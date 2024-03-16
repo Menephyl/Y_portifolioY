@@ -133,6 +133,7 @@ height: auto;
 .about-me-text{
   text-align: start;
   margin-top: -70px;
+  font: 700;
 }
 .rowservices{
   display: flex;
