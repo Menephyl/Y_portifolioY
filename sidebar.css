@@ -97,11 +97,11 @@ height: 800px;
     font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
   list-style-type: none;
-  margin: 10px; 
+  margin-bottom: 15px; 
    border-radius: 3px;
   text-align: center;
  color: #000000bd;
- text-decoration:underline blue;
+ text-decoration:none;
 
   }
   .caixa-de-textos ul li{
