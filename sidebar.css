@@ -105,7 +105,7 @@ height: 800px;
 
   }
   .caixa-de-textos ul li{
-    padding: 3px;
+  margin: 15px;
   }
   .btn1{
     font: 400 12px "Quicksand",arial, sans-serif;
