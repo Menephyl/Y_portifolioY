@@ -44,7 +44,8 @@
     text-transform: uppercase;
 }
  .btn1{
-
+  width: 150px;
+  height: 100px;
   font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
 display: flex;
