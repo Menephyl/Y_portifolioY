@@ -133,13 +133,16 @@ height: auto;
 .about-me-text{
   text-align: start;
   margin-top: -70px;
-  font: 700;
+  font: bolder  ;
 }
 .rowservices{
   display: flex;
   flex-direction: row;
   padding: 0 15px;
   margin-bottom: 2.5rem;
+}
+.rowservices h3{
+  font: 400 16px "Quicksand",arial,sans-serif;
 }
 #design{
   width: 160px;
@@ -165,6 +168,7 @@ margin: auto;
   box-shadow: 10px;
 }
 h3{
+ 
   display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
