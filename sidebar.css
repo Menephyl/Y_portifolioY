@@ -44,12 +44,12 @@
     text-transform: uppercase;
 }
  .btn1{
-  width: 150px;
-  height: 100px;
+  width: 100px;
+  height: 50px;
   font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
 display: flex;
-margin-left:1.5px;
+margin-left:2.0px;
 text-align: center;
 background-color: #b3b3b300;
 border-radius: 2px;
