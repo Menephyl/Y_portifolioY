@@ -1253,7 +1253,7 @@ padding-right: 20px;
  small{
   font:200 8px "Quicksand",arial,sans-serif, gray;
 }
-.img-responsive1 h3{
+.img-responsive1 >h3{
   font: 700 "Quicksand",arial sans-serif;
   text-transform: uppercase;
   text-align: start;
