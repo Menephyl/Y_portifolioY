@@ -1251,7 +1251,7 @@ padding-right: 20px;
   height: 200px;
 }
 .small small{
-  font-size: 8px gray;
+  font:200 8px "Quicksand",arial,sans-serif, gray;
 }
 .form {
  font: 400 15px "Quicksand", arial, sans-serif;
