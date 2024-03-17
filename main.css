@@ -778,7 +778,6 @@ padding-right: 20px;
     color: #fff;
     box-sizing: border-box;
     z-index: 1;
-    
   }
   .con_1:hover .content {
     display: block;
@@ -1126,7 +1125,7 @@ padding-right: 20px;
   text-align: 50% center;
   margin: 0 4px 4px 0;
   padding: 18px 36px;
-  width: 96%;
+  width: 100%;
   height: 70px;
 
 }
