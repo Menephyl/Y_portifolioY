@@ -1137,14 +1137,14 @@ padding-right: 20px;
 .img-responsive1,.img-responsive2,.img-responsive3{
   display: inline-flex;
   flex-direction: row;
-  width: 300px;
+  width: px;
   height: 400px;
   
 }
 .img-responsive1{
-  height: 200px;
+  height: 250px;
   position: relative;
-  max-width: 200px;
+  max-width: 300px;
   overflow: hidden;
 }
 .zoom-img1{
