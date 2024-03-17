@@ -334,6 +334,7 @@ text-align: left;
   border-top: 20px;
 }
 .desc{
+  align-items: center;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
