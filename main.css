@@ -1250,6 +1250,9 @@ padding-right: 20px;
   width: 260px;
   height: 200px;
 }
+.small{
+  font-size: 85%;
+}
 .form {
  font: 400 15px "Quicksand", arial, sans-serif;
   flex-direction: column;
@@ -1270,7 +1273,6 @@ padding-right: 20px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #f2f3f7;
- 
 }
 .form-control2{
   width: 100%;
@@ -1280,7 +1282,6 @@ padding-right: 20px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #f2f3f7;
-  
 }
 .form-control3{
   width: 100%;
