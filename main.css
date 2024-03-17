@@ -47,11 +47,12 @@ margin-left:  1em;
   color: #020000;
   flex-direction: column;
   background-size: cover;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
+  
   padding: 2em;
   margin-left: 20rem;
-background-color: rgba(128, 128, 128, 0.056); 
+
 height: auto;
+
 }
 .oi h1{
   font-family: 'Playfair Display',Georgia, serif ; 
@@ -247,7 +248,7 @@ h3{
   display: flex;
   flex-direction: row;
   width: 800px;
-  height: 20rem;
+  height: 15rem;
   background-image: url(https://technext.github.io/jackson/images/cover_bg_1.jpg);
   background-position: right center;
   background-size: cover;
