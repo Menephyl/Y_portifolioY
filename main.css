@@ -1138,11 +1138,11 @@ padding-right: 20px;
   display: inline-flex;
   flex-direction: row;
   width: 200px;
-  height: 200px;
+  height: 180px;
   
 }
 .img-responsive1{
-  height: 200px;
+  height: 150px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
