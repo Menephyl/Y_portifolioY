@@ -1178,7 +1178,7 @@ padding-right: 20px;
 .zoom-img3:hover{
   transform:scale(1.1)
 }
-.desc-text {
+.desc-text small{
   font:200 8px "Quicksand",arial,sans-serif, gray;
   display: flex;
   margin-left: -200px;
