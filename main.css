@@ -1142,24 +1142,10 @@ padding-right: 20px;
   
 }
 .img-responsive1{
-  display: flex;
-  flex: left;
-  top: 0;
-  left: 0;
-  margin-left: 20px;
-  height: 200px;
+  margin-left: 0;
+  height: 250px;
   position: relative;
   width: 300px;
-  margin-left: -115px;
-  text-align: left;
-}
-.small {
-  font:200 8px "Quicksand",arial,sans-serif, gray;
-  display: flex;
-  margin-left: -200px;
-  margin-top: 180px;
-  font-size: 14px;
-  background-color: red;
 }
 .zoom-img1{
   transition:transform 0.3s ease;
@@ -1192,7 +1178,14 @@ padding-right: 20px;
 .zoom-img3:hover{
   transform:scale(1.1)
 }
-
+.small {
+  font:200 8px "Quicksand",arial,sans-serif, gray;
+  display: flex;
+  margin-left: -200px;
+  margin-top: 180px;
+  font-size: 14px;
+  background-color: red;
+}
 .contact{
   width: 95%;
   margin: 5px;
