@@ -1178,7 +1178,14 @@ padding-right: 20px;
 .zoom-img3:hover{
   transform:scale(1.1)
 }
-
+.small {
+  font:200 8px "Quicksand",arial,sans-serif, gray;
+  display: flex;
+  margin-left: -200px;
+  margin-top: 150px;
+  font-size: 14px;
+  background-color: red;
+}
 .contact{
   width: 95%;
   margin: 5px;
@@ -1249,14 +1256,7 @@ padding-right: 20px;
   width: 260px;
   height: 200px;
 }
-.small {
-  font:200 8px "Quicksand",arial,sans-serif, gray;
-  display: flex;
-  margin-left: -200px;
-  margin-top: 150px;
-  font-size: 14px;
-  background-color: red;
-}
+
 .form {
  font: 400 15px "Quicksand", arial, sans-serif;
   flex-direction: column;
