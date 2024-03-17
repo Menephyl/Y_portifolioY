@@ -46,12 +46,10 @@ margin-left:  1em;
   text-align: center;
   color: #020000;
   flex-direction: column;
-  background-size: cover;
-  
+  background-size: cover;  
   padding: 2em;
   margin-left: 20rem;
-
-height: auto;
+  height: auto;
 
 }
 .oi h1{
