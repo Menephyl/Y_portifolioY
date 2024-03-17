@@ -1252,6 +1252,7 @@ padding-right: 20px;
 }
 .small small{
   display: flex;
+  flex-direction: column;
   font:200 8px "Quicksand",arial,sans-serif, gray;
 }
 .form {
