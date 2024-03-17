@@ -1145,7 +1145,7 @@ padding-right: 20px;
   margin-left: 0;
   height: 180px;
   position: relative;
-  max-width: 200px;
+  max-width: 100%;
   overflow: hidden;
 }
 .zoom-img1{
