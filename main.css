@@ -1250,17 +1250,8 @@ padding-right: 20px;
   width: 260px;
   height: 200px;
 }
- small{
+.small small{
   font:200 8px "Quicksand",arial,sans-serif, gray;
-}
-.small h3{
-  font: 700 "Quicksand",arial sans-serif;
-  text-transform: uppercase;
-  text-align: start;
-  width: 203px;
-  height: 37.59px;
-text-wrap: wrap;
-
 }
 .form {
  font: 400 15px "Quicksand", arial, sans-serif;
