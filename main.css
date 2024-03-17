@@ -819,7 +819,6 @@ padding-right: 20px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-2.jpg);
   transition: background-image 0.3s ease;
-  
   background-position: 50% bottom;  
   margin: -150px 0 10px 10px;   
 }
@@ -838,6 +837,7 @@ padding-right: 20px;
     padding: 10px;
     box-sizing: border-box;
     z-index: 1;
+  
   }
   .con_2:hover .content {
     display: block;
@@ -861,13 +861,14 @@ padding-right: 20px;
   
 }
 .con_2 .content p {
-  width: 200px;
+  width: 250px;
   height: 50px;
   color: #020000;
   margin-top: 140px;
   margin-left: 5px;
   background-color: #8cc5db;
   border-radius: 5px;
+
 }
 .con_2 .content h3>a{
   color: #fff;
