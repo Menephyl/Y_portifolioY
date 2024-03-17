@@ -762,7 +762,7 @@ padding-right: 20px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-1.jpg);
   transition: background-image 0.3s ease;
-  margin: 0 0 10px 10px; 
+  margin: -150px 0 10px 10px; 
   }
   .con_1:hover{
     background-color: #007bff;
@@ -819,9 +819,10 @@ padding-right: 20px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-2.jpg);
   transition: background-image 0.3s ease;
-  margin: 0 0 10px 10px; 
+  
   background-position: 50% bottom;  
-  }
+  margin: -150px 0 10px 10px;   
+}
   .con_2:hover{
     background-color: #007bff;
   }
