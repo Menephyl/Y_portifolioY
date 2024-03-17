@@ -1137,7 +1137,7 @@ padding-right: 20px;
 .img-responsive1,.img-responsive2,.img-responsive3{
   display: inline-flex;
   flex-direction: row;
-  width: px;
+  width: 300px;
   height: 400px;
   
 }
