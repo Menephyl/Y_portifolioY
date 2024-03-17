@@ -382,27 +382,27 @@ text-align: left;
     display: flex;
     color: white;
     text-align: center;
-    margin-left: 40px;
-    margin-top: -10px;
-    font-size: 28px;
+    margin-left: 0px;
+    margin-top: -30px;
+    font-size: 30px;
     color: white;
     }
     .fa-mobile{
       display: flex;
       color: white;
       text-align: center;
-      margin-left: 40px;
-      margin-top: -10px;
-      font-size: 28px;
+      margin-left: 0px;
+      margin-top: -30px;
+      font-size: 30px;
       color: white;
     }
     .fa-layer-group{
       display: flex;
     color: white;
     text-align: center;
-    margin-left: 40px;
-    margin-top: -10px;
-    font-size: 28px;
+    margin-left: 0px;
+    margin-top: -30px;
+    font-size: 30px;
     color: white;
     }
   .conteudo #expertise .desc .hex2{
