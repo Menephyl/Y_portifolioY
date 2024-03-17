@@ -259,6 +259,7 @@ h3{
   box-shadow: inset 6px 6px 13px 0px black;
   background-size: cover;
   background-attachment: fixed;
+  width:95%;
 }
 #imagem span{
   font:  "Quicksand", Arial, sans-serif 16px;
