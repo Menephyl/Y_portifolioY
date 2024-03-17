@@ -1155,13 +1155,13 @@ padding-right: 20px;
 }
 
 .img-responsive2{
-  height: auto;
+  height: 200px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
 }
 .img-responsive3{
-  height: auto;
+  height: 200px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
