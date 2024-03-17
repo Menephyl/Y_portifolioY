@@ -10,6 +10,7 @@
     transform: translateX(-300px);
     padding-top: 4em; } } */
 #aside{
+  width: 300px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
