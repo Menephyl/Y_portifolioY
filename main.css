@@ -1252,8 +1252,8 @@ padding-right: 20px;
 .small {
   font:200 8px "Quicksand",arial,sans-serif, gray;
   display: flex;
-  margin-left: -70px;
-  margin-top: 80px;
+  margin-left: -200px;
+  margin-top: 150px;
   font-size: 14px;
   background-color: red;
 }
