@@ -1149,6 +1149,14 @@ padding-right: 20px;
   margin-left: -115px;
   text-align: left;
 }
+.small {
+  font:200 8px "Quicksand",arial,sans-serif, gray;
+  display: flex;
+  margin-left: -200px;
+  margin-top: 180px;
+  font-size: 14px;
+  background-color: red;
+}
 .zoom-img1{
   transition:transform 0.3s ease;
 }
@@ -1180,14 +1188,7 @@ padding-right: 20px;
 .zoom-img3:hover{
   transform:scale(1.1)
 }
-.small {
-  font:200 8px "Quicksand",arial,sans-serif, gray;
-  display: flex;
-  margin-left: -200px;
-  margin-top: 180px;
-  font-size: 14px;
-  background-color: red;
-}
+
 .contact{
   width: 95%;
   margin: 5px;
