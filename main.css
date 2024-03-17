@@ -1147,6 +1147,7 @@ padding-right: 20px;
   position: relative;
   width: 300px;
   margin-left: -115px;
+  text-align: left;
 }
 .zoom-img1{
   transition:transform 0.3s ease;
