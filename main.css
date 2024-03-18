@@ -1193,7 +1193,8 @@ padding-right: 20px;
 .small-all{
   display: flex;
   flex-direction: column;
-  top: -530px;
+  top: -580px;
+  margin-top: -50px;
   width: 100%;
   font-size: 14px;
   
