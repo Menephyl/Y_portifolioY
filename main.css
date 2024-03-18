@@ -1189,6 +1189,7 @@ padding-right: 20px;
 }
 .desc_text{
  margin-top: -400px;
+padding-bottom: 20px;
 }
 .small-all{
   display: flex;
@@ -1225,11 +1226,11 @@ padding-right: 20px;
   padding-left: 40px;
 }
 .small-all{
-    display: flex;
+  display: flex;
   flex-direction: row;
+  
 }
 .small-all .smal{
- 
   margin-left:10px;
   width: 170px;
   display: flex;
@@ -1260,7 +1261,6 @@ padding-right: 20px;
   margin-bottom: 35px; 
 }
  .sma{
-
   display:flex;
   top: -595px;
   margin-right: 0;
@@ -1269,7 +1269,13 @@ padding-right: 20px;
   width: 170px;
   font:200 13px "Quicksand",arial,sans-serif, gray;
   }
-
+.a3{
+  margin-left: -180px;
+  margin-top: 10px;
+  width: 190px;
+  height: 60px;
+  text-align: left;
+}
 .contact{
   width: 95%;
   margin: 5px;
