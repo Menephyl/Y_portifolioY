@@ -1179,6 +1179,7 @@ padding-right: 20px;
   transform:scale(1.1)
 }
 .small{
+  display: flex;
   font:200 8px "Quicksand",arial,sans-serif, gray;
   display: flex;
   margin-left: -100px;
