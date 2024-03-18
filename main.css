@@ -1191,8 +1191,7 @@ padding-right: 20px;
   display: flex;
   font:200 8px "Quicksand",arial,sans-serif, gray;
   display: flex;
-  margin-left: -100px;
-  margin-top: 180px;
+  width: 100%;
   font-size: 14px;
   background-color: red;
 }
