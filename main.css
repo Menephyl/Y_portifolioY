@@ -1137,11 +1137,14 @@ padding-right: 20px;
 .img-responsive1,.img-responsive2,.img-responsive3{
   display: inline-flex;
   flex-direction: row;
-  width: 200px;
+  width: 250px;
   height: 200px;
   
 }
 .img-responsive1{
+  display: flex;
+  left: 0;
+  margin-left: 20px;
   height: 200px;
   position: relative;
   max-width: 100%;
@@ -1155,12 +1158,18 @@ padding-right: 20px;
 }
 
 .img-responsive2{
+  display: flex;
+  top: -200px;
+  left: 260px;
   height: 200px;
   position: relative;
   max-width: 100%;
   overflow: hidden;
 }
 .img-responsive3{
+  display: flex;
+  top: -400px;
+  left: 500px;
   height: 200px;
   position: relative;
   max-width: 100%;
@@ -1178,7 +1187,7 @@ padding-right: 20px;
 .zoom-img3:hover{
   transform:scale(1.1)
 }
-.small{
+.small-all{
   display: flex;
   font:200 8px "Quicksand",arial,sans-serif, gray;
   display: flex;
@@ -1186,6 +1195,15 @@ padding-right: 20px;
   margin-top: 180px;
   font-size: 14px;
   background-color: red;
+}
+.small{
+  display: flex;
+  font:200 8px "Quicksand",arial,sans-serif, gray;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 180px;
+  font-size: 14px;
+  background-color: rgb(199, 78, 78);
 } 
 .contact{
   width: 95%;
