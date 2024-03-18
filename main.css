@@ -1196,16 +1196,50 @@ padding-right: 20px;
   top: -580px;
   margin-top: -50px;
   width: 100%;
-  font-size: 14px;
-  
+  font-size: 14px;  
   font:200 8px "Quicksand",arial,sans-serif, gray;
 }
 .small{
+  border:1px solid black;
+  margin-left:10px;
   width: 170px;
   display: flex;
   font:200 8px "Quicksand",arial,sans-serif, gray;
-   font-size: 14px;
+  font-size: 14px;
+  margin-right: 15px;
 } 
+.small-all a{
+  border:1px solid black;
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: -180px;
+  color: black;
+  font-size: 14px;
+}
+.small-all p{
+  font: 400 10px;
+  border:1px solid black;
+  margin-left: -270px;
+  margin-top: 50px;
+  width: 300px;
+  height: 60px;
+}
+.small-all{
+  
+  display: flex;
+  flex-direction: row;
+}
+.small-all .small a{
+ text-align: start;
+ width: 300px;
+  padding: 60px;
+  width: 160px;
+  text-align: left;
+  margin-left: -300px;
+  text-wrap: wrap;
+  height: 59px;
+  margin-bottom: 35px; 
+}
 .contact{
   width: 95%;
   margin: 5px;
