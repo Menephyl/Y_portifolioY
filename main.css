@@ -1266,9 +1266,9 @@ padding-right: 20px;
   margin-left:550px;
   margin-top: -120px;
   width: 170px;
-  font:200 12px "Quicksand",arial,sans-serif, gray;
+  font:200 13px "Quicksand",arial,sans-serif, gray;
   }
-.small-all .smalll .a3{
+ .smalll .a3{
  display: flex;
  top: -500px;
  margin-right:0 ;
@@ -1282,13 +1282,7 @@ padding-right: 20px;
    margin-bottom: 35px; 
    margin-right: -100px;
  }
- .small-all .a3{
-  margin-top: 10px;
-  padding: 5px;
-  margin-left: -180px;
-  color: black;
-  font-size: 14px;
-}
+
 .small-all .p3{
   font: 400 10px;
   border:1px solid black;
