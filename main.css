@@ -1228,7 +1228,6 @@ padding-bottom: 20px;
 .small-all{
   display: flex;
   flex-direction: row;
-  
 }
 .small-all .smal{
   margin-left:10px;
@@ -1277,10 +1276,10 @@ padding-bottom: 20px;
   text-align: left;
 }
 .p3{
-  font: 400 5px;
+  font: 400 8px;
   margin-left: -180px;
   margin-top: 32px;
-  width: 190px;
+  width: 200px;
   height: 60px;
   text-align: left;
 }
