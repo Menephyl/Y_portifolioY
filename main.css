@@ -1269,7 +1269,9 @@ padding-right: 20px;
   width: 170px;
   font:200 13px "Quicksand",arial,sans-serif, gray;
   }
- 
+ .desc_text .small-all .sma a{
+  background-color: red;
+ }
 .contact{
   width: 95%;
   margin: 5px;
