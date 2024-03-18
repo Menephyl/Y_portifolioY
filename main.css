@@ -1276,6 +1276,14 @@ padding-bottom: 20px;
   height: 60px;
   text-align: left;
 }
+.p3{
+  font: 400 5px;
+  margin-left: -180px;
+  margin-top: 32px;
+  width: 190px;
+  height: 60px;
+  text-align: left;
+}
 .contact{
   width: 95%;
   margin: 5px;
