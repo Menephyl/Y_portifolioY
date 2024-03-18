@@ -1270,15 +1270,16 @@ padding-right: 20px;
   font-size: 14px;
   }
 .small-all .smalll a{
+
   text-align: start;
   width: 300px;
    padding: 60px;
    width: 160px;
    text-align: left;
-   margin-left: -600px;
    text-wrap: wrap;
    height: 59px;
    margin-bottom: 35px; 
+   margin-right: -100px;
  }
  .small-all .a3{
   margin-top: 10px;
