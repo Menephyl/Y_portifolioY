@@ -1269,16 +1269,17 @@ padding-bottom: 20px;
   font:200 13px "Quicksand",arial,sans-serif, gray;
   }
 .a3{
-  margin-left: -180px;
+  margin-left: -170px;
   margin-top: 10px;
   width: 190px;
   height: 60px;
   text-align: left;
 }
-.p3{
-  font: 400 8px;
-  margin-left: -180px;
-  margin-top: 32px;
+.desc_text .p3{
+  font-size: 8px;
+
+  margin-left: -170px;
+  margin-top: 60px;
   width: 200px;
   height: 60px;
   text-align: left;
