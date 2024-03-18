@@ -1259,29 +1259,17 @@ padding-right: 20px;
   height: 59px;
   margin-bottom: 35px; 
 }
- .smalll{
+ .sma{
+
   display:flex;
-  top: -590px;
+  top: -595px;
   margin-right: 0;
   margin-left:550px;
   margin-top: -120px;
   width: 170px;
   font:200 13px "Quicksand",arial,sans-serif, gray;
   }
- .smalll .a3{
- display: flex;
- top: -500px;
- margin-right:0 ;
- margin-left: 550px;
- margin-top: -100px;
-text-align:start;
-width: 170px;
-text-align: left;
-text-wrap: wrap;
-height: 59px;
-margin-bottom: 35px; 
-margin-right: -100px;
- }
+ 
 .contact{
   width: 95%;
   margin: 5px;
