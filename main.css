@@ -1202,9 +1202,7 @@ padding-right: 20px;
 .small{
   display: flex;
   font:200 8px "Quicksand",arial,sans-serif, gray;
- 
-  
-  font-size: 14px;
+   font-size: 14px;
   background-color: rgb(199, 78, 78);
 } 
 .contact{
