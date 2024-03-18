@@ -1267,15 +1267,17 @@ padding-right: 20px;
   margin-top: -120px;
   width: 170px;
   font:200 8px "Quicksand",arial,sans-serif, gray;
-  font-size: 14px;
+  
   }
-.small-all .smalll a{
-
-  text-align: start;
-  width: 300px;
-   padding: 60px;
-   width: 160px;
-   text-align: left;
+.small-all .smalll .a3{
+ display: flex;
+ top: -500px;
+ margin-right:0 ;
+ margin-left: 550px;
+ margin-top: -100px;
+  text-align:start;
+  width: 170px;
+  text-align: left;
    text-wrap: wrap;
    height: 59px;
    margin-bottom: 35px; 
