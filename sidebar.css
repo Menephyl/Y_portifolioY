@@ -133,10 +133,12 @@ display: flex;
     text-align: center;
     font: 400 12px "Quicksand",arial, sans-serif;
     height: 300px;
+    width: 300px;
   }
  .footer .side-em{
-  margin: 1px;
+  margin-top:-30px;
   background-color: RED;
  }
+ 
   
  
