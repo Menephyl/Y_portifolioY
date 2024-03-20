@@ -98,8 +98,7 @@ margin-left:  1em;
   background-position: center;
   background-size: cover;
   margin-top: -50px;
-  margin-left: 0;
-  width: 99%;
+  margin-left: -20px;
 }
 .oi h2{
   font: 18px "Quicksand",Arial, sans-serif;
