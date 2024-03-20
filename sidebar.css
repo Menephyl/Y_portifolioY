@@ -1,5 +1,4 @@
 /*ABRIR E FEHCAR*/
-
 /* @media screen and (max-width: 768px) { BASE PARA ABRIR E FECHAR SIDEBAR
   #colorlib-aside {
     width: 300px;
@@ -88,27 +87,25 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
      padding: 2px;
   }
   .menu-lateral-active .cargo .azul {
-    font: 400 12px "Quicksand",arial, sans-serif;
-    text-transform: uppercase;
-    color: #449deb;   
-    text-align: center;
-   margin-left: 60px;
+ font: 400 12px "Quicksand",arial, sans-serif;
+  text-transform: uppercase;
+  color: #449deb;   
+  text-align: center;
+  margin-left: 60px;
   }
   .menu-lateral-active ul{
    width: 100%;
    height: 800px;
   }
-
   .menu-lateral-active ul li{
-    font: 400 12px "Quicksand",arial, sans-serif;
-    text-transform: uppercase;
-  list-style-type: none;
-  margin: 10px; 
-   border-radius: 3px;
-  text-align: center;
+ font: 400 12px "Quicksand",arial, sans-serif;
+ text-transform: uppercase;
+ list-style-type: none;
+ margin: 10px; 
+ border-radius: 3px;
+ text-align: center;
  color: #000000bd;
  text-decoration:none;
-
   }
   .caixa-de-textos ul li{
     padding: 3px;
