@@ -108,9 +108,9 @@ margin-left:  1em;
   background-size: cover;
   
 }
-.oi>h2{
+.oi h2{
   font: 15px "Quicksand",Arial, sans-serif;
-  margin:400px 10px 30px;
+  margin:400px -30px 30px;
   text-align: left;
   margin-bottom: 10px; 
 }
