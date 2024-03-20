@@ -108,17 +108,22 @@ margin-left:  1em;
   background-size: cover;
   
 }
+
 .oi>h2{
   font: 15px "Quicksand",Arial, sans-serif;
   margin:400px 10px 30px;
   text-align: left;
   margin-bottom: 10px; 
 }
+
 .oi h2,a{
 flex-direction: column;
  width: 200px;
  height: 40px;
  margin-top: 410px;
+}
+#down{
+  margin-left: -70px;
 }
 #home a{
   text-align: start;
