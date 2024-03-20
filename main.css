@@ -26,7 +26,21 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 menu-lateral é configurado como fixo à esquerda e com uma altura de 100% da janela, tornando-o fixo enquanto o conteúdo da main rola.
 main tem uma margem esquerda para deixar espaço para a aside.
 overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o conteúdo for maior do que a altura da janela. */
-
+h1{
+  padding: 1em;
+}
+p{
+ 
+  width: 90%;
+  padding: 1em;
+}
+img{
+  width: 100%;
+}
+div{
+   
+  padding: 1em;
+}
 /* CONTEUDO CENTRAL */
 i{
   text-align: left;
