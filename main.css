@@ -108,23 +108,18 @@ margin-left:  1em;
   background-size: cover;
   
 }
-.oi #down{
-  margin-left: -70px;
-}
 .oi>h2{
   font: 15px "Quicksand",Arial, sans-serif;
   margin:400px 10px 30px;
   text-align: left;
   margin-bottom: 10px; 
 }
-
 .oi h2,a{
 flex-direction: column;
  width: 200px;
  height: 40px;
  margin-top: 410px;
 }
-
 #home a{
   text-align: start;
   font-size: 12px;
@@ -158,7 +153,6 @@ flex-direction: column;
   border:1px solid rgb(234, 215, 215);
   margin: 30px 100px 70px 0;
 }
-
 .funcao>h1{
  color: #FFF;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
@@ -170,7 +164,7 @@ flex-direction: column;
 .about-me-text{
   text-align: start;
   margin-top: -70px;
-  font: bolder  ;
+  font: bolder ;
 }
 .rowservices{
   display: flex;
