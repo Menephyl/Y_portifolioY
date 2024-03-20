@@ -129,12 +129,14 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
     cursor: pointer;
   }
   .footer{
+
     padding: 20px;
     margin-top: 20px;
     color: black;
     text-align: center;
     margin-top: -560px;
     font: 400 12px "Quicksand",arial, sans-serif;
+    text-align: center;
   }
   
  
