@@ -81,6 +81,12 @@ margin-left:  1em;
   background-position: center;
   background-size: cover; 
 }
+.down{
+font-size: 12px;
+width: 150px;
+height: 40px;
+border: 0.5px solid #000;
+}
 .oi h1{
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:1.5em;
@@ -102,14 +108,7 @@ flex-direction: column;
  height: 40px;
  margin-top: 410px;
 }
-#home a{
-  text-align: start;
-  font-size: 12px;
-  color: black;
-  border: 1px solid black;
-  padding: 10px 15px;
-  margin: 460px 70em 4px 0; 
-}
+d
 #home .oi a{
   flex-direction: column;
  width: 200px;
