@@ -132,8 +132,8 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
     font: 400 12px "Quicksand",arial, sans-serif;
   }
   .footer em{
-    padding: 15px;
-    margin-top: 20px;
+    padding-top: 15px;
+    margin-top: 10px;
     text-align: center;
   
   }
