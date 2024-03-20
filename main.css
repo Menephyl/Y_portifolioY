@@ -98,6 +98,7 @@ margin-left:  1em;
   background-position: center;
   background-size: cover;
   margin-top: -50px;
+  margin-left: 0;
 }
 .oi h2{
   font: 18px "Quicksand",Arial, sans-serif;
@@ -326,8 +327,7 @@ span .t1{
   font-family: 'Quicksand';
   background-color: transparent;
   color: black;
-  border:
-   1px solid black;
+  border: 1px solid black;
   padding: 10px;
   cursor: point;
 }
