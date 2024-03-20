@@ -12,6 +12,7 @@
 #aside{
   display: block;
   top: 0;
+  left: 0;
   width: 300px;
   color: #0000;
   flex: 0;
