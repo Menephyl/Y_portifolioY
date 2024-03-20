@@ -109,10 +109,11 @@ margin-left:  1em;
   
 }
 .oi h2{
+  position: relative;
   font: 15px "Quicksand",Arial, sans-serif;
-  margin:400px -30px 30px;
+  margin:-30px -600px 0 0;
   text-align: left;
-  margin-bottom: 10px; 
+  
 }
 .oi h2,a{
 flex-direction: column;
