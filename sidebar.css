@@ -10,11 +10,9 @@
     transform: translateX(-300px);
     padding-top: 4em; } } */
 #aside{
+  display: block;
+  top: 0;
   width: 300px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  float: left;
   color: #0000;
   flex: 0;
   background-color: rgba(128, 128, 128, 0.056); 
