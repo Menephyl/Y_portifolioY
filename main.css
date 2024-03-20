@@ -144,7 +144,6 @@ margin-left:  1em;
 }
 .din-list{
   display: flex;
-  bottom: 100%;
 }
 #funcao:hover{
   background-image: url(images/EU2024JA.jpg);
