@@ -23,7 +23,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 }
 #aside a{
   color: #449deb;
-  font: 400 12px "Quicksand",arial, sans-serif;
+  font: 400 12px "Quicksand",arial,;
 }
 .menu-lateral-active {
   color: #0000;

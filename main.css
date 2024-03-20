@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal; }
   body {
+    display: flex;
   font-family: 'Quicksand',Arial, sans-serif;
   font-weight: 400;
   font-size: 16px; 
@@ -18,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Playfair Display", Georgia, serif ; 
   font-weight: 400;
-  margin: 0 0 30px 0;
 }
 /* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
 p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
@@ -48,20 +48,14 @@ margin-left:  1em;
 }
 .about-me{
   text-align: left;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  
   margin: 0 0 72px;
 }
 .principal p{
   font-size: 15px;
   margin: 0 0 0 25px;
 }
-  .conteudo{
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-  }
-  .principal{
-    padding: 10px 0 30px 0;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-  }  /*ajuste da margem esquerda para corresponder à largura da aside */
+  /*ajuste da margem esquerda para corresponder à largura da aside */
      /* Adicione algum preenchimento para separar o conteúdo da aside */
       /* Adicione outras propriedades conforme necessário */
 #main, .main {
@@ -87,19 +81,17 @@ margin-left:  1em;
   padding-bottom: 5px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  
+  background-size: cover; 
 }
 .oi h1{
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:1.5em;
-  margin: 0 0 20px;
+  margin: 0 0 20px 0;
    font-weight: 700;
   text-align: left;
   height: 400px;
   width: 490px;
 }
- 
 .oi h2{
   position: relative;
   font: 15px "Quicksand",Arial, sans-serif;
@@ -136,7 +128,7 @@ flex-direction: column;
   height: 400px;
   width: 490px;
 }
- #funcao >a{
+ #funcao > a{
   display: flex;
   width: 230px;
   text-align: start;
