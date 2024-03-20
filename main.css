@@ -75,8 +75,8 @@ margin-left:  1em;
   color: #020000;
   flex-direction: column;
   background-size: cover;  
-  padding: 2em;
-  margin-left: 20rem;
+  padding: 0.5em;
+  margin-left: 16rem;
   height: auto;
 
 }
@@ -87,6 +87,7 @@ margin-left:  1em;
    font-weight: 700;
   text-align: left;
   height: 400px;
+  width: 560px;
 }
  .oi{
   display: flex;
@@ -99,17 +100,18 @@ margin-left:  1em;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: -50px;
-  margin-left: -40px;
+  
 }
 .oi h2{
-  font: 18px "Quicksand",Arial, sans-serif;
-  margin:0 0 30px;
+  font: 15px "Quicksand",Arial, sans-serif;
+  margin:0 10px 30px;
   text-align: left;
   margin-bottom: 10px;
 }
 .oi h2,a{
-  margin-top: -30px;
+  flex-direction: column;
+ width: 200px;
+ height: 40px;
 }
 #home a{
   text-align: start;
