@@ -103,7 +103,7 @@ flex-direction: column;
  height: 40px;
  margin-top: 410px;
 }
-#home a{
+#home >a{
   text-align: start;
   font-size: 12px;
   color: black;
