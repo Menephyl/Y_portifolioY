@@ -95,7 +95,6 @@ margin-left:  1em;
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
   background-image: url(images/men-white.jpg);
-  border-radius: 10px;
   padding-bottom: 5px;
   background-repeat: no-repeat;
   background-position: center;
@@ -103,8 +102,9 @@ margin-left:  1em;
   
 }
 .oi h2{
+  
   font: 15px "Quicksand",Arial, sans-serif;
-  margin:0 10px 30px;
+  margin:400px 10px 30px;
   text-align: left;
   margin-bottom: 10px;
 }
@@ -112,6 +112,7 @@ margin-left:  1em;
   flex-direction: column;
  width: 200px;
  height: 40px;
+ margin-top: 410px;
 }
 #home a{
   text-align: start;
@@ -119,7 +120,7 @@ margin-left:  1em;
   color: black;
   border: 1px solid black;
   padding: 10px 15px;
-  margin: 0 40em 4px 0; 
+  margin: 460px 80em 4px 0; 
 }
 .main #funcao {
   background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.5)),url(https://technext.github.io/jackson/images/img_bg_2.jpg);
