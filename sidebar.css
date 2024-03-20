@@ -43,7 +43,8 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 .menu-lateral-active h3{
   font: 400 12px "Quicksand",arial, sans-serif;
     text-transform: uppercase;
-}
+  color: #000;
+  }
 .azul{
   display: inline-block;
   text-align: center;
