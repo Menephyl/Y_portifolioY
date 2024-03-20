@@ -133,11 +133,8 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
     color: black;
     text-align: center;
     margin-top: -560px;
-    padding: auto;
+  
     font: 400 12px "Quicksand",arial, sans-serif;
   }
-  .footer p 
-  {
-    font: 400 12px "Quicksand",arial, sans-serif;
-  }
+  
  
