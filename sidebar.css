@@ -126,7 +126,6 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   }
   .footer{
     padding: 20px;
-    margin-top: 20px;
     color: black;
     text-align: center;
     margin-top: -560px;
@@ -136,6 +135,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
     padding: 20px;
     margin-top: 20px;
     text-align: center;
+    margin-left: 25px;
   }
   
  
