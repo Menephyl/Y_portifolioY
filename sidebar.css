@@ -94,7 +94,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   }
   .menu-lateral-active ul{
    width: 100%;
-   height: 800px;
+   height: 295px;
   }
   .menu-lateral-active ul li{
  font: 400 12px "Quicksand",arial, sans-serif;
@@ -108,6 +108,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   }
   .caixa-de-textos ul li{
     padding: 3px;
+    margin-bottom: 0;
   }
   .btn1{
     font: 400 12px "Quicksand",arial, sans-serif;
@@ -125,14 +126,18 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
     cursor: pointer;
   }
   .footer{
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 0;
     color: black;
     text-align: center;
-    margin: 0;
     font: 400 12px "Quicksand",arial, sans-serif;
+    height: 300px;
+
   }
  .footer .side-em{
   margin: 1px 5px;
+
     background-color: RED;
  }
   

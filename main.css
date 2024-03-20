@@ -78,18 +78,7 @@ margin-left:  1em;
   padding: 0.5em;
   margin-left: 16rem;
 }
-
-
-.oi h1{
-  font-family: 'Playfair Display',Georgia, serif ; 
-  font-size:1.5em;
-  margin: 0 0 20px;
-   font-weight: 700;
-  text-align: left;
-  height: 400px;
-  width: 490px;
-}
- .oi{
+.oi{
   display: flex;
   left: 0;
   font-family: 'Playfair Display', Georgia, serif ; 
@@ -101,6 +90,16 @@ margin-left:  1em;
   background-size: cover;
   
 }
+.oi h1{
+  font-family: 'Playfair Display',Georgia, serif ; 
+  font-size:1.5em;
+  margin: 0 0 20px;
+   font-weight: 700;
+  text-align: left;
+  height: 400px;
+  width: 490px;
+}
+ 
 .oi h2{
   position: relative;
   font: 15px "Quicksand",Arial, sans-serif;
