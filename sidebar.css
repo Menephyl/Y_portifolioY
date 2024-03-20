@@ -21,6 +21,10 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   background-color: rgba(128, 128, 128, 0.056); 
   height: 1000px;
 }
+#aside a{
+  color: #449deb;
+  font: 400 12px "Quicksand",arial, sans-serif;
+}
 .menu-lateral-active {
   color: #0000;
   position:fixed;
@@ -132,13 +136,11 @@ display: flex;
     color: black;
     text-align: center;
     font: 400 12px "Quicksand",arial, sans-serif;
-    height: 300px;
-    width: 300px;
+    height: 600px;
   }
  .footer .side-em{
-  margin-top:-30px;
-  background-color: RED;
+text-align: center;
+margin:5px 40px;
  }
- 
   
  
