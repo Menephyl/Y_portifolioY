@@ -41,7 +41,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   }
 .menu-lateral-active h3{
   font: 400 12px "Quicksand",arial, sans-serif;
-    text-transform: uppercase;
+  text-transform: uppercase;
   color: #000;
   }
 .azul{
@@ -53,10 +53,10 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   margin-bottom: 0;
 }
   .btn1{
-  width: 100px;
-  height: 20px;
-  font: 400 10px "Quicksand",arial, sans-serif;   text-transform: uppercase;
-  display: flex;
+ width: 100px;
+ height: 20px;
+ font: 400 10px "Quicksand",arial, sans-serif;   text-transform: uppercase;
+display: flex;
  margin-top: 2px;
  margin-left: 15px;
  margin-bottom: 10px;
@@ -133,10 +133,9 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
     text-align: center;
     font: 400 12px "Quicksand",arial, sans-serif;
     height: 300px;
-
   }
  .footer .side-em{
-  margin: 1px 3px;
+  margin: 1px;
   background-color: RED;
  }
   
