@@ -89,7 +89,7 @@
     text-transform: uppercase;
     color: #449deb;   
     text-align: center;
-    margin-left: 50px;
+    margin-left:0.8em;
   }
   .menu-lateral-active ul{
    width: 100%;
