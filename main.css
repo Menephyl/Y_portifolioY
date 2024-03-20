@@ -80,6 +80,13 @@ margin-left:  1em;
   height: auto;
 
 }
+.din-list{
+  display: flex;
+  flex-direction: column;
+}
+.din-list{
+  list-style-type: circle;
+}
 .oi h1{
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:1.5em;
@@ -87,7 +94,7 @@ margin-left:  1em;
    font-weight: 700;
   text-align: left;
   height: 400px;
-  width: 560px;
+  width: 490px;
 }
  .oi{
   display: flex;
@@ -102,7 +109,6 @@ margin-left:  1em;
   
 }
 .oi h2{
-  
   font: 15px "Quicksand",Arial, sans-serif;
   margin:400px 10px 30px;
   text-align: left;
@@ -120,35 +126,32 @@ margin-left:  1em;
   color: black;
   border: 1px solid black;
   padding: 10px 15px;
-  margin: 460px 80em 4px 0; 
+  margin: 460px 70em 4px 0; 
 }
 .main #funcao {
   background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.5)),url(https://technext.github.io/jackson/images/img_bg_2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-  border-radius: 10px;
-}
+  }
 .funcao h1{
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:3em;
-  margin: 0 -60px 20px;
+  margin: 0 -50px 0 20px;
   font-weight: 700;
   text-align: left;
   color: #020000;  
+  height: 400px;
+  width: 490px;
 }
  #funcao >a{
   display: flex;
-  width: 150px;
+  width: 230px;
   text-align: start;
   font-size: 12px;
   color: #fff;
   border:1px solid rgb(234, 215, 215);
-  padding: 10px 15px;
-  margin: 30px 50px 70px 0;
-}
-.din-list{
-  display: flex;
+  margin: 30px 100px 70px 0;
 }
 
 .funcao>h1{
