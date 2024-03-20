@@ -83,7 +83,7 @@ margin-left:  1em;
   flex-direction: column;
 }
 .din-list{
-  list-style-type: circle;
+  list-style-type: circle black;
 }
 .oi h1{
   font-family: 'Playfair Display',Georgia, serif ; 
