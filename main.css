@@ -14,6 +14,11 @@
   margin: 0;
   background-color: rgba(128, 128, 128, 0.056); 
 }
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-family: "Playfair Display", Georgia, serif ; 
+  font-weight: 400;
+  margin: 0 0 30px 0; }
 /* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
 p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
 */
