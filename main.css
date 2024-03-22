@@ -206,7 +206,7 @@ font: 400 13px "Quicksand",arial,sans-serif;
 .design{
   width: 160px;
   height: 150px;
-  border-bottom:2px solid #2ca6f8;
+  border-bottom:3px solid #2ca6f8;
   margin-right: 3rem;
   background-color: #ffffff;
   border-radius: 3px;
@@ -219,19 +219,19 @@ font: 400 13px "Quicksand",arial,sans-serif;
     right: 0;
     bottom: 0;
      position: relative;
-    margin-top: 50px;
-    margin-left: -10px;
+    margin-top: 20px;
+    margin-left: -45px;
     height: 80px;
     width: 68px;
     box-shadow: 10px;
     color: #000;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
     color: #2ca6f8;
   }
 #design{
   width: 160px;
   height: 150px;
-  border-bottom:2px solid #d60c0c;
+  border-bottom:3px solid #d60c0c;
   margin-right: 3rem;
   background-color: #ffffff;
   border-radius: 3px;
@@ -239,6 +239,7 @@ font: 400 13px "Quicksand",arial,sans-serif;
 }
 .icon3{
 text-align: center;
+margin: auto;
 }
 .icon3 img{
   height: 80px;
@@ -248,7 +249,6 @@ text-align: center;
   left: 50%;
   right: 0;
   bottom: 0;  
-  margin-top: 30px;
   box-shadow: 10px;
 }
 h3{
@@ -275,7 +275,7 @@ h3{
   width: 160px;
   height: 150px;
   margin-top: -2px;
-  border-bottom:1px solid #d3d60c;
+  border-bottom:3px solid #d3d60c;
   margin-right: 5rem;
   background-color: #ffffff;
   border-radius: 3px;
@@ -295,7 +295,7 @@ h3{
   width: 160px;
   height: 150px;
   margin-top: -2px;
-  border-bottom:1px solid #990cd6;
+  border-bottom:3px solid #990cd6;
   margin-right: 5rem;
   background-color: #ffffff;
   border-radius: 3px;
