@@ -157,9 +157,12 @@ display: flex;
 flex-direction: column;
 color: blue;
 margin-top: -60px;
+margin-left: 0;
 
 }
+.
 .about-me-text{
+  padding-top: 30px;
   text-align: start;
   margin-top: -70px;
   font: bolder ;
