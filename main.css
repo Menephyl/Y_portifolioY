@@ -45,7 +45,6 @@ margin-left:  1em;
 }
 .about-me{
   text-align: left;
-  
   margin: 0 0 72px;
 }
   /*ajuste da margem esquerda para corresponder à largura da aside */
@@ -175,7 +174,7 @@ margin-left: 10px;
 }
 .about-me em{
 margin-top: -100px;
-  font-size: 10px;
+  font-size: 12px;
   padding-bottom: -10px;
 }
 .about-me-text{
