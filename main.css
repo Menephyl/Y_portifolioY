@@ -699,13 +699,14 @@ margin-left: 30em;
  border-radius: 3px;  
 }
 .progress-bar-o::after{
-  width: 10px;
-  height: 10px;
+  width: 14px;
+  height: 14px;
   content: '';
   position: absolute;
   border-radius: 50%;
-  background-color:rgba(255, 115, 0, 0.884) ;
-
+  background-color:rgba(255, 115, 0, 0.734) ;
+  margin-top: -3px;
+  margin-left: -93px;
 }
 .o{
  color:rgba(255, 115, 0, 0.884);
