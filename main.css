@@ -156,13 +156,11 @@ flex-direction: column;
   position: relative;
 display: flex;
 flex-direction: column;
-border: 1px solid red;
+
 margin-top: -60px;
 }
 .fa-circle{
-color: blue;
-
-margin-left: 50px;
+margin-left: 40px;
 padding:5px;
 
 }
