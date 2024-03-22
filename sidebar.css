@@ -135,7 +135,7 @@ display: flex;
   .footer{
     display: flex;
     flex-direction: column;
-    top: 0;
+    top: -30px;
     color: black;
     text-align: center;
     font: 400 12px "Quicksand",arial, sans-serif;
