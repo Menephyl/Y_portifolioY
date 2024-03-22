@@ -141,13 +141,19 @@ display: flex;
     font: 400 12px "Quicksand",arial, sans-serif;
     height: 600px;
   }
+  .footer > em{
+text-align: center;
+display: flex;
+top: 10px;
+left: 100px;
+  }
   .footer .side-em{
     margin:10px 40px 10px 10px;
   }
  .footer .side-em a{
   color: #449deb; 
   font: 700 14px ;
-  margin:10px 200px 10px 10px;
+  margin:10px 10px 10px 10px;
   text-align: center;
  
 }
