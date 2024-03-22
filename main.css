@@ -160,9 +160,11 @@ flex-direction: column;
 margin-top: -60px;
 }
 .fa-circle{
+font-size: 10px;
+color: rgb(93, 92, 92);
 margin-left: 40px;
 padding:5px;
-
+border: 1px solid black;
 }
 .about-me{
   padding-left: 30px;
