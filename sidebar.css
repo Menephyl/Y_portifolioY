@@ -145,9 +145,11 @@ display: flex;
     margin:10px 40px 10px 10px;
   }
  .footer .side-em a{
-  color: #449deb;
-font: 700 14px;
-margin:10px 40px 10px 10px;
- }
+  color: #449deb; 
+  font: 700 14px ;
+  margin:10px 200px 10px 10px;
+  text-align: center;
+ 
+}
   
  
