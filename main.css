@@ -683,7 +683,7 @@ img{
   text-align: start;
 }
 .skills  span{
-margin-left: 30em;
+margin-left: 10em;
 }
 #skills p{
   font: 14px 'Quicksand',arial, sans-serif;
@@ -706,7 +706,7 @@ margin-left: 30em;
   border-radius: 50%;
   background-color:rgb(255, 115, 0) ;
   margin-top: -3px;
-  margin-left: -93px;
+  margin-left: -13px;
 }
 .progress-bar-b{
   background-color:rgba(0, 55, 255, 0.623);
