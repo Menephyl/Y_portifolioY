@@ -151,10 +151,11 @@ flex-direction: column;
   margin-top: -150px;
   margin-left: 70px;
 }
-
+.circel{
+  
+}
 .fa-circle{
-display: flex;
-flex-direction: column;
+
 color: blue;
 margin-top: -60px;
 margin-left: 0;
