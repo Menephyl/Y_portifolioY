@@ -143,11 +143,7 @@ display: flex;
   }
   .footer > em{
 text-align: center;
-display: flex;
-top: 10px;
-left: 200px;
-right: 0;
-bottom: 0;
+margin-left: 75px;
   }
   .footer .side-em{
     margin:10px 40px 10px 10px;
