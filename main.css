@@ -120,8 +120,9 @@ flex-direction: column;
 .main #funcao {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
-  }
+  background-size: cover;
+;
+}
 .funcao h1{
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:3em;
@@ -156,18 +157,20 @@ margin-left: -30px;
 position: relative;
 display: flex;
 flex-direction: column;
-
 margin-top: -60px;
+margin-bottom: 150px;
 }
 .fa-circle{
 font-size: 10px;
 color: rgb(93, 92, 92);
 margin-left: 40px;
 padding:5px;
-
 }
-.fa-circle{
-  border: 1px solid black;
+.circle2{
+  color: transparent;
+}
+.fa-circle::before{
+  border: 2px solid black;
   border-radius: 50%;
 }
 .about-me{
@@ -175,7 +178,7 @@ padding:5px;
   padding-top: 20px;
 }
 .about-me-text{
-  padding-left: 30px;
+  padding-left: 0px;
   padding-top: 30px;
   text-align: start;
   margin-top: -70px;
