@@ -102,8 +102,8 @@ flex-direction: column;
 }
 .down{
   font-size: 12px;
-  /* margin-top: 1px; o margin top nao ta surtindo efeito, provalvel conflito */
-  margin-left:-70px;
+  /* margin-top: 1px; o margin top nao ta surtindo efeito, provalvel conflito. ao conteudo estar dentro do h2 */
+  margin-left:0px;
   font-size: 12px;
   width: 150px;
   height: 40px;
