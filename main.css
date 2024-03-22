@@ -698,6 +698,13 @@ margin-left: 30em;
     text-align:end;
      border-radius: 3px;  
 }
+.progress-bar-o::after{
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background-color:rgba(255, 115, 0, 0.884) ;
+
+}
 .o{
  color:rgba(255, 115, 0, 0.884);
 }
