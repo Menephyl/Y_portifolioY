@@ -193,6 +193,15 @@ font: 400 15px "Quicksand",arial,sans-serif;
 font: 400 13px "Quicksand",arial,sans-serif;
   margin: 0 0 0 25px;
 }
+#design{
+  width: 160px;
+  height: 150px;
+  border-bottom:2px solid #d60c0c;
+  margin-right: 3rem;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
+}
 .rowservices{
   display: flex;
   flex-direction: row;
@@ -202,15 +211,7 @@ font: 400 13px "Quicksand",arial,sans-serif;
 .rowservices h3{
   font: 400 16px "Quicksand",arial,sans-serif;
 }
-#design{
-  width: 160px;
-  height: 150px;
-  border-bottom:1px solid #d60c0c;
-  margin-right: 5rem;
-  background-color: #ffffff;
-  border-radius: 3px;
-  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
-}
+
 .icon3{
 text-align: center;
 margin: auto;
