@@ -704,9 +704,29 @@ margin-left: 30em;
   content: '';
   position: absolute;
   border-radius: 50%;
-  background-color:rgba(255, 115, 0, 0.734) ;
+  background-color:rgb(255, 115, 0) ;
   margin-top: -3px;
   margin-left: -93px;
+}
+.progress-bar-b{
+  background-color:rgba(0, 55, 255, 0.623);
+  color:black;
+  font-size: 14px;
+  height:6px;
+  width: 18%;
+  text-align: end;
+  border-radius: 3px;
+  font-weight: bolder;
+}
+.progress-bar-b::after{
+  width: 14px;
+  height: 14px;
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background-color:rgba(0, 55, 255, 0.623);
+  margin-top: -3px;
+  margin-left: -265px;
 }
 .o{
  color:rgba(255, 115, 0, 0.884);
