@@ -174,15 +174,19 @@ padding:5px;
   border-radius: 50%;
 }
 .about-me{
-  padding-left: 30px;
-  padding-top: 20px;
+margin-left: 10px;
+}
+.about-me em{
+margin-top: -100px;
+  font-size: 10px;
+  padding-bottom: -10px;
 }
 .about-me-text{
-  padding-left: 0px;
+  padding-left: 20px;
   padding-top: 30px;
   text-align: start;
-  margin-top: -70px;
-  font: bolder ;
+  margin-top: -80px;
+  font: 700 18px "Playfair Display";
 }
 .rowservices{
   display: flex;
