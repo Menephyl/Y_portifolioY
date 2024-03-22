@@ -151,8 +151,13 @@ flex-direction: column;
   margin-top: -150px;
   margin-left: 70px;
 }
+
 .fa-circle{
-color: red;
+display: flex;
+flex-direction: column;
+color: blue;
+margin-top: -60px;
+
 }
 .about-me-text{
   text-align: start;
