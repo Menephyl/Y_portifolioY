@@ -188,6 +188,10 @@ margin-top: -100px;
   margin-top: -80px;
   font: 700 18px "Playfair Display";
 }
+.about-me p{
+  text-align: justify;
+font: 400 15px "Quicksand",arial,sans-serif;
+}
 .rowservices{
   display: flex;
   flex-direction: row;
