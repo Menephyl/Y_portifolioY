@@ -157,11 +157,13 @@ flex-direction: column;
 display: flex;
 flex-direction: column;
 border: 1px solid red;
+margin-top: -60px;
 }
 .fa-circle{
 color: blue;
-margin-top: -60px;
-margin-left: 0;
+
+margin-left: 50px;
+padding:5px;
 
 }
 .about-me{
