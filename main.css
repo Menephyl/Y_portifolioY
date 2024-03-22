@@ -359,10 +359,11 @@ h3{
 
 }
 span .t1{
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   text-align: justify;
   color: #ffffffb3;
+  padding: 1px;
 }
 .t{
   
@@ -398,9 +399,12 @@ span .t1{
 font-size: 18px;
 font-weight: 700;
 text-align: left;
-width: 380px;
+width: 285px;
 }
-
+#expertise i{
+  padding-top: 5px;
+  margin-left: 35px;
+}
 .desc{
   width: 750px;
   height: 700px;
@@ -661,7 +665,6 @@ em{
 img{
   border-radius: 10px;
   text-align: center;
-  padding: 1px;
   max-width:100%;
   max-height: 100%;
 }
