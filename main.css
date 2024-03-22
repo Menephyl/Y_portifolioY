@@ -658,7 +658,7 @@ border: 1px solid rgba(0, 0, 0, 0.387);
 border-radius: 5px;
 }
 em{
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
    flex-wrap: wrap;
 }
