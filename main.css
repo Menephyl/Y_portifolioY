@@ -212,26 +212,21 @@ font: 400 13px "Quicksand",arial,sans-serif;
   border-radius: 3px;
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
 }
-.icon0 span{
-  position: relative;
-  text-align: center;
-  margin-top: -50px;  
-}
   .icon0 i{
     display: flex;
     top: 0;
     left: 50%;
     right: 0;
     bottom: 0;
-    color: #2ca6f8;
-    position: relative;
+     position: relative;
     margin-top: 50px;
-    margin-left: -20px;
+    margin-left: -10px;
     height: 80px;
     width: 68px;
-      
     box-shadow: 10px;
     color: #000;
+    margin-bottom: -50px;
+    color: #2ca6f8;
   }
 #design{
   width: 160px;
@@ -244,7 +239,6 @@ font: 400 13px "Quicksand",arial,sans-serif;
 }
 .icon3{
 text-align: center;
-margin: auto;
 }
 .icon3 img{
   height: 80px;
@@ -254,6 +248,7 @@ margin: auto;
   left: 50%;
   right: 0;
   bottom: 0;  
+  margin-top: 30px;
   box-shadow: 10px;
 }
 h3{
