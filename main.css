@@ -118,14 +118,14 @@ flex-direction: column;
  margin-top: 410px;
 }
 .oi,.funcao{
-  list-style: disc black;
-  list-style-type: disc;
-  list-style-position: calc();
+  list-style: disc  black;
+  list-style-type: disc ;
   background-color: #fff;
 }
-.oi,.funcao li{
+.oi,.funcao > li{
+  font-size: 20px;
   position: relative;
-padding-left: 30px;
+  padding-left: 40px;
 }
 
 .main #funcao {
