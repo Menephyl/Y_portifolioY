@@ -760,7 +760,25 @@ margin-left: 10em;
   margin-bottom: 20px;
 }
 .progress-bar-g{
-  background-color:rgb(255, 0, 0);color:black; height:6px;width: 5%;font-size: 12px; text-align: end; border-radius: 3px;  
+  background-color:rgb(255, 0, 0);color:black; height:6px;
+  width: 5%;
+  font-size: 12px;
+  text-align: end;
+ border-radius: 3px;  
+}
+.progress-bar-g{
+  background-color:rgb(255, 0, 0);color:black; height:6px;
+  width: 5%;
+  font-size: 12px;
+  text-align: end;
+ border-radius: 3px;  
+}
+.progress-bar-g{
+  background-color:rgb(255, 0, 0);color:black; height:6px;
+  width: 5%;
+  font-size: 12px;
+  text-align: end;
+ border-radius: 3px;  
 }
 .o{
  color:rgba(255, 115, 0, 0.884);
