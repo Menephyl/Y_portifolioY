@@ -689,6 +689,15 @@ margin-left: 30em;
   font: 14px 'Quicksand',arial, sans-serif;
   text-align: justify;
 }
+.progress-bar-o{
+  background-color:rgba(255, 115, 0, 0.884);
+  color:black;
+   height:6px;
+   width:37%;
+   font-size:14px;
+    text-align:end;
+     border-radius: 3px;  
+}
 .o{
  color:rgba(255, 115, 0, 0.884);
 }
