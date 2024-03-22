@@ -371,9 +371,11 @@ span .t1{
   color: #ffffffb3;
 }
 #hire{
-  padding: 2em;
+  width: 800px;
+  position: relative;
+  margin-left: 20px;
+  padding: 1em;
   background: #f9bf3f;
-  padding:  30px;
   margin-bottom: 2.5rem;
 }
 #hire h2{
