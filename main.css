@@ -648,6 +648,7 @@ height:fit-content;
 border-radius: 5px;
 }
 em{
+  color: #999999;
   font-size: 12px;
   display: flex;
    flex-wrap: wrap;
