@@ -692,11 +692,17 @@ margin-top: 30px;
   text-align: justify;
   justify-content: space-between;
 }
+.progress-box-1{
+  width: 300px;
+  height: auto;
+  margin-left: -10px;
+}
+.preogress
 .progress-bar-o{
   background-color:rgba(255, 115, 0, 0.884);
   color:black;
  height:6px;
- width:37%;
+ width:20%;
  font-size:14px;
  text-align:end;
  border-radius: 3px;  
