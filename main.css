@@ -677,10 +677,9 @@ img{
   text-transform: uppercase;
   text-align: start;
   margin: -20px 0 72px;
-  padding-top:0
-
+  padding-top:0;
 }
-.skills  {
+.skills {
 margin-top: 30px;
  margin-left: 10px;
  margin-right: 0;
