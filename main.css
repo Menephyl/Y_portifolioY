@@ -668,6 +668,7 @@ img{
 #skills{
  margin-top: 30px;
  margin-left: 10px;
+ margin-right: 0;
 }
 #skills h2{
   font-weight: 700;
