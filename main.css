@@ -776,12 +776,15 @@ margin-top: 30px;
   margin-bottom: 20px;
 }
 .progress-bar-r{
-  background-color:rgb(255, 0, 0);color:black; 
+  background-color:rgb(255, 0, 0);
   height:6px;
   width: 7%;
   font-size: 12px;
   text-align: end;
  border-radius: 3px;  
+
+}
+.progress-bar-r{
 
 }
 .progress-bar-bl{
