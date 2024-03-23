@@ -864,9 +864,19 @@ position: relative;
 
 }
 .panel-body{
-  height: 81px;
+  display: flex;
+  height: 85px;
   text-align: justify;
   justify-content: space-between;
+  margin-bottom: 170px;
+}
+.panel-body p{
+  
+  text-align: justify;
+  text-wrap: wrap;
+  background-color: rgba(128, 128, 128, 0.326);
+  color: #000000b3;
+
 }
 .education h1{ font:700 18px 'Playfair-Display',Georgia, serif;
   text-align: left;
