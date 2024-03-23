@@ -116,21 +116,7 @@ display: flex;
     padding: 3px;
     margin-bottom: 0;
   }
-  .btn1{
-    font: 400 12px "Quicksand",arial, sans-serif;
-    text-transform: uppercase;
-    margin: 5px;
-    background-color: #ffffff;
-    border-radius: 1em;
-    font-size: large;
-    text-align: center;
-    padding-right:0.6vw;
-    font-weight: bold;
-    color: rgba(48, 106, 241, 0.941); 
-    padding:1em;  
-    border: 1px solid black;
-    cursor: pointer;
-  }
+  
   .footer{
     display: flex;
     flex-direction: column;
