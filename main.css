@@ -867,17 +867,19 @@ position: relative;
   display: flex;
   height: 85px;
   text-align: justify;
-  justify-content: space-between;
-  margin-bottom: 170px;
+  width: 850px;
+   margin: 5px 10px 5px 20px;
+   background-color: rgba(128, 128, 128, 0.326);
 }
 .panel-body p{
-  
+  width: 375px;
+  height: 80px;
   text-align: justify;
   text-wrap: wrap;
-  background-color: rgba(128, 128, 128, 0.326);
   color: #000000b3;
-
+  margin-right: 0;
 }
+
 .education h1{ font:700 18px 'Playfair-Display',Georgia, serif;
   text-align: left;
   margin-top: -20px;
