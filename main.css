@@ -863,6 +863,11 @@ position: relative;
   padding-left: 10px;
 
 }
+.panel-body{
+  height: 81px;
+  text-align: justify;
+  justify-content: space-between;
+}
 .education h1{ font:700 18px 'Playfair-Display',Georgia, serif;
   text-align: left;
   margin-top: -20px;
