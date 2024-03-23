@@ -876,19 +876,11 @@ position: relative;
   position: relative;
   display: flex;
   align-items: center;
-  text-align: left;
-  
+  text-align: justify 
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.296);
   padding: 20px 25px;
   font: 400 14px "Quicksand",arial, sans-serif;
-}
-.education div::after {
-  content: '';
-  flex-grow: 1;
-  height: 1px;
-  background-color: black;
-  margin-left: 10px;
 }
 .education  .fa-minus{
   margin-left: 650px;
