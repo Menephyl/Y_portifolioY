@@ -870,14 +870,14 @@ position: relative;
 }
 
 .education div a{
-  width: 95%;
+  width: 92%;
   text-transform: uppercase;
   height: 57px;
   position: relative;
   display: flex;
   align-items: center;
   text-align: left;
-  margin-left: -10px;
+  
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.296);
   padding: 20px 25px;
