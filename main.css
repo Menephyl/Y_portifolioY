@@ -893,7 +893,7 @@ position: relative;
   position: relative;
   display: flex;
   align-items: center;
-  text-align: justify 
+  text-align: justify ;
   border: 1px solid rgba(0, 0, 0, 0.603);
   background-color: rgba(128, 128, 128, 0.296);
   padding: 20px 25px;
