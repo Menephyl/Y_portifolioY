@@ -115,6 +115,7 @@ flex-direction: column;
     display: flex;
      flex-wrap: wrap;
     letter-spacing: 2px;
+    font: 700;
     }
 #home .oi a{
   flex-direction: column;
@@ -858,9 +859,7 @@ position: relative;
   position: relative;
   color:rgb(21, 197, 89);
 }
-.education{
- box-shadow: 0 0 1px black;
-}
+
 .education h1{ font: 18px 'Playfair-Display',Georgia, serif;
   text-align: left;
 }
