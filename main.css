@@ -824,13 +824,13 @@ margin-left: -5px;
    margin-bottom: 10px;    
 }
 .progress-bar-g::after{
-  background-color:rgb(255, 0, 0);
+  background-color:rgb(21, 197, 89);
   content: '';
   position: absolute;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  margin-top: -5px;
+  margin-top: -3px;
   margin-left: -5px;
   }
 .o{
