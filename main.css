@@ -785,6 +785,8 @@ margin-top: 30px;
 }
 .progress-bar-r{
 background-color:rgb(255, 0, 0);
+content: '';
+position: absolute;
 
 }
 .progress-bar-bl{
