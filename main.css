@@ -864,12 +864,12 @@ position: relative;
 
 }
 .panel-body{
+  width: 822px;
   display: flex;
   height: 85px;
   text-align: justify;
-  width: 850px;
-   margin: 5px 10px 5px 20px;
-   background-color: rgba(128, 128, 128, 0.326);
+  margin-left: 10px;
+  border: 0.5px solid rgba(128, 128, 128, 0.468);
 }
 .panel-body p{
   width: 375px;
