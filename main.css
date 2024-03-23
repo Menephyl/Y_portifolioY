@@ -652,7 +652,8 @@ em{
   font-size: 12px;
   display: flex;
    flex-wrap: wrap;
-}
+  letter-spacing: 2px;
+  }
 img{
   border-radius: 10px;
   text-align: center;
