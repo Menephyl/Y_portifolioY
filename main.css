@@ -108,7 +108,13 @@ flex-direction: column;
   .subtitle{
     margin-top: 18px;
   }
-
+  em{
+    color: #999999;
+    font-size: 12px;
+    display: flex;
+     flex-wrap: wrap;
+    letter-spacing: 2px;
+    }
 #home .oi a{
   flex-direction: column;
  width: 200px;
@@ -647,13 +653,7 @@ max-width: 20em;
 height:fit-content;
 border-radius: 5px;
 }
-em{
-  color: #999999;
-  font-size: 12px;
-  display: flex;
-   flex-wrap: wrap;
-  letter-spacing: 2px;
-  }
+
 img{
   border-radius: 10px;
   text-align: center;
