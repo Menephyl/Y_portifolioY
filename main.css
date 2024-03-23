@@ -681,6 +681,7 @@ margin-top: 30px;
 #skills p{
   font: 14px 'Quicksand',arial, sans-serif;
   text-align: justify;
+  justify-content: space-between;
 }
 .progress-bar-o{
   background-color:rgba(255, 115, 0, 0.884);
