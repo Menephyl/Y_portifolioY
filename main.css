@@ -787,8 +787,8 @@ margin-top: 30px;
 background-color:rgb(255, 0, 0);
 content: '';
 position: absolute;
-width: 14px;
-height: 14px;
+width: 12px;
+height: 12px;
 border-radius: 50%;
 }
 .progress-bar-bl{
