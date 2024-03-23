@@ -665,11 +665,18 @@ img{
   font-size: 16px;
   font-weight: 700;
 }
+#skills em{
+  margin: 20px 5px;
+}
 #skills h2{
+ font-family: "Playfair Display";
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
   text-align: start;
+  margin: -20px 0 72px;
+  padding-top:0
+
 }
 .skills  {
 margin-bottom: 200px;
@@ -679,7 +686,7 @@ margin-top: 30px;
  margin-bottom: 200px;
 }
 #skills p{
-  font: 14px 'Quicksand',arial, sans-serif;
+  font: 15px 'Quicksand',arial, sans-serif;
   text-align: justify;
   justify-content: space-between;
 }
