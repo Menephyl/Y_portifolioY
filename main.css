@@ -66,7 +66,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-size: cover;  
   padding: 0.5em;
   margin-left: 18.5rem;
-border: transparent;
+  border: transparent;
 }
 .oi{
   display: flex;
@@ -792,23 +792,35 @@ margin-top: 30px;
 }
 
 .o{
+  display: flex;
+  margin-left
  color:rgba(255, 115, 0, 0.884);
 }
 .b{
+  display: flex;
+  margin-left
   color:rgba(0, 55, 255, 0.623);
 }
 .y{
+  display: flex;
+  margin-left
   color: rgba(232, 248, 10);
   margin-left: -35px;
 }
 
 .bl{
+  display: flex;
+  margin-left
   color:rgb(0, 217, 255);
 }
 .r{
+display: flex;
+margin-left
   color:rgb(255, 0, 0);
 }
 .g{
+  display: flex;
+  margin-left
   color:rgb(21, 197, 89);
 }
 .education{
