@@ -1577,13 +1577,13 @@ padding-bottom: 20px;
 
  .p3{
   margin-left: -170px;
-  margin-top: 60px;
+  margin-top: 45px;
   width: 200px;
   height: 60px;
   text-align: left;
   text-wrap: wrap;
-  margin-top: 5px;
-  font-size: 15px;
+  font-size: 16.5px;
+  word-spacing: 3px;
   color: #020000;
 }
 .contact{
