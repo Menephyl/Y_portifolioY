@@ -651,7 +651,7 @@ width: 285px;
  }
 #projects{
   align-content: space-between;
-  margin: 10px 100px 100px 10px;
+  margin: 10px 10px 0 10px;
   
 }
 #projects > h1{
