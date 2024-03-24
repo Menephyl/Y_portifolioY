@@ -895,7 +895,7 @@ position: relative;
   align-items: center;
   text-align: justify ;
   border: 1px solid rgba(0, 0, 0, 0.603);
-  background-color: rgba(128, 128, 128, 0.296);
+  background-color: #f2f3f7;
   padding: 20px 25px;
   font: 400 14px "Quicksand",arial, sans-serif;
 }
