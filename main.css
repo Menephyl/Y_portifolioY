@@ -77,7 +77,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
-  width: 95%;
+  width: 92%;
 }
 .oi h1{
   font-family: 'Playfair Display',Georgia, serif ; 
@@ -132,7 +132,7 @@ flex-direction: column;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 95%;
+  width: 92%;
 }
 .funcao h1{
   font-family: 'Playfair Display',Georgia, serif ; 
@@ -197,7 +197,7 @@ margin-top: -100px;
   padding-bottom: -10px;
 }
 .about-me-text{
-  padding-left: 20px;
+  padding-left: 15px;
   padding-top: 30px;
   text-align: start;
   margin-top: -80px;
