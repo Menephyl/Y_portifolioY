@@ -939,6 +939,9 @@ position: relative;
   text-align: end;
   background-color: #2c98f0;
 }
+.experience{
+  width: 795px;
+}
 .experience em{
   margin-left: 15px;
 }
