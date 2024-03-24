@@ -1522,10 +1522,10 @@ padding-bottom: 20px;
   margin-left:10px;
   width: 170px;
   display: flex;
-  font:200 10px "Quicksand",arial,sans-serif, gray;
+  font:200 10.2px "Quicksand",arial,sans-serif, gray;
   font-size: 14px;
   margin-right: 15px;
-}
+  }
 .small-all .smal a{
   text-align: start;
   width: 300px;
@@ -1553,7 +1553,7 @@ padding-bottom: 20px;
   margin-left:550px;
   margin-top: -220px;
   width: 170px;
-  font:200 13px "Quicksand",arial,sans-serif, gray;
+  font:200 10.2px "Quicksand",arial,sans-serif, gray;
   }
   .desc_text h3{
     margin-top: 20px;
