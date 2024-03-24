@@ -1549,8 +1549,8 @@ padding-bottom: 20px;
   width: 170px;
   font:200 13px "Quicksand",arial,sans-serif, gray;
   }
-  .read h3{
-
+  .desc_text h3{
+    font-size: 14px;
   }
   .p2{
     margin-left: -70px;
