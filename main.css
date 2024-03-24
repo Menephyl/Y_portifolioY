@@ -65,7 +65,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   flex-direction: column;
   background-size: cover;  
   padding: 0.5em;
-  margin-left: 18.5rem;
+  margin-left: 19.5rem;
   border: transparent;
 }
 .oi{
