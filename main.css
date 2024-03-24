@@ -1583,13 +1583,14 @@ padding-bottom: 20px;
   text-transform: uppercase;
 }
 .sma small{
-  width: 300px;
-  margin-right: 18px;
+  width: 150px;
+  margin-right: 13px;
   margin-left: -20px;
 }
   .desc_text h3{
     margin-top: 20px;
     font-size: 14px;
+    
   }
   .p2{
     margin-left: -70px;
