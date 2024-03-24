@@ -654,6 +654,9 @@ width: 285px;
   margin: 10px 100px 100px 10px;
   
 }
+#projects h1{
+  text-align: start;
+}
 .p{
 display: flex;
 flex-wrap: wrap;
