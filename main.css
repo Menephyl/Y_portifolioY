@@ -1560,7 +1560,7 @@ padding-bottom: 20px;
     margin-top: 20px;
     font-size: 14px;
   }
-  /* .p2{
+  .p2{
     margin-left: -70px;
     text-align: justify;
     text-wrap: wrap;
@@ -1571,9 +1571,11 @@ padding-bottom: 20px;
   width: 190px;
   height: 60px;
   text-align: left;
-} */
+} 
 .p3{
   margin-top: 5px;
+  font-size: 15px;
+  color: #020000;
 }
 .desc_text .p3{
   margin-left: -170px;
