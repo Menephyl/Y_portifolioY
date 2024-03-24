@@ -1560,10 +1560,13 @@ padding-bottom: 20px;
   }
 .a3{
   margin-left: -170px;
-  margin-top: 10px;
+  margin-top: 20px;
   width: 190px;
   height: 60px;
   text-align: left;
+}
+.p3{
+  margin-top: 5px;
 }
 .desc_text .p3{
   font-size: 8px;
