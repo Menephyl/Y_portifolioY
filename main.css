@@ -1484,7 +1484,7 @@ padding-bottom: 20px;
   top: -580px;
   margin-top: -50px;
   width: 100%; 
- 
+  margin-bottom: 30px;
 }
 .small{
   margin-left:10px;
@@ -1506,11 +1506,12 @@ padding-bottom: 20px;
   text-align: justify;
   font: 400 12px;
   text-wrap: wrap;
-  margin-left: -270px;
+  margin-left: -250px;
   margin-top: 50px;
   width: 300px;
   height: 60px;
   padding-left: 40px;
+
 }
 .small-all{
   display: flex;
