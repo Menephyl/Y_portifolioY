@@ -1483,8 +1483,7 @@ padding-bottom: 20px;
   flex-direction: column;
   top: -580px;
   margin-top: -50px;
-  width: 100%;
-  font-size: 14px;  
+  width: 100%; 
   font:200 8px "Quicksand",arial,sans-serif, gray;
 }
 .small{
