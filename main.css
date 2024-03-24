@@ -871,7 +871,7 @@ position: relative;
   color:rgb(21, 197, 89);
 }
 .education{
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 .education em{
   padding-left: 15px;
@@ -879,7 +879,7 @@ position: relative;
 
 }
 .panel-body{
-  width: 822px;
+  width: 795px;
   height: 100px;
   display: flex;
   text-align: justify;
@@ -905,7 +905,7 @@ position: relative;
 }
 
 .education div a{
-  width: 88%;
+  width: 795px;
   text-transform: uppercase;
   height: 57px;
   position: relative;
@@ -935,6 +935,7 @@ position: relative;
   color: black;
 }
 .education a.active{
+  width: 795px;
   text-align: end;
   background-color: #2c98f0;
 }
