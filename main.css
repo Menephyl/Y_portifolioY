@@ -222,6 +222,7 @@ font: 400 13px "Quicksand",arial,sans-serif;
   flex-direction: row;
   padding: 0 15px;
   margin-bottom: 2.5rem;
+  margin-top: 50px;
 }
 .rowservices h3{
   font: 400 16px "Quicksand",arial,sans-serif;
