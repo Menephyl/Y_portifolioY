@@ -26,6 +26,7 @@ h1{
 p{
   width: 90%;
   padding: 1em;
+  text-wrap: wrap;
 }
 img{
   width: 100%;
@@ -76,6 +77,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
+  width: 95%;
 }
 .oi h1{
   font-family: 'Playfair Display',Georgia, serif ; 
@@ -129,7 +131,7 @@ flex-direction: column;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  width: 95%;
 }
 .funcao h1{
   font-family: 'Playfair Display',Georgia, serif ; 
