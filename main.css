@@ -1544,12 +1544,13 @@ padding-bottom: 20px;
 }
 .small-all .smal{
   margin-left:10px;
-  width: 170px;
+  width: 150px;
   display: flex;
-  font:200 10.2px "Quicksand",arial,sans-serif, gray;
-  font-size: 14px;
+  font:200 12.2px "Quicksand",arial,sans-serif, gray;
+
   margin-right: 15px;
   text-transform: uppercase;
+  margin-bottom: 25px;
   }
 .small-all .smal a{
   text-align: start;
@@ -1561,7 +1562,9 @@ padding-bottom: 20px;
    text-wrap: wrap;
    height: 59px;
    margin-bottom: 35px; 
+   
  }
+
 .small-all .small a{
  text-align: start;
  width: 300px;
@@ -1575,19 +1578,13 @@ padding-bottom: 20px;
 }
  .sma{
   display:flex;
-  margin-left:550px;
+  margin-left:560px;
   margin-top: -210px;
   width: 300px;
   font:200 14.2px "Quicksand",arial,sans-serif, gray;
   margin-bottom: 50px; 
   text-transform: uppercase;
-}
-.sma small{
-  width: 150px;
-  margin-right: 13px;
-  margin-left: -20px;
-}
- 
+} 
   .p2{
     margin-left: -70px;
     text-align: justify;
