@@ -1591,8 +1591,16 @@ padding-bottom: 20px;
     text-align: justify;
     text-wrap: wrap;
   }
-.a3{
-  margin-left: -170px;
+  .a3{
+    text-transform: none;
+    width: 400px;
+    height: 30px;
+    margin-top: 25px;
+    font: 400 14px "Playfair Display",Georgia,serif;
+    margin-left: -100px;
+  }
+/* .a3{
+  margin-right: -200px;
   margin-top: 20px;
   width: 190px;
   height: 60px;
@@ -1602,7 +1610,7 @@ padding-bottom: 20px;
 
  .p3{
   text-transform: none;
-  margin-left: -170px;
+ 
   margin-top: 45px;
   width: 250px;
   height: 60px;
@@ -1611,7 +1619,7 @@ padding-bottom: 20px;
   font-size: 16.5px;
   word-spacing: 3px;
   color: #020000;
-}
+} */
 .contact{
   width: 95%;
   margin: 5px;
