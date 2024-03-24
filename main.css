@@ -1561,17 +1561,6 @@ padding-bottom: 20px;
    height: 59px;
    margin-bottom: 35px; 
  }
-.small-all .small a{
- text-align: start;
- width: 300px;
-  padding: 60px;
-  width: 160px;
-  text-align: left;
-  margin-left: -300px;
-  text-wrap: wrap;
-  height: 59px;
-  margin-bottom: 35px; 
-}
 .a2{
   margin-top: 20px;
 } 
@@ -1607,7 +1596,7 @@ padding-bottom: 20px;
 }
 .sma p{
   text-wrap: wrap;
-  width: 180px;
+  width: 250px;
  margin-top:20px;
   margin-left: -100px;
 }
