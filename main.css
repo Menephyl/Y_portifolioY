@@ -1550,7 +1550,6 @@ padding-bottom: 20px;
 }
  .sma{
   display:flex;
-  top: -595px;
   margin-right: 0;
   margin-left:550px;
   margin-top: -120px;
@@ -1577,7 +1576,6 @@ padding-bottom: 20px;
   margin-top: 5px;
 }
 .desc_text .p3{
-  
   margin-left: -170px;
   margin-top: 60px;
   width: 200px;
