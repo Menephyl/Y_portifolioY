@@ -1581,6 +1581,7 @@ padding-bottom: 20px;
   font:200 14.2px "Quicksand",arial,sans-serif, gray;
   margin-bottom: 50px; 
   text-transform: uppercase;
+  text-wrap: wrap;
 }
 .a3{
   width: 200px;
