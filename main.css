@@ -1581,6 +1581,9 @@ padding-bottom: 20px;
   height: 60px;
   text-align: left;
   text-wrap: wrap;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #020000;
 }
 .contact{
   width: 95%;
