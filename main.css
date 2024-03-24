@@ -1627,13 +1627,14 @@ padding-bottom: 20px;
 }
 .contact h1{
   text-align: start;
-  font: 30px 'Playfair-Display',Georgia, serif;
+  font:700 18px 'Playfair-Display',Georgia, serif;
+  margin-bottom: 72px;
 }
 .globe{
   width: 35px;
   height: 35px;
   text-align: center;
-  margin:20px;
+  margin-top: -20px;
 }
 .fa-map{
   font-size: 30px;
