@@ -1430,10 +1430,11 @@ padding-right: 20px;
   font-family: 'Quicksand',arial, sans-serif;
   font-size: 14px;
   text-align: 50% center;
-  margin: 0px 4px 4px 0;
+  margin: 0px 4px 150px 0;
   padding: 18px 36px;
   width: 795px;
   height: 70px;
+
 
 }
 .fa-rotate-right{
@@ -1620,8 +1621,8 @@ padding-bottom: 20px;
 }
 .contact em{
   text-align: center;
-  margin: 15px 15px 15px 15px;
-  font: 400 10px "Quicksand",arial, sans-serif;
+  margin: 20px 15px 15px 15px;
+  font: 400 12px "Quicksand",arial, sans-serif;
 }
 .contact h1{
   text-align: start;
