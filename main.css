@@ -1540,6 +1540,7 @@ padding-bottom: 20px;
   display: flex;
   flex-direction: row;
   margin-top: -150px;
+  margin-bottom: 100px;
 }
 .small-all .smal{
   margin-left:10px;
@@ -1571,6 +1572,7 @@ padding-bottom: 20px;
   margin-left: -40px;
 }
  .sma{
+ 
   text-align: start;
   display:flex;
   position:relative;
@@ -1581,26 +1583,30 @@ padding-bottom: 20px;
   text-wrap: wrap;
 }
 .sma small{
+  height: 40px;
   width:180px;
   text-wrap: nowrap;
   font:200 10.2px "Quicksand",arial,sans-serif, gray;
   text-transform: uppercase;
 }
 .sma .a3{
-  width: 200px;
-  margin-top: 20px;
-  margin-left: -100px;
+  position: absolute;
+  width: 230px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 30px;
   color: black;
   font-size: 13px;
   text-wrap: nowrap;
 }
-.sma .p3{
+.sma > p{
+  position: absolute;
   text-wrap: wrap;
-  width: 180px;
-  height: auto;
- margin-top:20px;
-  margin-left: -50px;
-  font-size: 12px
+  width: 220px;
+  height: 120px;
+  margin-top:50px;
+  margin-left: 50px;
+  font-size: 15px;
   text-align:left;
 }
 .contact{
