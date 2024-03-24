@@ -125,7 +125,8 @@ flex-direction: column;
   flex-direction: column;
  width: 200px;
  height: 40px;
- margin-top: 410px;
+ margin-top: 370px;
+ margin-left: -200px;
 }
 .main #funcao {
   background-repeat: no-repeat;
