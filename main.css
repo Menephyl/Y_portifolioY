@@ -932,7 +932,6 @@ position: relative;
 .read h1{
   font: 18px 'Playfair-Display',Georgia, serif;
 text-align: start;
-
 }
 .works h3 > span{
   font-weight: 300;
@@ -940,9 +939,10 @@ text-align: start;
   font-size: 15px;
 }
 .works h3{
-  font-family: 'Quicksand' ,arial, sans-serif;
-  font-size: 20px;
-  font-weight: 700;
+  font:700 18px 'Quicksand' ,arial, sans-serif;
+  text-align: start;
+  
+
 
 }
 .works{
@@ -962,6 +962,7 @@ text-align: start;
   margin-right:20px ;
   padding: 5px;
 }
+
 .circle-y{
   width: 50px;
   height: 50px;
@@ -972,6 +973,7 @@ text-align: start;
   margin-right:20px ;
   padding: 5px;
 }
+
 .circle-p{
   width: 50px;
   height: 50px;
@@ -996,7 +998,7 @@ text-align: start;
 }
 .fa-pen{
   color: #fff;
-  margin:5px 8px;
+  margin: auto;
   font-size: 15px;
 }
 .work-menu{
@@ -1005,7 +1007,9 @@ text-align: start;
   margin: 0 0 0 22.5px;
   padding: 0 10px;
   color: #020000;
+  margin-bottom: 200px;
 }
+
 .work-menu > span > a{
 color: black;
 padding-right: 20px;
