@@ -650,13 +650,9 @@ width: 285px;
    border-top:25px solid #4055b2;;
  }
 #projects{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap ;
-  align-items: center;
   align-content: space-between;
-   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
-  margin: 10px 10px 200px 10px;
+  margin: 10px 100px 100px 10px;
+  
 }
 .p{
 display: flex;
