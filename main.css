@@ -924,7 +924,8 @@ position: relative;
   background-color: #2c98f0;
 }
 .experience h1{
-   font: 18px 'Playfair-Display',Georgia, serif;
+   font:700 18px 'Playfair-Display',Georgia, serif;
+   
     text-align: left;
 }
 .read h1{
