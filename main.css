@@ -643,9 +643,8 @@ width: 285px;
   flex-wrap: wrap ;
   align-items: center;
   align-content: space-between;
-  margin: 1em;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
-  padding-bottom: 20px; 
+   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  margin: 10px 10px 200px 10px;
 }
 .p{
 display: flex;
