@@ -1393,6 +1393,9 @@ padding-right: 20px;
   color: #fff;
   font-size: 16px;
 }
+.read h1{
+  font: 700 20px;
+}
 .btn-load{
   display: block;
   background-color: #007bff;
