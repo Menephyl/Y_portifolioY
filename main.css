@@ -1491,9 +1491,8 @@ padding-bottom: 20px;
   margin-left:10px;
   width: 170px;
   display: flex;
-  font-size: 14px;
   margin-right: 17px;
-  font:200 10.2px "Quicksand",arial,sans-serif, gray;
+  font:200 13.2px "Quicksand",arial,sans-serif, gray;
 } 
 .small-all a{
   margin-top: 10px;
@@ -1553,8 +1552,8 @@ padding-bottom: 20px;
   display:flex;
   margin-left:550px;
   margin-top: -220px;
-  width: 170px;
-  font:200 10.2px "Quicksand",arial,sans-serif, gray;
+  width: 300px;
+  font:200 12.2px "Quicksand",arial,sans-serif, gray;
   }
   .desc_text h3{
     margin-top: 20px;
