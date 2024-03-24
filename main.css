@@ -1652,7 +1652,7 @@ padding-bottom: 20px;
   flex-direction: column;
   width: 100px;
   height: 100px;
-  margin: 20px;
+  margin: 80px 0 10px 10px;
   background-color: rgba(128, 128, 128, 0.644);
   color: #007bff;
 }
