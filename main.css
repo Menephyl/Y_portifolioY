@@ -1554,7 +1554,7 @@ padding-bottom: 20px;
   margin-top: -210px;
   width: 400px;
   font:200 14.2px "Quicksand",arial,sans-serif, gray;
-   
+  margin-bottom: 50px; 
 }
   .desc_text h3{
     margin-top: 20px;
