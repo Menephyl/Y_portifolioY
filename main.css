@@ -1217,8 +1217,8 @@ padding-right: 20px;
   height: 300px;
   background-image: url(https://technext.github.io/jackson/images/img-4.jpg);
   transition: background-image 0.3s ease;
-  margin: -150px 0 10px 10px;    
   background-position: center;
+  margin: -150px 0 200px 10px; 
   }
   .con_4:hover{
     background-color: #007bff;
