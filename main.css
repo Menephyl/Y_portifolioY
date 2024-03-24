@@ -1547,7 +1547,6 @@ padding-bottom: 20px;
   width: 150px;
   display: flex;
   font:200 12.2px "Quicksand",arial,sans-serif, gray;
-
   margin-right: 15px;
   text-transform: uppercase;
   margin-bottom: 25px;
@@ -1584,7 +1583,21 @@ padding-bottom: 20px;
   font:200 14.2px "Quicksand",arial,sans-serif, gray;
   margin-bottom: 50px; 
   text-transform: uppercase;
+
+}
+.a2{
+  margin-top: 20px;
+  
+}
+ .a3{
+ text-transform: none;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: -180px;
+  color: black;
+  font-size: 14px;
 } 
+/*
   .p2{
     margin-left: -70px;
     text-align: justify;
@@ -1596,7 +1609,7 @@ padding-bottom: 20px;
     font: 400 14px "Playfair Display",Georgia,serif;
     margin-left: -70px;
     margin-top: -250px;
-  }
+  } */
 /* .a3{
   margin-right: -200px;
   margin-top: 20px;
