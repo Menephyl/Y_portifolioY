@@ -951,6 +951,9 @@ position: relative;
     text-align: left;
     margin-bottom: 72px;
 }
+.read em{
+  margin-left: 15px;
+}
 .read h1{
   font: 18px 'Playfair-Display',Georgia, serif;
 text-align: start;
