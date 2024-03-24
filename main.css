@@ -880,20 +880,22 @@ position: relative;
 }
 .panel-body{
   width: 822px;
+  height: 100px;
   display: flex;
-  height: 85px;
   text-align: justify;
   margin-left: 10px;
   border: 0.5px solid rgba(128, 128, 128, 0.468);
-
+  margin-bottom: 20px;
 }
 .panel-body p{
   width: 375px;
-  height: 80px;
+  height: 100px;
   text-align: justify;
   text-wrap: wrap;
   color: #000000b3;
   margin-right: 0;
+  margin-bottom: 20px;
+  
 }
 
 .education h1{ font:700 18px 'Playfair-Display',Georgia, serif;
@@ -903,7 +905,7 @@ position: relative;
 }
 
 .education div a{
-  width: 92%;
+  width: 88%;
   text-transform: uppercase;
   height: 57px;
   position: relative;
@@ -928,6 +930,7 @@ position: relative;
   color:black;
 }
 .education a{
+  width: 88%;
   margin: 10px;
   color: black;
 }
