@@ -1490,7 +1490,6 @@ padding-bottom: 20px;
   margin-left:10px;
   width: 170px;
   display: flex;
-  
   font-size: 14px;
   margin-right: 17px;
 } 
@@ -1502,6 +1501,7 @@ padding-bottom: 20px;
   font-size: 14px;
 }
 .small-all p{
+  text-wrap: wrap;
   text-align: justify;
   font: 400 12px;
   text-wrap: wrap;
