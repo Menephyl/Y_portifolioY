@@ -1590,14 +1590,12 @@ padding-bottom: 20px;
     text-align: justify;
     text-wrap: wrap;
   }
-  .a3{
-    text-transform: none;
-    text-wrap: nowrap;
+  .sma span .a3{
     width: 230px;
     height: 35px;
     font: 400 14px "Playfair Display",Georgia,serif;
     margin-left: -70px;
-    margin-top: 25px;
+    margin-top: -250px;
   }
 /* .a3{
   margin-right: -200px;
