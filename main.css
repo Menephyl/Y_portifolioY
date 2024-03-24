@@ -59,7 +59,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 800px;
+  width: 850px;
   height: auto;
   text-align: center;
   color: #020000;
@@ -208,7 +208,7 @@ margin-top: -100px;
 .about-me p{
   text-align: justify;
 font: 400 15px "Quicksand",arial,sans-serif;
-
+text-wrap: wrap;
 }
 .principal p{
   text-align: justify;
