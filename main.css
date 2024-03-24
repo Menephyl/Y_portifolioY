@@ -1163,7 +1163,6 @@ padding-right: 20px;
   }
   .con_3:hover{
     background-color: #007bff;
-    
   }
   .con_3 .content{
     width: 370px;
@@ -1574,11 +1573,7 @@ padding-bottom: 20px;
   height: 60px;
   text-align: left;
 } 
-.p3{
-  margin-top: 5px;
-  font-size: 15px;
-  color: #020000;
-}
+
 .desc_text .p3{
   margin-left: -170px;
   margin-top: 60px;
