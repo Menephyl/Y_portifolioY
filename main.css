@@ -965,6 +965,7 @@ text-align: start;
 
 }
 .works{
+  width: 795px;
   background-color:#f2f3f7;
   display: flex;
   align-items: center;
@@ -972,8 +973,8 @@ text-align: start;
 }
 
 .circle{
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color:#2c98f0;
   border-radius: 50%;
   text-align:center;
@@ -1027,7 +1028,7 @@ text-align: start;
 .fa-pen{
   color: #fff;
   margin: auto;
-  font-size: 15px;
+  font-size: 10px;
 }
 .work-menu{
   font: 15px 'Quicksand', arial, sans-serif;
