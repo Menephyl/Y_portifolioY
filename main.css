@@ -654,8 +654,10 @@ width: 285px;
   margin: 10px 100px 100px 10px;
   
 }
-#projects h1{
+#projects > h1{
   text-align: start;
+  font:700 18px "Playfair-display",georgia,serif;
+  margin: 0 0 72px 0;
 }
 .p{
 display: flex;
