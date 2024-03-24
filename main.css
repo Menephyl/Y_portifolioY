@@ -1595,11 +1595,12 @@ padding-bottom: 20px;
   }
   .a3{
     text-transform: none;
+    text-wrap: nowrap;
     width: 230px;
     height: 35px;
-    margin-top: 30px;
     font: 400 14px "Playfair Display",Georgia,serif;
-    margin-left: -100px;
+    margin-left: -70px;
+    margin-top: 25px;
   }
 /* .a3{
   margin-right: -200px;
