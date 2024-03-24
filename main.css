@@ -925,12 +925,13 @@ position: relative;
 }
 .experience h1{
    font:700 18px 'Playfair-Display',Georgia, serif;
-   
     text-align: left;
+    margin-top: -20px;
 }
 .read h1{
   font: 18px 'Playfair-Display',Georgia, serif;
 text-align: start;
+
 }
 .works h3 > span{
   font-weight: 300;
