@@ -1535,7 +1535,6 @@ padding-bottom: 20px;
   width: 300px;
   height: 60px;
   padding-left: 40px;
-
 }
 .small-all{
   display: flex;
@@ -1561,9 +1560,7 @@ padding-bottom: 20px;
    text-wrap: wrap;
    height: 59px;
    margin-bottom: 35px; 
-   
  }
-
 .small-all .small a{
  text-align: start;
  width: 300px;
@@ -1578,16 +1575,14 @@ padding-bottom: 20px;
  .sma{
   display:flex;
   margin-left:560px;
-  margin-top: -210px;
+  margin-top: -218px;
   width: 300px;
   font:200 14.2px "Quicksand",arial,sans-serif, gray;
   margin-bottom: 50px; 
   text-transform: uppercase;
-
 }
 .a2{
   margin-top: 20px;
-  
 }
  .a3{
  text-transform: none;
@@ -1597,40 +1592,11 @@ padding-bottom: 20px;
   color: black;
   font-size: 14px;
 } 
-/*
-  .p2{
-    margin-left: -70px;
-    text-align: justify;
-    text-wrap: wrap;
-  }
-  .sma span .a3{
-    width: 230px;
-    height: 35px;
-    font: 400 14px "Playfair Display",Georgia,serif;
-    margin-left: -70px;
-    margin-top: -250px;
-  } */
-/* .a3{
-  margin-right: -200px;
-  margin-top: 20px;
-  width: 190px;
-  height: 60px;
-  text-align: left;
-  color: #020000;
-} 
-
- .p3{
-  text-transform: none;
- 
-  margin-top: 45px;
-  width: 250px;
-  height: 60px;
-  text-align: left;
+.p2{
   text-wrap: wrap;
-  font-size: 16.5px;
-  word-spacing: 3px;
-  color: #020000;
-} */
+  width: 180px;
+  margin-right: 10px;
+}
 .contact{
   width: 95%;
   margin: 5px;
