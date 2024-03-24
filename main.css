@@ -1605,7 +1605,12 @@ padding-bottom: 20px;
   font-size: 13px;
   text-wrap: nowrap;
 }
-
+.sma p{
+  text-wrap: wrap;
+  width: 180px;
+ margin-top:20px;
+  margin-left: -100px;
+}
 .contact{
   width: 95%;
   margin: 5px;
