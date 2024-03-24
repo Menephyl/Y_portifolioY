@@ -1484,7 +1484,7 @@ padding-bottom: 20px;
   top: -580px;
   margin-top: -50px;
   width: 100%; 
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 .small{
   margin-left:10px;
@@ -1568,7 +1568,6 @@ padding-bottom: 20px;
   }
 .a3{
   margin-left: -170px;
-  margin-top: 20px;
   width: 190px;
   height: 60px;
   text-align: left;
