@@ -193,20 +193,21 @@ margin-left: 10px;
 }
 .about-me em{
 margin-top: -100px;
-  font-size: 12px;
-  padding-bottom: -10px;
+font-size: 12px;
+padding-bottom: -10px;
 }
 .about-me-text{
-  width: 820px;
-  padding-left: 10px;
-  padding-top: 30px;
   text-align: start;
   margin-top: -80px;
   font: 700 18px "Playfair Display";
   text-wrap: wrap;
+  padding-left: 10px;
+  padding-top: 30px;
+  margin-left: -5px;
 }
 .about-me p{
-  text-align: justify;
+width:92%;
+text-align: left;
 font: 400 15px "Quicksand",arial,sans-serif;
 text-wrap: wrap;
 }
