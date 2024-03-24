@@ -1575,22 +1575,26 @@ padding-bottom: 20px;
  .sma{
   text-align: start;
   display:flex;
-  margin-left:560px;
+  position:relative;
+  margin-left:520px;
   margin-top: -218px;
   width: 250px;
-  font:200 14.2px "Quicksand",arial,sans-serif, gray;
   margin-bottom: 50px; 
-  text-transform: uppercase;
   text-wrap: wrap;
 }
-.a3{
+.sma small{
+  width:180px;
+  text-wrap: nowrap;
+  font:200 10.2px "Quicksand",arial,sans-serif, gray;
+  text-transform: uppercase;
+}
+.sma .a3{
   width: 200px;
-  text-transform: none;
-  padding: 5px;
-  margin-top: -500px;
-  margin-left: 100px;
+  margin-top: 20px;
+  margin-left: -100px;
   color: black;
   font-size: 13px;
+  text-wrap: nowrap;
 }
 .a2{
   margin-top: 20px;
