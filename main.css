@@ -1550,9 +1550,8 @@ padding-bottom: 20px;
 }
  .sma{
   display:flex;
-  margin-right: 0;
   margin-left:550px;
-  margin-top: -120px;
+  margin-top: -220px;
   width: 170px;
   font:200 13px "Quicksand",arial,sans-serif, gray;
   }
@@ -1560,7 +1559,7 @@ padding-bottom: 20px;
     margin-top: 15px;
     font-size: 14px;
   }
-  .p2{
+  /* .p2{
     margin-left: -70px;
     text-align: justify;
     text-wrap: wrap;
@@ -1571,7 +1570,7 @@ padding-bottom: 20px;
   width: 190px;
   height: 60px;
   text-align: left;
-}
+} */
 .p3{
   margin-top: 5px;
 }
