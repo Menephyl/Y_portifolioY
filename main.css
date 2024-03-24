@@ -1551,10 +1551,11 @@ padding-bottom: 20px;
  .sma{
   display:flex;
   margin-left:550px;
-  margin-top: -220px;
-  width: 300px;
-  font:200 12.2px "Quicksand",arial,sans-serif, gray;
-  }
+  margin-top: -210px;
+  width: 400px;
+  font:200 14.2px "Quicksand",arial,sans-serif, gray;
+   
+}
   .desc_text h3{
     margin-top: 20px;
     font-size: 14px;
