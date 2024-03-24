@@ -859,6 +859,9 @@ position: relative;
   position: relative;
   color:rgb(21, 197, 89);
 }
+.education{
+  margin-bottom: 200px;
+}
 .education em{
   padding-left: 10px;
 
