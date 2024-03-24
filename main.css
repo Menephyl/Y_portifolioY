@@ -145,7 +145,7 @@ flex-direction: column;
   height: 400px;
   width: 490px;
 }
- #funcao > a{
+ #funcao a{
   display: flex;
   width: 230px;
   text-align: start;
@@ -163,6 +163,7 @@ flex-direction: column;
   position: absolute;
   margin-top: -150px;
   margin-left: 70px;
+  
 }
 .circles{
 margin-left: -30px;
