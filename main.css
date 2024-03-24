@@ -1413,9 +1413,7 @@ padding-right: 20px;
   display: inline-flex;
   flex-direction: row;
   width: 230px;
-  height: 200px;
-
-  
+  height: 200px;  
 }
 .img-responsive1{
   display: flex;
@@ -1510,12 +1508,13 @@ padding-bottom: 20px;
 .small-all{
   display: flex;
   flex-direction: row;
+  margin-top: -150px;
 }
 .small-all .smal{
   margin-left:10px;
   width: 170px;
   display: flex;
-  font:200 8px "Quicksand",arial,sans-serif, gray;
+  font:200 10px "Quicksand",arial,sans-serif, gray;
   font-size: 14px;
   margin-right: 15px;
 }
@@ -1550,6 +1549,14 @@ padding-bottom: 20px;
   width: 170px;
   font:200 13px "Quicksand",arial,sans-serif, gray;
   }
+  .read h3{
+
+  }
+  .p2{
+    margin-left: -70px;
+    text-align: justify;
+    text-wrap: wrap;
+  }
 .a3{
   margin-left: -170px;
   margin-top: 10px;
@@ -1559,12 +1566,12 @@ padding-bottom: 20px;
 }
 .desc_text .p3{
   font-size: 8px;
-
   margin-left: -170px;
   margin-top: 60px;
   width: 200px;
   height: 60px;
   text-align: left;
+  text-wrap: wrap;
 }
 .contact{
   width: 95%;
