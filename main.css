@@ -197,15 +197,18 @@ margin-top: -100px;
   padding-bottom: -10px;
 }
 .about-me-text{
-  padding-left: 15px;
+  width: 820px;
+  padding-left: 10px;
   padding-top: 30px;
   text-align: start;
   margin-top: -80px;
   font: 700 18px "Playfair Display";
+  text-wrap: wrap;
 }
 .about-me p{
   text-align: justify;
 font: 400 15px "Quicksand",arial,sans-serif;
+
 }
 .principal p{
   text-align: justify;
