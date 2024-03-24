@@ -1573,6 +1573,7 @@ padding-bottom: 20px;
   margin-bottom: 35px; 
 }
  .sma{
+  text-align: start;
   display:flex;
   margin-left:560px;
   margin-top: -218px;
@@ -1581,21 +1582,23 @@ padding-bottom: 20px;
   margin-bottom: 50px; 
   text-transform: uppercase;
 }
+.small-all .sma  h3{
+  width: 200px;
+  text-transform: none;
+  padding: 5px;
+  margin-top: -500px;
+  margin-left: -300px;
+  color: black;
+  font-size: 13px;
+}
 .a2{
   margin-top: 20px;
-}
- .a3{
- text-transform: none;
-  padding: 5px;
-  margin-top: 20px;
-  margin-left: -180px;
-  color: black;
-  font-size: 14px;
 } 
 .p2{
   text-wrap: wrap;
   width: 180px;
   margin-right: 10px;
+  margin-left: -40px;
 }
 .contact{
   width: 95%;
