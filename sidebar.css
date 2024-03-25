@@ -60,7 +60,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
  width: 100px;
  height: 20px;
  font: 400 10px "Quicksand",arial, sans-serif;   text-transform: uppercase;
-display: flex;
+ display: flex;
  margin-top: 2px;
  margin-left: 15px;
  margin-bottom: 10px;
@@ -125,8 +125,8 @@ display: flex;
     height: 600px;
   }
   .footer > em{
-text-align: center;
-margin-left: 75px;
+  text-align: center;
+  margin-left: 75px;
   }
   .footer .side-em{
     margin:10px 40px 10px 10px;
