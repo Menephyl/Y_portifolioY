@@ -1567,6 +1567,7 @@ padding-bottom: 20px;
   }
   .small-all .smal small{
     text-wrap: nowrap;
+  width: 100pxz;
   }
 .small-all .smal a{
   text-align: start;
