@@ -1603,13 +1603,7 @@ padding-bottom: 20px;
   margin-bottom: 50px; 
   text-wrap: wrap;
 }
-.sma small{
-  height: 40px;
-  width:180px;
-  text-wrap: nowrap;
-  font:200 10.2px "Quicksand",arial,sans-serif, gray;
-  text-transform: uppercase;
-}
+
 .sma .a3{
   position: absolute;
   width: 230px;
