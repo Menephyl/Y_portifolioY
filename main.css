@@ -1557,6 +1557,7 @@ padding-bottom: 20px;
   margin-bottom: 100px;
 }
 .small-all .smal{
+
   margin-left:10px;
   width: 150px;
   display: flex;
@@ -1568,8 +1569,10 @@ padding-bottom: 20px;
   .small-all .smal small{
     text-wrap: nowrap;
     width: 100px;
+    text-align: center,;
   }
   .sma small{
+    text-align: center;
     font-size: 10px;
     text-wrap: nowrap;
     width: 30px;
