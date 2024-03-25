@@ -1570,9 +1570,11 @@ padding-bottom: 20px;
     width: 100px;
   }
   .small-all .sma small{
+    font-size: 8px;
     text-wrap: nowrap;
+
     width: 100px;
-    font-size: 9px;
+   
   }
 .small-all .smal a{
   text-align: start;
