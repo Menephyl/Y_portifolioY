@@ -1565,6 +1565,9 @@ padding-bottom: 20px;
   text-transform: uppercase;
   margin-bottom: 25px;
   }
+  .small-all .smal small{
+    text-wrap: nowrap;
+  }
 .small-all .smal a{
   text-align: start;
   width: 300px;
