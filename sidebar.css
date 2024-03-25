@@ -50,7 +50,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   }
 .azul{
   display: inline-block;
-  text-align: center;
+  text-align: start;
   text-wrap: nowrap;
   margin-left: -10px;
   margin-right:10px;
