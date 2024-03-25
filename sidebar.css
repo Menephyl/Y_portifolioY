@@ -113,11 +113,13 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
  text-decoration:none;
   }
   .caixa-de-textos ul li{
-    margin-top: 20px;
+   
     padding: 3px;
     margin-bottom: 0;
   }
-  
+  .caixa-de-textos .menu-nav{
+      margin-top: 20px;
+  }
   .footer{
     display: flex;
     flex-direction: column;
