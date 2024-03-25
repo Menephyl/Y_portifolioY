@@ -103,7 +103,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
    height: 295px;
   }
   .menu-lateral-active ul li{
- font: 400 12px "Quicksand",arial, sans-serif;
+ font: 700 12px "Quicksand",arial, sans-serif;
  text-transform: uppercase;
  list-style-type: none;
  margin: 10px; 
@@ -113,7 +113,6 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
  text-decoration:none;
   }
   .caixa-de-textos ul li{
-   
     padding: 3px;
     margin-bottom: 0;
   }
