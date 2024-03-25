@@ -40,6 +40,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 
   }
  .caixa-de-textos .y1{
+  font:700 22px "Playfair-display",georgia, serif;
     margin: 10px;
     padding: 3px;
   }
