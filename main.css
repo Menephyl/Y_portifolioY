@@ -428,8 +428,11 @@ text-align: left;
 width: 285px;
 }
 #expertise i{
-  margin-top: -120px;
+ posisiton:fixed;
+  margin-top: -150px;
   margin-left: 15px;
+  margin-bottom:0;
+  margin-right: 0;
 }
 .desc{
   justify-content: space-between;
