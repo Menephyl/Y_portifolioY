@@ -127,6 +127,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   }
   .footer > em{
   text-align: center;
+  margin-left: 20px;
 
   }
   .footer .side-em{
