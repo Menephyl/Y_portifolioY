@@ -1686,6 +1686,9 @@ padding-bottom: 20px;
   background-color: rgba(128, 128, 128, 0.644);
   color: #007bff;
 }
+.item i{
+  margin-top:30px;
+}
 .text a{
   position: absolute;
   font: 400 15px "Quicksand",arial, sans-serif;
