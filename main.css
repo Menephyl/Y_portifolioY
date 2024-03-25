@@ -149,7 +149,7 @@ flex-direction: column;
   font-family: 'Playfair Display',Georgia, serif ; 
   letter-spacing: 2px;
   font-size:1.5em;
-  margin: -30px 0px 20px 20px;
+  margin: -30px 0px 0 20px;
   font-weight: 700;
   text-align: left;
   color: #020000;  
@@ -164,7 +164,7 @@ flex-direction: column;
   font-size: 12px;
   color: #fff;
   border:1px solid rgb(234, 215, 215);
-  margin: 30px 100px 70px 0;
+  margin: 30px 0 70px 0;
   padding: 5px;
 }
 
