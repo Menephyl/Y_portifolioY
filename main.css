@@ -427,8 +427,8 @@ font-weight: 700;
 text-align: left;
 width: 285px;
 }
-#expertise i{
- posisiton:fixed;
+#expertise .hex i{
+ position:fixed;
   margin-top: -150px;
   margin-left: 15px;
   margin-bottom:0;
