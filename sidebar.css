@@ -38,8 +38,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   -o-transition: 0.5s;
   transition: 0.5s
   } 
-
-#aside >  a{
+#aside>a{
   color: #449deb;
   font: 400 12px "Quicksand",arial,;
   text-align: center;  
@@ -56,19 +55,20 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
     margin:0 10px 10px 10px 10px;
     padding: 3px;
 }
-  /* }   h1 */
-.menu-lateral-active h3{
-  font: 400 10px "Quicksand",arial, sans-serif;
-  text-transform: uppercase;
-  color: #000;
-  margin-left: -20px;
-  letter-spacing: normal;
-}
-.azul{
+        /* }   h1 */
+
+.position{
   display: inline;
   text-wrap: nowrap;
   margin-left: -10px;
   margin-right: 20px;
+  font: 400 10px "Quicksand",arial, sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: normal;
+}
+.position h3{
+margin-left: 10px;
 }
   .btn1{
  width: 100px;
@@ -94,8 +94,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   .menu-lateral-active li:hover{
     text-decoration: underline blue;
     transition: 0.3s ease;
-  }
-  
+  } 
   .menu-lateral-active .cargo .azul {
  font: 400 12px "Quicksand",arial, sans-serif;
   text-transform: uppercase;
