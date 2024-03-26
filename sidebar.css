@@ -67,7 +67,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   color: #000;
   letter-spacing: normal;
 }
-.position h3{
+#active h3{
 margin-left: 10px;
 }
   .btn1{
