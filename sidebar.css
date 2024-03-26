@@ -26,12 +26,12 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   font: 400 12px "Quicksand",arial,;
   text-align: center;  
 }
-#aside img{
+#aside .autor-img img{
   display: flex;
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  margin: 30PX 67.5px 30px;
+  margin: 30PX 60px 67.5px 30px;
 }
 .menu-lateral-active {
   color: #0000;
