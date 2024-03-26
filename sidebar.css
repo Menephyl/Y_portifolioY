@@ -62,11 +62,12 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   font: 400 12px "Quicksand",arial, sans-serif;
   text-transform: uppercase;
   color: #000;
+  margin-bottom: 24px;
 }
 .azul{
   display: inline;
   text-wrap: nowrap;
-  margin-top: 24px;
+
   margin-left: -10px;
   margin-right: 20px;
   padding-bottom: 1px;
