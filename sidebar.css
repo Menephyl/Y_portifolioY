@@ -34,7 +34,6 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   border-radius: 1rem;
   height: 100%;
   padding-top: 3em;
-
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s
@@ -118,7 +117,8 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
  text-align: center;
  color: #000000b3;
  text-decoration:none;
-  }
+  
+}
   .caixa-de-textos ul li{
     padding: 3px;
     margin-bottom: 0;
