@@ -59,7 +59,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 }
   /* }   h1 */
 .menu-lateral-active h3{
-  font: 400 12px "Quicksand",arial, sans-serif;
+  font: 400 10px "Quicksand",arial, sans-serif;
   text-transform: uppercase;
   color: #000;
  
@@ -70,7 +70,6 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   margin-left: -10px;
   margin-right: 20px;
 }
-
   .btn1{
  width: 100px;
  height: 20px;
