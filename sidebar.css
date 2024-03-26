@@ -32,9 +32,9 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   text-align: center;
   margin: 5px; 
   border-radius: 1rem;
-  height: auto;
+  height: 100%;
   padding-top: 3em;
-  padding-bottom: 40px;
+
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s
