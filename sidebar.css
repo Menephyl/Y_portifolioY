@@ -26,7 +26,9 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   font: 400 12px "Quicksand",arial,;
   text-align: center;  
 }
-
+#aside img{
+  
+}
 .menu-lateral-active {
   color: #0000;
   position:fixed;
