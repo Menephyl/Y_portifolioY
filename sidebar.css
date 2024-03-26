@@ -67,11 +67,8 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 .azul{
   display: inline;
   text-wrap: nowrap;
-
   margin-left: -10px;
   margin-right: 20px;
-  padding-bottom: 1px;
- 
 }
   .btn1{
  width: 100px;
