@@ -66,10 +66,13 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   text-transform: uppercase;
   color: #000;
   letter-spacing: normal;
+  word-spacing: 2px;
 }
-#active h3{
-margin-left: 10px;
+.azul{
+  margin-left: 5px;
 }
+
+
   .btn1{
  width: 100px;
  height: 20px;
