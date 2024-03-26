@@ -75,7 +75,8 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   .btn1{
  width: 100px;
  height: 20px;
- font: 400 10px "Quicksand",arial, sans-serif;   text-transform: uppercase;
+ font: 400 10px "Quicksand",arial, sans-serif; 
+ text-transform: uppercase;
  display: flex;
  margin-top: 2px;
  margin-left: 15px;
@@ -106,7 +107,6 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   }
   .menu-lateral-active ul{
    width: 100%;
-   height: 295px;
   }
   .menu-lateral-active ul li{
  font: 700 12px "Quicksand",arial, sans-serif;
