@@ -36,7 +36,8 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   padding-top: 3em;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s
+  transition: 0.5s;
+  overflow-y: scroll;
   } 
 #aside>a{
   color: #449deb;
