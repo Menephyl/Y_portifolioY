@@ -27,7 +27,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   text-align: center;  
 }
 #aside .autor-img img{
-  display:block;
+  display:flex;
   height: 150px;
   width: 150px;
   border-radius: 50%;
