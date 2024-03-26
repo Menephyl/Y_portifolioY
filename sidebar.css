@@ -62,7 +62,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   font: 400 12px "Quicksand",arial, sans-serif;
   text-transform: uppercase;
   color: #000;
-  margin-bottom: 24px;
+ 
 }
 .azul{
   display: inline;
@@ -70,6 +70,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   margin-left: -10px;
   margin-right: 20px;
 }
+
   .btn1{
  width: 100px;
  height: 20px;
