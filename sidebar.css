@@ -32,7 +32,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   text-align: center;
   margin: 5px; 
   border-radius: 1rem;
-  height: 100%;
+  height: auto;
   padding-top: 3em;
   padding-bottom: 40px;
   -webkit-transition: 0.5s;
@@ -107,6 +107,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   }
   .menu-lateral-active ul{
    width: 100%;
+   margin-top: 30px;
   }
   .menu-lateral-active ul li{
  font: 700 12px "Quicksand",arial, sans-serif;
@@ -128,7 +129,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   .footer{
     display: flex;
     flex-direction: column;
-    top: -30px;
+    top:0;
     color: black;
     text-align: center;
     font: 400 12px "Quicksand",arial, sans-serif;
