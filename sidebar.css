@@ -26,7 +26,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   font: 400 12px "Quicksand",arial,;
   text-align: center;  
 }
-#aside .autor-img {
+#aside img{
   background-color: red;
   display:flex;
   height: 150px;
