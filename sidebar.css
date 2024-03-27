@@ -49,7 +49,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  margin: 0 67px 0 0;
+  margin: 0 67px 0;
 }
 .y1{ 
   font:700 22px "Playfair-display",georgia, serif;
@@ -64,6 +64,63 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   font: 400 10px "Quicksand",arial, sans-serif;
   text-transform: uppercase;
   color: #000;
+}
+.menu-lateral-active a:hover{
+  text-decoration: underline blue;
+  transition: 0.3s ease;
+} 
+.menu-lateral-active .cargo .azul {
+font: 400 12px "Quicksand",arial, sans-serif;
+text-transform: uppercase;
+color: #449deb;   
+text-align: center;
+margin-left: 25px;
+}
+.menu-lateral-active ul{
+ width: 100%;
+ margin-top: 30px;
+}
+.menu-lateral-active ul li{
+font: 400 12px "Quicksand",arial, sans-serif;
+text-transform: uppercase;
+list-style-type: none;
+margin: 10px; 
+border-radius: 3px;
+text-align: center;
+color: #000000e2;
+text-decoration:none;
+
+}
+.caixa-de-textos ul li{
+  padding: 3px;
+  margin-bottom: 0;
+}
+.caixa-de-textos .menu-nav{
+    margin-top: 30px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  top:0;
+  color: black;
+  text-align: center;
+  font: 400 12px "Quicksand",arial, sans-serif;
+  height: 600px;
+}
+.footer > em{
+text-align: center;
+margin-left: 20px;
+
+}
+.footer .side-em{
+  margin:10px 40px 10px 10px;
+}
+.footer .side-em a{
+color: #449deb; 
+font: 700 14px ;
+margin:10px 10px 10px 10px;
+text-align: center;
+
 }
 /* 
   .btn1{
@@ -87,62 +144,6 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
    width: 100%;
    padding: 2px;
   } */
-  .menu-lateral-active a:hover{
-    text-decoration: underline blue;
-    transition: 0.3s ease;
-  } 
-  .menu-lateral-active .cargo .azul {
- font: 400 12px "Quicksand",arial, sans-serif;
-  text-transform: uppercase;
-  color: #449deb;   
-  text-align: center;
-  margin-left: 25px;
-  }
-  .menu-lateral-active ul{
-   width: 100%;
-   margin-top: 30px;
-  }
-  .menu-lateral-active ul li{
- font: 400 12px "Quicksand",arial, sans-serif;
- text-transform: uppercase;
- list-style-type: none;
- margin: 10px; 
- border-radius: 3px;
- text-align: center;
- color: #000000e2;
- text-decoration:none;
   
-}
-  .caixa-de-textos ul li{
-    padding: 3px;
-    margin-bottom: 0;
-  }
-  .caixa-de-textos .menu-nav{
-      margin-top: 30px;
-  }
-  .footer{
-    display: flex;
-    flex-direction: column;
-    top:0;
-    color: black;
-    text-align: center;
-    font: 400 12px "Quicksand",arial, sans-serif;
-    height: 600px;
-  }
-  .footer > em{
-  text-align: center;
-  margin-left: 20px;
-
-  }
-  .footer .side-em{
-    margin:10px 40px 10px 10px;
-  }
- .footer .side-em a{
-  color: #449deb; 
-  font: 700 14px ;
-  margin:10px 10px 10px 10px;
-  text-align: center;
- 
-}
   
  
