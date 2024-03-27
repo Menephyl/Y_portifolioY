@@ -65,7 +65,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   text-transform: uppercase;
   color: #000;
 }
-.menu-lateral-active a:hover{
+.menu-lateral-active ul>li:hover{
   text-decoration: underline blue;
   transition: 0.3s ease;
 } 
