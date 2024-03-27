@@ -54,7 +54,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 .y1{ 
   font:700 22px "Playfair-display",georgia, serif;
     margin: 10px 10px 10px 10px;
-    
+    letter-spacing: normal;
 }
   /* }   h1 */
 .position{
