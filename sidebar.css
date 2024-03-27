@@ -67,7 +67,15 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 }
 .menu-lateral-active a li:hover{
   text-decoration: underline blue;
-  transition: 1s ease;
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 } 
 .menu-lateral-active .cargo .azul {
 font: 400 12px "Quicksand",arial, sans-serif;
