@@ -387,7 +387,9 @@ margin: auto;
   font-weight: 700;
   text-align: center;
 }
-
+.n span{
+  margin-top: 30px;
+}
  .t1{
   margin-top: 30px;
   font-size: 13px;
