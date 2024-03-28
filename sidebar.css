@@ -123,7 +123,7 @@ font: normal;
 .side-em > i{
   color: black;
 }
-.footer .side-em a{
+.footer .side-em >a{
 color: #449deb; 
 font: 700 14px ;
 margin:10px 0 ;
