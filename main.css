@@ -71,7 +71,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   border: transparent;
   overflow-x: hidden;
 }
-.oi{
+/* .oi{
   height: auto;
   display: flex;
   font-family: 'Playfair Display', Georgia, serif ; 
@@ -100,7 +100,7 @@ flex-direction: column;
  margin-left: -420px;
  text-align: left;
  margin-bottom: 0;
-}
+} */
 .down{
   font-size: 12px;
   /* margin-top: 1px; o margin top nao ta surtindo efeito, provalvel conflito. ao conteudo estar dentro do h2 */
