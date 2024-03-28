@@ -676,8 +676,9 @@ margin-left: 30px;
    border-top:25px solid #4055b2;;
  }
 #projects{
-  align-content: space-between;
+  width: calc(100vw-300px);
   margin: 10px 10px 0 10px;
+  text-align: center;
   
 }
 #projects > em{
