@@ -109,7 +109,7 @@ height: 100px;
 .footer > em{
 font-size: 10px;
 text-align: center;
-margin-left: 40px;
+margin-left: 80px;
 margin-top: 15px ;
 font: normal;
 
@@ -121,9 +121,6 @@ font: normal;
 .footer .side-em >a{
 color: #449deb; 
 text-align: center;
-
-
-
 }
 /*  buttao futuro de alteração de linguagem 
   .btn1{
