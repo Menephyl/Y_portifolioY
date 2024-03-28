@@ -147,7 +147,7 @@ flex-direction: column;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .funcao h1{
   font-family: 'Playfair Display',Georgia, serif ; 
