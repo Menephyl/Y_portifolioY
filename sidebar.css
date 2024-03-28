@@ -38,7 +38,8 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   -o-transition: 0.5s;
   transition: 0.5s;
   overflow-y: scroll;
-  } 
+  overflow-x: hidden;
+} 
 #aside>a{
   color: #449deb;
   font: 400 10px "Quicksand",arial,;
