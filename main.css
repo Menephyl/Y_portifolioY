@@ -970,13 +970,12 @@ position: relative;
   width: 795px;
 }
 .experience em{
-  margin-left: 30px;
+ margin-left: 30px;
 }
 .experience h1{
    font:700 18px 'Playfair-Display',Georgia, serif;
     text-align: left;
     margin-bottom: 72px;
-    margin-left: 30px;
 }
 .read em{
   margin-left: 15px;
