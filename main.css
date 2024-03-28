@@ -360,7 +360,7 @@ margin: auto;
 #img01{
   display: flex;
   flex-direction: row;
-  width: 800px;
+  width: 870px;
   height: 15rem;
   background-image: url(https://technext.github.io/jackson/images/cover_bg_1.jpg);
   background-position: right center;
@@ -373,7 +373,7 @@ margin: auto;
   box-shadow: inset 6px 6px 13px 0px black;
   background-size: cover;
   background-attachment: fixed;
-  width:95%;
+  width: 870px;
 }
 #imagem span{
   font:  "Quicksand", Arial, sans-serif 16px;
@@ -383,7 +383,6 @@ margin: auto;
   margin-top: 4px;
 }
 .n{ 
- 
   font-size: 30px;
   font-weight: 700;
   text-align: center;
