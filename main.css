@@ -143,6 +143,7 @@ flex-direction: column;
  margin-left: -200px;
 }
 .main #funcao {
+  background-image: url(https://technext.github.io/jackson/images/img_bg_2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
