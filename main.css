@@ -91,7 +91,7 @@ overflow-x: hidden;
   height: 400px;
   width: 490px;
 }
-.oi h2{
+.oi h2,.funcao h2{
   font: 15px "Quicksand",Arial, sans-serif;
 flex-direction: column;
  width: 200px;
