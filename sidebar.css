@@ -120,6 +120,9 @@ font: normal;
   text-align: center;
   font: normal;
 }
+.side-em > i{
+  color: red;
+}
 .footer .side-em a{
 color: #449deb; 
 font: 700 14px ;
