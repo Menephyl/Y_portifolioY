@@ -103,10 +103,11 @@ text-decoration:none;
   top:0;
   color: black;
   text-align: center;
-  font: 400 12px "Quicksand",arial, sans-serif;
+  font: 400 10px "Quicksand",arial, sans-serif;
   height: 600px;
 }
 .footer > em{
+  
 text-align: center;
 margin-left: 20px;
 margin-top: 10px ;
