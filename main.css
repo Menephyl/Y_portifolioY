@@ -388,7 +388,7 @@ margin: auto;
   text-align: center;
 }
 
-span .t1{
+.n span, .t1{
   margin-top: 30px;
   font-size: 13px;
   font-weight: 400;
