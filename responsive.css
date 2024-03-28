@@ -101,8 +101,7 @@ margin: 1vh;
          /* border: 1px solid rgb(255, 255, 255);*/
           /* background-image: url(d481f3c72e283309071f79e01b05c06d.gif) ; */
           background-size: cover;
-          background-position: center center;  /*https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/Publishing_your_website*    ou background: url(imagem.jpg) center center cover no-repeat fixed;*/
-            /* Adicione outras propriedades conforme necessário */
+          background-position: center center;  
             box-shadow: 0 0 2px rgba(0, 0, 0, 0.749);
             padding: 2em;
         }    
