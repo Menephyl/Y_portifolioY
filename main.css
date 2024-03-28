@@ -429,6 +429,10 @@ font-size: 18px;
 font-weight: 700;
 text-align: left;
 width: 285px;
+margin-left: 10px;
+}
+#expertise em{
+  margin-left: 10px;
 }
 .desc .hex i{
   margin-top: -30px;
