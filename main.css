@@ -165,7 +165,7 @@ flex-direction: column;
 }
  #funcao a{
   display: flex;
-  width: 200px;
+  width: 180px;
   text-align: center;
   font-size: 12px;
   /* color: #fff; */
