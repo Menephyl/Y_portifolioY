@@ -1351,7 +1351,7 @@ padding-right: 20px;
   transition: background-image 0.3s ease;
   margin: 0 0 10px 10px;
   background-position: center; 
-  margin: -150px 0 50px 10px; 
+  margin: -150px 0 20px 10px; 
 }
   .con_5:hover{
     background-color: #007bff;
