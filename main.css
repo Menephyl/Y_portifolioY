@@ -1099,6 +1099,7 @@ padding-right: 20px;
  color: #007bff;
 }
 .desc2{
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
