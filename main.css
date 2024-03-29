@@ -70,6 +70,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   margin-left: 19.5rem;
   border: transparent;
   overflow-x: hidden;
+  background-color: #FFF;
 }
 /* .oi{
   height: auto;
@@ -214,7 +215,7 @@ border-radius: 50%;
   border-radius: 50%;
 }
 .about-me{
-  background-color: #FFF;
+ 
 margin-left: 10px;
 }
 .about-me em{
