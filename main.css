@@ -135,7 +135,7 @@ flex-direction: column;
      flex-wrap: wrap;
     letter-spacing: 2px;
     font: 700;
-}
+    }
 /* #home .oi a{
   flex-direction: column;
  width: 200px;
@@ -156,7 +156,7 @@ flex-direction: column;
   font-family: 'Playfair Display',Georgia, serif ; 
   letter-spacing: 2px;
   font-size:1.5em;
-  margin: 30px 0px 0 20px;
+  margin: 80px 0px 0 20px;
   font-weight: 700;
   text-align: left;
   color: #020000;  
@@ -164,16 +164,6 @@ flex-direction: column;
   width: 490px;
 
 }
-.funcao>h1{
-  /* color: #FFF; */
-   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-  font-size: 60px;
- }
- .funcao h2{
-   position: absolute;
-   margin-top: -150px;
-   margin-left: 70px; 
- }
  #funcao a{
   display: flex;
   width: 170px;
@@ -187,7 +177,16 @@ flex-direction: column;
  
 }
 
-
+.funcao>h1{
+ /* color: #FFF; */
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+ font-size: 60px;
+}
+.funcao h2{
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 70px; 
+}
 .circles{
 margin-left: -30px;
 position: relative;
