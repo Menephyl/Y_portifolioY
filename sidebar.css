@@ -117,6 +117,9 @@ margin-top: 5px ;
 font: normal;
 
 }
+.footer > em > i {
+  margin-left: 5px;
+}
 .footer > em >a{
   margin-left: 5px;
 }
