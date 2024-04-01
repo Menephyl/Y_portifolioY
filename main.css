@@ -139,7 +139,7 @@ flex-direction: column;
   
 #home h2{
 display: flex;
-top: 100px;
+top: 100vh;
 bottom: 0;
 left: 0;
 right: 0;
