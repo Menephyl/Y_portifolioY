@@ -124,10 +124,9 @@ flex-direction: column;
   padding: 10px;
   margin-top: 60px;
 }
-
-  .subtitle{
-    margin-top: 18px;
-    margin-bottom: 50px;
+.subtitle{
+   margin-top: 18px;
+   margin-bottom: 50px;
   }
   em{
     color: #999999;
