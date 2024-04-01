@@ -137,16 +137,16 @@ flex-direction: column;
     font: 700;
     }
   
-#home{
-  display: flex;
+#home {
+
 }
-#home .oi a{
+/* #home .oi a{
   flex-direction: column;
  width: 200px;
  height: 40px;
  margin-top: 370px;
  margin-left: -200px;
-}
+} */
 .main #funcao {
   background-image: url(https://technext.github.io/jackson/images/img_bg_2.jpg);
   background-repeat: no-repeat;
