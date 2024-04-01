@@ -113,14 +113,13 @@ text-decoration:none;
 .footer > em{
 font-size: 10px;
 text-align: start;
-
 margin-top: 5px ;
 font: normal;
 
 }
 .footer .em_side{
   color: red;
-  margin-left: 40px ;
+  margin-left: 50px ;
 }
 .footer > em > i {
   margin-left: 5px;
