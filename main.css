@@ -139,6 +139,7 @@ flex-direction: column;
   
 #home h2{
 display: flex;
+top: 100;
 }
 /* #home .oi a{
   flex-direction: column;
