@@ -136,6 +136,10 @@ flex-direction: column;
     letter-spacing: 2px;
     font: 700;
     }
+  
+#home{
+  display: flex;
+}
 #home .oi a{
   flex-direction: column;
  width: 200px;
