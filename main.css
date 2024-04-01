@@ -142,7 +142,7 @@ display: flex;
 top: 100vh;
 bottom: 0;
 left: 300vh;
-right: 30vw;
+right: 10vw;
 }
 /* #home .oi a{
   flex-direction: column;
