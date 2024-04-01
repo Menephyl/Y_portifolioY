@@ -137,8 +137,8 @@ flex-direction: column;
     font: 700;
     }
   
-#home {
-
+#home h2{
+display: flex;
 }
 /* #home .oi a{
   flex-direction: column;
