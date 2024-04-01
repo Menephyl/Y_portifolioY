@@ -105,7 +105,8 @@ text-decoration:none;
   color: black;
   text-align: center;
   font: 400 10px "Quicksand",arial, sans-serif;
-height: 100px;
+  height: 100px;
+  margin-bottom: 10px;
 }
 .footer > em{
 font-size: 10px;
