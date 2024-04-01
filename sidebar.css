@@ -109,9 +109,7 @@ text-decoration:none;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.footer:nth-child(2){
-  color:red;
-}
+
 .footer > em{
 font-size: 10px;
 text-align: start;
