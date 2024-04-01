@@ -141,7 +141,7 @@ flex-direction: column;
 display: flex;
 top: 100vh;
 bottom: 0;
-left: 0;
+left: 300vh;
 right: 0;
 }
 /* #home .oi a{
