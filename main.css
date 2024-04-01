@@ -94,16 +94,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }*/
 /* .oi h2, */
 
-.funcao h2{ 
-  font: 15px "Quicksand",Arial, sans-serif;
-flex-direction: column;
- width: 200px;
- height: 40px;
- margin-top: 320px;
- margin-left: -420px;
- text-align: left;
- margin-bottom: 0;
-}
+
 /* .down{
   font-size: 12px;
   /* margin-top: 1px; o margin top nao ta surtindo efeito, provalvel conflito. ao conteudo estar dentro do h2 
@@ -191,6 +182,16 @@ border-radius: 50%;
   height: 400px;
   width: 490px;
 
+}
+.funcao h2{ 
+  font: 15px "Quicksand",Arial, sans-serif;
+flex-direction: column;
+ width: 200px;
+ height: 40px;
+ margin-top: 320px;
+ margin-left: -420px;
+ text-align: left;
+ margin-bottom: 0;
 }
  #funcao a{
   display: flex;
