@@ -124,10 +124,6 @@ flex-direction: column;
   padding: 10px;
   margin-top: 60px;
 }
-
-.home ul li h1{
-  color: red;
-}
 .subtitle{
    margin-top: 18px;
    margin-bottom: 50px;
@@ -140,8 +136,6 @@ flex-direction: column;
     letter-spacing: 2px;
     font: 700;
     }
-  
-
 /* #home .oi a{
   flex-direction: column;
  width: 200px;
