@@ -107,6 +107,7 @@ text-decoration:none;
   font: 400 10px "Quicksand",arial, sans-serif;
   height: 100px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .footer > em{
 font-size: 10px;
