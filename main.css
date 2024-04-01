@@ -126,6 +126,7 @@ flex-direction: column;
 }
 #home h1{
   margin-top: 20vh;
+  color: red;
 }
   .subtitle{
     margin-top: 18px;
