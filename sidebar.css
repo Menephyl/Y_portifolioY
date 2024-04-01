@@ -118,6 +118,9 @@ margin-top: 5px ;
 font: normal;
 
 }
+.em_side{
+  color: red;
+}
 .footer > em > i {
   margin-left: 5px;
 }
