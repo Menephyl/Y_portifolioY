@@ -1,6 +1,9 @@
 /*    4- utilizar js para inserção das informações do projeto.
     modify contents
 */
+document.getElementById('currentYear').textContent = new Date().getFullYear()
+
+
 
 let isEnglish = false
 
