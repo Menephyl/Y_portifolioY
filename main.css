@@ -186,10 +186,8 @@ border-radius: 50%;
 flex-direction: column;
  width: 200px;
  height: 40px;
- margin-top: 320px;
- margin-left: -420px;
  text-align: left;
- margin-bottom: 0;
+ margin-bottom: 0.5em;
  
 }
  #funcao a{
