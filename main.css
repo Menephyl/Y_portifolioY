@@ -210,6 +210,7 @@ flex-direction: column;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
  font-size: 60px;
 }
+/* }
 .funcao h2{
   position: absolute;
   margin-top: -150px;
@@ -230,7 +231,7 @@ margin-left: 50px;
   padding-top: 30px;
   margin-left: 50px;
   margin-bottom: 70px;
-}
+} */
 
 .about-me p{
 width:92%;
