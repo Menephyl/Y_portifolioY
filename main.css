@@ -168,6 +168,7 @@ border-radius: 50%;
   height: 100vh;
   margin-bottom: 250px;
   margin-left: 30px;
+  margin-top:0px;
 }
 .funcao > h1{
   font-family: 'Playfair Display',Georgia, serif ; 
