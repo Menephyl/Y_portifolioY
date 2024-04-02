@@ -117,8 +117,8 @@ text-align: start;
 margin-top: 10px ;
 font: normal;
 margin-left: 20px;
-word-spacing: 2px;
-
+word-spacing: 1px;
+letter-spacing: 1px;
 }
 .footer .em_side{
   margin-left: 60px ;
