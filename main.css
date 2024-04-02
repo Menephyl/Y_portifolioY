@@ -262,7 +262,7 @@ text-wrap: wrap;
   .icon0 i{
     display: flex;
     top: 0;
-    left: 50%;
+    left: 0;
     right: 0;
     bottom: 0;
     position: relative;
@@ -271,7 +271,7 @@ text-wrap: wrap;
     height: 80px;
     width: 68px;
     box-shadow: 10px;
-    color: #000;
+   
     margin-bottom: -20px;
     color: #2ca6f8;
   }
