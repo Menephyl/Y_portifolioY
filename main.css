@@ -66,7 +66,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   flex-direction: column;
   background-size: cover;  
   padding: 0.5em;
-  margin-left: 19rem;
+  margin-left: 1rem;
   border: transparent;
   overflow-x: hidden;
   background-color: #FFF;
@@ -160,7 +160,7 @@ border-radius: 50%;
   border-radius: 50%;
 } */
 .main #funcao {
-  background-image: url(https://technext.github.io/jackson/images/img_bg_2.jpg);
+  background-image: url(https://technext.github.io/jackson/images/img_bg_2.jpg) ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -168,13 +168,12 @@ border-radius: 50%;
   height: 100vh;
   margin-bottom: 250px;
   margin-left: 30px;
-  margin-top:0px;
 }
-.funcao > h1{
+.funcao >h1{
   font-family: 'Playfair Display',Georgia, serif ; 
   letter-spacing: 2px;
   font-size:1.5em;
-  margin: 150px 0px 0px 20px;
+  margin: 150px 0px 0px 20px ;
   font-weight: 700;
   text-align: left;
   color: #020000;  
@@ -191,6 +190,7 @@ flex-direction: column;
  margin-left: -420px;
  text-align: left;
  margin-bottom: 0;
+ 
 }
  #funcao a{
   display: flex;
