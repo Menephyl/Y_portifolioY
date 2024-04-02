@@ -19,7 +19,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   color: #0000;
   background-color: rgba(128, 128, 128, 0.056); 
   height:100vh;
-  width: 25vw;
+  width: 23vw;
 }
 .menu-lateral-active {
   color: #0000;
@@ -61,10 +61,11 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 .position{
   display: flex;
   text-wrap: nowrap;
-  margin-top: 20px;
+  margin-top: -10px;
   font: 400 10px "Quicksand",arial, sans-serif;
   text-transform: uppercase;
   color: #000;
+
 }
 .menu-lateral-active a li:hover{
   text-decoration: underline blue;
