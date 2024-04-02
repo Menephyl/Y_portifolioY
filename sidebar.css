@@ -110,7 +110,10 @@ text-decoration:none;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-
+.footer path{
+  margin-left: 2px;
+  margin-right: 2px;
+}
 .footer > em{
 font-size: 10px;
 text-align: start;
