@@ -53,7 +53,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 /*ajuste da margem esquerda para corresponder à largura da aside */
      /* Adicione algum preenchimento para separar o conteúdo da aside */
       /* Adicione outras propriedades conforme necessário */
-
 #main, .main {
   z-index: 1;
   display: flex;
@@ -117,7 +116,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   padding: 10px;
   margin-top: 60px;
 }
-  em{
+em{
     color: #999999;
     font-size: 12px;
     display: flex;
@@ -174,7 +173,7 @@ border-radius: 50%;
   font-family: 'Playfair Display',Georgia, serif ; 
   letter-spacing: 2px;
   font-size:1.5em;
-  margin: -50px 0px 0px 20px;
+  margin: 0 0px 0px 20px;
   font-weight: 700;
   text-align: left;
   color: #020000;  
@@ -209,7 +208,7 @@ flex-direction: column;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
  font-size: 60px;
 }
-/* }
+
 .funcao h2{
   position: absolute;
   margin-top: -150px;
@@ -230,7 +229,7 @@ margin-left: 50px;
   padding-top: 30px;
   margin-left: 50px;
   margin-bottom: 70px;
-} */
+} 
 
 .about-me p{
 width:92%;
