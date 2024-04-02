@@ -267,13 +267,13 @@ text-wrap: wrap;
     bottom: 0;
     position: relative;
     margin-top: 20px;
-    margin-left: -45px;
+    margin-left: 0;
     height: 80px;
     width: 68px;
     box-shadow: 10px;
     margin-bottom: -20px;
      color: #2ca6f8;
-   
+   background-color:red;
   }
  
   
