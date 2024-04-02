@@ -116,6 +116,7 @@ text-decoration:none;
 }
 
 .footer > em{
+  align-content: space-between;
 font-size: 10px;
 text-align: start;
 margin-top: 10px ;
