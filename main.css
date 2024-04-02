@@ -259,7 +259,7 @@ text-wrap: wrap;
   border-radius: 3px;
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
 }
-  .icon0 i{
+  .icon0 {
     display: flex;
     top: 0;
     left: 0;
@@ -271,10 +271,13 @@ text-wrap: wrap;
     height: 80px;
     width: 68px;
     box-shadow: 10px;
-   
     margin-bottom: -20px;
+   
+  }
+  .icon0 i{
     color: #2ca6f8;
   }
+  
 #design{
   width: 160px;
   height: 150px;
