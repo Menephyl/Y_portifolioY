@@ -114,10 +114,7 @@ text-decoration:none;
   margin-left: 3px;
   margin-right: 3px;
 }
-.footer path{
-  margin-left: 2px;
-  margin-right: 2px;
-}
+
 .footer > em{
 font-size: 10px;
 text-align: start;
