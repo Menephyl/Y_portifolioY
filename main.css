@@ -150,14 +150,14 @@ flex-direction: column;
   background-size: cover;
   width: 100%;
   height: 100vh;
-  margin-left: 7rem;
+  margin-left: 0;
 }
 .h1{
   position: relative;
   font-family: 'Playfair Display',Georgia, serif ; 
   letter-spacing: 2px;
   font-size:1.5em;
-  margin: em 0px 0px 20px;
+  margin: 0.7rem 0px 2rem 20px;
   font-weight: 700;
   text-align: left;
   color: #020000;  
