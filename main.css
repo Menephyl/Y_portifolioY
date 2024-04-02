@@ -166,19 +166,19 @@ border-radius: 50%;
   background-size: cover;
   width: 100%;
   height: 100vh;
-  margin-bottom: 250px;
+  margin-bottom: 10vh;
   margin-left: 30px;
 }
 .funcao >h1{
   font-family: 'Playfair Display',Georgia, serif ; 
   letter-spacing: 2px;
   font-size:1.5em;
-  margin: 150px 0px 0px 20px ;
+  margin: 3em -1em 0em -0.5em ;
   font-weight: 700;
   text-align: left;
   color: #020000;  
-  height: 400px;
-  width: 490px;
+  height: 4vh;
+  width: 15vw;
 
 }
 .funcao h2{ 
