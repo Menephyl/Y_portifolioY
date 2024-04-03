@@ -1,5 +1,5 @@
 /*ABRIR E FEHCAR*/
-/* @media screen and (max-width: 768px) { BASE PARA ABRIR E FECHAR SIDEBAR
+@media screen and (max-width: 768px) { BASE PARA ABRIR E FECHAR SIDEBAR
   #colorlib-aside {
     width: 300px;
     -moz-transform: translateX(-300px);
@@ -10,7 +10,7 @@
     padding-top: 4em; } } */
     /* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
 p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
-*/
+
  #aside{
   display: block;
   top: 0px;
