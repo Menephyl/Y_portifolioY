@@ -121,6 +121,9 @@ flex-direction: column;
 .down2 span{
   padding-top: 5px;
 }
+.down2 i{
+  margin: 0;
+}
 .subtitle{
    margin-top: 18px;
    margin-bottom: 50px;
