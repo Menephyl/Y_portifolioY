@@ -262,7 +262,6 @@ text-wrap: wrap;
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
 }
   .icon0 {
-    color: #2ca6f8;
     display: flex;
     top: 0;
     left: 0;
@@ -277,7 +276,9 @@ text-wrap: wrap;
     margin-bottom: -20px;
     
     }
- 
+.icon0 i{
+  color: #2ca6f8;
+}
   
 #design{
   width: 160px;
