@@ -154,6 +154,7 @@ flex-direction: column;
   margin-left: 0;
 }
 .h1{
+  display: flex;
   position: relative;
   font-family: 'Playfair Display',Georgia, serif ; 
   letter-spacing: 2px;
