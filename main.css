@@ -145,6 +145,11 @@ flex-direction: column;
   height: 100vh;
   margin-left: 0;
 }
+.main #funcao img{
+  display: flex;
+  position: fixed ;
+  margin: ;
+}
 .h1{
   display: flex;
   position: relative;
