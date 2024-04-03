@@ -58,8 +58,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   height: auto;
   text-align: center;
   color: #020000;
-  
-  background-size: cover;  
   padding: 0.5em;
   margin-left: 19.8rem;
   border: transparent;
