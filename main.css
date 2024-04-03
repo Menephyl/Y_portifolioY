@@ -1038,11 +1038,15 @@ text-align: start;
   padding-right: 22.5px;
 }
 .works h3::before{
-content: ' ';
-width: 5px;
-height:5px;
+content: '    ';
+width: 0px;
+height:0px;
 background-color: black;
-border-left: 2px solid black;
+border-left:  1px solid black;
+border-bottom: 2px solid transparent;
+border-top: 15px solid transparent;
+border-right: 5px solid rgb(10, 2, 2);
+float: left;
 }
 .circle{
   width: 45px;
@@ -1051,6 +1055,7 @@ border-left: 2px solid black;
   border-radius: 50%;
   text-align:center;
   color: #fff;
+  margin-top: -90px;
   margin-right:20px;
   padding: 5px;
   border: 2px solid black;
