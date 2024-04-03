@@ -1031,19 +1031,29 @@ text-align: start;
   background-color:#f2f3f7;
   display: flex;
   align-items: center;
-  padding: 22.5px;
+  /* padding: 22.5px; */
+  /* border-left:  2px solid rgba(70, 70, 70, 0.671); */
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
+  padding-right: 22.5px;
 }
 
 .circle{
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   background-color:#2c98f0;
   border-radius: 50%;
   text-align:center;
   color: #fff;
-  margin-right:20px ;
+  margin-right:20px;
   padding: 5px;
+  border: 2px solid black;
 }
+.circle::before{
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
 .circle-r{
   width: 40px;
   height: 40px;
@@ -1051,8 +1061,9 @@ text-align: start;
   border-radius: 50%;
   text-align:center;
   color: #fff;
-  margin-right:20px ;
+  margin-right:20px;
   padding: 5px;
+  border: 2px solid black;
 }
 .circle-y{
   width: 40px;
