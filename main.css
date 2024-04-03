@@ -85,8 +85,8 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   width: 490px;
 }
 .oi h2,
-*/
 
+*/
 .funcao h2{
   font: 15px "Quicksand",Arial, sans-serif;
 flex-direction: column;
@@ -530,7 +530,7 @@ margin-left: 30px;
 .fa-lightbulb{
   display: flex;
   color: white;
-  margin-left: 30px;
+  margin-left: 0px;
   margin-top: -28px;
   font-size: 30px;
   }
@@ -538,7 +538,7 @@ margin-left: 30px;
     display: flex;
     color: white;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-top: -30px;
     font-size: 30px;
     color: white;
@@ -547,7 +547,7 @@ margin-left: 30px;
       display: flex;
       color: white;
       text-align: center;
-      margin-left:30px;
+      margin-left:0;
       margin-top: -30px;
       font-size: 30px;
       color: white;
@@ -556,7 +556,7 @@ margin-left: 30px;
       display: flex;
      color: white;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-top: -30px;
     font-size: 30px;
     color: white;
