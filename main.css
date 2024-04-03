@@ -1037,7 +1037,25 @@ text-align: start;
   padding-bottom: 22.5px;
   padding-right: 22.5px;
 }
+.works h3::before{
+content: 'a ';
+width: 5px;
+height:5px;
+color: rgba(0, 0, 0, 0.7);
+border-bottom-color: rgba(0, 0, 0, 0)
+border-bottom-style: solid
+border-bottom-width: 9px
+border-left-color: rgba(0, 0, 0, 0)
+border-left-style: solid
+border-left-width :0px
+border-right-color :rgb(242, 243, 247)
+border-right-style :solid
+border-right-width :9px
+border-top-color :rgba(0, 0, 0, 0)
+border-top-style: solid
+border-top-width :9px
 
+}
 .circle{
   width: 45px;
   height: 45px;
