@@ -277,7 +277,8 @@ text-wrap: wrap;
     
     }
 .icon0 > .fa-lightbulb{
-  margin:5px 10em 0 0;
+  display: inline;
+  margin:5px 5em 0 0;
   color: #2ca6f8;
   position: relative;
 }
