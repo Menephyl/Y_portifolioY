@@ -1061,7 +1061,7 @@ float: left;
   border: 2px solid black;
 }
 .circle::before{
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.582);
     border-radius: 50%;
   }
 
