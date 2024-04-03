@@ -148,7 +148,8 @@ flex-direction: column;
 .main #funcao img{
   display: flex;
   position: relative ;
-  margin: ;
+  margin: 0 25rem 0 0;
+
 }
 .h1{
   display: flex;
