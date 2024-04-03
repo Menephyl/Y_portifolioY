@@ -117,7 +117,8 @@ flex-direction: column;
   border: 0.1px solid #000;
   padding: 15px;
   margin-top: 60px;
-  padding: 10px;
+  align-content: space-between;
+
 }
 .subtitle{
    margin-top: 18px;
