@@ -2,7 +2,7 @@
     modify contents
 */
 
-// RETORNAR ANO ATUAL 
+/* RETORNAR ANO ATUAL */
 document.getElementById('currentYear').textContent = new Date().getFullYear()
 
 
