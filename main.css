@@ -279,6 +279,7 @@ text-wrap: wrap;
 .icon0 > .fa-lightbulb{
   margin:5px 8em 0 0;
   color: #2ca6f8;
+  position: relative;
 }
   
 #design{
