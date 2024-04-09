@@ -1041,6 +1041,7 @@ position: relative;
 .works h3 > span{
   font-weight: 300;
   font-size: 15px;
+  padding-left: 22.5px;
 }
 .works h3{
   font:500 18px 'Quicksand' ,arial, sans-serif;
