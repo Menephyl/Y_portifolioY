@@ -1046,7 +1046,7 @@ position: relative;
   font:500 18px 'Quicksand' ,arial, sans-serif;
   text-align: start;
   margin: -2rem -1rem 1rem 1rem;
-  padding: 22.5px;
+  padding: 12.5px;
 }
 .timeline-entry{
   display: flex;
@@ -1076,13 +1076,13 @@ position: relative;
   width: 0px;
   height: 0px;
   background-color: transparent;
-  border-left: 0px solid rgb(128, 126, 126);
+  border-left: 0px solid rgba(128, 126, 126, 0.301);
   border-bottom: 14px solid transparent;
   border-top: -1px solid transparent;
-  border-right: 16px solid rgb(85, 85, 85);
+  border-right: 16px solid rgba(85, 85, 85, 0.151);
   float: left;
   margin-left: -50px;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 .circle{
   display: flex;
