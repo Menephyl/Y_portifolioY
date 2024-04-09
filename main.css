@@ -1115,13 +1115,14 @@ float: left;
 
 }
 .circle-y{
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   background-color:#f9be3f;
   border-radius: 50%;
   text-align:center;
   color: #fff;
   margin-right:20px ;
+  
   padding: 5px;
   border: 2px solid black;
 }
