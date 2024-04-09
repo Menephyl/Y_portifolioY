@@ -1045,7 +1045,7 @@ position: relative;
 .works h3{
   font:500 18px 'Quicksand' ,arial, sans-serif;
   text-align: start;
-  margin: -2rem -1rem 1rem 1rem;
+  margin: -2rem -1rem 1rem 0rem;
   padding: 12.5px;
 }
 .timeline-entry{
@@ -1076,14 +1076,13 @@ position: relative;
   width: 0px;
   height: 0px;
   background-color: transparent;
-  border-left: 0px solid rgba(128, 126, 126, 0.301);
+  border-left: 0px solid rgba(180, 177, 177, 0.301);
   border-bottom: 14px solid transparent;
   border-top: -1px solid transparent;
-  border-right: 16px solid rgba(85, 85, 85, 0.151);
+  border-right: 16px solid rgba(77, 76, 76, 0.178);
   float: left;
-  margin-left: -50px;
-  margin-top: -5px;
-}
+  margin-left: -35px;
+  margin-top: 5px}
 .circle{
   display: flex;
   width: 55px;
