@@ -478,7 +478,7 @@ word-spacing: 1.4px;
   font: 15px 'Quicksand'arial sans-serif;
   padding: 10px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   margin-left: 0.3rem;
 }
 .desc span{
@@ -490,7 +490,7 @@ word-spacing: 1.4px;
   height: 180px;
   background: #fff;
   padding: 10px 0 10px 10px;
-  box-shadow: #020000 ;
+ 
 }
 .desc{
   justify-content: space-between;
@@ -498,6 +498,12 @@ word-spacing: 1.4px;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 0 10px 0;
+}
+.desc p{
+  display: flex;
+  flex: 1;
+  margin-top: 0.9rem;
+  font: 300 15px "Quicksand", sans-serif;
 }
  .conteudo #expertise .desc .hex{
  background-color: #007bff;
