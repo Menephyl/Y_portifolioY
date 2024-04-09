@@ -1108,8 +1108,11 @@ float: left;
   text-align:center;
   color: #fff;
   margin-right:20px;
+  margin-left: -15px;
+  margin-top: ;
   padding: 5px;
   border: 2px solid black;
+
 }
 .circle-y{
   width: 40px;
