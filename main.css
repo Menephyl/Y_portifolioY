@@ -1040,7 +1040,6 @@ position: relative;
 }
 .works h3 > span{
   font-weight: 300;
-  margin-left: 1em;
   font-size: 15px;
 }
 .works h3{
@@ -1093,7 +1092,7 @@ position: relative;
   text-align:center;
   color: #fff;
   margin-top: -160px;
-  margin-right:-20px;
+  margin-right:20px;
   padding: 5px;
   border: 2px solid rgb(155, 153, 153);
   margin-left: -15px;
