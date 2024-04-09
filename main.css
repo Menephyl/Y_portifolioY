@@ -489,8 +489,8 @@ word-spacing: 1.4px;
   width: 200px;
   height: 180px;
   background: #fff;
-  padding: 10px 0 10px 10px;
- 
+  padding: 22.5px;
+  box-shadow: inset 6px 6px 13px 0px black;
 }
 .desc{
   justify-content: space-between;
