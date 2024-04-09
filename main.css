@@ -490,7 +490,7 @@ word-spacing: 1.4px;
   height: 180px;
   background: #fff;
   padding: 22.5px;
-  box-shadow: inset 6px 6px 13px 0px black;
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17)
 }
 .desc{
   justify-content: space-between;
@@ -516,7 +516,7 @@ word-spacing: 1.4px;
  padding: 30px 0 10px 0 ;
 }
 .conteudo #expertise .desc  .hex span {
-  box-shadow: inset 6px 6px 13px 0px black;
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17)
 }
 .conteudo #expertise .desc .hex::before, .conteudo #expertise .desc .hex::after{
   content: '';
@@ -618,7 +618,7 @@ word-spacing: 1.4px;
  }
  .conteudo #expertise .desc span{
   border: 1px solid rgba(0, 0, 0, 0.149);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17)
  }
  .hex3::before{
    top: -25px;
@@ -760,7 +760,7 @@ img{
   font-size: 18px;
   text-transform: uppercase;
   text-align: start;
-  margin: 10px  0 72px;
+  margin: 80px 10px 0 72px;
   padding-top:0;
 }
 .skills {
