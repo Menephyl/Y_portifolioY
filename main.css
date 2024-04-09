@@ -1052,6 +1052,7 @@ text-align: start;
   display: flex;
   flex: 1;
   top: 0;
+  left: 30px;
   margin: 80px;
 }
 .works{
