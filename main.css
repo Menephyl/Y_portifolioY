@@ -756,6 +756,7 @@ img{
   position: relative;
    top: 5rem;
     left: 2rem;
+    bottom: 15px;
 }
 #skills h2{
  font-family: "Playfair Display";
@@ -763,8 +764,8 @@ img{
   font-size: 18px;
   text-transform: uppercase;
   text-align: start;
-  margin: 80px 10px 0 72px;
-  padding-top:0;
+  
+  padding: 10px 5px 0 0;
 }
 .skills {
 margin-top: 30px;
