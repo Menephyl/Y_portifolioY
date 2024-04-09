@@ -1079,9 +1079,10 @@ position: relative;
   border-left: 0px solid rgb(128, 126, 126);
   border-bottom: 14px solid transparent;
   border-top: -1px solid transparent;
-  border-right: 16px solid rgb(10, 2, 2);
+  border-right: 16px solid rgb(85, 85, 85);
   float: left;
   margin-left: -50px;
+  margin-top: -10px;
 }
 .circle{
   display: flex;
@@ -1157,7 +1158,7 @@ position: relative;
 .fa-pen{
   color: #fff;
   margin: auto;
-  font-size: 10px;
+  font-size: 12px;
 }
 .work-menu{
   font: 15px 'Quicksand', arial, sans-serif;
