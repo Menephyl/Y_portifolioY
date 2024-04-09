@@ -714,7 +714,7 @@ word-spacing: 1.4px;
    border-top:25px solid #4055b2;;
  }
 #projects{
-  width: calc(100vw-300px);
+  width: calc(100%-300px);
   margin: 10rem 10px 0 10px;
   text-align: center;
   
