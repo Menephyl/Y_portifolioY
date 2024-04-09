@@ -495,7 +495,7 @@ margin-bottom: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.2rem 0;
 }
  .conteudo #expertise .desc .hex{
  background-color: #007bff;
