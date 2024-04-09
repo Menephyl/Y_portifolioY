@@ -1122,7 +1122,7 @@ float: left;
   text-align:center;
   color: #fff;
   margin-right:20px ;
-  
+  margin-left: -60px;
   padding: 5px;
   border: 2px solid black;
 }
