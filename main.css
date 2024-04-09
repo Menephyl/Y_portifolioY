@@ -1070,6 +1070,7 @@ position: relative;
   padding-top: 22.5px;
   padding-bottom: 5px;
   padding-right: 22.5px;
+  border-radius: 4px;
 }
 .works h3::before{
   content: ' ';
