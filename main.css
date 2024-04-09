@@ -766,8 +766,8 @@ img{
   text-align: start;
   display: flex;
   flex: 1;
-  top:100px;
-  bottom: 40px;
+  top:8rem;
+  bottom: 80px;
   margin-bottom: 20px;
   margin-left: 20px;
   padding: 10px 5px 0 0;
@@ -1025,7 +1025,7 @@ position: relative;
   width: 795px;
 }
 .experience em{
- margin-left: 10px;
+ margin-left: 22px;
 }
 .experience h1{
    font:700 18px 'Playfair-Display',Georgia, serif;
