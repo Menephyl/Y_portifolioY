@@ -750,6 +750,12 @@ img{
   font-size: 16px;
   font-weight: 700;
 }
+.skills {
+  margin-top: 4rem;
+   margin-left: 10px;
+   margin-right: 0;
+   margin-bottom: 10rem;
+  }
 #skills > em {
   display: flex;
   flex: 1;
@@ -771,12 +777,7 @@ img{
   margin-left: 20px;
   padding: 10px 5px 0 0;
 }
-.skills {
-margin-top: 30px;
- margin-left: 10px;
- margin-right: 0;
- margin-bottom: 200px;
-}
+
 #skills p{
   font: 15px 'Quicksand',arial, sans-serif;
   text-align: justify;
