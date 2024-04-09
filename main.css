@@ -747,8 +747,12 @@ img{
   font-size: 16px;
   font-weight: 700;
 }
-#skills em{
-  margin: 20px 5px;
+#skills > em {
+  display: flex;
+  flex: 1;
+  position: relative;
+ top: 5rem;
+  margin-left: 20px;
 }
 #skills h2{
  font-family: "Playfair Display";
