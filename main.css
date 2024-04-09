@@ -1048,6 +1048,10 @@ text-align: start;
   text-align: start;
 
 }
+.timeline-entry{
+  display: flex;
+  flex: 1;
+}
 .works{
   width: 795px;
   background-color:#f2f3f7;
