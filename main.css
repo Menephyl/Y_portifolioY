@@ -1072,16 +1072,16 @@ position: relative;
   padding-right: 22.5px;
 }
 .works h3::before{
-content: '    ';
-width: 0px;
-height:0px;
-background-color:transparent;
-border-left:  1px solid black;
-border-bottom: 2px solid transparent;
-border-top: 15px solid transparent;
-border-right: 5px solid rgb(10, 2, 2);
-float: left;
-margin-left: -10px;
+  content: ' ';
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-left: 0px solid rgb(128, 126, 126);
+  border-bottom: 14px solid transparent;
+  border-top: -1px solid transparent;
+  border-right: 16px solid rgb(10, 2, 2);
+  float: left;
+  margin-left: -50px;
 }
 .circle{
   display: flex;
