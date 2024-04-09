@@ -462,6 +462,7 @@ word-spacing: 1.4px;
 #expertise em{
   margin-top:150px;
   margin-left: 30px;
+  margin-bottom: 20px;
 }
 .desc .hex i{
   margin-top: -30px;
@@ -719,7 +720,9 @@ word-spacing: 1.4px;
   
 }
 #projects > em{
+  margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 #projects > h1{
   text-align: start;
@@ -752,7 +755,7 @@ img{
   flex: 1;
   position: relative;
    top: 5rem;
-  margin-left: 20px;
+     
 }
 #skills h2{
  font-family: "Playfair Display";
