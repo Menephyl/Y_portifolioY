@@ -1095,7 +1095,7 @@ position: relative;
   margin-top: -160px;
   margin-right:-20px;
   padding: 5px;
-  border: 2px solid black;
+  border: 2px solid rgb(155, 153, 153);
   margin-left: -15px;
 }
 .circle::before{
