@@ -1055,7 +1055,7 @@ text-align: start;
   left: 30px;
   bottom: 0;
   right: 0;
-  margin: 80px;
+  margin-top: 20px;
   margin-left: 3rem;
   
 }
@@ -1065,7 +1065,7 @@ text-align: start;
   display: flex;
   align-items: center;
   /* padding: 22.5px; */
-  /* border-left:  2px solid rgba(70, 70, 70, 0.671); */
+  border-left:  2px solid rgba(70, 70, 70, 0.671); 
   padding-top: 22.5px;
   padding-bottom: 22.5px;
   padding-right: 22.5px;
