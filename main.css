@@ -1051,6 +1051,7 @@ text-align: start;
 .timeline-entry{
   display: flex;
   flex: 1;
+  margin: 30px;
 }
 .works{
   width: 795px;
