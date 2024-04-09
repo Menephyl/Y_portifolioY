@@ -1036,7 +1036,7 @@ position: relative;
 }
 .read h1{
   font: 18px 'Playfair-Display',Georgia, serif;
-text-align: start;
+  text-align: start;
 }
 .works h3 > span{
   font-weight: 300;
@@ -1067,7 +1067,7 @@ text-align: start;
   /* padding: 22.5px; */
   border-left:  3px solid rgba(70, 70, 70, 0.418); 
   padding-top: 22.5px;
-  padding-bottom: 22.5px;
+  padding-bottom: 5px;
   padding-right: 22.5px;
 }
 .works h3::before{
