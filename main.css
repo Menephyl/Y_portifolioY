@@ -156,6 +156,7 @@ flex-direction: column;
   display: flex;
   position: relative ;
   margin: -2em 50rem 0 0;
+  max-width: fit-content;
 
 }
 .h1{
