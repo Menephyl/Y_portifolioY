@@ -220,7 +220,7 @@ border-radius: 50%;
   border-radius: 50%;
 } */
 .about-me em{
-margin-top: 10;
+margin-top: 10px;
 font-size: 12px;
 padding-bottom: -10px;
 margin-left: 50px;
@@ -1432,7 +1432,7 @@ padding-right: 20px;
   transition: background-image 0.3s ease;
   margin: 0 0 10px 10px;
   background-position: center; 
-  margin: -150px 0 20px 10px; 
+  margin: -150px 0 200px 10px; 
 }
   .con_5:hover{
     background-color: #007bff;
