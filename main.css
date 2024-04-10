@@ -1894,3 +1894,53 @@ padding-bottom: 20px;
   padding: 4px;
  color: white;
 }
+.slidein {
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@-moz-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
