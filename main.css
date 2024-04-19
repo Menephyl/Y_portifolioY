@@ -173,7 +173,7 @@ flex-direction: column;
     }
 
 .main #funcao {
-  display: block;
+  display: none;
   /* background-repeat: no-repeat;
   background-size: cover; */
   width: 100%;
