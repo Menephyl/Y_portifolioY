@@ -64,7 +64,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   overflow-x: hidden;
   background-color: #FFF;
 }
-/* .oi{
+ .oi{
   height: auto;
   display: flex;
   font-family: 'Playfair Display', Georgia, serif ; 
@@ -74,7 +74,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-position:initial ;
   background-size: cover; 
   width: 100%;
- height:90vh;
+
 }
 .oi h1{
   font-family: 'Playfair Display',Georgia, serif ; 
@@ -83,19 +83,21 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   text-align: left;
   height: 400px;
   width: 490px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
-.oi h2,
-
-*/
-.funcao h2{
+.oi h2 , .funcao h2{
   font: 15px "Quicksand",Arial, sans-serif;
 flex-direction: column;
  width: 200px;
  height: 40px;
- margin-top: 320px;
- margin-left: -420px;
+ margin-top: 10px;
+ margin-left: 10px;
  text-align: left;
  margin-bottom: 0;
+}
+.oi img{
+  display: flex;]
 }
 /* .down{
   font-size: 12px;
@@ -137,13 +139,13 @@ flex-direction: column;
     letter-spacing: 2px;
     font: 700;
     }
-/* #home .oi a{
+ #home .oi a{
   flex-direction: column;
  width: 200px;
  height: 40px;
  margin-top: 370px;
  margin-left: -200px;
-} */
+} 
 .main #funcao {
   display: block;
   /* background-repeat: no-repeat;
