@@ -69,7 +69,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
   padding-bottom: 5px;
- /* background-image:"https://technext.github.io/jackson/images/img_bg_1.jpg" ;  */
+ background-image:"https://technext.github.io/jackson/images/img_bg_1.jpg" ;  
   background-repeat: no-repeat;
   background-position:center ;
   background-size: cover; 
@@ -135,14 +135,14 @@ flex-direction: column;
  position: relative;
 }
 
-/* .oi img{
+.oi img{
   display: flex;
   position:relative;
   top: 0;
   left:-300px;
   right: 0;
   width: 80%;
-} */
+}
  
 .down2{
   font-size: 12px;
