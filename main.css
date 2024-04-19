@@ -96,7 +96,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    margin-left:300px;
    text-align: left;
    margin-bottom: 0;
-   position: absolute;
+   position: relative;
 }
 
 
