@@ -65,8 +65,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-color: #FFF;
 }
  .oi{
-  height: auto;
-  display: flex;
+    display: flex;
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
   padding-bottom: 5px;
