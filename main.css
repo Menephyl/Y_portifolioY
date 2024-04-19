@@ -74,7 +74,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   margin-left: 0;
   transition: 1.5s ease;
    background:url(https://technext.github.io/jackson/images/img_bg_1.jpg);
-   background-position: center;
+   background-position: top center;
    background-repeat: no-repeat;
 }
 
