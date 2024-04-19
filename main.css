@@ -111,7 +111,9 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   margin-top: 22rem;
   position: relative;
   text-transform: uppercase;
+  
 } 
+
 .icon {
   display: inline-block;
   width: 1em;
@@ -119,7 +121,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-  color: black;
+ 
 }
 
 .funcao > h2{
