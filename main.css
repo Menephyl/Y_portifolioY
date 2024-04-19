@@ -107,7 +107,8 @@ flex-direction: column;
 }
  .down{
   font-size: 12px;
-   margin-top: 1px;   margin-left:0px;
+   margin-top: 1px; 
+     margin-left:0px;
   font-size: 12px;
   width: 150px;
   height: 40px;
