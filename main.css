@@ -95,7 +95,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   text-align: left;
   height: 400px;
   width: 490px;
-  margin-top: rem;
+  margin-top: 16rem;
   margin-left: 10px;
 }
  .oi .subtitle{
@@ -168,13 +168,7 @@ flex-direction: column;
     letter-spacing: 2px;
     font: 700;
     }
- #home .oi a{
-  flex-direction: column;
- width: 200px;
- height: 40px;
- margin-top: 370px;
- margin-left: -200px;
-} 
+
 .main #funcao {
   display: block;
   /* background-repeat: no-repeat;
