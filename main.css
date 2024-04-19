@@ -81,7 +81,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   display: flex;
   position:relative;
   top: 0;
-  left:-50px;
+ left: 0;
   right: 0;
   bottom: 0;
   opacity: 0.9;
@@ -89,14 +89,15 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   height: 100vh;
 }
 .oi h1{
+  display: flex;
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:1.5em;
   font-weight: 700;
   text-align: left;
   height: 400px;
-  width: 490px;
-  margin-top: 10px;
-  margin-left: 10px;
+  width: 50%;
+  margin-top: 2rem;
+  margin-left: -200rem;
 }
  .oi .subtitle{
   font: 15px "Quicksand",Arial, sans-serif;
@@ -104,7 +105,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    width: 200px;
    height: 40px;
    margin-top: 19rem;
-   margin-left:-26rem;
+   margin-left:-128rem;
    text-align: left;
    margin-bottom: 1rem;
    position: relative;
