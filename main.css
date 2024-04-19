@@ -100,7 +100,7 @@ flex-direction: column;
   display: flex;
   position:absolute;
   top: 0;
-  left: 0;
+  left:calc(100vw-300px);
   right: 0;
 }
 /* .down{
