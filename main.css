@@ -92,7 +92,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   flex-direction: column;
    width: 200px;
    height: 40px;
-   margin-top: 10px;
+   margin-top: 20rem;
    margin-left:-12rem;
    text-align: left;
    margin-bottom: 0;
@@ -111,17 +111,9 @@ flex-direction: column;
  margin-bottom: 0;
  position: relative;
 }
-/* .oi img{
-  display: flex;
-  position:relative;
-  top: 0;
-  left:-300px;
-  right: 0;
-  width: 80%;
-} */
- .down{
+.down{
   font-size: 12px;
-   margin-top: 12rem; 
+
    margin-left: -13rem;
   font-size: 12px;
   width: 200px;
@@ -131,6 +123,15 @@ flex-direction: column;
   margin-top: 20rem;
   position: relative;
 } 
+/* .oi img{
+  display: flex;
+  position:relative;
+  top: 0;
+  left:-300px;
+  right: 0;
+  width: 80%;
+} */
+ 
 .down2{
   font-size: 12px;
   margin-left:0px;
