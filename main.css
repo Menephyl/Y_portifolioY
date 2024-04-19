@@ -92,7 +92,15 @@ display:flex;
 position: relative;
 }
  .oi .subtitle{
- 
+  font: 15px "Quicksand",Arial, sans-serif;
+    flex-direction: column;
+     width: 200px;
+     height: 40px;
+     margin-top: 19rem;
+     margin-left:-128rem;
+     text-align: left;
+     margin-bottom: 1rem;
+     position: relative; */
 } 
 .down{
   display: flex;
