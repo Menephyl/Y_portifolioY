@@ -110,10 +110,12 @@ position: relative;
   width: 200px;
   height: 40px;
   border: 0.1px solid #000;
-  padding: 10px;
+  padding: 10px 5px;
   margin-top: 2rem;
   position: relative;
   text-transform: uppercase;
+  justify-content: 4px space-between;
+  
 } 
 
 .icon {
@@ -123,6 +125,7 @@ position: relative;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+
 }
 
 .funcao > h2{
