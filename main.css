@@ -90,16 +90,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   height: 100vh;
 }
 .oi h1{
-  display: flex;
-  font-family: 'Playfair Display',Georgia, serif ; 
-  font-size:1.5em;
-  font-weight: 700;
-  text-align: left;
-  height: 400px;
-  width: 490px;
-  margin-top: 16rem;
-  margin-left: -10rem;
-  opacity: 1.5;
+
 }
  .oi .subtitle{
   font: 15px "Quicksand",Arial, sans-serif;
