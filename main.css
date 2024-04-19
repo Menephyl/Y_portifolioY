@@ -95,13 +95,15 @@ flex-direction: column;
  margin-left: 10px;
  text-align: left;
  margin-bottom: 0;
+ position: absolute;
 }
 .oi img{
   display: flex;
   position:absolute;
   top: 0;
-  left:calc(100vw-300px);
+  left:300px;
   right: 0;
+  width: 80%;
 }
 /* .down{
   font-size: 12px;
