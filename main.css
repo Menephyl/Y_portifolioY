@@ -105,20 +105,18 @@ flex-direction: column;
   right: 0;
   width: 80%;
 }
-/* .down{
+ .down{
   font-size: 12px;
-  /* margin-top: 1px; o margin top nao ta surtindo efeito, provalvel conflito. ao conteudo estar dentro do h2 
-  margin-left:0px;
+   margin-top: 1px;   margin-left:0px;
   font-size: 12px;
   width: 150px;
   height: 40px;
   border: 0.1px solid #000;
   padding: 5px;
   margin-top: 30px;
-} */
+} 
 .down2{
   font-size: 12px;
-
   margin-left:0px;
    width: 200px;
   height: 40px;
