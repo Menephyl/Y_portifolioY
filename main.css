@@ -92,8 +92,11 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }
 .oi h1{
 display: flex;
-top:30px;
+top:0;
 left: 0;
+right: 0;
+bottom: 0;
+position: relative;
 }
  .oi .subtitle{
  
