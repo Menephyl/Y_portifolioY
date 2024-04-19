@@ -77,14 +77,14 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    background-position: top center;
    background-repeat: no-repeat;
 }
-.main .oi img{
+/* .main .oi img{
   display: flex;
   position: relative ;
   margin: -40rem 50rem 0 0;
   max-width: fit-content;
   transition: 1.5s ease;
 
-}
+} */
 
 .oi h1{
 display:flex;
