@@ -92,16 +92,16 @@ flex-direction: column;
  width: 200px;
  height: 40px;
  margin-top: 10px;
- margin-left: 10px;
+ margin-left:300px;
  text-align: left;
  margin-bottom: 0;
  position: absolute;
 }
 .oi img{
   display: flex;
-  position:absolute;
+  position:relative;
   top: 0;
-  left:300px;
+  left:-300px;
   right: 0;
   width: 80%;
 }
