@@ -97,7 +97,9 @@ flex-direction: column;
  margin-bottom: 0;
 }
 .oi img{
-  display: flex;]
+  display: flex;
+  position:relative;
+  
 }
 /* .down{
   font-size: 12px;
