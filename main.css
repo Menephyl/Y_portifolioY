@@ -93,14 +93,14 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    width: 200px;
    height: 40px;
    margin-top: 10px;
-   margin-left:300px;
+   margin-left:-12rem;
    text-align: left;
    margin-bottom: 0;
    position: relative;
 }
 
 
-.funcao h2{
+.funcao > h2{
   font: 15px "Quicksand",Arial, sans-serif;
 flex-direction: column;
  width: 200px;
@@ -109,7 +109,7 @@ flex-direction: column;
  margin-left:300px;
  text-align: left;
  margin-bottom: 0;
- position: absolute;
+ position: relative;
 }
 .oi img{
   display: flex;
