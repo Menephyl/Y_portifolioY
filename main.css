@@ -78,7 +78,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 .main .oi >img{
   display: flex;
   position: relative ;
-  margin: -2em 50rem 0 0;
+  margin: -2em 1rem 0 0;
   max-width: 100%;
   display: flex;
   position:relative;
