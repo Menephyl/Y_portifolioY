@@ -73,18 +73,19 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    width: 100%;
   height: 100vh;
   margin-left: 0;
+ 
    background:url(https://technext.github.io/jackson/images/img_bg_1.jpg);
    background-position: top center;
    background-repeat: no-repeat;
 }
-/* .main .oi img{
+.main .oi img{
   display: flex;
   position: relative ;
   margin: -40rem 50rem 0 0;
   max-width: fit-content;
   transition: 1.5s ease;
 
-} */
+}
 
 .oi h1{
 display:flex;
@@ -127,7 +128,7 @@ display:flex;
   justify-content: 4px space-between;
   transition: 1.5s ease;
 } 
-.down svg .down,use{
+.down svg{
   margin-top: 2px;
   margin-left: 8px;
 }
@@ -141,6 +142,43 @@ display:flex;
   transition: 1.5s ease;
 
 }
+
+.funcao > h2{
+  font: 15px "Quicksand",Arial, sans-serif;
+flex-direction: column;
+ width: 200px;
+ height: 40px;
+ margin-top: 10px;
+ margin-left:300px;
+ text-align: left;
+ margin-bottom: 0;
+ position: relative;
+  transition: 1.5s ease;
+}
+.down2{
+  font-size: 12px;
+  margin-left:0px;
+   width: 200px;
+  height: 40px;
+  border: 0.1px solid #000;
+  margin-top: 60px;
+   transition: 1.5s ease;
+}
+.down2 span{
+  padding-top: 5px;
+}
+.down2 i{
+  margin: 0;
+}
+
+  em{
+    color: #999999;
+    font-size: 12px;
+    display: flex;
+     flex-wrap: wrap;
+    letter-spacing: 2px;
+    font: 700;
+    }
 
 .main #funcao {
   display: none;
@@ -192,44 +230,6 @@ transition: 1.5s ease;
   margin-top: -150px;
   margin-left: 70px; 
 }
-
-.funcao > h2{
-  font: 15px "Quicksand",Arial, sans-serif;
-flex-direction: column;
- width: 200px;
- height: 40px;
- margin-top: 10px;
- margin-left:300px;
- text-align: left;
- margin-bottom: 0;
- position: relative;
-  transition: 1.5s ease;
-}
-.down2{
-  font-size: 12px;
-  margin-left:0px;
-   width: 200px;
-  height: 40px;
-  border: 0.1px solid #000;
-  margin-top: 60px;
-   transition: 1.5s ease;
-}
-.down2 span{
-  padding-top: 5px;
-}
-.down2 i{
-  margin: 0;
-}
-
-  em{
-    color: #999999;
-    font-size: 12px;
-    display: flex;
-     flex-wrap: wrap;
-    letter-spacing: 2px;
-    font: 700;
-    }
-
 /* .circles{
 margin-left: -30px;
 position: relative;
