@@ -70,6 +70,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
   padding-bottom: 2px;
+  background-image: ;
   background-repeat: no-repeat;
   background-position:initial ;
   background-size: cover; 
@@ -86,7 +87,20 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   margin-top: 10px;
   margin-left: 10px;
 }
-.oi h2 , .funcao h2{
+.oi h2 {
+  font: 15px "Quicksand",Arial, sans-serif;
+  flex-direction: column;
+   width: 200px;
+   height: 40px;
+   margin-top: 10px;
+   margin-left:300px;
+   text-align: left;
+   margin-bottom: 0;
+   position: absolute;
+}
+
+
+.funcao h2{
   font: 15px "Quicksand",Arial, sans-serif;
 flex-direction: column;
  width: 200px;
