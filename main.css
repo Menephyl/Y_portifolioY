@@ -65,7 +65,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-color: #FFF;
 }
  .oi{
-    display: flex;
+    display: block;
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
   padding-bottom: 5px;
@@ -74,7 +74,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   transition: 1.5s ease;
   /* background-color: red; */
 }
-.main .oi img{
+.main .oi >img{
   display: flex;
   position: relative ;
   margin: -2em 50rem 0 0;
