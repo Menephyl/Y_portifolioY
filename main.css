@@ -99,7 +99,7 @@ flex-direction: column;
 .oi img{
   display: flex;
   position:relative;
-  
+  top: 0;
 }
 /* .down{
   font-size: 12px;
