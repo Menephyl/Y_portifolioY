@@ -201,6 +201,7 @@ flex-direction: column;
 /* color: #FFF; */
 box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
 font-size: 60px;
+transition: 1.5s ease;
 }
  #funcao a{
   display: flex;
