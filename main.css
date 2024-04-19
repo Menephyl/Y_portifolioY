@@ -111,14 +111,14 @@ flex-direction: column;
  margin-bottom: 0;
  position: relative;
 }
-.oi img{
+/* .oi img{
   display: flex;
   position:relative;
   top: 0;
   left:-300px;
   right: 0;
   width: 80%;
-}
+} */
  .down{
   font-size: 12px;
    margin-top: 12rem; 
