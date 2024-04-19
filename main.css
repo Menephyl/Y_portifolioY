@@ -98,6 +98,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   width: 490px;
   margin-top: 16rem;
   margin-left: -20rem;
+  opacity: 1.5;
 }
  .oi .subtitle{
   font: 15px "Quicksand",Arial, sans-serif;
