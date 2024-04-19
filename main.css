@@ -93,7 +93,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    width: 200px;
    height: 40px;
    margin-top: 19rem;
-   margin-left:-24rem;
+   margin-left:-26rem;
    text-align: left;
    margin-bottom: 1rem;
    position: relative;
@@ -102,7 +102,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 .down{
   display: flex;
   font-size: 12px;
-   margin-left: -22rem;
+   margin-left: -18rem;
   font-size: 12px;
   width: 200px;
   height: 40px;
@@ -110,6 +110,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   padding: 10px;
   margin-top: 22rem;
   position: relative;
+  text-transform: uppercase;
 } 
 
 .funcao > h2{
