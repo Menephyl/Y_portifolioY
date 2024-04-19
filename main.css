@@ -82,7 +82,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   right: 0;
   bottom: 0;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 .oi h1{
   font-family: 'Playfair Display',Georgia, serif ; 
