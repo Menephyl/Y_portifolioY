@@ -93,16 +93,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 
 }
  .oi .subtitle{
-  font: 15px "Quicksand",Arial, sans-serif;
-  flex-direction: column;
-   width: 200px;
-   height: 40px;
-   margin-top: 19rem;
-   margin-left:-128rem;
-   text-align: left;
-   margin-bottom: 1rem;
-   position: relative;
-   
+ 
 } 
 .down{
   display: flex;
