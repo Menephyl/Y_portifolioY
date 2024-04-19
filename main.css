@@ -102,7 +102,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 .down{
   display: flex;
   font-size: 12px;
-   margin-left: -18rem;
+   margin-left: -12.5rem;
   font-size: 12px;
   width: 200px;
   height: 40px;
@@ -112,6 +112,15 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   position: relative;
   text-transform: uppercase;
 } 
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  color: black;
+}
 
 .funcao > h2{
   font: 15px "Quicksand",Arial, sans-serif;
