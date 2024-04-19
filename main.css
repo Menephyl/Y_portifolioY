@@ -90,7 +90,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   height: 100vh;
 }
 .oi h1{
-  display: flex;
+  display: block;
   left: 0;
   right: 0;
   top: auto;
