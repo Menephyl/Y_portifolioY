@@ -76,7 +76,9 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   display: flex;
 
 }
-
+.slider{
+  display: inherit;
+}
 
 
  .oi{
