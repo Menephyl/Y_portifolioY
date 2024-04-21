@@ -89,7 +89,12 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
  
 }
 .manual-btn{
-  
+  display: flex;
+  border: 4px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
 }
  .oi{
     display: block;
