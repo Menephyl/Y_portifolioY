@@ -127,10 +127,7 @@ display:flex;
   justify-content: 4px space-between;
   transition: 1.5s ease;
 } 
-.down svg{
-  margin-top: 2px;
-  margin-left: 8px;
-}
+
 .icon {
   display: inline-block;
   width: 1em;
