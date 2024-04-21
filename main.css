@@ -84,6 +84,8 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }
 #radio2{
   margin-top: 10px;
+  background-color: gray;
+  color: gray;
 }
 
  .oi{
