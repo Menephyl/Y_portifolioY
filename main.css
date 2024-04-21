@@ -80,7 +80,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 .slider{
   display: inherit;
   padding: 32px;
-  margin:50px 20px;
+  margin:50px 10px;
 }
 #radio2{
   margin-top: 10px;
