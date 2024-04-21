@@ -1,8 +1,3 @@
-/*    4- utilizar js para inserção das informações do projeto.
-    modify contents
-*/
-
-/* RETORNAR ANO ATUAL */
 document.getElementById('currentYear').textContent = new Date().getFullYear()
 
 
