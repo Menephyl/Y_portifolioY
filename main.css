@@ -87,7 +87,17 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   margin-top: 10px;
  
 }
+.navigation-auto div{
+  border: 2px solid #ff2020;
+}
+.navigation-auto{
+  position: relative;
+  width: 800px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
 
+}
  .oi{
     display: block;
   font-family: 'Playfair Display', Georgia, serif ; 
