@@ -74,7 +74,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }
 .slides input{
   display: flex;
-  padding: 32px ;
 
 }
 
