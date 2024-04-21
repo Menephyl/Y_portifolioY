@@ -1,3 +1,14 @@
+const funcao(){
+    
+}
+
+document.selectElementById('radio2'){
+    document.querySelector
+}
+
+
+
+
 document.getElementById('currentYear').textContent = new Date().getFullYear()
 
 
