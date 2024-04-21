@@ -70,8 +70,11 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-color: red;
   display: flex;
   flex-direction: column;
-}
 
+}
+.slides input{
+  display: flex;
+}
 
 
 
