@@ -1,5 +1,7 @@
 const funcao(){
-    
+    document.querySelector('funcao'){
+        display:block;
+    }
 }
 
 document.selectElementById('radio2'){
