@@ -130,6 +130,7 @@ display:flex;
 
 .down i {
   padding: 5px;
+  justify-content: center;
 }
 
 .funcao > h2{
