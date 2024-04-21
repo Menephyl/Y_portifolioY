@@ -128,7 +128,9 @@ display:flex;
   transition: 1.5s ease;
 } 
 
-
+.down i {
+  padding: 5px;
+}
 
 .funcao > h2{
   font: 15px "Quicksand",Arial, sans-serif;
