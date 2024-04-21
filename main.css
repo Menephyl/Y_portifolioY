@@ -88,15 +88,8 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   margin-top: 10px;
  
 }
-.navigation-auto div{
-  border: 2px solid #ff2020;
-}
-.navigation-auto{
-  position: relative;
-
-  display: flex;
-  justify-content: center;
-
+.manual-btn{
+  
 }
  .oi{
     display: block;
