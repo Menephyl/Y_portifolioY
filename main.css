@@ -124,7 +124,7 @@ display:flex;
   margin-top: 1rem;
   position: relative;
   text-transform: uppercase;
-  justify-content: 4px space-between;
+  justify-content: 2px space-between;
   transition: 1.5s ease;
 } 
 
