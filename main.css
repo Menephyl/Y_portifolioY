@@ -65,6 +65,14 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   overflow-x: hidden;
   background-color: #FFF;
 }
+
+.slides{
+  background-color: red;
+}
+
+
+
+
  .oi{
     display: block;
   font-family: 'Playfair Display', Georgia, serif ; 
