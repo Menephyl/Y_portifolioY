@@ -128,8 +128,7 @@ display:flex;
 } 
 
 .down i {
-  
-  justify-content: center;
+padding: 3px;  
 }
 
 .funcao > h2{
