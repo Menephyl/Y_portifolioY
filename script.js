@@ -7,7 +7,13 @@ document.selectElementById('radio2'){
     
 }
 
+/* home -> funcao - slider vertical 
+1-
 
+
+
+
+*/
 
 
 document.getElementById('currentYear').textContent = new Date().getFullYear()
