@@ -11,10 +11,6 @@
    3 nao dar comando de parada
 */
 
-
-
-
-
 const funcao = () =>{
     document.querySelector('funcao');
 }
@@ -52,7 +48,6 @@ const radio1 = document.selectElementById('radio1')
 
 
 
-*/
 
 
 document.getElementById('currentYear').textContent = new Date().getFullYear()
