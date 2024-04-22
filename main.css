@@ -67,11 +67,11 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }
 
 .slides{
-  
+ 
   display: flex;
   flex-direction: column;
-  transition: 4s;
-
+  transition: 4s  ease;
+  overflow: hidden;
 }
 .slides input{
   display: none;
