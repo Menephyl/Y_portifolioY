@@ -6,9 +6,9 @@ const funcao(){
 document.selectElementById('radio2'){
     
 }
-
-/* home -> funcao - slider vertical 
-1- 
+ 
+/* home -> funcao - slider vertical  com set interval em 5s
+1-  
 
 
 
