@@ -3,9 +3,7 @@ const funcao = () =>{
     document.querySelector('funcao');
 }
 
-document.selectElementById('radio2');{
-    
-}
+ const radio2 = document.selectElementById('radio2')
 // fontes de orientação : 
 
 // botao para direita
