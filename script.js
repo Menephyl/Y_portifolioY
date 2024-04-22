@@ -9,6 +9,8 @@
     1- set interval 
    2 funcao if ( radio 1 ) mostrar (radio 2 ) e vice versa 
    3 nao dar comando de parada
+*/
+
 
 
 
