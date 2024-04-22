@@ -1,9 +1,9 @@
 
-const funcao(){
+const funcao = () =>{
     document.querySelector('funcao');
 }
 
-document.selectElementById('radio2'){
+document.selectElementById('radio2');{
     
 }
 // fontes de orientação : 
