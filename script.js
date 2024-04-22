@@ -22,8 +22,17 @@ document.selectElementById('radio2'){
 //   const $image = document.querySelector('.seletor-da-imagem')
 //   imagem.setAttribute('href', 'URL DA NOVA IMAGEM AQUI')
 // }
+// ai tu pode criar um array de links de imagens
+// const images = ['link 1', 'link 2', 'link 3']
 
-/* home -> funcao - slider vertical  com set interval em 5s
+// // ISSO DEFINE QUAL IMAGEM ESTA SENDO USADA
+// let imageIndex = 0 
+ 
+// setInterval(() => {
+//     // troca a imgem aqui
+// //  }, 5000)
+
+/* home -> funcao - slider vertical  com set interval em 5s A CADA 5 segundos (5000ms) VAI TROCAR AS DIVS.
 1-  
 
 
