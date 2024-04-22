@@ -1,9 +1,6 @@
-const funcao(){
-    document.querySelector('funcao'){
-        addEventListener('click'){
 
-        }
-    }
+const funcao(){
+    document.querySelector('funcao');
 }
 
 document.selectElementById('radio2'){
