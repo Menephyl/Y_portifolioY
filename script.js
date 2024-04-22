@@ -1,3 +1,17 @@
+/* home -> funcao - slider vertical  com set interval em 5s A CADA 5 segundos (5000ms) VAI TROCAR AS DIVS.
+1-  verficar o clique no radio 1 ou 2 e mostrar a div home para radio 1 e funcao para radio2.
+ 1- definir as variaveis 
+ 2- criar função ao clicar com o mouse no radio 1, mostrar div 1. ( ativo ?)
+ 3 criar funcao ao clicar com o mouse no radio 2, mostrar div 2 ( funcao)
+ 4- transição 1s entre essas divs.
+
+2 - transicionar eternamente a cada 5s entre esses dois blocos automaticamente 
+    1- set interval 
+   2 funcao if ( radio 1 ) mostrar (radio 2 ) e vice versa 
+   3 nao dar comando de parada
+
+
+
 
 const funcao = () =>{
     document.querySelector('funcao');
@@ -31,8 +45,6 @@ const radio1 = document.selectElementById('radio1')
 //     // troca a imgem aqui
 // //  }, 5000)
 
-/* home -> funcao - slider vertical  com set interval em 5s A CADA 5 segundos (5000ms) VAI TROCAR AS DIVS.
-1-  
 
 
 
