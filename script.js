@@ -6,7 +6,23 @@ const funcao(){
 document.selectElementById('radio2'){
     
 }
+// fontes de orientação : 
+
+// botao para direita
+// const rightAction = () => {
+//     const $image = document.querySelector('.seletor-da-imagem')
+//     imagem.style = 'margin-left: 200px' // os pixels deve ser do tamanho da imagem
+//   } 
+// lembrando, o css da div pai tem que ter o overflow hidden, para quando a imagem filha der a margin, a imagem que foi trocada sumir
+// tem varias formas de fazer
+// tem uma mais facil:
  
+// // botao para direita
+// const rightAction = () => {
+//   const $image = document.querySelector('.seletor-da-imagem')
+//   imagem.setAttribute('href', 'URL DA NOVA IMAGEM AQUI')
+// }
+
 /* home -> funcao - slider vertical  com set interval em 5s
 1-  
 
