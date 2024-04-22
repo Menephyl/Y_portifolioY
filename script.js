@@ -8,7 +8,8 @@ document.selectElementById('radio2'){
 }
 
 /* home -> funcao - slider vertical 
-1-
+1- 
+
 
 
 
