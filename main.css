@@ -100,7 +100,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-color: rgba(0, 0, 0, 0.5)
   ;
 }
-.active{
+.activo{
   background-color: #fff;
   border: 2px solid rgb(44, 152, 240);
 }
