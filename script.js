@@ -19,7 +19,7 @@ const radio1 = document.selectElementById('radio1')
  const radio2 = document.selectElementById('radio2')
 
 
- 
+
 // fontes de orientação : 
 
 // botao para direita
