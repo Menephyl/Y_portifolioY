@@ -24,7 +24,8 @@ if(elementoPlataformas.classList.contains("ativo")){
 const funcao = () =>{
     document.querySelector('funcao');
 }
-
+const radio1 = document,getElementById('radio1')
+const radio2 = document.getElementById('radio2')
 // const radio1 = document.selectElementById('radio1')
 //  const radio2 = document.selectElementById('radio2') ERRADO
 
