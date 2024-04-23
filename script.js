@@ -25,9 +25,9 @@ if(elementoPlataformas.classList.contains("ativo")){
 //     document.querySelector('funcao');
 // }
 
-const mostrarFuncao = (block) => {
+const mostrarFuncao = () => {
     let elemento = document.getElementById("funcao");
-  funcao =  elemento.style.display = 'block';
+  funcao =  elemento.style.display = "block";
 }
 
 
