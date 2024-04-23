@@ -171,7 +171,7 @@ padding: 3px;
 }
 
 .main #funcao {
-  display: block;
+  display: flex;
   /* background-repeat: no-repeat;
   background-size: cover; */
   width: 100%;
