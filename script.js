@@ -21,13 +21,16 @@ if(elementoPlataformas.classList.contains("ativo")){
 
    */
 
-const funcao = () =>{
-    document.querySelector('funcao');
-}
+// const funcao = () =>{
+//     document.querySelector('funcao');
+// }
 const radio1 = document.getElementById('radio1')
 const radio2 = document.getElementById('radio2')
 
-
+const ativarfuncao = (funcao) => {
+    let elemento = document.getElementById("cores");
+    elemento.style.display = block;
+}
 
 
 // fontes de orientação : 
