@@ -317,6 +317,7 @@ text-wrap: wrap;
   padding: 0 15px;
   margin-bottom: 2.5rem;
   margin-top: 100px;
+  transition: 4s  ease;
 }
 .rowservices h3{
   font: 500 16px "Quicksand",arial,sans-serif;
@@ -361,6 +362,7 @@ text-wrap: wrap;
   background-color: #ffffff;
   border-radius: 3px;
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
+  transition: 4s  ease;
 }
 .icon3{
 text-align: center;
@@ -396,6 +398,7 @@ margin: auto;
   background-color: #ffffff;
   border-radius: 3px;
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
+  transition: 4s  ease;
 }
 .icon5 img{
   height: 80px;
@@ -406,6 +409,7 @@ margin: auto;
   right: 0;
   bottom: 0;
   box-shadow: 10px;
+  transition: 4s  ease;
 }
 #design3{
   width: 160px;
@@ -416,6 +420,7 @@ margin: auto;
   background-color: #ffffff;
   border-radius: 3px;
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
+  transition: 4s  ease;
 }
 #row-row-expertise #hexagono{
   margin: 100px;
@@ -424,6 +429,7 @@ margin: auto;
   background: red;
   position: fixed;
   margin: 30px;
+  transition: 4s  ease;
 }
 #hexagono:before{
   content: "";
@@ -499,6 +505,7 @@ margin: auto;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   padding: 30px;
+  transition: 1s  ease;
 }
 #hire h2{
   text-align: justify;
@@ -548,6 +555,7 @@ word-spacing: 1.4px;
   margin-top: 100px;
   margin-bottom: 10px;
   margin-left: 0.3rem;
+  transition: 1.5s  ease;
 }
 .desc span{
   text-transform: uppercase;
@@ -558,7 +566,7 @@ word-spacing: 1.4px;
   height: 180px;
   background: #fff;
   padding: 22.5px;
-  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17)
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
 }
 .desc{
   justify-content: space-between;
@@ -582,6 +590,7 @@ word-spacing: 1.4px;
  position: absolute;
  margin: -80px -120px;
  padding: 30px 0 10px 0 ;
+ transition: 1.5s  ease;
 }
 .conteudo #expertise .desc  .hex span {
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17)
@@ -802,8 +811,8 @@ flex-wrap: wrap;
 flex-flow: row;
 margin: 5px;
 max-width: 20em;
-
 border-radius: 5px;
+transition: 1.5s  ease;
 }
 
 img{
@@ -843,6 +852,7 @@ img{
   margin-bottom: 2rem;
   margin-left: 20px;
   padding: 10px 5px 0 0;
+  transition: 1.5s  ease;
 }
 
 #skills p{
@@ -1051,6 +1061,8 @@ position: relative;
   text-align: left;
   margin-top: -20px;
   margin-bottom: 52px;
+  transition: 1.5s  ease;
+
 }
 
 .education div a{
@@ -1065,6 +1077,7 @@ position: relative;
   background-color: #f2f3f7;
   padding: 20px 25px;
   font: 400 14px "Quicksand",arial, sans-serif;
+  transition: 1.5s  ease;
 }
 .education  .fa-minus{
   margin-left: 750px;
@@ -1091,6 +1104,7 @@ position: relative;
 .experience{
   margin-top: 5rem;
   width: 795px;
+  transition: 1.5s  ease;
 }
 .experience em{
  margin-left: 22px;
@@ -1140,6 +1154,7 @@ position: relative;
   padding-bottom: 5px;
   padding-right: 22.5px;
   border-radius: 4px;
+  transition: 1.5s  ease;
 }
 .works h3::before{
   content: ' ';
@@ -1253,6 +1268,7 @@ padding-right: 20px;
   background-color: white;
   margin: 0 20px 0 0;
   padding:1px;
+  transition: 1.5s  ease;
 }
 .con_1{
   position: relative;
@@ -1318,6 +1334,7 @@ padding-right: 20px;
   transition: background-image 0.3s ease;
   background-position: 50% bottom;  
   margin: -150px 0 200px 10px; 
+
 }
   .con_2:hover{
     background-color: #007bff;
@@ -1379,7 +1396,8 @@ padding-right: 20px;
   transition: background-image 0.3s ease;
   background-position: center;
   margin: -150px 0 200px 10px; 
-  }
+    
+}
   .con_3:hover{
     background-color: #007bff;
   }
@@ -1499,6 +1517,7 @@ padding-right: 20px;
   margin: 0 0 10px 10px;
   background-position: center; 
   margin: -150px 0 200px 10px; 
+
 }
   .con_5:hover{
     background-color: #007bff;
@@ -1631,8 +1650,7 @@ padding-right: 20px;
   padding: 18px 36px;
   width: 795px;
   height: 70px;
-
-
+  transition: 1.5s  ease;
 }
 .fa-rotate-right{
   color: #fff;
@@ -1703,10 +1721,12 @@ padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   top: -580px;
-  margin-top: -50px;
   width: 795px; 
+  display: flex;
+  flex-direction: row;
+  margin-top: -150px;
   margin-bottom: 100px;
-
+  transition: 1.5s  ease;
 }
 .small{
   margin-left:10px;
@@ -1715,6 +1735,7 @@ padding-bottom: 20px;
   margin-right: 17px;
   font:200 13.2px "Quicksand",arial,sans-serif, gray;
   text-transform: uppercase;
+    transition: 1.5s  ease;
 } 
 .small-all a{
   margin-top: 10px;
@@ -1733,13 +1754,9 @@ padding-bottom: 20px;
   width: 300px;
   height: 60px;
   padding-left: 40px;
+  transition: 1.5s  ease;
 }
-.small-all{
-  display: flex;
-  flex-direction: row;
-  margin-top: -150px;
-  margin-bottom: 100px;
-}
+
 .small-all .smal{
   margin-left:10px;
   width: 150px;
@@ -1748,6 +1765,7 @@ padding-bottom: 20px;
   margin-right: 15px;
   text-transform: uppercase;
   margin-bottom: 25px;
+  transition: 1.5s  ease;
   }
   .small-all .smal small{
     text-wrap: nowrap;
@@ -1760,7 +1778,7 @@ padding-bottom: 20px;
     text-wrap: nowrap;
     width: 30px;
     margin-right: 35px;
-   
+    transition: 1.5s  ease;
   }
 .small-all .smal a{
   text-align: start;
@@ -1801,6 +1819,7 @@ padding-bottom: 20px;
   color: black;
   font-size: 13px;
   text-wrap: nowrap;
+  transition: 1.5s  ease;
 }
 .sma > p{
   position: absolute;
@@ -1820,6 +1839,7 @@ padding-bottom: 20px;
   background-color:  #FFF ;/* #f4f4f4; */
   border-radius: 20px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  transition: 1.5s  ease;
 }
 .contact em{
   text-align: left;
@@ -1859,7 +1879,7 @@ padding-bottom: 20px;
   margin:0px 0 0px 10px;
   background-color: rgba(128, 128, 128, 0.644);
   color: #007bff;
-
+  transition: 1.5s  ease;
 }
 .item{
   display: flex;
@@ -1869,6 +1889,7 @@ padding-bottom: 20px;
   margin: 10px 0 10px 10px;
   background-color: rgba(128, 128, 128, 0.644);
   color: #007bff;
+  transition: 1.5s  ease;
 }
 .item i{
   margin-top:30px;
@@ -1878,6 +1899,7 @@ padding-bottom: 20px;
   font: 400 15px "Quicksand",arial, sans-serif;
   margin-top: -80px;
   margin-left:-18em;
+  transition: 1.5s  ease;
 
 }
 .text2{
@@ -1889,6 +1911,7 @@ padding-bottom: 20px;
   text-align: justify;
   height: 200px;
   color: #020000;
+  transition: 1.5s  ease;
 }
 .text3{
   font: 400 15px "Quicksand",arial, sans-serif;
@@ -1897,6 +1920,7 @@ padding-bottom: 20px;
   margin-right: 370px;
   width: 260px;
   height: 200px;
+  transition: 1.5s  ease;
 }
 
 .form {
@@ -1909,7 +1933,7 @@ padding-bottom: 20px;
   margin-left: 370px;
   margin-right: 0px;
   padding: 10px;
-
+  transition: 1.5s  ease;
 }
 .form-control{
   display: flex;
@@ -1928,6 +1952,7 @@ padding-bottom: 20px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #f2f3f7;
+  transition: 1.5s  ease;
 }
 .form-control3{
   width: 100%;
@@ -1937,6 +1962,7 @@ padding-bottom: 20px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #f2f3f7;
+  transition: 1.5s  ease;
 }
 .message{
   width: 100%;
@@ -1946,6 +1972,7 @@ padding-bottom: 20px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #f2f3f7;
+  transition: 1.5s  ease;
 }
 .btn-message{
   font: 400 15px "Quicksand", arial, sans-serif;
@@ -1959,5 +1986,6 @@ padding-bottom: 20px;
   border-radius: 2px;
   padding: 4px;
  color: white;
+ transition: 1.5s  ease;
 }
   
