@@ -32,11 +32,7 @@ text-align: left;
 margin-top: 0px;
 margin-left:  1em;
 }
-.about-me{
-  text-align: left;
-  margin: 0 0 72px;
-}
-  
+
 /* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
 p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
 */
@@ -261,6 +257,7 @@ transition: 1.5s ease;
   margin-left: 70px; 
 }
 /* .circles{
+
 margin-left: -30px;
 position: relative;
 display: flex;
@@ -287,8 +284,15 @@ border-radius: 50%;
   border: 2px solid black;
   border-radius: 50%;
 } */
+
+.about-me{
+  text-align: left;
+  margin: 0 0 72px;
+}
+  
+
 .about-me em{
-margin-top: 8rem;
+margin-top: 2rem;
 font-size: 12px;
 padding-bottom: -10px;
 margin-left: 50px;
