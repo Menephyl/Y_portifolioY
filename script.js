@@ -22,10 +22,10 @@ if(elementoPlataformas.classList.contains("ativo")){
    */
 
 
-const elemento = document.getElementById("funcao");
+const e = document.getElementById("funcao");
 
 const mostrarFuncao = function(){
-    elemento.style.display ="block";
+    e.style.display ="block";
 }
 
 
