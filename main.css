@@ -175,15 +175,16 @@ padding: 3px;
   margin-bottom: auto ;
   margin-left: 0;
   margin-top: 150px;
-  transition: 1.5s ease;
+ 
   position: relative;
+  transition: 1.5s ease;
 }
 .h1{
   display: flex;
   position: relative;
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:1.5em;
-  margin: -8em 0 2rem 20px;
+  /* margin: -8em 0 2rem 20px; */
   font-weight: 700;
   text-align: left;
   color: #020000;  
