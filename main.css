@@ -213,7 +213,7 @@ transition: 1.5s ease;
 }
 
 .funcao h2{
-  position: absolute;
+  position: relative;
   margin-top: -150px;
   margin-left: 70px; 
 }
