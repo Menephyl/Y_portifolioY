@@ -21,16 +21,12 @@ if(elementoPlataformas.classList.contains("ativo")){
 
    */
 
-// const funcao = () =>{
-//     document.querySelector('funcao');
-// }
 
 const elemento = document.getElementById("funcao");
-const mostrarFuncao = (elemento) => {
 
-  
+const mostrarFuncao = function(){
+    elemento.style.display ="block";
 }
-
 
 
 
