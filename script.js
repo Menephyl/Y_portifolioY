@@ -26,8 +26,8 @@ if(elementoPlataformas.classList.contains("ativo")){
 // }
 
 const mostrarFuncao = (elemento) => {
-    let elemento = document.getElementById("funcao");
-  funcao =  elemento.style.display = "block";
+    let elemento = document.querySelector("funcao");
+  elemento =  elemento.style.display = "block";
 }
 
 // fontes de orientação : 
