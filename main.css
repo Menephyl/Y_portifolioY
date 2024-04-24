@@ -80,6 +80,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }
 #radio2{
   margin-top: 10px;
+  margin-bottom: 20px;
  
 }
 .manual-btn{
