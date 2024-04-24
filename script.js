@@ -25,11 +25,10 @@ if(elementoPlataformas.classList.contains("ativo")){
 //     document.querySelector('funcao');
 // }
 
-const mostrarFuncao = () => {
+const mostrarFuncao = (elemento) => {
     let elemento = document.getElementById("funcao");
   funcao =  elemento.style.display = "block";
 }
-
 
 // fontes de orientação : 
 
