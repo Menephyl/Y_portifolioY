@@ -31,32 +31,6 @@ const mostrarFuncao = (elemento) => {
   
 }
 
-// fontes de orientação : 
-
-// botao para direita
-// const rightAction = () => {
-//     const $image = document.querySelector('.seletor-da-imagem')
-//     imagem.style = 'margin-left: 200px' // os pixels deve ser do tamanho da imagem
-//   } 
-// lembrando, o css da div pai tem que ter o overflow hidden, para quando a imagem filha der a margin, a imagem que foi trocada sumir
-// tem varias formas de fazer
-// tem uma mais facil:
- 
-// // botao para direita
-// const rightAction = () => {
-//   const $image = document.querySelector('.seletor-da-imagem')
-//   imagem.setAttribute('href', 'URL DA NOVA IMAGEM AQUI')
-// }
-// ai tu pode criar um array de links de imagens
-// const images = ['link 1', 'link 2', 'link 3']
-
-// // ISSO DEFINE QUAL IMAGEM ESTA SENDO USADA
-// let imageIndex = 0 
- 
-// setInterval(() => {
-//     // troca a imgem aqui
-// //  }, 5000)
-
 
 
 
@@ -114,3 +88,31 @@ document.querySelector('.about-me-text').innerHTML="Mussum Ipsum, cacilds vidis 
 }
 
 
+
+
+
+// fontes de orientação : 
+
+// botao para direita
+// const rightAction = () => {
+//     const $image = document.querySelector('.seletor-da-imagem')
+//     imagem.style = 'margin-left: 200px' // os pixels deve ser do tamanho da imagem
+//   } 
+// lembrando, o css da div pai tem que ter o overflow hidden, para quando a imagem filha der a margin, a imagem que foi trocada sumir
+// tem varias formas de fazer
+// tem uma mais facil:
+ 
+// // botao para direita
+// const rightAction = () => {
+//   const $image = document.querySelector('.seletor-da-imagem')
+//   imagem.setAttribute('href', 'URL DA NOVA IMAGEM AQUI')
+// }
+// ai tu pode criar um array de links de imagens
+// const images = ['link 1', 'link 2', 'link 3']
+
+// // ISSO DEFINE QUAL IMAGEM ESTA SENDO USADA
+// let imageIndex = 0 
+ 
+// setInterval(() => {
+//     // troca a imgem aqui
+// //  }, 5000)
