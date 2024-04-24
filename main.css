@@ -179,12 +179,20 @@ padding: 3px;
   position: relative;
   transition: 1.5s ease;
 }
+.main #funcao img{
+  display: flex;
+  position: relative ;
+  margin: -2em 50rem 0 0;
+  max-width: fit-content;
+  transition: 1.5s ease;
+  width: 100%;
+}
 .h1{
   display: flex;
   position: relative;
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:1.5em;
-  /* margin: -8em 0 2rem 20px; */
+   margin: -18em 0 2rem 20px; 
   font-weight: 700;
   text-align: left;
   color: #020000;  
@@ -250,13 +258,7 @@ flex-direction: column;
     font: 700;
     }
 
-.main #funcao img{
-  display: flex;
-  position: relative ;
-  margin: -2em 50rem 0 0;
-  max-width: fit-content;
-  transition: 1.5s ease;
-}
+
 
 /* .circles{
 
