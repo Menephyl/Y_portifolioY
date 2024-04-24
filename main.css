@@ -212,11 +212,6 @@ transition: 1.5s ease;
  
 }
 
-.funcao h2{
-  position: absolute;
-  margin-top: -150px;
-  margin-left: 70px; 
-}
 .funcao > h2{
   font: 15px "Quicksand",Arial, sans-serif;
 flex-direction: column;
