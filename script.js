@@ -24,7 +24,10 @@ if(elementoPlataformas.classList.contains("ativo")){
 
 const e = document.getElementById("funcao");
 
-const mostrarFuncao = function(){
+// const mostrarFuncao = function(){
+//     e.style.display ="block";
+// }
+function mostrarFuncao(){
     e.style.display ="block";
 }
 
