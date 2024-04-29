@@ -11,7 +11,7 @@
    3 nao dar comando de parada
 
 //elementoPlataformas.classList.add('ativo')
-// botao.addEvemtListener.toggle(`ativo`)
+// botao.addEventListener.toggle(`ativo`)
  
 if(elementoPlataformas.classList.contains("ativo")){
     elementoPlataformas.classList.remove('ativo')
@@ -34,7 +34,7 @@ function mostrarFuncao(){
 
 const toggleHome = () => {
     if((mostrarFuncao()  = false)) {
-    const e2 = document.querySelector('oi');
+    const e2 = document.querySelector('.oi');
     e.style.display ="block";
 e2.style.display ='none';
  }
