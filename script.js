@@ -37,7 +37,7 @@ const e2 = document.querySelector(".funcao");
      e1.style.display = "none";
     
  const r = () => {
-    let radio = document.querySelector('manual-btn ')
+    let radio = document.querySelector('manual-btn')
     radio.classList.add('manual-btn-activo')
  }
 
