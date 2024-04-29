@@ -36,6 +36,7 @@ const e2 = document.querySelector('oi');
 const toggleHome = () => {
 if((mostrarFuncao()  = true)) {
 e2.style.display ='none';
+// e.style.display ="block";
  }
 
 }
