@@ -26,11 +26,14 @@ if(elementoPlataformas.classList.contains("ativo")){
 
 ÁREA HOME - TROCAR ENTRE OI E FUNCAO A CADA 3s
 
+1- pegar oi e funcao area  
+
+2-  definir troca manual entre essas duas caixas 
+
 */
 const e2 = document.querySelector('.oi');
 const e = document.getElementById("funcao");
 const toggle = document.querySelector(".oi .funcao")
-
 
 toggle.addEventListener("click",() =>{
 if(e2.classList)
