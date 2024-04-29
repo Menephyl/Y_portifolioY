@@ -168,4 +168,5 @@ if(elementoPlataformas.classList.contains("ativo")){
  
 // setInterval(() => {
 //     // troca a imgem aqui
-// //  }, 5000)
+// //  }, 5000) 
+*/
