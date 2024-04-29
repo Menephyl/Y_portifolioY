@@ -170,7 +170,7 @@ display:flex;
 padding: 3px;  
 }
 
-.main .funcao ativo  {
+.main .funcao .ativo  {
   display: block;
   background: url("https://technext.github.io/jackson/images/img_bg_2.jpg");
   background-repeat: no-repeat;
