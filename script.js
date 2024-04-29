@@ -35,6 +35,11 @@ const e2 = document.querySelector(".funcao");
    
    e2.style.display = "block"; // mostrar a area funcao
      e1.style.display = "none";
+    
+ const r = () => {
+    let radio = document.querySelector('manual-btn activo')
+    radio.classList.toggle('manual-btn ')
+ }
 
     }
 
