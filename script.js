@@ -20,8 +20,13 @@ if(elementoPlataformas.classList.contains("ativo")){
 
 
    */
+  document.getElementById('currentYear').textContent = new Date().getFullYear()
 
+/*
 
+ÁREA HOME - TROCAR ENTRE OI E FUNCAO A CADA 3s
+
+*/
 const e = document.getElementById("funcao");
 const e2 = document.querySelector('.oi');
 
@@ -30,18 +35,13 @@ function mostrarFuncao(){
 }
 
 const toggleHome = () => {
-    if((mostrarFuncao()  = false)) {
-    e.style.display ="block";
-e2.style.display ='none';
- }
-
+ 
 }
 
 
 
 
 
-document.getElementById('currentYear').textContent = new Date().getFullYear()
 
 
 
