@@ -31,10 +31,10 @@ function mostrarFuncao(){
     e.style.display ="block";
 }
 
-const e2 = document.querySelector('oi');
 
 const toggleHome = () => {
-if((mostrarFuncao()  = false)) {
+    if((mostrarFuncao()  = false)) {
+    const e2 = document.querySelector('oi');
     e.style.display ="block";
 e2.style.display ='none';
  }
