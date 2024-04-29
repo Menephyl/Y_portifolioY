@@ -35,9 +35,7 @@ const toggle = document.querySelector(".oi .funcao")
 toggle.addEventListener("click",() =>{
 
 })
-// function mostrarFuncao(){
-//     e.style.display ="block";
-// }
+
 
 const toggleHome = () => {
  
@@ -45,7 +43,9 @@ const toggleHome = () => {
 
 
 
-
+// function mostrarFuncao(){
+//     e.style.display ="block";
+// }
 
 
 
