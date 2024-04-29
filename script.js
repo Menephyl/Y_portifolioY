@@ -38,7 +38,8 @@ const e2 = document.querySelector(".funcao");
     e2.style.display = "block";
   
   }else{
-    e1.style.display = "block"  
+    e1.style.display = "block";  
+    e2.style.display = "none";
   }
  }
 
