@@ -37,23 +37,24 @@ if(elementoPlataformas.classList.contains("ativo")){
 const e1 = document.querySelector('.oi');
 const e2 = document.getElementById("funcao");
 
-
 const toggle = document.querySelector(".oi .funcao")
 
 
 toggle.addEventListener("click",() =>{
-
-
-
-if(e1.classList.style.display = ('block')){
-    e1.classList.style('ativo')
-    e2.classList.add('ativo')
-}else{
-    e1.classList.add('ativo')
-    e2.classList.remove('ativo')
+if(e1.classList.style.display='block'){
+    
 }
 
 })
+
+// if(e1.classList.style.display = ('block')){
+//     e1.classList.style('ativo')
+//     e2.classList.add('ativo')
+// }else{
+//     e1.classList.add('ativo')
+//     e2.classList.remove('ativo')
+// }
+
 
 
 // const toggleHome = () => {
