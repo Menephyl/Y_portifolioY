@@ -31,7 +31,7 @@ const e2 = document.querySelector(".funcao");
 
 
  const mostrarFuncao = () => {
-//    if() 
+//  if() 
    
    e2.style.display = "block"; // mostrar a area funcao
      e1.style.display = "none";
