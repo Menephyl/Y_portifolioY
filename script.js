@@ -36,6 +36,9 @@ const e2 = document.querySelector(".funcao");
   if( e1.style.display = "none" && e2.style.display == "block" ){
     e1.style.display = "block";
     e2.style.display = "none";
+  }else{
+    e2.style.display = "block"; // mostrar a area funcao
+    e1.style.display = "none";
   }
 
 
