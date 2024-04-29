@@ -30,7 +30,7 @@ if(elementoPlataformas.classList.contains("ativo")){
 const e = document.getElementById("funcao");
 const e2 = document.querySelector('.oi');
 const toggle = document.querySelector(".oi .funcao")
-toggleHome.addEventListener()
+toggle.addEventListener("click",() =>)
 function mostrarFuncao(){
     e.style.display ="block";
 }
