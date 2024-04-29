@@ -44,8 +44,10 @@ toggle.addEventListener("click",() =>{
 if(e1.classList.style.display == 'block' && e2.classList.style.display == 'none' ) {
     e1.classList.style.display ='none';
     e2.classList.style.display = 'block';
-}else{ 
-    return toggle()
+}else {
+    e1.classList.style.display = 'block';
+    e2.classList.style.display == 'none';
+    
 }
 })
 
