@@ -39,7 +39,7 @@ const e2 = document.querySelector(".funcao");
   }else{
     e1.style.display = "block"  
   }
-
+ }
 
  
 
