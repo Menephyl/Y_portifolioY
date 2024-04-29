@@ -29,6 +29,16 @@ document.getElementById('currentYear').textContent = new Date().getFullYear()
 const e1 = document.querySelector('.oi');
 const e2 = document.querySelector(".funcao");
 
+
+ const mostrarFuncao = () => {
+     e2.style.display = "block";
+ }
+
+
+
+
+
+
 // const toggle = document.querySelector(".oi .funcao")
 
 
@@ -59,9 +69,16 @@ const e2 = document.querySelector(".funcao");
 
 
 
-// function mostrarFuncao(){
-//     e.style.display ="block";
-// }
+
+
+
+
+
+
+
+
+
+
 
 
 
