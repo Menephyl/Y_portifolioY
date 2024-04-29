@@ -36,8 +36,8 @@ const e2 = document.querySelector(".funcao");
   if( e1.style.display == "block"  ){
     e1.style.display = "none";
   
-  }
-
+  }else{
+    e1.style.display = "block"  
   }
 
 
