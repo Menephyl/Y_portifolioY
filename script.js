@@ -23,18 +23,14 @@ if(elementoPlataformas.classList.contains("ativo")){
 
 
 const e = document.getElementById("funcao");
+const e2 = document.querySelector('.oi');
 
-// const mostrarFuncao = function(){
-//     e.style.display ="block";
-// }
 function mostrarFuncao(){
     e.style.display ="block";
 }
 
-
 const toggleHome = () => {
     if((mostrarFuncao()  = false)) {
-    const e2 = document.querySelector('.oi');
     e.style.display ="block";
 e2.style.display ='none';
  }
