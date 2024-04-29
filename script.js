@@ -53,9 +53,9 @@ if(e1.classList.contains('ativo')){
 })
 
 
-const toggleHome = () => {
+// const toggleHome = () => {
  
-}
+// }
 
 
 
