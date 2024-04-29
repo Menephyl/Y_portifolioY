@@ -30,12 +30,14 @@ if(elementoPlataformas.classList.contains("ativo")){
 
 2-  definir troca manual entre essas duas caixas 
 
-3- definir troca interativa em cada 3s ou 2s entre cada area 
+3- definir troca interativa em cada 3s ou 2s entre cada área.
+
 
 */
 const e2 = document.querySelector('.oi');
 const e = document.getElementById("funcao");
 const toggle = document.querySelector(".oi .funcao")
+
 
 toggle.addEventListener("click",() =>{
 if(e2.classList)
