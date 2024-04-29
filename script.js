@@ -40,16 +40,16 @@ const e2 = document.getElementById("funcao");
 const toggle = document.querySelector(".oi .funcao")
 
 
-toggle.addEventListener("click",() =>{
-if(e1.classList.style.display == 'block' && e2.classList.style.display == 'none' ) {
-    e1.classList.style.display ='none';
-    e2.classList.style.display = 'block';
-}else {
-    e1.classList.style.display = 'block';
-    e2.classList.style.display == 'none';
-    
-}
-})
+// toggle.addEventListener("click",() =>{
+// if(e1.classList.style.display == 'block' && e2.classList.style.display == 'none' ) {
+//     e1.classList.style.display ='none';
+//     e2.classList.style.display = 'block';
+// }else {
+//     e1.classList.style.display = 'block';
+//     e2.classList.style.display == 'none';
+
+// }
+// })
 
 // if(e1.classList.style.display = ('block')){
 //     e1.classList.style('ativo')
