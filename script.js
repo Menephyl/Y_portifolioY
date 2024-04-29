@@ -42,6 +42,7 @@ const toggle = document.querySelector(".oi .funcao")
 toggle.addEventListener("click",() =>{
 if(e1.classList.contains('ativo')){
     e1.classList.remove('ativo')
+    e2.classList.add('ativo')
 }else{
     e1.classList.add('ativo')
 }
