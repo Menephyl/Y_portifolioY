@@ -270,8 +270,8 @@ border-radius: 50%;
   border-radius: 50%;
 } */
 
+color: #999999;
 em{
-  color: #999999;
   font-size: 12px;
   display: flex;
    flex-wrap: wrap;
