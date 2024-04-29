@@ -45,6 +45,7 @@ if(e1.classList.contains('ativo')){
     e2.classList.add('ativo')
 }else{
     e1.classList.add('ativo')
+    e2.classList.remove('ativo')
 }
 
 })
