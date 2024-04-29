@@ -33,7 +33,7 @@ const toggle = document.querySelector(".oi .funcao")
 
 
 toggle.addEventListener("click",() =>{
-
+if()
 })
 
 
