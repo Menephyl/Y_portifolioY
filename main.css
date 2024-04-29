@@ -185,7 +185,7 @@ padding: 3px;
    position: relative;
   transition: 1.5s ease;
 }
-.main, .funcao {
+.main .funcao {
   display: none;
   background: url("https://technext.github.io/jackson/images/img_bg_2.jpg");
   background-repeat: no-repeat;
