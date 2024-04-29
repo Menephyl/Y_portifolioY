@@ -235,16 +235,8 @@ flex-direction: column;
   margin: 0;
 }
 
-  em{
-    color: #999999;
-    font-size: 12px;
-    display: flex;
-     flex-wrap: wrap;
-    letter-spacing: 2px;
-    font: 700;
-    }
-
-
+  
+/* AREA CONTEÚDO */
 
 /* .circles{
 
@@ -274,6 +266,16 @@ border-radius: 50%;
   border: 2px solid black;
   border-radius: 50%;
 } */
+
+em{
+  color: #999999;
+  font-size: 12px;
+  display: flex;
+   flex-wrap: wrap;
+  letter-spacing: 2px;
+  font: 700;
+  }
+
 
 .about-me{
   text-align: left;
