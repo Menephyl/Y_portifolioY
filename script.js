@@ -37,7 +37,7 @@ const toggleHome = () => {
 if((mostrarFuncao()  = true)) {
 e2.style.display ='none';
  }
- return toggleHome()
+
 }
 
 
