@@ -36,9 +36,6 @@ const e2 = document.querySelector(".funcao");
   if( e1.style.display == "block" && e2.style.display == "none" ){
     e1.style.display = "none";
     e2.style.display = "block";
-  }else{
-    e1.style.display == "block" ;
-    e2.style.display == "none" ;
   }
 
   }
@@ -46,7 +43,7 @@ const e2 = document.querySelector(".funcao");
 
  
 
-    const toggle = document.querySelector(".oi .funcao");
+    // const toggle = document.querySelector(".oi .funcao");
 
 
 
