@@ -36,14 +36,16 @@ const e2 = document.querySelector(".funcao");
    e2.style.display = "block"; // mostrar a area funcao
      e1.style.display = "none";
 
- }
+    }
+
+
+
+    const toggle = document.querySelector(".oi .funcao");
 
 
 
 
 
-
-// const toggle = document.querySelector(".oi .funcao")
 
 
 // toggle.addEventListener("click",() =>{
