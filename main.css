@@ -99,7 +99,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-color: #fff;
   border: 2px solid rgb(44, 152, 240);
 }
- .oi,.ativo{
+ .oi .ativo{
   display: block;
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
