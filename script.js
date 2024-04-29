@@ -1,7 +1,12 @@
+document.getElementById('currentYear').textContent = new Date().getFullYear()
+
+
+
+
 /* home -> funcao - slider vertical  com set interval em 5s A CADA 5 segundos (5000ms) VAI TROCAR AS DIVS.
 1-  verficar o clique no radio 1 ou 2 e mostrar a div home para radio 1 e funcao para radio2.
- 1- definir as variaveis 
- 2- criar função ao clicar com o mouse no radio 1, mostrar div 1. ( ativo ?)
+ 1- definir as variaveis ok
+ 2- criar função ao clicar com o mouse no radio 1, mostrar div 1. ( ativo ?)ok
  3 criar funcao ao clicar com o mouse no radio 2, mostrar div 2 ( funcao)
  4- transição 1s entre essas divs.
 
@@ -10,19 +15,6 @@
    2 funcao if ( radio 1 ) mostrar (radio 2 ) e vice versa 
    3 nao dar comando de parada
 
-//elementoPlataformas.classList.add('ativo')
-// botao.addEventListener.toggle(`ativo`)
- 
-if(elementoPlataformas.classList.contains("ativo")){
-    elementoPlataformas.classList.remove('ativo')
-}else{
-    elementoPlataformas.classList.add('ativo')
-
-
-   */
-  document.getElementById('currentYear').textContent = new Date().getFullYear()
-
-/*
 
 ÁREA HOME - TROCAR ENTRE OI E FUNCAO A CADA 3s
 
@@ -125,6 +117,18 @@ document.querySelector('.about-me-text').innerHTML="Mussum Ipsum, cacilds vidis 
 
 // fontes de orientação : 
 
+//elementoPlataformas.classList.add('ativo')
+// botao.addEventListener.toggle(`ativo`)
+/* 
+if(elementoPlataformas.classList.contains("ativo")){
+    elementoPlataformas.classList.remove('ativo')
+}else{
+    elementoPlataformas.classList.add('ativo')
+
+
+   */
+
+/*
 // botao para direita
 // const rightAction = () => {
 //     const $image = document.querySelector('.seletor-da-imagem')
