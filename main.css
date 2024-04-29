@@ -99,15 +99,14 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-color: #fff;
   border: 2px solid rgb(44, 152, 240);
 }
- .oi .ativo{
-    display: block;
+ .oi, .ativo{
+  display: block;
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
   padding-bottom: 5px;
-   width: 100vw;
+  width: 100vw;
   height: 100vh;
   margin-left: 0;
-
    background:url(https://technext.github.io/jackson/images/img_bg_1.jpg);
    background-position: top center;
    background-repeat: no-repeat;
@@ -173,7 +172,7 @@ display:flex;
 padding: 3px;  
 }
 
-.main .funcao .ativo {
+.main .funcao, .ativo {
   display: block;
   background: url("https://technext.github.io/jackson/images/img_bg_2.jpg");
   background-repeat: no-repeat;
