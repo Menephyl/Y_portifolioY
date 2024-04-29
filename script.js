@@ -42,7 +42,9 @@ const e2 = document.querySelector(".funcao");
     e2.style.display = "none";
   }
  }
-
+ setInterval(() => {
+ 
+ })
  
 
     // const toggle = document.querySelector(".oi .funcao");
@@ -53,30 +55,8 @@ const e2 = document.querySelector(".funcao");
 
 
 
-// toggle.addEventListener("click",() =>{
-// if(e1.classList.style.display == 'block' && e2.classList.style.display == 'none' ) {
-//     e1.classList.style.display ='none';
-//     e2.classList.style.display = 'block';
-// }else {
-//     e1.classList.style.display = 'block';
-//     e2.classList.style.display == 'none';
-
-// }
-// })
-
-// if(e1.classList.style.display = ('block')){
-//     e1.classList.style('ativo')
-//     e2.classList.add('ativo')
-// }else{
-//     e1.classList.add('ativo')
-//     e2.classList.remove('ativo')
-// }
 
 
-
-// const toggleHome = () => {
- 
-// }
 
 
 
