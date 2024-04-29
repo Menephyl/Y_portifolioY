@@ -125,7 +125,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    background-repeat: no-repeat;
    transition: 1.5s ease;
 } */
-.oi h1{
+.oi h1 .ativo{
 display:flex;
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:1.5em;
@@ -139,7 +139,7 @@ display:flex;
   position: relative;
   transition: 1.5s ease;
 }
- .oi .subtitle{
+ .oi .subtitle .ativo{
   font: 15px "Quicksand",Arial, sans-serif;
     flex-direction: column;
      width: 200px;
@@ -151,7 +151,7 @@ display:flex;
      position: relative; 
       transition: 1.5s ease;
 } 
-.down{
+.down .ativo{
   display: flex;
   font-size: 12px;
    margin-left: 2.5rem;
@@ -166,7 +166,7 @@ display:flex;
   transition: 1.5s ease;
 } 
 
-.down i {
+.down i .ativo{
 padding: 3px;  
 }
 
@@ -184,6 +184,7 @@ padding: 3px;
   margin-top: 170vh;
    position: relative;
   transition: 1.5s ease;
+
 }
 .main .funcao {
   display: none;
@@ -200,22 +201,7 @@ padding: 3px;
    position: relative;
   transition: 1.5s ease;
 }
-.h1{
-  display: flex;
-  position: relative;
-  font-family: 'Playfair Display',Georgia, serif ; 
-  font-size:1.5em;
-   margin: -16em 0 1rem 20px; 
-  font-weight: 700;
-  text-align: left;
-  color: #020000;  
-  height: 400px;
-  width: 490px;
-/* color: #FFF; */
-box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
-font-size: 60px;
-transition: 1.5s ease;
-}
+
 .funcao > h2{
   font: 15px "Quicksand",Arial, sans-serif;
 flex-direction: column;
