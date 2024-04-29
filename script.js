@@ -35,9 +35,9 @@ if(elementoPlataformas.classList.contains("ativo")){
 
 */
 const e1 = document.querySelector('.oi');
-const e2 = document.getElementById("funcao");
+const e2 = document.querySelector(".funcao");
 
-const toggle = document.querySelector(".oi .funcao")
+// const toggle = document.querySelector(".oi .funcao")
 
 
 // toggle.addEventListener("click",() =>{
