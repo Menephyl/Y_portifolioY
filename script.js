@@ -29,7 +29,7 @@ document.getElementById('currentYear').textContent = new Date().getFullYear()
 const e1 = document.querySelector('.oi');
 const e2 = document.querySelector(".funcao");
 
- setInterval(mostrarFuncao,1000);
+ setInterval(mostrarFuncao(),1000);
 const mostrarFuncao = () => {
     //  e2.style.display = "block"; // mostrar a area funcao
     //  e1.style.display = "none";
@@ -52,26 +52,7 @@ const mostrarFuncao = () => {
  /*
  
 
-	var sliderMain = function() {
-		
-	  	$('#colorlib-hero .flexslider').flexslider({
-			animation: "fade",
-			slideshowSpeed: 5000,
-			directionNav: true,
-			start: function(){
-				setTimeout(function(){
-					$('.slider-text').removeClass('animated fadeInUp');
-					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-				}, 500);
-			},
-			before: function(){
-				setTimeout(function(){
-					$('.slider-text').removeClass('animated fadeInUp');
-					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-				}, 500);
-			}
-
-	  	});
+	
 
  
  */ 
