@@ -111,6 +111,9 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    background-position: top center;
    background-repeat: no-repeat;
    transition-property: margin-top, -500px;
+   transition-property: opacity:0;
+   transition-duration: 1.5s;
+   transition-delay: 1.5s;
 }
 
 
