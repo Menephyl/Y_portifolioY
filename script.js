@@ -29,7 +29,7 @@ document.getElementById('currentYear').textContent = new Date().getFullYear()
 const e1 = document.querySelector('.oi');
 const e2 = document.querySelector(".funcao");
 
-// let intervalID = setInterval(mostrarFuncao,4000)
+ setInterval(mostrarFuncao,1000);
 const mostrarFuncao = () => {
     //  e2.style.display = "block"; // mostrar a area funcao
     //  e1.style.display = "none";
@@ -42,6 +42,9 @@ const mostrarFuncao = () => {
     e2.style.display = "none";
   }
 }
+
+
+
 //   }
 //  }
 
