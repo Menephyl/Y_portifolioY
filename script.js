@@ -41,8 +41,8 @@ const mostrarFunc = () => {
     e1.style.display = "block";  
     e2.style.display = "none";
   }
+  setInterval(mostrarFunc,2000);
 }
-setInterval(mostrarFunc(),1000);
 
 
 
