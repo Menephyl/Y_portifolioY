@@ -30,7 +30,7 @@ const e1 = document.querySelector('.oi');
 const e2 = document.querySelector(".funcao");
 
 
-const mostrarFuncao = () => {
+const mostrarFunc = () => {
     //  e2.style.display = "block"; // mostrar a area funcao
     //  e1.style.display = "none";
   if( e1.style.display == "block"  ){
@@ -42,6 +42,7 @@ const mostrarFuncao = () => {
     e2.style.display = "none";
   }
 }
+setInterval(mostrarFunc(),1000);
 
 
 
