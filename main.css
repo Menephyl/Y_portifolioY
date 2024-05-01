@@ -127,7 +127,8 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   margin-left: -1.5rem;
   opacity: 1.5;
   position: relative;
-  
+  animation-duration: 3s;
+  animation-name: slidein;
 }
  .oi .subtitle{
   font: 15px "Quicksand",Arial, sans-serif;
