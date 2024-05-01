@@ -154,16 +154,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
      animation-duration: 2s;
      animation-name: slidein;
 } 
-@keyframes slidein{
-  from{
-    margin-left: 100%;
-    width: 300%;
-  }
-  to{
-    margin-left: 0;
-    width: 100%;
-  }
-}
+
 .down{
   display: flex;
   font-size: 12px;
