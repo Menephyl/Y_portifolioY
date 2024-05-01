@@ -38,3 +38,15 @@
       width: 100%;
     }
   }
+
+  @keyframes slidesideright{
+    from {
+      margin-right: 100%;
+      width: 500%;
+      
+    }
+    to{
+      margin-right: 0%;
+      width: 100%;
+    }
+  }

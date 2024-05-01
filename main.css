@@ -319,7 +319,6 @@ text-wrap: wrap;
 .principal{
   text-wrap: wrap;
   overflow: hidden;
-  border: 1px solid black;
 }
 .principal p{
   text-align: justify;
