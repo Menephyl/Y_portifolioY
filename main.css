@@ -173,10 +173,13 @@ padding: 3px;
   margin-left: -30px;
   margin-top: 150vh;
    position: relative;
-  transition: 1.5s ease;
+   transition-property: opacity;
+   transition-duration: 1.5s;
+   transition-delay: 1.5s;
+}
    /* background-repeat: no-repeat;
   background-size: cover; */
-}
+
 
 .h1{
   display: flex;

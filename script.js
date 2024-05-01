@@ -33,7 +33,7 @@ const e2 = document.querySelector(".funcao");
 const mostrarFunc = () => {
     //  e2.style.display = "block"; // mostrar a area funcao
     //  e1.style.display = "none";
-  if( e1.style.display == "block"  ){
+  if( e1.style.display == "block"){
     e1.style.display = "none";
     e2.style.display = "block";
   
@@ -41,7 +41,7 @@ const mostrarFunc = () => {
     e1.style.display = "block";  
     e2.style.display = "none";
   }
-  setInterval(mostrarFunc,2000);
+  setInterval(mostrarFunc,4000);
 }
 
 
