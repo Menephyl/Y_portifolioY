@@ -127,7 +127,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   margin-left: -1.5rem;
   opacity: 1.5;
   position: relative;
-  transition: 1.5s ease;
+  
 }
  .oi .subtitle{
   font: 15px "Quicksand",Arial, sans-serif;
@@ -139,7 +139,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
      text-align: left;
      margin-bottom: 1rem;
      position: relative; 
-      transition: 1.5s ease;
+      
 } 
 .down{
   display: flex;
@@ -191,7 +191,7 @@ padding: 3px;
 /* color: #FFF; */
 box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
 font-size: 60px;
-transition: 1.5s ease;
+
 }
 .funcao > h2{
   font: 15px "Quicksand",Arial, sans-serif;
@@ -203,7 +203,7 @@ flex-direction: column;
  text-align: left;
  margin-bottom: 160px;
  position: relative;
-  transition: 1.5s ease;
+  
 }
 
 
@@ -226,7 +226,7 @@ flex-direction: column;
   height: 40px;
   border: 0.1px solid #000;
   margin-top: 60px;
-   transition: 1.5s ease;
+   
 } 
 .down2 span{
   padding-top: 5px;
