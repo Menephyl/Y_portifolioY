@@ -317,6 +317,8 @@ width:92%;
 text-align: left;
 font: 400 15px "Quicksand",arial,sans-serif;
 text-wrap: wrap;
+animation-duration: 2s;
+animation-name: slidesideright;
 }
 .principal{
   text-wrap: wrap;
@@ -327,6 +329,8 @@ text-wrap: wrap;
   font: 400 15px "Quicksand",arial,sans-serif;
   margin: 0 0 0 25px;
   color: #000000b3;
+  animation-duration: 2s;
+animation-name: slidesideright;
 }
 .rowservices{
   display: flex;
@@ -334,7 +338,7 @@ text-wrap: wrap;
   padding: 0 15px;
   margin-bottom: 2.5rem;
   margin-top: 100px;
-  transition: 4s  ease;
+  
 }
 .rowservices h3{
   font: 500 16px "Quicksand",arial,sans-serif;
