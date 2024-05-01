@@ -236,7 +236,7 @@ flex-direction: column;
   margin: 0;
 }
 .funcao > .manual-navigation{
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-left: 4rem;
   margin-bottom: 8rem;
 }
