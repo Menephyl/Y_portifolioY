@@ -7,3 +7,8 @@
     animation:  fade-inOut 1.5s  alternate;
     transition: margin-top 1s;
 }
+@keyframes fadeToUp{
+0%{opacity:0}
+100%{opacity:1}
+
+}
