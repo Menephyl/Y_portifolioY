@@ -421,8 +421,7 @@ margin: auto;
   background-color: #ffffff;
   border-radius: 3px;
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
-  animation-duration: 2s;
-  animation-name: slidein;
+  
 }
 .icon5 img{
   height: 80px;
@@ -444,8 +443,7 @@ margin: auto;
   background-color: #ffffff;
   border-radius: 3px;
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
-  animation-duration: 2s;
-  animation-name: slidein;
+  
 }
 #row-row-expertise #hexagono{
   margin: 100px;
@@ -580,7 +578,7 @@ word-spacing: 1.4px;
   margin-top: 100px;
   margin-bottom: 10px;
   margin-left: 0.3rem;
-  transition: 1.5s  ease;
+  
 }
 .desc span{
   text-transform: uppercase;
@@ -615,7 +613,7 @@ word-spacing: 1.4px;
  position: absolute;
  margin: -80px -120px;
  padding: 30px 0 10px 0 ;
- transition: 1.5s  ease;
+ 
 }
 .conteudo #expertise .desc  .hex span {
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17)
