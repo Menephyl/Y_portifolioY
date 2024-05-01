@@ -129,6 +129,17 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   position: relative;
   animation-duration: 3s;
   animation-name: slidein;
+
+}
+@keyframes slidein{
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+  to{
+    margin-left: 0;
+    width: 100%;
+  }
 }
  .oi .subtitle{
   font: 15px "Quicksand",Arial, sans-serif;
@@ -140,8 +151,18 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
      text-align: left;
      margin-bottom: 1rem;
      position: relative; 
-      
+     animation-name: slidein;
 } 
+@keyframes slidein{
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }
+  to{
+    margin-left: 0;
+    width: 100%;
+  }
+}
 .down{
   display: flex;
   font-size: 12px;
