@@ -28,7 +28,9 @@
   }
 
   @keyframes slideside {
+   
     from {
+
       margin-left: 100%;
       width: 300%;
     }
@@ -42,7 +44,7 @@
   @keyframes slidesideright{
   
     from {
-      margin-left: 200%;
+      margin-left: 100%;
       width: 300%;
       
     }
