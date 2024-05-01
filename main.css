@@ -316,6 +316,9 @@ text-align: left;
 font: 400 15px "Quicksand",arial,sans-serif;
 text-wrap: wrap;
 }
+.principal{
+  border: 1px solid black;
+}
 .principal p{
   text-align: justify;
   font: 400 15px "Quicksand",arial,sans-serif;
