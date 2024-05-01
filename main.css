@@ -301,6 +301,8 @@ margin-top: 2rem;
 font-size: 12px;
 padding-bottom: -10px;
 margin-left: 50px;
+animation-duration: 2s;
+animation-name: slidein;
 }
 .about-me-text{
   text-align: start;
