@@ -4,5 +4,6 @@
 }
 .fade-inOut{
     /* apply animation*/
-    animation:  fade-inOut 1s  alternate;
+    animation:  fade-inOut 1.5s  alternate;
+    transition: margin-top 1s;
 }
