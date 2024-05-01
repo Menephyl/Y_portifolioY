@@ -311,6 +311,8 @@ animation-name: slidesideright;
   padding-top: 30px;
   margin-left: 50px;
   margin-bottom: 70px;
+  animation-duration: 2s;
+  animation-name: slidesideright;
 }
 .about-me p{
 width:92%;
