@@ -127,7 +127,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   margin-left: -1.5rem;
   opacity: 1.5;
   position: relative;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-name: slidein;
 
 }
@@ -151,6 +151,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
      text-align: left;
      margin-bottom: 1rem;
      position: relative; 
+     animation-duration: 2s;
      animation-name: slidein;
 } 
 @keyframes slidein{
