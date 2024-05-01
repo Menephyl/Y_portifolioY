@@ -100,7 +100,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   border: 2px solid rgb(44, 152, 240);
 }
  .oi{
-    display: block;
+  display: block;
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
   padding-bottom: 5px;
@@ -111,12 +111,12 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    background-repeat: no-repeat;
    background-size: cover;
    background-position: top center;
-   
-}
+
+ }
 
 
 .oi h1{
-display:flex;
+  display:flex;
   font-family: 'Playfair Display',Georgia, serif ; 
   font-size:1.5em;
   font-weight: 700;
