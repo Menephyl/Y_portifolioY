@@ -330,7 +330,7 @@ animation-name: slidesideright;
   margin: 0 0 0 25px;
   color: #000000b3;
   animation-duration: 2s;
-animation-name: slidesideright;
+  animation-name: slidesideright;
 }
 .rowservices{
   display: flex;
