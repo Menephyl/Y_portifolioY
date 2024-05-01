@@ -45,11 +45,11 @@
 
     from {
       margin-right: 100%;
-      width: 500%;
+      width: 300%;
       
     }
     to{
-      margin-right: 0%;
+      margin-right: 0;
       width: 100%;
     }
   }
