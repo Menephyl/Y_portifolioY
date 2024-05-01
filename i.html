@@ -12,7 +12,7 @@ color: gray;
 border: 2px solid blue;
         }
 
-        
+        /* estilo da bola */
     </style>
 </head>
 <body>
@@ -48,6 +48,9 @@ const  divElem = querySelector('div')
 const htmlElem = document.querySleector(":root")
 htmlElem.addEventListener("click",showHide);
 document.addEventListener("keydown",showHide);
+function showHide(){
+    divElem.classList.toggle("showing")
+}
 
 
 
