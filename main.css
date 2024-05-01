@@ -111,7 +111,8 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    background-repeat: no-repeat;
    background-size: cover;
    background-position: top center;
-
+   animation-duration: 2s;
+   animation-name: slidein;
  }
 
 
@@ -177,7 +178,8 @@ padding: 3px;
   margin-left: -30px;
   margin-top: 150vh;
    position: relative;
-
+   animation-duration: 2s;
+   animation-name: slidein;
 }
    /* background-repeat: no-repeat;
   background-size: cover; */
@@ -197,7 +199,8 @@ padding: 3px;
 /* color: #FFF; */
 box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
 font-size: 60px;
-
+animation-duration: 2s;
+animation-name: slidein;
 }
 .funcao > h2{
   font: 15px "Quicksand",Arial, sans-serif;
