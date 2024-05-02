@@ -1,3 +1,10 @@
+
+/*
+na area home, as div oi e funcao. dveem ter uma transição animada de subida opaca para visivel, e o background não transiciona como qualquer item. ele nao sobe, ele é transparente para chegar visivel 
+
+
+*/
+
 @keyframes fade-inOut{
     0%{opacity: 0;}
     100%{opacity: 1;}
@@ -5,7 +12,7 @@
 .fade-inOut{
     /* apply animation*/
     animation:  fade-inOut 1.5s  alternate;
-    transition: margin-top 1s;
+    transition: opacity 1s;
 }
 @keyframes fadeToUp{
 0%{opacity:0}
@@ -14,8 +21,7 @@
 }
 
 @keyframes slidein{
-    0%{opacity:0}
-    100%{opacity:1}
+   
 
     from{
       margin-top: 100%;

@@ -112,7 +112,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
    background-size: cover;
    background-position: top center;
    animation-duration: 2s;
-   animation-name: slidein;
+   animation-name: fade-inOut;
  }
 
 
