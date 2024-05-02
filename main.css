@@ -148,7 +148,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 } 
 
 .down{
-  display: flex;
+display: flex;
   font-size: 12px;
    margin-left: 2.5rem;
   font-size: 12px;
@@ -161,6 +161,8 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   text-transform: uppercase;
   animation-duration: 2s;
   animation-name: slidein;
+
+
 } 
 
 .down i {
