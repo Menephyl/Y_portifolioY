@@ -181,7 +181,7 @@ padding: 3px;
   margin-left: -30px;
   margin-top: 150vh;
    position: relative;
-   animation-duration: 3.5s;
+   animation-duration: 3s;
    animation-name: fade-inOut;
 }
    /* background-repeat: no-repeat;
@@ -202,8 +202,8 @@ padding: 3px;
 /* color: #FFF; */
 box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
 font-size: 60px;
-animation-duration: 2s;
-animation-name: slidein;
+/* animation-duration: 2s;
+animation-name: slidein; */
 }
 .funcao > h2{
   font: 15px "Quicksand",Arial, sans-serif;
