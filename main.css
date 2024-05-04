@@ -292,7 +292,7 @@ animation-name: ;
   animation-name: fade-inOut;
 }
 .about-me p{
-width:92%;
+width:100%;
 text-align: left;
 font: 400 15px "Quicksand",arial,sans-serif;
 text-wrap: wrap;
