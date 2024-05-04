@@ -290,6 +290,7 @@ animation-name: ;
   margin-bottom: 70px;
   animation-duration: 3s;
   animation-name: fade-inOut;
+  transition-delay: 1.5s;
 }
 .about-me p{
 width:100%;
