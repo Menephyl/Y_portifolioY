@@ -12,7 +12,7 @@ na area home, as div oi e funcao. dveem ter uma transição animada de subida op
 .fade-inOut{
     /* apply animation*/
     animation:  fade-inOut 1.5s  alternate;
-    transition: opacity 1s;
+    transition: opacity 1.5s;
 }
 @keyframes fadeToUp{
 0%{opacity:0}
