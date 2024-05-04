@@ -109,7 +109,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-size:  cover;
   background-repeat: no-repeat;
   background-position: top center;
-  margin-left: 0;
   padding-bottom: 5px;
   animation-name: fade-inOut;
   animation-duration: 3s;
@@ -126,7 +125,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   height: 400px;
   width: 490px;
   margin-top: 1rem;
-  margin-left: -1.5rem;
+  margin-left: 0;
   opacity: 1.5;
   position: relative;
   /* animation-duration: 2s;
