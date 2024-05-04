@@ -92,7 +92,8 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   cursor: pointer;
   transition: 1.5s;
   margin: 13px;
-  background-color: rgba(0, 0, 0, 0.5) ;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: -20px;
 }
 .manual-btn-activo{
   display: flex;
