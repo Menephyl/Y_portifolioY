@@ -104,14 +104,14 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   font-family: 'Playfair Display', Georgia, serif ; 
   font-size:3em;
   padding-bottom: 5px;
-   width: 50vw;
+   width: 80vw;
   height: 100vh;
   margin-left: 0;
    background:url(https://technext.github.io/jackson/images/img_bg_1.jpg);
    background-color: rgba(128, 128, 128, 0.056);
+   background-size:  cover;
    background-repeat: no-repeat;
    background-position: top center;
-   background-size: cover;
    animation-name: fade-inOut;
    animation-duration: 3s;
    
