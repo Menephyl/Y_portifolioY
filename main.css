@@ -99,9 +99,9 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-color: #fff;
   border: 2px solid rgb(44, 152, 240);
 }
- .oi{
-  display: block;
  
+.oi{
+  display: block;
   width: 80vw;
   height: 110vh;
   background:url(https://technext.github.io/jackson/images/img_bg_1.jpg);
@@ -112,7 +112,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   padding-bottom: 5px;
   animation-name: fade-inOut;
   animation-duration: 3s;
-  
  }
 
 
