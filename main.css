@@ -101,27 +101,26 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }
  .oi{
   display: block;
-  font-family: 'Playfair Display', Georgia, serif ; 
-  font-size:3em;
-  padding-bottom: 5px;
-   width: 80vw;
-  height: 100vh;
+ 
+  width: 80vw;
+  height: 110vh;
+  background:url(https://technext.github.io/jackson/images/img_bg_1.jpg);
+  background-color: rgba(128, 128, 128, 0.056);
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-position: top center;
   margin-left: 0;
-   background:url(https://technext.github.io/jackson/images/img_bg_1.jpg);
-   background-color: rgba(128, 128, 128, 0.056);
-   background-size:  cover;
-   background-repeat: no-repeat;
-   background-position: top center;
-   animation-name: fade-inOut;
-   animation-duration: 3s;
-   
+  padding-bottom: 5px;
+  animation-name: fade-inOut;
+  animation-duration: 3s;
+  
  }
 
 
 .oi h1{
   display:flex;
-  font-family: 'Playfair Display',Georgia, serif ; 
-  font-size:1.5em;
+  font-family: 'Playfair Display', Georgia, serif ; 
+  font-size:3em;
   font-weight: 700;
   text-align: left;
   height: 400px;
