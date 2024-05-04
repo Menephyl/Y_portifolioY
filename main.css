@@ -97,6 +97,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }
 .manual-btn-activo{
   display: flex;
+  flex:auto;
   background-color: #fff;
   border: 2px solid rgb(44, 152, 240);
 }
