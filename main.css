@@ -181,8 +181,8 @@ padding: 3px;
   margin-left: -30px;
   margin-top: 150vh;
    position: relative;
-   animation-duration: 2s;
-   animation-name: slidein;
+   animation-duration: 3.5s;
+   animation-name: fade-inOut;
 }
    /* background-repeat: no-repeat;
   background-size: cover; */
