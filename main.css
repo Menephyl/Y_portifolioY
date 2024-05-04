@@ -78,29 +78,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   padding: 32px;
   margin:50px 10px;
 }
-#radio2{
-  margin-top: 10px;
-  margin-bottom: 20px;
- 
-}
-.manual-btn{
-  width: 14px;
-  display: flex;
-  border: 2px solid  rgba(0, 0, 0, 0.5);
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1.5s;
-  margin: 13px;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-left: -20px;
-}
-.manual-btn-activo{
-  display: flex;
-  flex:auto;
-  background-color: #fff;
-  border: 2px solid rgb(44, 152, 240);
-}
+
  
 .oi{
   display: block;
@@ -246,6 +224,31 @@ flex-direction: column;
 .down2 i{
   margin: 0;
 }
+
+#radio2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+ 
+}
+.manual-btn{
+  width: 14px;
+  display: flex;
+  border: 2px solid  rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1.5s;
+  margin: 13px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: -20px;
+}
+.manual-btn-activo{
+  display: flex;
+  flex:auto;
+  background-color: #fff;
+  border: 2px solid rgb(44, 152, 240);
+}
+
 .funcao > .manual-navigation{
    margin-top: -5.2rem; 
   margin-left: 4.5rem;
