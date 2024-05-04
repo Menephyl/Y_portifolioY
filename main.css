@@ -64,7 +64,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }
 
 .slides{
- 
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -91,7 +90,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   background-position: top center;
   padding-bottom: 5px;
   animation-name: fade-inOut;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
  }
 
 
@@ -290,7 +289,7 @@ animation-name: ;
   margin-bottom: 70px;
   animation-duration: 3s;
   animation-name: fade-inOut;
-  transition-delay: 1.5s;
+  transition-delay: 2.5s;
 }
 .about-me p{
 width:100%;
