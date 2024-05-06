@@ -1040,6 +1040,9 @@ position: relative;
 }
 .education{
   margin-bottom: 100px;
+  animation-duration: 3s;
+  animation-name: fade-inOut;
+  transition-delay: 3.5s;
 }
 .education em{
   padding: 5px;
