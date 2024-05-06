@@ -192,7 +192,7 @@ flex-direction: column;
  text-align: left;
  margin-bottom: 160px;
  position: relative;
- animation-name: fadeToUp;
+ animation-name: fadeToUp, fade-inOut;
  animation-duration: 1.5s;
 }
 
@@ -207,7 +207,7 @@ flex-direction: column;
   margin: 3rem 0 20px 0;
   padding: 5px;
   text-transform: uppercase;
-  animation-name: fadeToUp;
+  animation-name: fadeToUp, fade-inOut;
   animation-duration: 1.5s; 
 }
 
