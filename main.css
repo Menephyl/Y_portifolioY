@@ -289,7 +289,7 @@ animation-name: ;
   margin-bottom: 70px;
   animation-duration: 3s;
   animation-name: fade-inOut;
-  transition-delay: 2.5s;
+  transition-delay: 3.5s;
 }
 .about-me p{
 width:100%;
@@ -297,8 +297,8 @@ text-align: left;
 font: 400 15px "Quicksand",arial,sans-serif;
 text-wrap: wrap;
 padding: 20px;
-animation-duration: 2s;
-animation-name: ;
+/* animation-duration: 2s;
+animation-name: ; */
 }
 .principal{
   text-wrap: wrap;
