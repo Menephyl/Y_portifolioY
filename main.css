@@ -1743,7 +1743,7 @@ padding-bottom: 20px;
   flex-direction: row;
   margin-top: -150px;
   margin-bottom: 100px;
-  transition: 1.5s  ease;
+ 
 }
 .small{
   margin-left:10px;
@@ -1752,7 +1752,7 @@ padding-bottom: 20px;
   margin-right: 17px;
   font:200 13.2px "Quicksand",arial,sans-serif, gray;
   text-transform: uppercase;
-    transition: 1.5s  ease;
+   
 } 
 .small-all a{
   margin-top: 10px;
@@ -1771,7 +1771,7 @@ padding-bottom: 20px;
   width: 300px;
   height: 60px;
   padding-left: 40px;
-  transition: 1.5s  ease;
+ 
 }
 
 .small-all .smal{
@@ -1782,7 +1782,7 @@ padding-bottom: 20px;
   margin-right: 15px;
   text-transform: uppercase;
   margin-bottom: 25px;
-  transition: 1.5s  ease;
+ 
   }
   .small-all .smal small{
     text-wrap: nowrap;
@@ -1795,7 +1795,7 @@ padding-bottom: 20px;
     text-wrap: nowrap;
     width: 30px;
     margin-right: 35px;
-    transition: 1.5s  ease;
+   
   }
 .small-all .smal a{
   text-align: start;
@@ -1836,7 +1836,7 @@ padding-bottom: 20px;
   color: black;
   font-size: 13px;
   text-wrap: nowrap;
-  transition: 1.5s  ease;
+ 
 }
 .sma > p{
   position: absolute;
@@ -1898,7 +1898,7 @@ padding-bottom: 20px;
   margin:0px 0 0px 10px;
   background-color: rgba(128, 128, 128, 0.644);
   color: #007bff;
-  transition: 1.5s  ease;
+ 
 }
 .item{
   display: flex;
@@ -1908,7 +1908,7 @@ padding-bottom: 20px;
   margin: 10px 0 10px 10px;
   background-color: rgba(128, 128, 128, 0.644);
   color: #007bff;
-  transition: 1.5s  ease;
+ 
 }
 .item i{
   margin-top:30px;
@@ -1939,7 +1939,7 @@ padding-bottom: 20px;
   margin-right: 370px;
   width: 260px;
   height: 200px;
-  transition: 1.5s  ease;
+ 
 }
 
 .form {
