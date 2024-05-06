@@ -113,7 +113,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 }
 
  .oi .subtitle{
-  font: 15px "Quicksand",Arial, sans-serif;
+     font: 15px "Quicksand",Arial, sans-serif;
     flex-direction: column;
      width: 200px;
      height: 40px;
