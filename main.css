@@ -85,7 +85,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   height: 110vh;
   background:url(https://technext.github.io/jackson/images/img_bg_1.jpg);
   background-color: rgba(128, 128, 128, 0.056);
-  background-size:  cover;
+  background-size:  contain;
   background-repeat: no-repeat;
   background-position: top center;
   padding-bottom: 5px;
@@ -105,7 +105,6 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   text-align: left;
   height: 400px;
   width: 490px;
-  
   position: relative;
    animation-duration: 2.5s;
   animation-name: fadeToUp, fade-inOut;
