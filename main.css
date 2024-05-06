@@ -508,7 +508,9 @@ margin: auto;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   padding: 30px;
-  
+  animation-duration: 3s;
+  animation-name: fade-inOut;
+  transition-delay: 3.5s;
 }
 #hire h2{
   text-align: justify;
@@ -558,7 +560,9 @@ word-spacing: 1.4px;
   margin-top: 100px;
   margin-bottom: 10px;
   margin-left: 0.3rem;
-  
+  animation-duration: 3s;
+  animation-name: fade-inOut;
+  transition-delay: 3.5s;
 }
 .desc span{
   text-transform: uppercase;
@@ -815,7 +819,7 @@ flex-flow: row;
 margin: 5px;
 max-width: 20em;
 border-radius: 5px;
-transition: 1.5s  ease;
+
 }
 
 img{
