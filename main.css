@@ -1952,7 +1952,9 @@ padding-bottom: 20px;
   margin-left: 370px;
   margin-right: 0px;
   padding: 10px;
-  transition: 1.5s  ease;
+  animation-duration: 3s;
+  animation-name: fade-inOut;
+  transition-delay: 3.5s;
 }
 .form-control{
   display: flex;
