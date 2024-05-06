@@ -1117,7 +1117,9 @@ position: relative;
 .experience{
   margin-top: 5rem;
   width: 795px;
-  transition: 1.5s  ease;
+  animation-duration: 3s;
+  animation-name: fade-inOut;
+  transition-delay: 3.5s;
 }
 .experience em{
  margin-left: 22px;
