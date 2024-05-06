@@ -108,6 +108,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   position: relative;
    animation-duration: 2.5s;
   animation-name: fadeToUp, fade-inOut;
+  animation-delay: 0.5s;
 
 }
 
