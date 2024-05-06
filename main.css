@@ -108,7 +108,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   opacity: 1.5;
   position: relative;
    animation-duration: 1.5s;
-  animation-name: fadeToUp;
+  animation-name: fadeToUp, fade-inOut;
 
 }
 
@@ -123,7 +123,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
      margin-bottom: 1rem;
      position: relative; 
      animation-duration: 1.5s;
-    animation-name: fadeToUp;
+    animation-name: fadeToUp, fade-inOut;
 
 } 
 
@@ -140,7 +140,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   position: relative;
   text-transform: uppercase;
   animation-duration: 1.5s;
-  animation-name: fadeToUp;
+  animation-name: fadeToUp, fade-inOut;
 } 
 
 .down i {
