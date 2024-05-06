@@ -15,20 +15,23 @@ na area home, as div oi e funcao. dveem ter uma transição animada de subida op
     transition: opacity 1.5s;
 }
 
-@keyframes fadeToUp{
+
+/* @keyframes fadeToUp{
     from{
+      visibility: hidden;
       margin-top: 100%;
       width: 300%;
     }
     to{
+      visibility: visible;
       margin-top: 0;
       width: 100%;
     }
   }
   .fadeToUp{
-    animation: slidein 1.5s;
+    animation: fadeToUp 1.5s;
     transition: margin 1.5s;
-  }
+  } */
 
   @keyframes slideside {
    
