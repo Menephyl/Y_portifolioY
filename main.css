@@ -183,7 +183,7 @@ padding: 3px;
   
 }
 .funcao > h2{
-  font: 15px "Quicksand",Arial, sans-serif;
+font: 15px "Quicksand",Arial, sans-serif;
 flex-direction: column;
  width: 200px;
  height: 40px;
