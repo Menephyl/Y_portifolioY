@@ -128,7 +128,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 } 
 
 .down{
-display: flex;
+  display: flex;
   font-size: 12px;
    margin-left: 2.5rem;
   font-size: 12px;
