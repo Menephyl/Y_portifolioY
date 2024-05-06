@@ -48,7 +48,9 @@ setInterval(mostrarFunc,4000);
 
 window.revelar = ScrollReveal({reset:true})
 // topo do projeto
-revelar.reveal('.fadeToUp')
+revelar.reveal('.fadeToUp',{
+    duration:2000,
+})
 //   }
 //  }
 
