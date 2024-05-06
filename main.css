@@ -122,8 +122,9 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
      text-align: left;
      margin-bottom: 1rem;
      position: relative; 
-     /* animation-duration: 2s;
-     animation-name: slidein; */
+     animation-duration: 1.5s;
+  animation-name: fadeToUp;
+
 } 
 
 .down{
@@ -140,9 +141,6 @@ display: flex;
   text-transform: uppercase;
   animation-duration: 1.5s;
   animation-name: fadeToUp;
-
-
-
 } 
 
 .down i {
