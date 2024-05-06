@@ -320,6 +320,7 @@ animation-name: ; */
   margin-top: 100px;
   animation-duration: 3s;
   animation-name: fade-inOut;
+  transition-delay: 3.5s;
 }
 .rowservices h3{
   font: 500 16px "Quicksand",arial,sans-serif;
