@@ -293,8 +293,8 @@ animation-name: ; */
   margin-left: 50px;
   margin-bottom: 70px;
   animation-duration: 3s;
-  animation-name: fade-inOut;
-  transition-delay: 3.5s;
+  animation-name: fadeToUp;
+  transition-delay:0.2s;
 }
 .about-me p{
 width:100%;
