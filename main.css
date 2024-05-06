@@ -838,6 +838,9 @@ img{
    margin-left: 10px;
    margin-right: 0;
    margin-bottom: 10rem;
+   animation-duration: 3s;
+   animation-name: fade-inOut;
+   transition-delay: 3.5s;
   }
 #skills > em {
   display: flex;
