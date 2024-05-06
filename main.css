@@ -179,7 +179,7 @@ padding: 3px;
   box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
   font-size: 60px;
   animation-name: fadeToUp;
- animation-duration: 2.5s;
+ animation-duration: 1.5s;
   
 }
 .funcao > h2{
@@ -193,7 +193,7 @@ flex-direction: column;
  margin-bottom: 160px;
  position: relative;
  animation-name: fadeToUp;
- animation-duration: 2.5s;
+ animation-duration: 1.5s;
 }
 
 
@@ -208,7 +208,7 @@ flex-direction: column;
   padding: 5px;
   text-transform: uppercase;
   animation-name: fadeToUp;
-  animation-duration: 2.5s; 
+  animation-duration: 1.5s; 
 }
 
 .down2{
@@ -219,7 +219,7 @@ flex-direction: column;
   border: 0.1px solid #000;
   margin-top: 60px;
   animation-name: fadeToUp;
-  animation-duration: 2.5s;
+  animation-duration: 1.5s;
 } 
 .down2 span{
   padding-top: 5px;
