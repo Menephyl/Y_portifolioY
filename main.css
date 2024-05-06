@@ -108,7 +108,7 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
   position: relative;
    animation-duration: 2.5s;
   animation-name: fadeToUp, fade-inOut;
-  animation-delay: 0.5s;
+  animation-delay: 0.2s;
 
 }
 
@@ -178,8 +178,9 @@ padding: 3px;
   width: 490px;
   box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
   font-size: 60px;
-/* animation-duration: 2s;
-animation-name: slidein; */
+  animation-name: fadeToUp;
+ animation-duration: 2.5s;
+  
 }
 .funcao > h2{
   font: 15px "Quicksand",Arial, sans-serif;
