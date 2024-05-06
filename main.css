@@ -862,7 +862,7 @@ img{
   margin-bottom: 2rem;
   margin-left: 20px;
   padding: 10px 5px 0 0;
-  transition: 1.5s  ease;
+ 
 }
 
 #skills p{
@@ -1074,7 +1074,7 @@ position: relative;
   text-align: left;
   margin-top: -20px;
   margin-bottom: 52px;
-  transition: 1.5s  ease;
+ 
 
 }
 
@@ -1090,7 +1090,7 @@ position: relative;
   background-color: #f2f3f7;
   padding: 20px 25px;
   font: 400 14px "Quicksand",arial, sans-serif;
-  transition: 1.5s  ease;
+ 
 }
 .education  .fa-minus{
   margin-left: 750px;
@@ -1171,7 +1171,7 @@ position: relative;
   padding-bottom: 5px;
   padding-right: 22.5px;
   border-radius: 4px;
-  transition: 1.5s  ease;
+ 
 }
 .works h3::before{
   content: ' ';
@@ -1285,7 +1285,7 @@ padding-right: 20px;
   background-color: white;
   margin: 0 20px 0 0;
   padding:1px;
-  transition: 1.5s  ease;
+ 
 }
 .con_1{
   position: relative;
@@ -1667,7 +1667,7 @@ padding-right: 20px;
   padding: 18px 36px;
   width: 795px;
   height: 70px;
-  transition: 1.5s  ease;
+ 
 }
 .fa-rotate-right{
   color: #fff;
@@ -1993,7 +1993,7 @@ padding-bottom: 20px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: #f2f3f7;
-  transition: 1.5s  ease;
+ 
 }
 .btn-message{
   font: 400 15px "Quicksand", arial, sans-serif;
@@ -2007,6 +2007,6 @@ padding-bottom: 20px;
   border-radius: 2px;
   padding: 4px;
  color: white;
- transition: 1.5s  ease;
+
 }
   
