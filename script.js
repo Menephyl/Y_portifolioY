@@ -57,18 +57,51 @@ revelar.reveal('.fadeToUp',{
 
 window.revelar = ScrollReveal({reset:true})
 // topo do projeto
-revelar.reveal('.fadeToUp-delay','fadeToUp-delay2', 'fadeToUp-delay3', 'fadeToUp-delay4',{
+revelar.reveal('.fadeToUp-delay',{
+    duration:2000,
+    distance:"90px",
+    delay:500
+}) 
+    
+
+window.revelar = ScrollReveal({reset:true})
+// topo do projeto
+revelar.reveal('.fadeToUp-delay2',{
+    duration:2000,
+    distance:"90px",
+    delay:600
+}) 
+
+window.revelar = ScrollReveal({reset:true})
+// topo do projeto
+revelar.reveal('.fadeToUp-delay3',{
     duration:2000,
     distance:"90px",
     delay:700
 }) 
-    
 
+window.revelar = ScrollReveal({reset:true})
+// topo do projeto
+revelar.reveal('.fadeToUp-delay4',{
+    duration:2000,
+    distance:"90px",
+    delay:700
+}) 
 
-
-
-
-
+window.revelar = ScrollReveal({reset:true})
+// topo do projeto
+revelar.reveal('.fadeToUp-delay5',{
+    duration:2000,
+    distance:"90px",
+    delay:700
+}) 
+window.revelar = ScrollReveal({reset:true})
+// topo do projeto
+revelar.reveal('.fadeToUp-delay6',{
+    duration:2000,
+    distance:"90px",
+    delay:700
+}) 
 
 
 
