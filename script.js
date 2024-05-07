@@ -47,7 +47,7 @@ setInterval(mostrarFunc,4000);
 
 
 window.revelar = ScrollReveal({reset:true})
-// topo do projeto
+
 revelar.reveal('.fadeToUp',{
     duration:2000,
     distance:"90px",
@@ -56,7 +56,7 @@ revelar.reveal('.fadeToUp',{
 
 
 window.revelar = ScrollReveal({reset:true})
-// topo do projeto
+
 revelar.reveal('.fadeToUp-delay',{
     duration:2000,
     distance:"90px",
@@ -73,7 +73,7 @@ revelar.reveal('.fadeToUp-delay2',{
 }) 
 
 window.revelar = ScrollReveal({reset:true})
-// topo do projeto
+
 revelar.reveal('.fadeToUp-delay3',{
     duration:2000,
     distance:"90px",
@@ -81,7 +81,7 @@ revelar.reveal('.fadeToUp-delay3',{
 }) 
 
 window.revelar = ScrollReveal({reset:true})
-// topo do projeto
+
 revelar.reveal('.fadeToUp-delay4',{
     duration:2000,
     distance:"90px",
@@ -89,21 +89,21 @@ revelar.reveal('.fadeToUp-delay4',{
 }) 
 
 window.revelar = ScrollReveal({reset:true})
-// topo do projeto
+
 revelar.reveal('.fadeToUp-delay5',{
     duration:2000,
     distance:"90px",
     delay:900
 }) 
 window.revelar = ScrollReveal({reset:true})
-// topo do projeto
+
 revelar.reveal('.fadeToUp-delay6',{
     duration:2000,
     distance:"90px",
     delay:1000
 }) 
 window.revelar = ScrollReveal({reset:true})
-// topo do projeto
+
 revelar.reveal('.fadeToLeft',{
     duration:2000,
     distance:"90px",
@@ -112,7 +112,7 @@ revelar.reveal('.fadeToLeft',{
 }) 
 
 window.revelar = ScrollReveal({reset:true})
-// topo do projeto
+
 revelar.reveal('.fadeToleftDelay',{
     duration:2500,
     distance:"90px",
@@ -122,7 +122,7 @@ revelar.reveal('.fadeToleftDelay',{
 
 
 window.revelar = ScrollReveal({reset:true})
-// topo do projeto
+
 revelar.reveal('.fadeToRight',{
     duration:2000,
     distance:"90px",
