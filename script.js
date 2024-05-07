@@ -107,7 +107,7 @@ window.revelar = ScrollReveal({reset:true})
 revelar.reveal('.fadeToLeft',{
     duration:2000,
     distance:"90px",
-    delay:1000,
+    // delay:500,
     origin:"right"
 }) 
 
