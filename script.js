@@ -85,7 +85,7 @@ window.revelar = ScrollReveal({reset:true})
 revelar.reveal('.fadeToUp-delay4',{
     duration:2000,
     distance:"90px",
-    delay:700
+    delay:800
 }) 
 
 window.revelar = ScrollReveal({reset:true})
@@ -93,14 +93,14 @@ window.revelar = ScrollReveal({reset:true})
 revelar.reveal('.fadeToUp-delay5',{
     duration:2000,
     distance:"90px",
-    delay:700
+    delay:900
 }) 
 window.revelar = ScrollReveal({reset:true})
 // topo do projeto
 revelar.reveal('.fadeToUp-delay6',{
     duration:2000,
     distance:"90px",
-    delay:700
+    delay:1000
 }) 
 
 
