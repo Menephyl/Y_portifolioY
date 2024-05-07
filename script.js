@@ -60,7 +60,7 @@ window.revelar = ScrollReveal({reset:true})
 revelar.reveal('.fadeToUp-delay','fadeToUp-delay2', 'fadeToUp-delay3', 'fadeToUp-delay4',{
     duration:2000,
     distance:"90px",
-    delay:500
+    delay:700
 }) 
     
 
