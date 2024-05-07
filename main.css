@@ -504,7 +504,7 @@ margin: auto;
   text-align: justify;
   color: #ffffffb3;
 }
-#hire, .fadeToLeftDelay{
+#hire, .hire{
   height: 207px;
   width: 800px;
   position: relative;
@@ -513,9 +513,7 @@ margin: auto;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   padding: 30px;
-  animation-duration: 3s;
-  animation-name: fade-inOut;
-  transition-delay: 3.5s;
+  
 }
 #hire h2{
   text-align: justify;
