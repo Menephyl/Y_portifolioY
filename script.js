@@ -57,7 +57,7 @@ revelar.reveal('.fadeToUp',{
 
 window.revelar = ScrollReveal({reset:true})
 // topo do projeto
-revelar.reveal('.fadeToUp-delay',{
+revelar.reveal('.fadeToUp-delay',fadeToUp-delay1,fadeToUp-delay2,fadeToUp-delay3,fadeToUp-delay4{
     duration:2000,
     distance:"90px",
     delay:500
