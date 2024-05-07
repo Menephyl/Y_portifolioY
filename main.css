@@ -504,7 +504,7 @@ margin: auto;
   text-align: justify;
   color: #ffffffb3;
 }
-#hire{
+#hire, .fadeToLeftDelay{
   height: 207px;
   width: 800px;
   position: relative;
