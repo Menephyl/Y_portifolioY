@@ -113,7 +113,7 @@ revelar.reveal('.fadeToLeft',{
 
 window.revelar = ScrollReveal({reset:true})
 // topo do projeto
-revelar.reveal('.fadeToleft',{
+revelar.reveal('.fadeToleftDelay',{
     duration:2000,
     distance:"90px",
      delay:600,
