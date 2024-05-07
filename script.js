@@ -113,6 +113,16 @@ revelar.reveal('.fadeToLeft',{
 
 window.revelar = ScrollReveal({reset:true})
 // topo do projeto
+revelar.reveal('.fadeToleft',{
+    duration:2000,
+    distance:"90px",
+     delay:600,
+    origin:"left"
+}) 
+
+
+window.revelar = ScrollReveal({reset:true})
+// topo do projeto
 revelar.reveal('.fadeToRight',{
     duration:2000,
     distance:"90px",
