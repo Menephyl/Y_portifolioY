@@ -108,7 +108,7 @@ revelar.reveal('.fadeToLeft',{
     duration:2000,
     distance:"90px",
     // delay:500,
-    origin:"right"
+    origin:"left"
 }) 
 
 
