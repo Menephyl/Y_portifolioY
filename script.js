@@ -107,20 +107,6 @@ revelar.reveal('.fadeToUp-delay6',{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let isEnglish = false
 
 const portuguese = {
