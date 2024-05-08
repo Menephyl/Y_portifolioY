@@ -1,5 +1,5 @@
 
-.fadeToUp-delay, .fadeToleftDelay{
+.fadeToUp.fadeToUp-delay, .fadeToleftDelay{
   visibility: hidden;
 }
 .fadeToUpFunc{
