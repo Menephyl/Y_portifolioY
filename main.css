@@ -113,9 +113,7 @@ i{
      position: relative; 
      animation-duration: 2.5s;
      animation-name: fadeToUp;
- 
-
-} 
+ } 
 
 .down{
   display: flex;
@@ -147,8 +145,8 @@ padding: 3px;
   height: 100vh;
   margin-left: -30px;
   margin-top: 140vh;
-   position: relative;
-   animation-name: fade-inOut;
+  position: relative;
+  animation-name: fade-inOut;
   animation-duration: 1.5s;
 }
   
@@ -249,7 +247,7 @@ flex-direction: column;
 /* AREA CONTEÚDO */
 
 
-em{
+.em{
   color: #999999;
   font-size: 12px;
   display: flex;
