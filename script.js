@@ -31,7 +31,7 @@ const mostrarFunc = () => {
     
   if( e1.style.display == "block"){
     e1.style.display = "none";
-    e2.style.display = "block" && e2.style.visibility == "visible";
+    e2.style.display = "block" && e2.style.visibility == "hidden";
   
   }else{
     e1.style.display = "block";  
