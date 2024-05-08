@@ -123,6 +123,32 @@ revelar.reveal('.fadeToRight-2',{
     origin:"left"
 }) 
 
+window.revelar = ScrollReveal({reset:true})
+
+revelar.reveal('.fadeToRight-3',{
+    duration:2000,
+    distance:"90px",
+     delay:900,
+    origin:"left"
+}) 
+
+window.revelar = ScrollReveal({reset:true})
+
+revelar.reveal('.fadeToRight-4',{
+    duration:2000,
+    distance:"90px",
+     delay:1100,
+    origin:"left"
+}) 
+
+window.revelar = ScrollReveal({reset:true})
+
+revelar.reveal('.fadeToRight-5',{
+    duration:2000,
+    distance:"90px",
+     delay:1200,
+    origin:"left"
+}) 
 
 window.revelar = ScrollReveal({reset:true})
 
