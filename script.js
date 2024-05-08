@@ -58,7 +58,7 @@ window.revelar = ScrollReveal({reset:true})
 revelar.reveal('.fadeToUpFunc',{
     delay:3000,
     duration:2000,
-    distance:"500px",
+    distance:"9000vh",
     origin:bottom
 }) 
 
