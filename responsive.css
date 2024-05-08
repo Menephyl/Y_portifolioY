@@ -1,3 +1,16 @@
 @charset "utf-8";
 /* Utilizando viewport width (vw) para a altura da imagem */ 
 /* ver novamente a estrutura para melhor responsividade */
+
+
+/* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
+p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
+*/
+ /* body é configurado para usar flex para organizar a aside e a main em linha (lado a lado).
+menu-lateral é configurado como fixo à esquerda e com uma altura de 100% da janela, tornando-o fixo enquanto o conteúdo da main rola.
+main tem uma margem esquerda para deixar espaço para a aside.
+overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o conteúdo for maior do que a altura da janela. */
+
+/*ajuste da margem esquerda para corresponder à largura da aside */
+     /* Adicione algum preenchimento para separar o conteúdo da aside */
+      /* Adicione outras propriedades conforme necessário */
