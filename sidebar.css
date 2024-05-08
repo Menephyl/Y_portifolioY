@@ -57,7 +57,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
     margin: 0px 10px 0 10px;
     letter-spacing: normal;
 }
-  /* }   h1 */
+
 .position{
   display: flex;
   text-wrap: nowrap;
@@ -67,7 +67,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   color: #000;
 
 }
-.menu-lateral-active a li:hover{
+.caixa-de-textos ul > li:hover{
   text-decoration: underline blue;
   transition: 1s ease;
 } 
