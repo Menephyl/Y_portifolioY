@@ -69,7 +69,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 }
 .caixa-de-textos ul > li:hover{
   text-decoration: underline blue;
-  transition: 1s ease;
+  transition: 2s ease;
 } 
 .menu-lateral-active .cargo .azul {
 font: 400 12px "Quicksand",arial, sans-serif;
@@ -90,7 +90,7 @@ border-radius: 3px;
 text-align: center;
 color: #000000e2;
 text-decoration:none;
-
+padding: 10px;
 }
 .caixa-de-textos ul li{
   padding: 3px;
