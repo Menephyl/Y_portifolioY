@@ -159,8 +159,8 @@ padding: 3px;
   margin-left: -30px;
   margin-top: 140vh;
    position: relative;
+   animation-name: fade-inOut;
   animation-duration: 1.5s;
-  animation-name: fade-inOut;
 }
   
 
