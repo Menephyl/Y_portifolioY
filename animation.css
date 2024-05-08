@@ -18,7 +18,7 @@ na area home, as div oi e funcao. dveem ter uma transição animada de subida op
 }
 
 
-/@keyframes fadeToUp{
+@keyframes fadeToUp{
     from{
       visibility: hidden;
       margin-top: 100%;
