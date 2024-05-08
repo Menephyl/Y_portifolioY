@@ -178,8 +178,9 @@ padding: 3px;
   width: 490px;
   box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
   font-size: 60px;
-  animation-name: fadeToUp, fade-inOut;
- animation-duration: 2s;
+  animation-name: fadeToUp-delay, fade-inOut;
+  animation-duration: 2s;
+  
   
 }
 .funcao > h2{

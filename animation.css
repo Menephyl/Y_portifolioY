@@ -4,7 +4,9 @@ na area home, as div oi e funcao. dveem ter uma transição animada de subida op
 
 
 */
-
+.fadeToUp{
+  
+}
 @keyframes fade-inOut{
     0%{opacity: 0;}
     100%{opacity: 1;}
