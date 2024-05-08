@@ -50,6 +50,9 @@ revelar.reveal('.fadeToUp',{
     origin:"bottom"
    
 }) 
+
+
+
 window.revelar = ScrollReveal({reset:true})
 
 revelar.reveal('.fadeToUpFunc',{
