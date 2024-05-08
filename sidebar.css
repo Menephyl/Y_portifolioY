@@ -68,10 +68,13 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 
 }
 .caixa-de-textos ul > li:hover{
-  text-decoration: underline blue;
-  transition: 2s ease;
-} 
-.menu-lateral-active .cargo .azul {
+  text-decoration: 2.5px underline rgba(0, 76, 255, 0.586);
+  transform-origin:  right center;
+ transition: transform 2s  ease-out;
+
+ 
+}
+ .azul {
 font: 400 12px "Quicksand",arial, sans-serif;
 text-transform: uppercase;
 color: #449deb;   
