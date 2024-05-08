@@ -1,3 +1,7 @@
+
+.fadeToUp,.fadeToUp-delay, .fadeToleftDelay{
+  visibility: hidden;
+}
 .fadeToUp{
   
 }
@@ -12,24 +16,4 @@
 }
 
 
-@keyframes fadeToUp{
-    from{
-      visibility: hidden;
-      margin-top: 100%;
-      width: 300%;
-    }
-    to{
-      visibility: visible;
-      margin-top: 0;
-      width: 100%;
-    }
-  }
-  .fadeToUp{
-    animation: fadeToUp 1.5s;
-    transition: margin 1.5s;
-  } 
-
-.fadeToUp,.fadeToUp-delay, .fadeToleftDelay{
-  visibility: hidden;
-}
 
