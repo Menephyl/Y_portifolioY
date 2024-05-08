@@ -31,11 +31,11 @@ const mostrarFunc = () => {
     
   if( e1.style.display == "block"){
     e1.style.display = "none";
-    e2.style.display = "block";
+    e2.style.visibility = "visible";
   
   }else{
     e1.style.display = "block";  
-    e2.style.display = "none";
+    e2.style.visibility = "hidden";
   }
 }
 setInterval(mostrarFunc,4000);
@@ -58,7 +58,7 @@ window.revelar = ScrollReveal({reset:true})
 revelar.reveal('.fadeToUpFunc',{
     delay:3000,
     duration:2000,
-    distance:"9000vh",
+    distance:"90px",
     origin:bottom
 }) 
 
