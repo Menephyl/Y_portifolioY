@@ -136,8 +136,7 @@ padding: 3px;
 }
 
 .main .funcao {
-  display: block;
-  visibility: hidden;
+  display: none;
   background: url("https://technext.github.io/jackson/images/img_bg_2.jpg");
   background-repeat: no-repeat;
   background-position: center;
