@@ -219,7 +219,11 @@ const english = {
 
 const numero=document.getElementById('numero')
 
-let 
+let cantidad
+let tiempo=setInterval(() => {
+    
+}
+)
 
 
 
