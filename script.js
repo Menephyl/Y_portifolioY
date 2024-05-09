@@ -266,17 +266,17 @@ let tPartners = setInterval(()=>{
 
 },80
 );
-const tileCourse = document.querySelector('.tileCourse')
+// const tileCourse = document.querySelector('.education .titleCourse .panel-body')
 
-const closeCourse() =>{
-    const titleCourse1 = document.querySelector('.fa-minus')
+// const closeCourse() =>{
+//     const titleCourse1 = document.querySelector('.fa-minus')
     
-    titleCourse1.addEventListener("click",() => {
+//     titleCourse1.addEventListener("click",() => {
 
-        if(titleCourse).classList.contains('')
-    })
+//         if(titleCourse).classList.contains('')
+//     })
     
-}
+// }
 
 
 
