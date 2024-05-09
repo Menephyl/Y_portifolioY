@@ -216,7 +216,16 @@ const english = {
 /* Amante da tecnologia desde 1999.  */
 
 }
-// const   nProject= document.querySelector('')
+const  nProject= document.querySelector('nProject')
+let cont = 0 
+let tprojeto = setInterval(()=>{
+    c+=1
+tprojeto.textContent=cont
+
+if(c===32){
+    clearInterval(tprojeto)
+}
+},100)
 
 const numero=document.getElementById('numero')
 let c = 0 
