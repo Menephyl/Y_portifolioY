@@ -220,7 +220,7 @@ const  nProject = document.querySelector('nProject')
 let cont = 0 
 let tProjeto = setInterval(() => {
     cont+=1
-tProjeto.textContent=cont
+nProject.textContent=cont
 
 if(c===32){
     clearInterval(tProjeto)
