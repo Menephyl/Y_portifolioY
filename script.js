@@ -227,7 +227,7 @@ if(c===32){
 }
 },100)
 
-const numero=document.getElementById('numero')
+const numero = document.getElementById('numero')
 let c = 0 
 let t=setInterval(() => {
     c +=1
