@@ -216,10 +216,10 @@ const english = {
 /* Amante da tecnologia desde 1999.  */
 
 }
-const  nProject= document.querySelector('nProject')
+const  nProject = document.querySelector('nProject')
 let cont = 0 
 let tProjeto = setInterval(() => {
-    c+=1
+    cont+=1
 tProjeto.textContent=cont
 
 if(c===32){
