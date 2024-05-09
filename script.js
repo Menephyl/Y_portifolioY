@@ -254,6 +254,19 @@ let tClients = setInterval(()=>{
 },80
 );
 
+const nPartners = document.getElementById("nPartners")
+
+let cPartners = 0 
+let tPartners = setInterval(()=>{
+    cPartners+=1 
+    nPartners.textContent=cPartners
+    if(c===23){
+        clearInterval(tPartners)
+    }
+
+},80
+);
+
 
 
 const changeLanguage = () => {
