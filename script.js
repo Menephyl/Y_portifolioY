@@ -268,6 +268,7 @@ let tPartners = setInterval(()=>{
 );
 const closeCourse() =>{
     const titleCourse1 = document.querySelector('.fa-minus')
+    
     titleCourse1.addEventListener("click",() => {
 
         if(titleCourse1)
