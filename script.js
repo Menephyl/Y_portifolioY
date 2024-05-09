@@ -231,7 +231,7 @@ if(count===100)
     clearInterval(t)
 }
 
-},100);
+},10);
 
 
 
