@@ -222,10 +222,11 @@ let tProjeto = setInterval(() => {
     cont+=1
 nProject.textContent=cont
 
-if(c===32){
+if(cont===32){
     clearInterval(tProjeto)
 }
-},80);
+},80
+);
 
 const numero = document.getElementById('numero')
 let c = 0 
