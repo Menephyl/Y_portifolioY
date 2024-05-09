@@ -267,7 +267,7 @@ let tPartners = setInterval(()=>{
 },80
 );
 
-
+const titleCourse1 = fa-minus
 const closeTopic = addEventListener('click')
 
 
