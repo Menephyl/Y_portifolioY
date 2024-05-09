@@ -268,6 +268,9 @@ let tPartners = setInterval(()=>{
 );
 
 
+const closeTopic = addEventListener('click')
+
+
 
 const changeLanguage = () => {
     isEnglish = !isEnglish
