@@ -269,8 +269,8 @@ let tPartners = setInterval(()=>{
 const closeCourse() =>{
     
 }
-const titleCourse1 = document.querySelector('.fa-minus')
 
+const titleCourse1 = document.querySelector('.fa-minus')
 
 
 
