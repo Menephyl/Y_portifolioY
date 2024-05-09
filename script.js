@@ -218,14 +218,14 @@ const english = {
 }
 const  nProject = document.getElementById('nProjects')
 let cont = 0 
-let tProjeto = setInterval(() => {
+let tPro = setInterval(() => {
     cont+=1
 nProject.textContent=cont
 
 if(cont===32){
     clearInterval(tPro)
 }
-},80
+},100
 );
 
 const numero = document.getElementById('numero')
