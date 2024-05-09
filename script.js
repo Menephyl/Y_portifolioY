@@ -217,7 +217,7 @@ const english = {
 
 }
 
-const coffeCount = getElementById('coffeCount')
+const coffeCount = getElementById('numero')
 let count = 0 
 let time = setInterval(() =>{
     count +=1
