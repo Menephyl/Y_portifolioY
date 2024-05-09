@@ -217,17 +217,13 @@ const english = {
 
 }
 
-const coffeCount = getElementById('numero')
-let count = 0 
-let time = setInterval(() =>{
-    count +=1
-    coffeCount.textContent= count
+const countCoffe = getElementById('coffe')
+let count = 0
 
-    if(count ===100)
-        {
-            clearInterval(time)
-        }
-},4)
+let t = setInterval(()=>{
+count+=1
+countCoffe = `${count}`
+},100)
 
 
 
