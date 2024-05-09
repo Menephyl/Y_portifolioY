@@ -221,6 +221,12 @@ const coffeCount = getElementById('coffeCount')
 let count = 0 
 let time = setInterval(() =>{
     count +=1
+    coffeCount.textContent= count
+
+    if(count ===100)
+        {
+            clearInterval(time)
+        }
 },4)
 
 
