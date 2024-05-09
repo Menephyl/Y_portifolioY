@@ -216,7 +216,7 @@ const english = {
 /* Amante da tecnologia desde 1999.  */
 
 }
-const   nProject= document.querySelector('')
+// const   nProject= document.querySelector('')
 
 const numero=document.getElementById('numero')
 let c = 0 
