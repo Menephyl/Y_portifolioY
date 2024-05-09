@@ -266,12 +266,14 @@ let tPartners = setInterval(()=>{
 
 },80
 );
+const tileCourse = document.querySelector('.tileCourse')
+
 const closeCourse() =>{
     const titleCourse1 = document.querySelector('.fa-minus')
     
     titleCourse1.addEventListener("click",() => {
 
-        if(titleCourse1)
+        if(titleCourse).classList.contains('')
     })
     
 }
