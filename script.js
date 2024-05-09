@@ -56,10 +56,9 @@ revelar.reveal('.fadeToUp',{
 window.revelar = ScrollReveal({reset:true})
 
 revelar.reveal('.fadeToUpFunc',{
-    delay:3000,
     duration:2000,
     distance:"90px",
-    origin:bottom
+   
 }) 
 
 window.revelar = ScrollReveal({reset:true})
@@ -217,6 +216,18 @@ const english = {
 /* Amante da tecnologia desde 1999.  */
 
 }
+
+const coffeCount = getElementById('coffeCount')
+let count = 0 
+let time = setInterval(() =>{
+    count +=1
+},4)
+
+
+
+
+
+
 
 const changeLanguage = () => {
     isEnglish = !isEnglish
