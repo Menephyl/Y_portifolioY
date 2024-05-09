@@ -1,4 +1,4 @@
-/*ABRIR E FEHCAR*/
+/*ABRIR E FEHCAR - TOGGLE */
 /* @media screen and (max-width: 768px) { BASE PARA ABRIR E FECHAR SIDEBAR
   #colorlib-aside {
     width: 300px;
@@ -75,6 +75,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
 
  
 }
+
  .azul {
 font: 400 12px "Quicksand",arial, sans-serif;
 text-transform: uppercase;
