@@ -220,16 +220,18 @@ const english = {
 const countCoffe = getElementById('coffe')
 let count = 0
 
-let t = setInterval(()=>{
+let t = setInterval(() => {
 count+=1
 // countCoffe = `${count}`
 countCoffe.textContent=count
 
-if(count===100){
+if(count===100)
+    {
+
     clearInterval(t)
 }
 
-},100)
+},100);
 
 
 
