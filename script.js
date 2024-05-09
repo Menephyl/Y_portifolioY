@@ -218,12 +218,12 @@ const english = {
 }
 const  nProject= document.querySelector('nProject')
 let cont = 0 
-let tprojeto = setInterval(()=>{
+let tProjeto = setInterval(() => {
     c+=1
-tprojeto.textContent=cont
+tProjeto.textContent=cont
 
 if(c===32){
-    clearInterval(tprojeto)
+    clearInterval(tProjeto)
 }
 },100)
 
@@ -233,7 +233,7 @@ let t=setInterval(() => {
     c +=1
     numero.textContent=c
 
-    if(c===12){
+    if(c===999){
         clearInterval(t)
     }
 },80 
