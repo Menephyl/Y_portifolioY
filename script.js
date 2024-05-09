@@ -217,8 +217,9 @@ const english = {
 
 }
 
+const numero=document.getElementById('numero')
 
-
+let 
 
 
 
