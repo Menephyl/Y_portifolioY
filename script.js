@@ -225,7 +225,7 @@ nProject.textContent=cont
 if(c===32){
     clearInterval(tProjeto)
 }
-},100)
+},80);
 
 const numero = document.getElementById('numero')
 let c = 0 
