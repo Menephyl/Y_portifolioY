@@ -216,16 +216,16 @@ const english = {
 /* Amante da tecnologia desde 1999.  */
 
 }
+const numeroP= document.querySelector('')
 
 const numero=document.getElementById('numero')
-
 let c = 0 
-let tiempo=setInterval(() => {
+let t=setInterval(() => {
     c +=1
     numero.textContent=c
 
     if(c===12){
-        clearInterval(tiempo)
+        clearInterval(t)
     }
 },80 
 );
