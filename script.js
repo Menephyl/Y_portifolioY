@@ -219,11 +219,16 @@ const english = {
 
 const numero=document.getElementById('numero')
 
-let cantidad
+let c = 0 
 let tiempo=setInterval(() => {
-    
-}
-)
+    c +=1
+    numero.textContent=c
+
+    if(c===12){
+        clearInterval(tiempo)
+    }
+},80 
+);
 
 
 
