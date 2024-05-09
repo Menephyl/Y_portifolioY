@@ -266,9 +266,11 @@ let tPartners = setInterval(()=>{
 
 },80
 );
+const closeCourse() =>{
+    
+}
+const titleCourse1 = document.querySelector('.fa-minus')
 
-const titleCourse1 = fa-minus
-const closeTopic = addEventListener('click')
 
 
 
