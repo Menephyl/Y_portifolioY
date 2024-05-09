@@ -217,21 +217,21 @@ const english = {
 
 }
 
-const countCoffe = getElementById('coffe')
+const countC = getElementById('coffe')
 let count = 0
 
 let t = setInterval(() => {
-count+=1
+count+=1;
 // countCoffe = `${count}`
-countCoffe.textContent=count
+countC.textContent=count;
 
 if(count===100)
     {
 
-    clearInterval(t)
+    clearInterval(t);
 }
 
-},10);
+},2);
 
 
 
