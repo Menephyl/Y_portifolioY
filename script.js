@@ -234,7 +234,7 @@ let t=setInterval(() => {
     c +=1
     numero.textContent=c
 
-    if(c===999){
+    if(c===99){
         clearInterval(t)
     }
 },80 
@@ -247,7 +247,7 @@ let cClients = 0
 let tClients = setInterval(()=>{
     cClients+=1 
     nClients.textContent=cClients
-    if(c===23){
+    if(c===52){
         clearInterval(tClients)
     }
 
@@ -260,7 +260,7 @@ let cPartners = 0
 let tPartners = setInterval(()=>{
     cPartners+=1 
     nPartners.textContent=cPartners
-    if(c===23){
+    if(c===28){
         clearInterval(tPartners)
     }
 
