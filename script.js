@@ -241,7 +241,18 @@ let t=setInterval(() => {
 );
 
 
+const nClients = document.getElementById("nClients")
 
+let cClients = 0 
+let tClients = setInterval(()=>{
+    cClients+=1 
+    nClients.textContent=cClients
+    if(c===23){
+        clearInterval(tClients)
+    }
+
+},80
+);
 
 
 
