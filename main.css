@@ -1684,7 +1684,7 @@ padding-right: 20px;
   transition:transform 0.3s ease;
 }
 .zoom-img1:hover{
-  transform:scale(1.1)
+  transform:scale(1.1);
 }
 
 .img-responsive2{
@@ -1713,13 +1713,13 @@ padding-right: 20px;
   transition:transform 0.3s ease;
 }
 .zoom-img2:hover{
-  transform:scale(1.1)
+  transform:scale(1.1);
 }
 .zoom-img3{
   transition:transform 0.3s ease;
 }
 .zoom-img3:hover{
-  transform:scale(1.1)
+  transform:scale(1.1);
 }
 .desc_text{
  margin-top: -400px;
