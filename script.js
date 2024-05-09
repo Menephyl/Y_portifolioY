@@ -222,7 +222,13 @@ let count = 0
 
 let t = setInterval(()=>{
 count+=1
-countCoffe = `${count}`
+// countCoffe = `${count}`
+countCoffe.textContent=count
+
+if(count===100){
+    clearInterval(t)
+}
+
 },100)
 
 
