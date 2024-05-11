@@ -1089,12 +1089,14 @@ position: relative;
   position: absolute;
   color:#fff;
   padding-right: 10px;
+  cursor: pointer;
 }
 .education  .fa-plus{
   margin-left: 750px;
   text-align: right;
   position: absolute;
   color:black;
+  cursor: pointer;
 }
 .panel-body-hideen, .panel-body-hideen > p{
   display: none;
