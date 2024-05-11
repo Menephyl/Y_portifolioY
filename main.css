@@ -1088,6 +1088,7 @@ position: relative;
   text-align: right;
   position: absolute;
   color:#fff;
+  padding-right: 10px;
 }
 .education  .fa-plus{
   margin-left: 750px;
