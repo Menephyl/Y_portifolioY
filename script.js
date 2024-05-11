@@ -276,10 +276,13 @@ let tPartners = setInterval(()=>{
  //3.2 -> verificar se visivel, então esconder conteudo, se não, então mostrar
 
 
+const courses = document.querySelector("education")
+const tileCourse = document.querySelector('.education .tileCourse .panel-body')
 
 const showCourse = document.querySelector('showCourse')
- const tileCourse = document.querySelector('.education .tileCourse .panel-body')
-
+showCourse.addEventListener("click",() =>{
+    
+})
 
 
 // const closeCourse() =>{
