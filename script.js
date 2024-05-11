@@ -281,7 +281,7 @@ const tileCourse = document.querySelector('.education .tileCourse .panel-body')
 const btn = document.querySelector(".fa-minus")
 
 btn.addEventListener("click",() => {
-
+if(tileCourse)
 })
 // const showCourse = document.querySelector('.showCourse')
 // showCourse.addEventListener("click",() =>{
