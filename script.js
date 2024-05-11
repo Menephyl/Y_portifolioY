@@ -278,10 +278,14 @@ let tPartners = setInterval(()=>{
 
 const courses = document.querySelector(".panel-body")
 
-const btn = document.querySelector(".btn-show-hide")
-
+const btnSh = document.querySelector(".btn-show-hide")
+const panelBody = document.querySelector(".panel-body")
 btn.addEventListener("click",() => {
-
+if(panelBody.display.block){
+    panelBody.display.none
+}else{
+    panelBody.display.block
+}
 })
 // const showCourse = document.querySelector('.showCourse')
 // showCourse.addEventListener("click",() =>{
