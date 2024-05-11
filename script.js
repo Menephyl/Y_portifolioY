@@ -283,11 +283,12 @@ const panelBody = document.querySelector(".panel-body")
 btnSh.addEventListener("click",() => {
 if(panelBody.style.display === 'block'){
     panelBody.style.display = 'none';
-    panelBody.firstChild.style.display='none';
+    
 }else{
     panelBody.style.display = 'block';
 }
 })
+
 // const showCourse = document.querySelector('.showCourse')
 // showCourse.addEventListener("click",() =>{
 //     if(tileCourse.classList.contains('.active')){
