@@ -1041,26 +1041,6 @@ position: relative;
 }
 
 
-.panel-body{
-  width: 795px;
-  height: 100px;
-  display: flex;
-  text-align: justify;
-  margin-left: 10px;
-  border: 0.5px solid rgba(128, 128, 128, 0.468);
-  margin-bottom: 20px;
-}
-.panel-body p{
-  width: 375px;
-  height: 100px;
-  text-align: justify;
-  text-wrap: wrap;
-  color: #000000b3;
-  margin-right: 0;
-  margin-bottom: 20px;
-  
-}
-
 .education h1{ font:700 18px 'Playfair-Display',Georgia, serif;
   text-align: left;
   margin-top: -20px;
@@ -1110,6 +1090,28 @@ position: relative;
   text-align: end;
   background-color: #2c98f0;
 }
+
+
+.panel-body{
+  width: 795px;
+  height: 100px;
+  display: flex;
+  text-align: justify;
+  margin-left: 10px;
+  border: 0.5px solid rgba(128, 128, 128, 0.468);
+  margin-bottom: 20px;
+}
+.panel-body p{
+  width: 375px;
+  height: 100px;
+  text-align: justify;
+  text-wrap: wrap;
+  color: #000000b3;
+  margin-right: 0;
+  margin-bottom: 20px;
+  
+}
+
 .experience{
   margin-top: 5rem;
   width: 795px;
