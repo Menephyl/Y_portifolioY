@@ -278,7 +278,7 @@ let tPartners = setInterval(()=>{
 
 const courses = document.querySelector(".education")
 const tileCourse = document.querySelector('.education .tileCourse .panel-body a')
-const btn = document.querySelector(" .education .fa-minus")
+const btn = document.querySelector("a")
 
 btn.addEventListener("click",() => {
 if(tileCourse.classList.contains('.active')){
