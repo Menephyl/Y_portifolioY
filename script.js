@@ -278,7 +278,7 @@ let tPartners = setInterval(()=>{
 
 
 const showCourse = document.querySelector('showCourse')
- const tileCourse = document.querySelector('.education .titleCourse .panel-body')
+ const tileCourse = document.querySelector('.education .tileCourse .panel-body')
 
 
 
