@@ -1098,9 +1098,7 @@ position: relative;
   color:black;
   cursor: pointer;
 }
-.panel-body-hideen, .panel-body-hideen > p{
-  display: none;
- }
+
 
 .education a{
   width: 88%;
