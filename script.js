@@ -269,7 +269,7 @@ let tPartners = setInterval(()=>{
  //  1- área education ok 
  // 2 ->  colocar no js para remover classe de  a estilo ativo e 
  // 2.1 pegar classe activo e remover 
- // 2.2 trocar classe de icone dentro do link de fa-minus (menos) pra fa-more (mais) 
+ // 2.2 trocar classe de icone dentro do link de fa-minus (menos) pra fa-plus (mais) 
 
  // 3->  nao exibir conteudo p dentro do panel body 
  // 3.1 colocar ao evento anterior feito. cada link corresponde a uma caixa com dois paragrafos. 
