@@ -276,15 +276,15 @@ let tPartners = setInterval(()=>{
  //3.2 -> verificar se visivel, então esconder conteudo, se não, então mostrar
 
 
-const courses = document.querySelector("education")
+const courses = document.querySelector(".education")
 const tileCourse = document.querySelector('.education .tileCourse .panel-body')
 
-const showCourse = document.querySelector('showCourse')
+const showCourse = document.querySelector('.showCourse')
 showCourse.addEventListener("click",() =>{
-    if(tileCourse.classList.contains('active')){
-        tileCourse.classList.remove("active")
+    if(tileCourse.classList.contains('.active')){
+        tileCourse.classList.remove(".active")
     }else{
-        tileCourse.classList.add("active")
+        tileCourse.classList.add(".active")
     }
 })
 
