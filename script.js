@@ -282,7 +282,9 @@ const tileCourse = document.querySelector('.education .tileCourse .panel-body')
 const showCourse = document.querySelector('showCourse')
 showCourse.addEventListener("click",() =>{
     if(tileCourse.classList.contains('active')){
-
+        tileCourse.classList.remove("active")
+    }else{
+        tileCourse.classList.add("active")
     }
 })
 
