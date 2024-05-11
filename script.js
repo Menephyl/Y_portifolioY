@@ -281,10 +281,10 @@ const courses = document.querySelector(".panel-body")
 const btnSh = document.querySelector(".btn-show-hide")
 const panelBody = document.querySelector(".panel-body")
 btnSh.addEventListener("click",() => {
-if(panelBody.display.block){
-    panelBody.display.none
+if(panelBody.style.display === 'block'){
+    panelBody.style.display = 'none'
 }else{
-    panelBody.display.block
+    panelBody.style.display = 'block'
 }
 })
 // const showCourse = document.querySelector('.showCourse')
