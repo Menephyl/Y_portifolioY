@@ -280,6 +280,9 @@ const courses = document.querySelector(".education")
 const tileCourse = document.querySelector('.education .tileCourse .panel-body')
 const btn = document.querySelector(".fa-minus")
 
+btn.addEventListener("click",() => {
+
+})
 // const showCourse = document.querySelector('.showCourse')
 // showCourse.addEventListener("click",() =>{
 //     if(tileCourse.classList.contains('.active')){
