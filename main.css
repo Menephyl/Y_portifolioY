@@ -1096,6 +1096,10 @@ position: relative;
   position: absolute;
   color:black;
 }
+.panel-body-hideen, .panel-body-hideen > p{
+  display: none;
+ }
+
 .education a{
   width: 88%;
   margin: 10px;
