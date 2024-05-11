@@ -266,8 +266,17 @@ let tPartners = setInterval(()=>{
 
 },80
 );
- // area education
- 
+ //  1- área education ok 
+ // 2 ->  colocar no js para remover classe de  a estilo ativo e 
+ // 2.1 pegar classe activo e remover 
+ // 2.2 trocar classe de icone dentro do link de fa-minus (menos) pra fa-more (mais) 
+
+ // 3->  nao exibir conteudo p dentro do panel body 
+ // 3.1 colocar ao evento anterior feito. cada link corresponde a uma caixa com dois paragrafos. 
+ //3.2 -> verificar se visivel, então esconder conteudo, se não, então mostrar
+
+
+
 const showCourse = document.querySelector('education')
  const tileCourse = document.querySelector('.education .titleCourse .panel-body')
 
