@@ -277,14 +277,14 @@ let tPartners = setInterval(()=>{
 
 
 const courses = document.querySelector(".education")
-const tileCourse = document.querySelector('.education .tileCourse .panel-body a')
-const btn = document.querySelector("a")
+const tileCourse = document.querySelector('.education .tileCourse .panel-body')
+const btn = document.querySelector(".fa-minus")
 
 btn.addEventListener("click",() => {
-if(tileCourse.classList.contains('.active')){
-    tileCourse.classList.remove(".active")
+if(tileCourse.classList.contains('.panel-body-hideen')){
+    tileCourse.classList.remove(".panel-body-hideen")
 }else{
-    tileCourse.classList.add(".active")
+    tileCourse.classList.add(".panel-body-hideen")
 }
 })
 // const showCourse = document.querySelector('.showCourse')
