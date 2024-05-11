@@ -277,7 +277,7 @@ let tPartners = setInterval(()=>{
 
 
 const courses = document.querySelector(".education")
-const tileCourse = document.querySelector('.panel-body')
+
 const btn = document.querySelector(".btn")
 
 btn.addEventListener("click",() => {
