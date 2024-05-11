@@ -285,9 +285,16 @@ if(panelBody.style.display === 'block'){
     panelBody.style.display = 'none';
     if(btnSh.classList.contains('active')){
         btnSh.classList.remove('active')
-    }else{
+    }else{     /// issue on toggle fa-minus to fa.plus
         btnSh.classList.add('active')
     }  
+    if(btnSh.classList.contains('.fa-minus')){
+        btnSh.classList.remove('.fa-minus')
+        btnSh.classList.add('.fa-plus')
+    }else{
+        btnSh.classList.remove('.fa-plus')
+        btnSh.classList.add('.fa-minus')
+    }
 }else{
     panelBody.style.display = 'block';
 }
