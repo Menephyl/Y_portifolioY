@@ -266,9 +266,10 @@ let tPartners = setInterval(()=>{
 
 },80
 );
-
+ // area education
+ 
 const showCourse = document.querySelector('education')
-// const tileCourse = document.querySelector('.education .titleCourse .panel-body')
+ const tileCourse = document.querySelector('.education .titleCourse .panel-body')
 
 // const closeCourse() =>{
 //     const titleCourse1 = document.querySelector('.fa-minus')
