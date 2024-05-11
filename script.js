@@ -276,9 +276,9 @@ let tPartners = setInterval(()=>{
  //3.2 -> verificar se visivel, então esconder conteudo, se não, então mostrar
 
 
-const courses = document.querySelector(".education")
+const courses = document.querySelector(".panel-body")
 
-const btn = document.querySelector(".btn")
+const btn = document.querySelector(".btn-show-hide")
 
 btn.addEventListener("click",() => {
 
