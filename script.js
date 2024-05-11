@@ -280,7 +280,7 @@ let tPartners = setInterval(()=>{
 const showCourse = document.querySelector('education')
  const tileCourse = document.querySelector('.education .titleCourse .panel-body')
 
-addEventListener
+addEventListener.addEventListener
 
 // const closeCourse() =>{
 //     const titleCourse1 = document.querySelector('.fa-minus')
