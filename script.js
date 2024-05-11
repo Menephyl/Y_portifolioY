@@ -280,7 +280,7 @@ const courses = document.querySelector(".panel-body")
 
 const btnSh = document.querySelector(".btn-show-hide")
 const panelBody = document.querySelector(".panel-body")
-btn.addEventListener("click",() => {
+btnSh.addEventListener("click",() => {
 if(panelBody.display.block){
     panelBody.display.none
 }else{
