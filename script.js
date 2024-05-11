@@ -267,9 +267,7 @@ let tPartners = setInterval(()=>{
 },80
 );
 
-const showCourse = document.querySelector('education'
-        
-)
+const showCourse = document.querySelector('education')
 // const tileCourse = document.querySelector('.education .titleCourse .panel-body')
 
 // const closeCourse() =>{
