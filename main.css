@@ -1115,7 +1115,7 @@ position: relative;
 .panel-body2{
   width: 795px;
   height: 100px;
-  display: flex;
+  display: none;
   text-align: justify;
   margin-left: 10px;
   border: 0.5px solid rgba(128, 128, 128, 0.468);
@@ -1134,7 +1134,7 @@ position: relative;
 .panel-body3{
   width: 795px;
   height: 100px;
-  display: flex;
+  display: none;
   text-align: justify;
   margin-left: 10px;
   border: 0.5px solid rgba(128, 128, 128, 0.468);
