@@ -1112,6 +1112,45 @@ position: relative;
   
 }
 
+.panel-body2{
+  width: 795px;
+  height: 100px;
+  display: flex;
+  text-align: justify;
+  margin-left: 10px;
+  border: 0.5px solid rgba(128, 128, 128, 0.468);
+  margin-bottom: 20px;
+}
+.panel-body2 p{
+  width: 375px;
+  height: 100px;
+  text-align: justify;
+  text-wrap: wrap;
+  color: #000000b3;
+  margin-right: 0;
+  margin-bottom: 20px;
+  
+}
+.panel-body3{
+  width: 795px;
+  height: 100px;
+  display: flex;
+  text-align: justify;
+  margin-left: 10px;
+  border: 0.5px solid rgba(128, 128, 128, 0.468);
+  margin-bottom: 20px;
+}
+.panel-body3 p{
+  width: 375px;
+  height: 100px;
+  text-align: justify;
+  text-wrap: wrap;
+  color: #000000b3;
+  margin-right: 0;
+  margin-bottom: 20px;
+  
+}
+
 .experience{
   margin-top: 5rem;
   width: 795px;
