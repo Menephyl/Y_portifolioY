@@ -277,12 +277,15 @@ let tPartners = setInterval(()=>{
 
 
 const courses = document.querySelector(".panel-body")
-
+const i_minus = document.querySelector('.fa-minus')
+const i_plus = document.querySelector('fa-more')
 const btnSh = document.querySelector(".btn-show-hide")
 const panelBody = document.querySelector(".panel-body")
 btnSh.addEventListener("click",() => {
 if(panelBody.style.display === 'block'){
     panelBody.style.display = 'none';
+
+    
     if(btnSh.classList.contains('active')){
         btnSh.classList.remove('active')
     }else{     /// issue on toggle fa-minus to fa.plus
