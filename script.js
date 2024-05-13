@@ -281,6 +281,8 @@ const i_minus = document.querySelector('.fa-minus')
 const i_plus = document.querySelector('.fa-plus')
 const btnSh = document.querySelector(".btn-show-hide")
 const panelBody = document.querySelector(".panel-body")
+const panelBody2 = document.querySelector(".panel-body2")
+const panelBody3 = document.querySelector(".panel-body3")
 btnSh.addEventListener("click",() => {
 if(panelBody.style.display === 'flex'){
     panelBody.style.display = 'none';
