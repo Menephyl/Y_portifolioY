@@ -289,6 +289,20 @@ if(panelBody.style.display === 'flex'){
 }else{
     panelBody.style.display = 'flex'
 }
+if(panelBody2.style.display === 'flex'){
+    panelBody2.style.display = 'none';
+}else{
+    panelBody2.style.display = 'flex'
+}
+
+if(panelBody3.style.display === 'flex'){
+    panelBody3.style.display = 'none';
+}else{
+    panelBody3.style.display = 'flex'
+}
+
+
+
 
 
     // if(btnSh.classList.contains('active')){
