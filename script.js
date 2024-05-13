@@ -295,8 +295,11 @@ if(panelBody.style.display === 'block'){
         btnSh.classList.remove('.fa-plus')
         btnSh.classList.add('.fa-minus')
     }
-}else{
-    panelBody.style.display = 'block';
+}
+})
+
+// }else{
+//     panelBody.style.display = 'block';
 
     // if(btnSh.classList.contains('.fa-minus')){
     //     btnSh.classList.remove('.fa-minus')
@@ -304,9 +307,7 @@ if(panelBody.style.display === 'block'){
     // }else{
     //     btnSh.classList.remove('.fa-plus')
     //     btnSh.classList.add('.fa-minus')
-    }
-}
-})
+//     }
 
 // const showCourse = document.querySelector('.showCourse')
 // showCourse.addEventListener("click",() =>{
