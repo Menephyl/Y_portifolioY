@@ -297,12 +297,13 @@ if(panelBody.style.display === 'block'){
     }
 }else{
     panelBody.style.display = 'block';
-    if(btnSh.classList.contains('.fa-minus')){
-        btnSh.classList.remove('.fa-minus')
-        btnSh.classList.add('.fa-plus')
-    }else{
-        btnSh.classList.remove('.fa-plus')
-        btnSh.classList.add('.fa-minus')
+
+    // if(btnSh.classList.contains('.fa-minus')){
+    //     btnSh.classList.remove('.fa-minus')
+    //     btnSh.classList.add('.fa-plus')
+    // }else{
+    //     btnSh.classList.remove('.fa-plus')
+    //     btnSh.classList.add('.fa-minus')
     }
 }
 })
