@@ -280,6 +280,8 @@ const courses = document.querySelector(".panel-body")
 const i_minus = document.querySelector('.fa-minus')
 const i_plus = document.querySelector('.fa-plus')
 const btnSh = document.querySelector(".btn-show-hide")
+const btnSh2 = document.querySelector('.btn-show-hide2')
+const btnSh3 = document.querySelector('.btn-show-hide3')
 const panelBody = document.querySelector(".panel-body")
 const panelBody2 = document.querySelector(".panel-body2")
 const panelBody3 = document.querySelector(".panel-body3")
@@ -289,19 +291,24 @@ if(panelBody.style.display === 'flex'){
 }else{
     panelBody.style.display = 'flex'
 }
-if(panelBody2.style.display === 'flex'){
-    panelBody2.style.display = 'none';
-}else{
-    panelBody2.style.display = 'flex'
-}
+})
 
+btnSh2.addEventListener('click', () =>{
+if(panelBody2.style.display === 'flex'){
+        panelBody2.style.display = 'none';
+    }else{
+        panelBody2.style.display = 'flex'
+    }
+
+})
+btnSh3.addEventListener('click', () =>{
 if(panelBody3.style.display === 'flex'){
     panelBody3.style.display = 'none';
 }else{
     panelBody3.style.display = 'flex'
 }
 
-
+})
 
 
 
@@ -310,7 +317,6 @@ if(panelBody3.style.display === 'flex'){
     // }else{     /// issue on toggle fa-minus to fa.plus
     //     btnSh.classList.add('active')
     // }  
-})
 //     if(btnSh.classList.contains('.fa-minus')){
 //         btnSh.classList.remove('.fa-minus')
 //         btnSh.classList.add('.fa-plus')
