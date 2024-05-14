@@ -288,6 +288,12 @@ const panelBody3 = document.querySelector(".panel-body3")
 btnSh.addEventListener("click",() => {
 if(panelBody.style.display === 'flex'){
     panelBody.style.display = 'none';
+    
+    if(btnSh.classList.contains('active')){
+     btnSh.classList.remove('active')
+    }else{     /// issue on toggle fa-minus to fa.plus
+     btnSh.classList.add('active')
+    }  
 }else{
     panelBody.style.display = 'flex'
 }
