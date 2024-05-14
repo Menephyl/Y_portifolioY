@@ -287,22 +287,17 @@ const panelBody2 = document.querySelector(".panel-body2")
 const panelBody3 = document.querySelector(".panel-body3")
 btnSh.addEventListener("click",() => {
 if(panelBody.style.display === 'flex'){
-    panelBody.style.display = 'none';
-      /// issue on toggle fa-minus to fa.plus
+        /// issue on toggle fa-minus to fa.plus
     if(btnSh.classList.contains('active')){
         btnSh.classList.remove('active')
+        panelBody.style.display = 'none';
     }else{   
      btnSh.classList.add('active')
      
     }  
 }else{
-    if(btnSh.classList.contains('active')){
-        btnSh.classList.remove('active')
-    }else{   
-     btnSh.classList.add('active')
-     
-    }  
-    panelBody.style.display = 'flex'
+     panelBody.style.display = 'flex'
+    btnSh.classList.add('active')
 }
 })
 
