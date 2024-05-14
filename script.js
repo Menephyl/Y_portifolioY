@@ -301,7 +301,7 @@ if(panelBody.style.display === 'flex'){
 }
 })
 
-btnSh.addEventListener("click",() => {
+btnSh2.addEventListener("click",() => {
     if(panelBody2.style.display === 'flex'){
             /// issue on toggle fa-minus to fa.plus
         if(btnSh2.classList.contains('active')){
