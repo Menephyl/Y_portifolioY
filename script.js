@@ -293,6 +293,7 @@ if(panelBody.style.display === 'flex'){
         btnSh.classList.remove('active')
     }else{   
      btnSh.classList.add('active')
+     
     }  
 }else{
     panelBody.style.display = 'flex'
@@ -302,6 +303,16 @@ if(panelBody.style.display === 'flex'){
 btnSh2.addEventListener('click', () =>{
 if(panelBody2.style.display === 'flex'){
         panelBody2.style.display = 'none';
+        if(btnSh.classList.contains('active')){
+          btnSh.classList.remove('active')
+          if(btnSh.classList.contains('active')){
+            btnSh.classList.remove('active')
+        }else{   
+         btnSh.classList.add('active')
+        }  
+        }else{   
+         btnSh.classList.add('active')
+        }  
     }else{
         panelBody2.style.display = 'flex'
     }
