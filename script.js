@@ -301,38 +301,38 @@ if(panelBody.style.display === 'flex'){
 }
 })
 
-btnSh2.addEventListener('click', () =>{
-if(panelBody2.style.display === 'flex'){
-       panelBody2.style.display = 'none';
-       
-    if(btnSh2.classList.contains('active')){
+btnSh.addEventListener("click",() => {
+    if(panelBody2.style.display === 'flex'){
+            /// issue on toggle fa-minus to fa.plus
         if(btnSh2.classList.contains('active')){
             btnSh2.classList.remove('active')
-             }else{   
-              btnSh2.classList.add('active')
-             }  
-       }else{   
-              btnSh2.classList.add('active')
-             }
-        btnSh2.classList.remove('active')
-     
+            panelBody2.style.display = 'none';
+        }else{   
+         btnSh2.classList.add('active')
+         
+        }  
     }else{
-        panelBody2.style.display = 'flex'
-        
+         panelBody2.style.display = 'flex'
+        btnSh2.classList.add('active')
     }
+    })
 
-})
-btnSh3.addEventListener('click', () =>{
-if(panelBody3.style.display === 'flex'){
-    
-        
-    panelBody3.style.display = 'none';
-}else{
-    panelBody3.style.display = 'flex'
-}
 
-})
-
+    btnSh3.addEventListener("click",() => {
+        if(panelBody3.style.display === 'flex'){
+                /// issue on toggle fa-minus to fa.plus
+            if(btnSh3.classList.contains('active')){
+                btnSh3.classList.remove('active')
+                panelBody3.style.display = 'none';
+            }else{   
+             btnSh3.classList.add('active')
+             
+            }  
+        }else{
+             panelBody3.style.display = 'flex'
+            btnSh3.classList.add('active')
+        }
+        })
 
 
     // if(btnSh.classList.contains('active')){
