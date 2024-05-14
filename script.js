@@ -290,8 +290,8 @@ if(panelBody.style.display === 'flex'){
     panelBody.style.display = 'none';
       /// issue on toggle fa-minus to fa.plus
     if(btnSh.classList.contains('active')){
+        btnSh.classList.remove('active')
     }else{   
-     btnSh.classList.remove('active')
      btnSh.classList.add('active')
     }  
 }else{
