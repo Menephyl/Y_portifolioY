@@ -264,8 +264,6 @@ let tPartners = setInterval(()=>{
 
 /// issue on toggle fa-minus to fa.plus - adiconar e substituiar classe  de elemento com js
 const courses = document.querySelector(".panel-body")
-const mais = document.querySelector('#i')
-console.log(mais)
 // const i_minus = document.querySelector('.fa-minus')
 // const i_plus = document.querySelector('.fa-plus')
 const btnSh = document.querySelector(".btn-show-hide")
@@ -274,6 +272,13 @@ const btnSh3 = document.querySelector('.btn-show-hide3')
 const panelBody = document.querySelector(".panel-body")
 const panelBody2 = document.querySelector(".panel-body2")
 const panelBody3 = document.querySelector(".panel-body3")
+
+const mais = document.querySelector('#i')
+mais.addEventListener("click",()=>
+)
+
+
+
 btnSh.addEventListener("click",() => {
 if(panelBody.style.display === 'flex'){
         /// issue on toggle fa-minus to fa.plus
