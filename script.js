@@ -263,9 +263,9 @@ let tPartners = setInterval(()=>{
  //3.2 -> verificar se visivel, então esconder conteudo, se não, então mostrar ok
 
 /// issue on toggle fa-minus to fa.plus - adiconar e substituiar classe  de elemento com js
+const courses = document.querySelector(".panel-body")
 // const i_minus = document.querySelector('.fa-minus')
 // const i_plus = document.querySelector('.fa-plus')
-const courses = document.querySelector(".panel-body")
 const btnSh = document.querySelector(".btn-show-hide")
 const btnSh2 = document.querySelector('.btn-show-hide2')
 const btnSh3 = document.querySelector('.btn-show-hide3')
@@ -276,10 +276,11 @@ const panelBody3 = document.querySelector(".panel-body3")
 // const i_minus = document.querySelector("#i")
 
 //   const icone_mais = document.querySelector('#imais')
-const iMenos = document.querySelector("#iMenos")
+// const icone_menos = document.querySelector("#")
+    const minus = document.querySelector('#iMenos')
     
-    icone.addEventListener("click",()=>{
-    btnSh.removeChild(iMenos);
+    minus.addEventListener("click",()=>{
+    btnSh.removeChild(minus)
     
 
 
