@@ -283,9 +283,9 @@ if(panelBody.style.display === 'flex'){
      btnSh.classList.add('active')
      
     }  
-    if( panelBody.classList.contains('.fa-minus')){
-          panelBody.classList.remove('.fa-minus')
-        panelBody.classList.add('.fa-plus')
+    if( i_minus.classList.contains('.fa-minus')){
+          i_minus.classList.remove('.fa-minus')
+        i_minus.classList.add('.fa-plus')
     }
 }else{
      panelBody.style.display = 'flex'
