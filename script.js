@@ -280,6 +280,7 @@ const panelBody3 = document.querySelector(".panel-body3")
     
     icone.addEventListener("click",()=>{
     btnSh.removeChild(icone)
+    btnSh.addChild(icone_mais)
     
 
 
