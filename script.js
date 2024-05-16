@@ -278,6 +278,9 @@ mais.addEventListener("click",()=>{
     if(mais.classList.contains('.fa-minus')){
         mais.classList.remove('.fa-minus')
         mais.classList.add('.fa-plus')
+    }else{
+        mais.classList.remove('.fa-plus')
+        mais.classList.add('.fa-minus')
     }
 }
 )
