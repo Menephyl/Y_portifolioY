@@ -277,8 +277,8 @@ const panelBody3 = document.querySelector(".panel-body3")
 
 
     const icone = document.querySelector('#i')
-    icone.clas
-let iconee = btnSh.removeChild
+    
+let iconee = btnSh.removeChild("icone")
 icone.addEventListener("click",()=>{
     
 
