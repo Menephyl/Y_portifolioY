@@ -272,9 +272,10 @@ const btnSh3 = document.querySelector('.btn-show-hide3')
 const panelBody = document.querySelector(".panel-body")
 const panelBody2 = document.querySelector(".panel-body2")
 const panelBody3 = document.querySelector(".panel-body3")
-
+    // toggle botao de mais para menos e vice versa
 const mais = document.querySelector('#i')
 mais.addEventListener("click",()=>{
+    
     if(mais.classList.contains('.fa-minus')){
         mais.classList.remove('.fa-minus')
         mais.classList.add('.fa-plus')
