@@ -274,15 +274,16 @@ const panelBody2 = document.querySelector(".panel-body2")
 const panelBody3 = document.querySelector(".panel-body3")
     // toggle botao de mais para menos e vice versa
 const mais = document.querySelector('#i')
+
 mais.addEventListener("click",()=>{
     
-    if(mais.classList.contains(' .fa-solid .fa-minus')){
-        mais.classList.remove('  .fa-solid  .fa-minus')
-        mais.classList.add('  .fa-solid .fa-plus')
-    }else{
-        mais.classList.remove(' .fa-solid  .fa-plus')
-        mais.classList.add(' .fa-solid  .fa-minus')
-    }
+    // if(mais.classList.contains(' .fa-solid .fa-minus')){
+    //     mais.classList.remove('  .fa-solid  .fa-minus')
+    //     mais.classList.add('  .fa-solid .fa-plus')
+    // }else{
+    //     mais.classList.remove(' .fa-solid  .fa-plus')
+    //     mais.classList.add(' .fa-solid  .fa-minus')
+    // }
 }
 )
 
