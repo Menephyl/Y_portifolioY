@@ -258,11 +258,11 @@ let tPartners = setInterval(()=>{
  // 2.1 pegar classe activo e remover 
  // 2.2 trocar classe de icone dentro do link de fa-minus (menos) pra fa-plus (mais) 
 
- // 3->  nao exibir conteudo p dentro do panel body 
- // 3.1 colocar ao evento anterior feito. cada link corresponde a uma caixa com dois paragrafos. 
- //3.2 -> verificar se visivel, então esconder conteudo, se não, então mostrar
+ // 3->  nao exibir conteudo p dentro do panel body  ok
+ // 3.1 colocar ao evento anterior feito. cada link corresponde a uma caixa com dois paragrafos.  ok
+ //3.2 -> verificar se visivel, então esconder conteudo, se não, então mostrar ok 
 
-
+/// issue on toggle fa-minus to fa.plus - adiconar e substituiar classe  de elemento com js 
 const courses = document.querySelector(".panel-body")
 const i_minus = document.querySelector('.fa-minus')
 const i_plus = document.querySelector('.fa-plus')
@@ -275,13 +275,18 @@ const panelBody3 = document.querySelector(".panel-body3")
 btnSh.addEventListener("click",() => {
 if(panelBody.style.display === 'flex'){
         /// issue on toggle fa-minus to fa.plus
-    if(btnSh.classList.contains('active')){
+    if(btnSh.classList.contains('active') && panelBody.classList.contains('.fa-minus')){
         btnSh.classList.remove('active')
         panelBody.style.display = 'none';
+      
     }else{   
      btnSh.classList.add('active')
      
     }  
+    if(){
+        panelBody.classList.remove('.fa-minus')
+        panelBody.classList.add('.fa-plus')
+    }
 }else{
      panelBody.style.display = 'flex'
     btnSh.classList.add('active')
