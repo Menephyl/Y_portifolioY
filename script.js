@@ -273,7 +273,11 @@ const panelBody = document.querySelector(".panel-body")
 const panelBody2 = document.querySelector(".panel-body2")
 const panelBody3 = document.querySelector(".panel-body3")
     // toggle botao de mais para menos e vice versa
-const icone = document.querySelector('#i')
+// const i_minus = document.querySelector("#i")
+
+
+    const icone = document.querySelector('#i')
+    icone.clas
 let iconee = btnSh.removeChild
 icone.addEventListener("click",()=>{
     
