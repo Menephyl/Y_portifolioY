@@ -274,7 +274,12 @@ const panelBody2 = document.querySelector(".panel-body2")
 const panelBody3 = document.querySelector(".panel-body3")
 
 const mais = document.querySelector('#i')
-mais.addEventListener("click",()=>
+mais.addEventListener("click",()=>{
+    if(mais.classList.contains('.fa-minus')){
+        mais.classList.remove('.fa-minus')
+        mais.classList.add('.fa-plus')
+    }
+}
 )
 
 
