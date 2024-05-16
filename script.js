@@ -279,7 +279,7 @@ const panelBody3 = document.querySelector(".panel-body3")
 const icone_menos = document.querySelector("#iMenos")
     
     icone.addEventListener("click",()=>{
-   let con = btnSh.removeChild(icone_menos);
+    btnSh.removeChild(icone_menos);
     
 
 
