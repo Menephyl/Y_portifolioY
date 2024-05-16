@@ -200,22 +200,9 @@ revelar.reveal('.fadeToLeft-5',{
 
 
 
-let isEnglish = false
 
-const portuguese = {
-    aboutMe: 'Sobre mim...',
-    description: 'Sou Yan Isonel Pereira. Soluciono problemas do dia a dia com as tecnologias Front-End e estou em busca da minha primeira oportunidade. ',
-    home:'Olá, eu sou o Yan'
-   
-    
-}
 
-const english = {
-    aboutMe: 'About me...',
-    description: 'I am Yan Isonel Pereira. Currently, I specialize in HTML | CSS | JAVASCRIPT (JS) | React.js and constantly strive to improve my skills. Therefore, I have experience with some technologies like AWS, Git and also GitHub.I am passionate about building successful products and work well in a team environment. I always seek to simplify processes to enhance the customer experience and efficiently solve project issues with front-end technology and I have in search to my first opportunity.'
-/* Amante da tecnologia desde 1999.  */
 
-}
 const  nProject = document.getElementById('nProjects')
 let cont = 0 
 let tPro = setInterval(() => {
@@ -404,7 +391,21 @@ document.querySelector('.about-me-text').innerHTML="Mussum Ipsum, cacilds vidis 
 }
 
 
+let isEnglish = false
 
+const portuguese = {
+    aboutMe: 'Sobre mim...',
+    description: 'Sou Yan Isonel Pereira. Soluciono problemas do dia a dia com as tecnologias Front-End e estou em busca da minha primeira oportunidade. ',
+    home:'Olá, eu sou o Yan'
+   
+    
+}
+
+const english = {
+    aboutMe: 'About me...',
+    description: 'I am Yan Isonel Pereira. Currently, I specialize in HTML | CSS | JAVASCRIPT (JS) | React.js and constantly strive to improve my skills. Therefore, I have experience with some technologies like AWS, Git and also GitHub.I am passionate about building successful products and work well in a team environment. I always seek to simplify processes to enhance the customer experience and efficiently solve project issues with front-end technology and I have in search to my first opportunity.'
+/* Amante da tecnologia desde 1999.  */
+}
 
 
 // fontes de orientação : 
