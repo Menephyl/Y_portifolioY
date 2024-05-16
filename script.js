@@ -283,14 +283,14 @@ if(panelBody.style.display === 'flex'){
      btnSh.classList.add('active')
      
     }  
-    if( i_minus.classList.contains('.fa-minus')){
-          i_minus= i_plus
+    // toggle botao de mais para menos e vice versa 
+    if( ){
+          
     }
 }else{
      panelBody.style.display = 'flex'
     btnSh.classList.add('active')
-    // panelBody.classList.remove('.fa-plus')
-    // panelBody.classList.add('.fa-minus')
+    
 }
 })
 
