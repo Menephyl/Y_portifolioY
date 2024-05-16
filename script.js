@@ -290,8 +290,8 @@ if(panelBody.style.display === 'flex'){
 }else{
      panelBody.style.display = 'flex'
     btnSh.classList.add('active')
-    panelBody.classList.remove('.fa-plus')
-    panelBody.classList.add('.fa-minus')
+    // panelBody.classList.remove('.fa-plus')
+    // panelBody.classList.add('.fa-minus')
 }
 })
 
