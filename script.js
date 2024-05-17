@@ -335,7 +335,7 @@ elMinus.classList = "fa-solid fa-minus";
 btnSh2.addEventListener("click",() => {
     if(panelBody2.style.display === 'flex'&& 
     btnSh2.classList.contains('active')){
-        btnSh2.appendChild(elMinus,iMais)
+        btnSh2.appendChild(iMais,elMinus)
         btnSh2.classList.remove('active')
         panelBody2.style.display = 'none'
        btnSh2.removeChild(elMinus)
