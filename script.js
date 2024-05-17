@@ -277,6 +277,9 @@ const panelBody3 = document.querySelector(".panel-body3")
 
 //   const icone_mais = document.querySelector('#imais')
 // const icone_menos = document.querySelector("#")
+var el = document.createElement("i")
+
+
     const minus = document.querySelector('#iMenos')
     
     minus.addEventListener("click",()=>{
