@@ -386,6 +386,7 @@ btnSh2.addEventListener("click",() => {
 
             }else{
              btnSh3.classList.add('active')
+             btnSh3.appendChild(iMais2,elMinus2)
 
             }
         }else{
