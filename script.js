@@ -332,6 +332,12 @@ btnSh2.addEventListener("click",() => {
     btnSh2.classList.contains('active')){
         btnSh2.classList.remove('active')
         panelBody2.style.display = 'none'
+        iMais.addEventListener("click",()=>{
+            btnSh2.appendChild(el,minus)
+            btnSh2.appendChild(minus,el)
+         
+         }
+         )
         
         
         
