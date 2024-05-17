@@ -294,10 +294,12 @@ if(panelBody.style.display === 'flex'){
         /// issue on toggle fa-minus to fa.plus
         panelBody.style.display = 'none';
         btnSh.classList.remove('active')
-        minus.addEventListener("click",()=>{
         btnSh.appendChild(el,minus)
-            }
-        )
+
+        // minus.addEventListener("click",()=>{
+        // btnSh.appendChild(el,minus)
+        //     }
+        // )
   
             // )
     //     if(btnSh.classList.contains('active')){
