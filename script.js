@@ -370,13 +370,9 @@ btnSh2.addEventListener("click",() => {
             if(btnSh3.classList.contains('active')){
                 btnSh3.classList.remove('active')
                 panelBody3.style.display = 'none';
-                iMais2.addEventListener("click",()=>{
-                    // btnSh2.appendChild(elMinus,iMais)
-                    btnSh3.appendChild(elMinus2,iMais2)
-                    btnSh3.appendChild(iMais2,elMinus2)
-                 
-                 }
-                 )
+                btnSh3.appendChild(elMinus2,iMais2)
+                btnSh3.appendChild(iMais2,elMinus2)
+               
 
             }else{
              btnSh3.classList.add('active')
