@@ -320,13 +320,13 @@ if(panelBody.style.display === 'flex'){
 }else{
      panelBody.style.display = 'flex'
     btnSh.classList.add('active')
-    btnSh.appendChild(el,minus)
+   
     
-    // el.addEventListener("click",()=>{
-    //     btnSh.appendChild(el,minus)
+    el.addEventListener("click",()=>{
+        btnSh.appendChild(el,minus)
       
-    //   }
-    //   )
+      }
+      )
 }
 })
 
