@@ -353,13 +353,8 @@ btnSh2.addEventListener("click",() => {
     }else{
          panelBody2.style.display = 'flex'
         btnSh2.classList.add('active')
-        iMais.addEventListener("click",()=>{
-            // btnSh2.appendChild(elMinus,iMais)
-         
-            btnSh2.appendChild(elMinus,iMais)
-         
-         }
-         )
+        btnSh2.appendChild(elMinus,iMais)
+        iMais.addEventList
     }
     })
 
