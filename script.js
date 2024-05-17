@@ -338,7 +338,7 @@ btnSh2.addEventListener("click",() => {
         btnSh2.appendChild(elMinus,iMais)
         btnSh2.classList.remove('active')
         panelBody2.style.display = 'none'
-       
+       btnSh2.removeChild()
         
         
         
