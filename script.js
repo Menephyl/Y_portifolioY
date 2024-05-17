@@ -314,7 +314,11 @@ if(panelBody.style.display === 'flex'){
 }else{
      panelBody.style.display = 'flex'
     btnSh.classList.add('active')
-
+    minus.addEventListener("click",()=>{
+        btnSh.appendChild(el,minus)
+      
+      }
+      )
 }
 })
 
