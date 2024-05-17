@@ -285,18 +285,8 @@ const minus = document.querySelector('#iMenos')
 var el = document.createElement("i");
 el.classList = "fa-solid fa-plus";
 minus.addEventListener("click",()=>{
-    // btnSh.removeChild(minus)
-btnSh.appendChild(el,minus)
+   btnSh.appendChild(el,minus)
 
-
-
-    // if(mais.classList.contains(' .fa-solid .fa-minus')){
-    //     mais.classList.remove('  .fa-solid  .fa-minus')
-    //     mais.classList.add('  .fa-solid .fa-plus')
-    // }else{
-    //     mais.classList.remove(' .fa-solid  .fa-plus')
-    //     mais.classList.add(' .fa-solid  .fa-minus')
-    // }
 }
 )
 
