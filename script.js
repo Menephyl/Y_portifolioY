@@ -340,7 +340,7 @@ btnSh2.addEventListener("click",() => {
         iMais.addEventListener("click",()=>{
             btnSh2.appendChild(elMinus,iMais)
          btnSh2.appendChild(iMais,elMinus)
-         
+       
          }
          )
         
