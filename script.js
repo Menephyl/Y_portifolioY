@@ -277,9 +277,9 @@ const panelBody3 = document.querySelector(".panel-body3")
 
 //   const icone_mais = document.querySelector('#imais')
 // const icone_menos = document.querySelector("#")
-var el = document.createElement("i")
+var el = document.createElement("i");
 
-el.classList = "fa-solid fa-plus"
+el.classList = "fa-solid fa-plus";
 
 
     const minus = document.querySelector('#iMenos')
