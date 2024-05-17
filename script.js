@@ -336,7 +336,7 @@ btnSh2.addEventListener("click",() => {
         panelBody2.style.display = 'none'
         iMais.addEventListener("click",()=>{
             btnSh2.appendChild(elMinus,iMais)
-            // btnSh2.appendChild(iMais,elMinus)
+         btnSh2.appendChild(iMais,elMinus)
          
          }
          )
@@ -357,11 +357,17 @@ btnSh2.addEventListener("click",() => {
         iMais.addEventListener("click",()=>{
             // btnSh2.appendChild(elMinus,iMais)
             btnSh2.appendChild(iMais,elMinus)
+            btnSh2.appendChild(elMinus,iMais)
          
          }
          )
     }
     })
+
+    const iMais2 = document.querySelector('#iMais2')
+
+    let elMinus = document.createElement('i')
+    elMinus.classList = "fa-solid fa-minus";
 
 
     btnSh3.addEventListener("click",() => {
