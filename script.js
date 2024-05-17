@@ -302,22 +302,23 @@ if(panelBody.style.display === 'flex'){
          }
          )
 
-    }else{
-        el.addEventListener("click",()=>{
-     
-            btnSh.classList.add('active')
-       btnSh.appendChild(minus,el)
-  
-     }
-     )
     }
+    // else{
+
+    //     el.addEventListener("click",()=>{
+    //         btnSh.classList.add('active')
+    //    btnSh.appendChild(minus,el)
+  
+    //  }
+    //  )
+    // }
      
 
 
 }else{
      panelBody.style.display = 'flex'
     btnSh.classList.add('active')
-    minus.addEventListener("click",()=>{
+    el.addEventListener("click",()=>{
         btnSh.appendChild(el,minus)
       
       }
