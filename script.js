@@ -292,8 +292,8 @@ el.classList = "fa-solid fa-plus";
 btnSh.addEventListener("click",() => {
 if(panelBody.style.display === 'flex'){
         /// issue on toggle fa-minus to fa.plus
+        panelBody.style.display = 'none';
         if(btnSh.classList.contains('active')){
-            panelBody.style.display = 'none';
          minus.addEventListener("click",()=>{
          btnSh.classList.remove('active')
          btnSh.appendChild(el,minus)
