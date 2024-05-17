@@ -281,9 +281,10 @@ const panelBody3 = document.querySelector(".panel-body3")
 
 
 const minus = document.querySelector('#iMenos')
-
+// criação das variaveis dos botões que se alterarão + pra menos 
 var el = document.createElement("i");
 el.classList = "fa-solid fa-plus";
+
 let elMinus = document.createElement('i')
 elMinus.classList = "fa-solid fa-minus"
 
