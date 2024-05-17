@@ -295,21 +295,23 @@ if(panelBody.style.display === 'flex'){
         panelBody.style.display = 'none';
         btnSh.classList.remove('active')
         minus.addEventListener("click",()=>{
-            btnSh.appendChild(el,minus)
-        }
-    )
-        if(btnSh.classList.contains('active')){
+        btnSh.appendChild(el,minus)
+            }
+        )
+  
+            // )
+    //     if(btnSh.classList.contains('active')){
           
          
 
-    }else{
-        el.addEventListener("click",()=>{
-       btnSh.classList.add('active')
-       btnSh.appendChild(minus,el)
+    // }else{
+    //     el.addEventListener("click",()=>{
+    //    btnSh.classList.add('active')
+    //    btnSh.appendChild(minus,el)
   
-     }
-     )
-    }
+    //  }
+    //  )
+    // }
      
 
 
