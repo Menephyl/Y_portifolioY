@@ -323,6 +323,7 @@ if(panelBody.style.display === 'flex'){
      panelBody.style.display = 'flex'
     btnSh.classList.add('active')
    btnSh.appendChild(minus,el)
+   btnSh.removeChild(el)
 }
 })
 
