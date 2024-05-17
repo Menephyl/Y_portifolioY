@@ -326,6 +326,7 @@ if(panelBody.style.display === 'flex'){
 })
 
 const iMais = document.querySelector('#iMais')
+
 btnSh2.addEventListener("click",() => {
     if(panelBody2.style.display === 'flex'&& 
     btnSh2.classList.contains('active')){
