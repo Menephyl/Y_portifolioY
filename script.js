@@ -281,8 +281,7 @@ const panelBody3 = document.querySelector(".panel-body3")
     
     minus.addEventListener("click",()=>{
     btnSh.removeChild(minus)
-    btnSh.ap
-    
+
 
 
 
