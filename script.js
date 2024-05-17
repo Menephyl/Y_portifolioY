@@ -325,7 +325,10 @@ if(panelBody.style.display === 'flex'){
 })
 
 btnSh2.addEventListener("click",() => {
-    if(panelBody2.style.display === 'flex'){
+    if(panelBody2.style.display === 'flex'&& 
+    btnSh2.classList.contains('active')){
+        btnSh2.classList.remove('active')
+        panelBody2.style.display = 'none'
         /// issue on toggle fa-minus to fa.plus
         // if(btnSh2.classList.contains('active')){
             // btnSh2.classList.remove('active')
