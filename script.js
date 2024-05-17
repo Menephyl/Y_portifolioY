@@ -285,7 +285,7 @@ const minus = document.querySelector('#iMenos')
 var el = document.createElement("i");
 el.classList = "fa-solid fa-plus";
 minus.addEventListener("click",()=>{
-    btnSh.removeChild(minus)
+    // btnSh.removeChild(minus)
 btnSh.appendChild(el,minus)
 
 
