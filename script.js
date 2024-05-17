@@ -378,8 +378,8 @@ btnSh2.addEventListener("click",() => {
                 panelBody3.style.display = 'none';
                 iMais2.addEventListener("click",()=>{
                     // btnSh2.appendChild(elMinus,iMais)
-                    btnSh3.appendChild(iMais,elMinus)
-                    btnSh3.appendChild(elMinus,iMais)
+                    btnSh3.appendChild(elMinus2,iMais2)
+                    btnSh3.appendChild(iMais2,elMinus2)
                  
                  }
                  )
