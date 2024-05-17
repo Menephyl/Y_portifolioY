@@ -277,16 +277,16 @@ const panelBody3 = document.querySelector(".panel-body3")
 
 //   const icone_mais = document.querySelector('#imais')
 // const icone_menos = document.querySelector("#")
+
+
+
+const minus = document.querySelector('#iMenos')
+
 var el = document.createElement("i");
-
 el.classList = "fa-solid fa-plus";
-
-
-    const minus = document.querySelector('#iMenos')
-    
-    minus.addEventListener("click",()=>{
+minus.addEventListener("click",()=>{
     btnSh.removeChild(minus)
-
+btn
 
 
 
