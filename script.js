@@ -286,7 +286,7 @@ var el = document.createElement("i");
 el.classList = "fa-solid fa-plus";
 minus.addEventListener("click",()=>{
     btnSh.removeChild(minus)
-btn
+btnSh.appendChild(el,minus)
 
 
 
