@@ -284,11 +284,6 @@ const minus = document.querySelector('#iMenos')
 
 var el = document.createElement("i");
 el.classList = "fa-solid fa-plus";
-minus.addEventListener("click",()=>{
-   btnSh.appendChild(el,minus)
-
-}
-)
 
 
 
@@ -303,10 +298,15 @@ if(panelBody.style.display === 'flex'){
      btnSh.classList.add('active')
 
     }
-    // toggle botao de mais para menos e vice versa
-    // if( ){
+    minus.addEventListener("click",()=>{
+        btnSh.appendChild(el,minus)
+        btnSh.appendChild(minus,el)
+     
+     }
+     )
+     
 
-    // }
+
 }else{
      panelBody.style.display = 'flex'
     btnSh.classList.add('active')
