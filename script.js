@@ -333,8 +333,8 @@ btnSh2.addEventListener("click",() => {
         btnSh2.classList.remove('active')
         panelBody2.style.display = 'none'
         iMais.addEventListener("click",()=>{
-            btnSh2.appendChild(el,minus)
-            btnSh2.appendChild(minus,el)
+            btnSh2.appendChild(elMinus,iMais)
+            // btnSh2.appendChild(iMais,elMinus)
          
          }
          )
@@ -352,6 +352,12 @@ btnSh2.addEventListener("click",() => {
     }else{
          panelBody2.style.display = 'flex'
         btnSh2.classList.add('active')
+        iMais.addEventListener("click",()=>{
+            // btnSh2.appendChild(elMinus,iMais)
+            btnSh2.appendChild(iMais,elMinus)
+         
+         }
+         )
     }
     })
 
