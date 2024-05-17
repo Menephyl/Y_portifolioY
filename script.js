@@ -293,17 +293,17 @@ if(panelBody.style.display === 'flex'){
     if(btnSh.classList.contains('active')){
         btnSh.classList.remove('active')
         panelBody.style.display = 'none';
+        minus.addEventListener("click",()=>{
+            btnSh.appendChild(el,minus)
+            btnSh.appendChild(minus,el)
+         
+         }
+         )
 
     }else{
      btnSh.classList.add('active')
 
     }
-    minus.addEventListener("click",()=>{
-        btnSh.appendChild(el,minus)
-        btnSh.appendChild(minus,el)
-     
-     }
-     )
      
 
 
