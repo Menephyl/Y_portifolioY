@@ -318,7 +318,7 @@ if(panelBody.style.display === 'flex'){
     // }
      
 
-
+// trocar icone para - ok 
 }else{
      panelBody.style.display = 'flex'
     btnSh.classList.add('active')
