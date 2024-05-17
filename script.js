@@ -366,8 +366,8 @@ btnSh2.addEventListener("click",() => {
 
     const iMais2 = document.querySelector('#iMais2')
 
-    let elMinus = document.createElement('i')
-    elMinus.classList = "fa-solid fa-minus";
+    let elMinus2 = document.createElement('i')
+    elMinus2.classList = "fa-solid fa-minus";
 
 
     btnSh3.addEventListener("click",() => {
