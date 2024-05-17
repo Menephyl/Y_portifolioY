@@ -286,8 +286,7 @@ const minus = document.querySelector('#iMenos')
 let  el = document.createElement("i")
 el.classList = "fa-solid fa-plus";
 
-let elMinus = document.createElement('i')
-elMinus.classList = "fa-solid fa-minus";
+
 
 
 btnSh.addEventListener("click",() => {
@@ -326,6 +325,9 @@ if(panelBody.style.display === 'flex'){
 })
 
 const iMais = document.querySelector('#iMais')
+
+let elMinus = document.createElement('i')
+elMinus.classList = "fa-solid fa-minus";
 
 btnSh2.addEventListener("click",() => {
     if(panelBody2.style.display === 'flex'&& 
