@@ -278,7 +278,7 @@ color: #999999;
   margin-left: 50px;
   margin-bottom: 70px;
   animation-duration: 3s;
-  /* animation-name: face; */
+  animation-name: fadeToUp;
   transition-delay:1s;
 }
 .about-me p{
