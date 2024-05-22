@@ -1,4 +1,4 @@
-document.getElementById('currentYear').textContent = new Date().getFullYear()
+document.getElementById('currentYear').textContent = new Date().getFullYear();
 
 /* home -> funcao - slider vertical  com set interval em 5s A CADA 5 segundos (5000ms) VAI TROCAR AS DIVS.
 1-  verficar o clique no radio 1 ou 2 e mostrar a div home para radio 1 e funcao para radio2.
