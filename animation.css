@@ -1,6 +1,7 @@
 
 .fadeToUp,.fadeToUpFunc .fadeToUp-delay, .fadeToleftDelay{
   visibility:hidden;
+
 }
 
 @keyframes fade-inOut{

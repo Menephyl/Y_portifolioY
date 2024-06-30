@@ -1,28 +1,5 @@
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 
-/* home -> funcao - slider vertical  com set interval em 5s A CADA 5 segundos (5000ms) VAI TROCAR AS DIVS.
-1-  verficar o clique no radio 1 ou 2 e mostrar a div home para radio 1 e funcao para radio2.
- 1- definir as variaveis ok
- 2- criar função ao clicar com o mouse no radio 1, mostrar div 1. ( ativo ?)ok
- 3 criar funcao ao clicar com o mouse no radio 2, mostrar div 2 ( funcao)
- 4- transição 1s entre essas divs.
-
-2 - transicionar eternamente a cada 5s entre esses dois blocos automaticamente
-    1- set interval
-   2 funcao if ( radio 1 ) mostrar (radio 2 ) e vice versa
-   3 nao dar comando de parada
-
-
-ÁREA HOME - TROCAR ENTRE OI E FUNCAO A CADA 3s
-
-1- pegar oi e funcao area
-
-2-  definir troca manual entre essas duas caixas
-
-3- definir troca interativa em cada 3s ou 2s entre cada área.
-
-
-*/
 const e1 = document.querySelector('.oi');
 const e2 = document.querySelector(".funcao");
 
@@ -42,12 +19,13 @@ setInterval(mostrarFunc,4000);
 
 
 
-window.revelar = ScrollReveal({reset:true})
+window.revelar = ScrollReveal({reset:false})
 
 revelar.reveal('.fadeToUp',{
     duration:2000,
-    distance:"1px",
-    origin:"bottom"
+    distance:"50px",
+    origin:"bottom",
+  
 })
 
 
