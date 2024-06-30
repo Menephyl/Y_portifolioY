@@ -16,9 +16,6 @@ const mostrarFunc = () => {
   }
 }
 setInterval(mostrarFunc,4000);
-
-
-
 window.revelar = ScrollReveal({reset:false})
 
 revelar.reveal('.fadeToUp',{
@@ -34,7 +31,7 @@ window.revelar = ScrollReveal({reset:true})
 
 revelar.reveal('.fadeToUpFunc',{
     duration:2000,
-    distance:"90px",
+    distance:"50px",
 
 })
 
