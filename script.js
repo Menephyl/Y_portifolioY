@@ -1,7 +1,7 @@
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 
 const e1 = document.querySelector('.oi');
-const e2 = document.querySelector(".funcao");
+const e2 = document.querySelector('.funcao');
 
 
 const mostrarFunc = () => {
@@ -27,7 +27,7 @@ revelar.reveal('.fadeToUp',{
 
 
 
-window.revelar = ScrollReveal({reset:true})
+window.revelar = ScrollReveal({reset:false})
 
 revelar.reveal('.fadeToUpFunc',{
     duration:2000,

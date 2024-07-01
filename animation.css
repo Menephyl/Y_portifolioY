@@ -1,5 +1,9 @@
 
-.fadeToUp,.fadeToUpFunc .fadeToUp-delay, .fadeToleftDelay,.fadeToUp-delay2,
+.fadeToUp,
+.fadeToUpFunc 
+.fadeToUp-delay,
+ .fadeToleftDelay,
+ .fadeToUp-delay2,
 .fadeToUp-delay3,
 .fadeToUp-delay4,
 .fadeToUp-delay5,
@@ -10,6 +14,7 @@
 .fadeToRight-4,
 .fadeToRight-5{
   visibility:hidden;
+  opacity: null;
 
 }
 
