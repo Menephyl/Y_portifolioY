@@ -148,6 +148,7 @@ padding: 3px;
   position: relative;
   animation-name: fade-inOut;
   animation-duration: 1.5s;
+  visibility: none;
 }
 
 .h1{
