@@ -142,7 +142,7 @@ padding: 3px;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100vh;
   margin-left: -30px;
   margin-top: 140vh;
   position: relative;
