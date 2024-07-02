@@ -166,7 +166,6 @@ padding: 3px;
   font-size: 60px;
   animation-name: fade-inOut;
   animation-duration: 2s;
-
 }
 .funcao > h2{
 font: 15px "Quicksand",Arial, sans-serif;
@@ -188,8 +187,7 @@ flex-direction: column;
   width: 170px;
   text-align: center;
   font-size: 12px;
-  /* color: #fff; */
-  border:1px solid #202020;
+   border:1px solid #202020;
   margin: 3rem 0 20px 0;
   padding: 5px;
   text-transform: uppercase;
@@ -258,7 +256,8 @@ flex-direction: column;
 
 .about-me{
   text-align: left;
-  margin: 90px 0 72px;
+  margin: 10px 0 72px;
+
 }
 
 
@@ -271,19 +270,20 @@ color: #999999;
 }
 .about-me-text{
   text-align: start;
-  margin-top: 20px;
+  margin-top: -50px;
   font: 700 18px "Playfair Display";
-  padding-top: 0px;
-  margin-left: 50px;
+  padding-top: -1000px;
+  margin-left: 40px;
   margin-bottom: 70px;
+  overflow-x: collapse;
  
 }
 .about-me p{
-width:100%;
+width:80%;
 text-align: left;
 font: 400 15px "Quicksand",arial,sans-serif;
 text-wrap: wrap;
-padding: 20px;
+padding: 10px;
 
 }
 .principal{
