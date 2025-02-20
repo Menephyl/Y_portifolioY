@@ -17,11 +17,11 @@ const mostrarFunc = () => {
   }
 }
 setInterval(mostrarFunc,4000);
-window.revelar = ScrollReveal({reset:false})
+window.revelar = ScrollReveal({reset:true})
 
 revelar.reveal('.fadeToUp',{
     duration:2000,
-    distance:"50px",
+    distance:"30px",
     origin:"bottom",
   
 })
@@ -40,7 +40,7 @@ window.revelar = ScrollReveal({reset:true})
 
 revelar.reveal('.fadeToUp-delay',{
     duration:2000,
-    distance:"90px",
+    distance:"80px",
     delay:500
 })
 
@@ -229,15 +229,15 @@ let tPartners = setInterval(()=>{
 },80
 );
  //  1- área education ok
- // 2 ->  colocar no js para remover classe de  a estilo ativo e
- // 2.1 pegar classe activo e remover
- // 2.2 trocar classe de icone dentro do link de fa-minus (menos) pra fa-plus (mais)
+ // 2 ->  colocar no js para remover classe de  a estilo ativo e ok
+ // 2.1 pegar classe activo e remover ok
+ // 2.2 trocar classe de icone dentro do link de fa-minus (menos) pra fa-plus (mais) ok
 
  // 3->  nao exibir conteudo p dentro do panel body  ok
  // 3.1 colocar ao evento anterior feito. cada link corresponde a uma caixa com dois paragrafos.  ok
  //3.2 -> verificar se visivel, então esconder conteudo, se não, então mostrar ok
 
-/// issue on toggle fa-minus to fa.plus - adiconar e substituiar classe  de elemento com js
+/// issue on toggle fa-minus to fa.plus - adiconar e substituiar classe  de elemento co m js
 const courses = document.querySelector(".panel-body")
 // const i_minus = document.querySelector('.fa-minus')
 // const i_plus = document.querySelector('.fa-plus')
