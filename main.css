@@ -121,7 +121,7 @@ i{
   font-size: 12px;
   margin-top: 1rem;
   margin-left: 3.5rem;
-  margin-bottom: 12rem;
+  margin-bottom: 22rem;
   height: 40px;
   width: 200px;
   border: 0.1px solid #000;
@@ -129,7 +129,7 @@ i{
   font-size: 12px;
   position: relative;
   text-transform: uppercase;
-  animation-duration: 2.5s;
+  animation-duration: 1.5s;
   animation-name: 'fadeToUp,';/* fade-inOut';*/
 }
 
@@ -244,7 +244,7 @@ left: 80px;
 }
 
 .funcao > .manual-navigation{
-   margin-top: 23rem;
+   margin-top: 33rem;
   margin-left: 4.5rem;
   margin-bottom:0 ;
 }
@@ -264,23 +264,23 @@ left: 80px;
 
 .about-me{
   text-align: left;
-  margin: 10px 0 72px;
+  margin: 20rem 0 0 4rem;
 
 }
 
 
-.about-me em{
-margin-top: 0;
+.about-me >
+em{
+margin-top: -6rem;
+margin-left: -1.2rem;
 font-size: 12px;
-padding-bottom: -10px;
-margin-left: 50px;
 color: #999999;
+
 }
 .about-me-text{
   text-align: start;
-  margin-top: -50px;
+  margin-top: 1rem;
   font: 700 18px "Playfair Display";
-  padding-top: -1000px;
   margin-left: 40px;
   margin-bottom: 70px;
   overflow-x: collapse;
@@ -498,7 +498,7 @@ margin: auto;
   position: relative;
   margin-left: 20px;
   background: #f9bf3f;
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
   margin-bottom: 2.5rem;
   padding: 30px;
 
@@ -1327,7 +1327,7 @@ padding-right: 20px;
   flex-wrap: wrap;
   align-items: center;
   background-color: white;
-  margin: 0 20px 150px 0;
+  margin: -200 20px 150px 0;
   padding:1px;
 
 }
@@ -1700,6 +1700,21 @@ padding-right: 20px;
 .read em{
   margin-top: 20px;
 }
+
+
+.btn-load2{
+  display: block;
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Quicksand',arial, sans-serif;
+  font-size: 14px;
+  text-align: 50% center;
+  margin: 50px -5 50px 0;
+  padding: 18px 36px;
+  width: 795px;
+  height: 70px;
+
+}
 .btn-load{
   display: block;
   background-color: #007bff;
@@ -1713,19 +1728,7 @@ padding-right: 20px;
   height: 70px;
 
 }
-.btn-load2{
-  display: block;
-  background-color: #007bff;
-  color: #ffffff;
-  font-family: 'Quicksand',arial, sans-serif;
-  font-size: 14px;
-  text-align: 50% center;
-  margin: 100px 0 50px 0;
-  padding: 18px 36px;
-  width: 795px;
-  height: 70px;
 
-}
 .fa-rotate-right{
   color: #fff;
 }
@@ -1974,14 +1977,14 @@ padding-bottom: 20px;
 .text a{
   position: absolute;
   font: 400 15px "Quicksand",arial, sans-serif;
-  margin-top: -80px;
-  margin-left:-28em;
+  margin-top: -4rem;
+  margin-left:-38.5rem;
 
 
 }
 .text2{
   font: 400 15px "Quicksand",arial, sans-serif;
-  margin-top: -60px;
+  margin-top: -5rem;
   margin-left: 120px;
   margin-right: 370px;
   width: 250px;
@@ -1992,8 +1995,8 @@ padding-bottom: 20px;
 }
 .text3{
   font: 400 15px "Quicksand",arial, sans-serif;
-  margin-top: -80px;
-  margin-left: 70px;
+  margin-top: -50px;
+  margin-left: 5rem;
   margin-right: 370px;
   width: 260px;
   height: 200px;
