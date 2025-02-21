@@ -16,10 +16,11 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   display: block;
   top: 0px;
   left: 12rem;
+  right: 3rem;
   width: 300px;
   color: #0000;
   background-color: rgba(128, 128, 128, 0.056); 
-  height:100vh;
+  height:65vh;
   
 }
 .menu-lateral-active {
