@@ -12,9 +12,10 @@
 p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
 */
  #aside{
+  z-index: 0;
   display: block;
   top: 0px;
-  left: 0px;
+  left: 12rem;
   width: 300px;
   color: #0000;
   background-color: rgba(128, 128, 128, 0.056); 

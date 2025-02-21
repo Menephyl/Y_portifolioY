@@ -35,17 +35,18 @@ i{
 
 
 #main, .main {
-  z-index: 1;
+
+  z-index: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: calc(100% - 300px);
+  width: calc(100% - 30rem);
+  margin-left: 30vw; /* area do sidebar */
   float: right;
   height: auto;
   text-align: center;
   color: #020000;
   padding: 0.5em;
-  margin-left: 19.8rem; /* area do sidebar */
   border: transparent;
   overflow-x: hidden;
   background-color: #FFF;
@@ -1712,9 +1713,9 @@ padding-right: 20px;
   font-family: 'Quicksand',arial, sans-serif;
   font-size: 14px;
   text-align: 50% center;
-  margin: 50px -5 50px 0;
+  margin: -150px 4rem 50px 0;
   padding: 18px 36px;
-  width: 795px;
+  width: 1090px;
   height: 70px;
 
 }
@@ -1725,9 +1726,9 @@ padding-right: 20px;
   font-family: 'Quicksand',arial, sans-serif;
   font-size: 14px;
   text-align: 50% center;
-  margin: 100px 4px 50px 0;
+  margin: 100px 5rem 50px 0;
   padding: 18px 36px;
-  width: 795px;
+  width: 1090px;
   height: 70px;
 
 }
@@ -1913,14 +1914,13 @@ padding-bottom: 20px;
 }
 .contact{
   width: 95%;
-  margin: 5px;
-  padding: 2px ;
+  margin: 5rem 5rem 5rem 0;
+  padding: 2px;
   box-sizing: border-box;
   background-color:  #FFF ;/* #f4f4f4; */
   border-radius: 20px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   animation-duration: 3s;
-  animation-name: fade-inOut;
   transition-delay: 3.5s;
 }
 .contact em{
@@ -1981,7 +1981,7 @@ padding-bottom: 20px;
   position: absolute;
   font: 400 15px "Quicksand",arial, sans-serif;
   margin-top: -4rem;
-  margin-left:-38.5rem;
+  margin-left:-33rem;
 
 
 }
