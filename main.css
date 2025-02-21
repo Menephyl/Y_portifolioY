@@ -1172,6 +1172,9 @@ position: relative;
     text-align: left;
     margin-bottom: 72px;
 }
+.read{
+margin-top: 5rem;
+}
 .read em{
   margin-left: 15px;
   color: #999999;
@@ -1722,7 +1725,7 @@ padding-right: 20px;
   font-family: 'Quicksand',arial, sans-serif;
   font-size: 14px;
   text-align: 50% center;
-  margin: 200px 4px 50px 0;
+  margin: 100px 4px 50px 0;
   padding: 18px 36px;
   width: 795px;
   height: 70px;
