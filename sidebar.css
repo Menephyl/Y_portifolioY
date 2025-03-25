@@ -1,18 +1,6 @@
-/*ABRIR E FEHCAR - TOGGLE */
-/* @media screen and (max-width: 768px) { BASE PARA ABRIR E FECHAR SIDEBAR
-  #colorlib-aside {
-    width: 300px;
-    -moz-transform: translateX(-300px);
-    -webkit-transform: translateX(-300px);
-    -ms-transform: translateX(-300px);
-    -o-transform: translateX(-300px);
-    transform: translateX(-300px);
-    padding-top: 4em; } } */
-    /* Estilos - configurar o estilo do aside menu lateral fixo, enquanto conteúdo   
-p de inicio o estilo do documento em branco primeiramente. seguido com os menus num tom de cinza. 
-*/
+
  #aside{
-  z-index: 0;
+  /* z-index: 0; */
   display: block;
   top: 0px;
   left: 12rem;
@@ -20,7 +8,7 @@ p de inicio o estilo do documento em branco primeiramente. seguido com os menus 
   width: 300px;
   color: #0000;
   background-color: rgba(128, 128, 128, 0.056); 
-  height:65vh;
+  height:100vh;
   
 }
 .menu-lateral-active {
@@ -149,35 +137,4 @@ letter-spacing: 1px;
 color: #449deb; 
 text-align: center;
 }
-/*  buttao futuro de alteração de linguagem 
-  .btn1{
- width: 100px;
- height: 20px;
- font: 400 10px "Quicksand",arial, sans-serif; 
- text-transform: uppercase;
- display: flex;
- margin-top: 2px;
- margin-left: 15px;
- margin-bottom: 10px;
- text-align: justify;
- background-color: #b3b3b31e;
- border-radius: 5px;
- border: 0.5px solid rgba(0, 0, 0, 0.432);
- padding: 0;
-  } */
-  /* .menu-lateral-active >i{
-   display: flex;
-   align-self: right;
-   width: 100%;
-   padding: 2px;
-  } */
-  
-    /* -moz-transform: scaleX(0);   será isso util para transição ao passar com mouse na tela ?
-  -ms-transform: scaleX(0);
-  -o-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); */ 
  
