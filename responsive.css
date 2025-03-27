@@ -14,3 +14,17 @@ overflow-y: auto; em menu-lateral adiciona uma barra de rolagem vertical se o co
 /*ajuste da margem esquerda para corresponder à largura da aside */
      /* Adicione algum preenchimento para separar o conteúdo da aside */
       /* Adicione outras propriedades conforme necessário */
+@media screen and (max-width:900px) {
+#aside, aside .menu-lateral-active{
+    display: none;
+    width: 0;
+    height: 0;
+    margin-right: 100vw;
+     }
+
+     #main{
+          background: red;
+          width: 100vw;
+          height: 100vh;
+     }
+}
