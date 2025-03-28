@@ -46,8 +46,6 @@
 
   #main,
   .main {
-
- 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -85,16 +83,13 @@
 
   .oi {
     display: block;
-    width: 70vw;
+    width: 100%;
     height: 100vh;
-
     background: url(https://technext.github.io/jackson/images/img_bg_1.jpg);
     background-color: rgba(128, 128, 128, 0.056);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-
   }
 
 
@@ -119,8 +114,8 @@
   .oi .subtitle {
     font: 15px "Quicksand", Arial, sans-serif;
     flex-direction: column;
-    width: 200px;
-    height: 40px;
+    width: 12.5rem;
+    height: 2.5rem;
     margin-top: 7rem;
     margin-left: 3.5rem;
     text-align: left;
@@ -136,10 +131,10 @@
     margin-top: 1rem;
     margin-left: 3.5rem;
     margin-bottom: 22rem;
-    height: 40px;
-    width: 200px;
+    height: 2.5rem;
+    width: 12.5rem;
     border: 0.1px solid #000;
-    padding: 10px 10px;
+    padding: 0.625rem 0.625rem;
     position: relative;
     text-transform: uppercase;
     animation-duration: 1.5s;
@@ -181,8 +176,8 @@
     font-weight: 700;
     text-align: left;
     color: #020000;
-    height: 400px;
-    width: 490px;
+    height: 25rem;
+    width: 30.625rem;
     box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
     font-size: 60px;
     animation-name: 'fade-inOut';
@@ -194,10 +189,10 @@
     display: flex;
     flex: auto;
     flex-direction: column;
-    top: 120px;
-    left: 80px;
-    width: 200px;
-    height: 40px;
+    top: 7.5rem;
+    left: 5.5rem;
+    width: 12.5rem;
+    height: 2.5rem;
     text-align: left;
     position: relative;
     animation-name: 'fade-inOut';
@@ -207,7 +202,7 @@
 
   .funcao a {
     display: flex;
-    width: 170px;
+    width: 10.625rem;
     text-align: center;
     font-size: 12px;
     border: 1px solid #202020;
@@ -220,10 +215,10 @@
 
   .down2 {
     font-size: 12px;
-    width: 200px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     margin-left: 0px;
-    margin-top: 60px;
+    margin-top: 3.75rem;
     border: 0.1px solid #000;
 
   }
@@ -237,20 +232,20 @@
   }
 
   #radio2 {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0.625rem;
+    margin-bottom: 1.250rem;
 
   }
 
   .manual-btn {
-    width: 14px;
+    width: 0.8125rem;
     display: flex;
     border: 2px solid rgba(0, 0, 0, 0.5);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1.5s;
-    margin: 13px;
+    margin: 0.8125rem;
     background-color: rgba(0, 0, 0, 0.5);
     margin-left: -20px;
   }
@@ -301,7 +296,7 @@
     margin-top: 1rem;
     font: 700 18px "Playfair Display";
     margin-left: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
     overflow-x: collapse;
 
   }
@@ -311,7 +306,7 @@
     text-align: left;
     font: 400 15px "Quicksand", arial, sans-serif;
     text-wrap: wrap;
-    padding: 10px;
+    padding: 0.625rem;
 
   }
 
@@ -333,7 +328,7 @@
     flex-direction: row;
     padding: 0 15px;
     margin-bottom: 2.5rem;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     animation-duration: 3s;
     animation-name: 'fade-inOut';
     transition-delay: 3.5s;
@@ -344,8 +339,8 @@
   }
 
   .design {
-    width: 160px;
-    height: 150px;
+    width: 10rem ;
+    height: 10rem ;
     border-bottom: 3px solid #2ca6f8;
     margin-right: 3rem;
     background-color: #ffffff;
@@ -378,8 +373,8 @@
   }
 
   #design {
-    width: 160px;
-    height: 150px;
+    width: 10rem ;
+    height: 10rem ;
     border-bottom: 3px solid #d60c0c;
     margin-right: 3rem;
     background-color: #ffffff;
@@ -416,8 +411,8 @@
   }
 
   #design2 {
-    width: 160px;
-    height: 150px;
+    width: 10rem ;
+    height: 10rem ;
     margin-top: -2px;
     border-bottom: 3px solid #d3d60c;
     margin-right: 3rem;
@@ -2310,5 +2305,4 @@
     border-radius: 2px;
     padding: 4px;
     color: white;
-
   }
