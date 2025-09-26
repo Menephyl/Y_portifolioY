@@ -29,4 +29,12 @@ Lembre-se de que este é apenas um exemplo básico, e você pode adaptá-lo conf
 
 
 
+// css para view bugado 
+apresentar que comecei a fazer esse projeto em 2023 (inicio)
+cada alteração um commit, ( iniciante do iniciante )
+comparar antes e depois dessa refaoração no fim do projeto 
+ 
+ no aside é pra ficar azul o que for selecionado 
 
+ o impressao.css me recorda que eu queria colocar um botao de imprimir e mostrar os dados em pdf. mas isso nao é necessário 
+ 

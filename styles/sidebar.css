@@ -1,35 +1,51 @@
 
  #aside{
   display: block;
-  top: 0px;
-  left: 12rem;
-  right: 3rem;
-  width: 15vw;
+   max-width: 300px;
+  min-height: 100vh;
+  top: 0;
+  left: 12rem;  
   color: #0000;
   background-color: rgba(128, 128, 128, 0.056); 
-  height:100vh;
-  
+  position: fixed;
+  gap: 10px;
+  transition: 0.7s;
+  letter-spacing: 0.2px;
+  justify-content: center;
+  align-items: center;
 }
-.menu-lateral-active {
-  color: #0000;
-  /* position:fixed; */
-  background: #f2f3f7;
-  z-index: 0;
-  float: left;
-  width: 300px;
-  text-align: center;
-  margin: 5px; 
-  border-radius: 1rem;
-  height: 9.375rem;
-  padding-top: 3em;
-  transition: 0.5s;
-  overflow-y: scroll;
-  overflow-x: hidden;
+.y1{ 
+  font:700 22px "Playfair-display",georgia, serif;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+ .azul {
+  display: inline-block;
+  margin-left: 15%;
+
+font: 400 12px "Quicksand",arial, sans-serif;
+text-transform: uppercase;
+color: #449deb;   
+text-align: center;
+letter-spacing: normal;
+
+}
+.position{
+  display: flex;
+  text-wrap: nowrap;
+  margin-top: 0;
+  font: 400 10px "Quicksand",arial, sans-serif;
+  text-transform: uppercase;
+  color: #000;
 } 
-#aside > a{
-  color: #449deb;
+
+#aside+a{
+  color: #5e99f1e4;
   font: 400 10px "Quicksand",arial,;
   text-align: center;  
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 #aside img {
   display:flex;
@@ -38,23 +54,18 @@
   border-radius: 50%;
   margin: 0 67px 0;
 }
-.y1{ 
-  font:700 22px "Playfair-display",georgia, serif;
-    margin: 0px 0.625rem 0 0.625rem;
-    letter-spacing: normal;
+
+#aside ul{
+  margin-top: 5px;
+  
 }
 
-.position{
-  display: flex;
-  text-wrap: nowrap;
-  margin-top: 0.625rem;
-  font: 400 10px "Quicksand",arial, sans-serif;
-  text-transform: uppercase;
+.caixa-de-textos ul > li a{
   color: #000;
-
+  text-decoration: none;
 }
 .caixa-de-textos ul > li:hover{
-  text-decoration: 2.5px underline rgba(0, 76, 255, 0.586);
+  text-decoration: 1.7px underline #5e99f1e4;
   transform-origin:  top center;
  transition: transform 2s  ease-out;
  font-weight: 500;
@@ -62,15 +73,11 @@
  
 }
 
- .azul {
-font: 400 12px "Quicksand",arial, sans-serif;
-text-transform: uppercase;
-color: #449deb;   
-margin-left: 0.625rem;
-}
 .menu-lateral-active ul{
- width: 250px;
- margin-top: 30px;
+  display: flex;
+  margin-right: 10%;
+  margin-top: 10px;
+  flex-direction: column;
 }
 .menu-lateral-active ul li{
 font: 400 12px "Quicksand",arial, sans-serif;
@@ -86,6 +93,7 @@ padding: 0.625rem;
 .caixa-de-textos ul li{
   padding: 3px;
   margin-bottom: 0;
+  color: #5e99f1e4;
 }
 .caixa-de-textos .menu-nav{
     margin-top: 1.875rem;
