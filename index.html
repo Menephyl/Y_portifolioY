@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/animation.css">
   <link rel="stylesheet" href="./styles/slidesintro.css">
+  <link rel="stylesheet" href="./styles/sectionabout.css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 
@@ -51,45 +52,45 @@
   </aside>
 
   <main id="main" class="main">
-  <div class="slides">
+    <div class="slides">
 
-  <!-- Slide 1 -->
-  <div class="slide slide-1 active">
-    <div class="slide-content">
-      <h1 class="slide-title">Hi!<br>I'm Yan</h1>
-      <p class="slide-subtitle">100% Html5 · Css3 · Javascript</p>
-      <a href="#" class="btn btn-primary">
-        Download CV <i class="fa-solid fa-briefcase"></i>
-      </a>
-    </div>
-  </div>
+      <!-- Slide 1 -->
+      <div class="slide slide-1 active">
+        <div class="slide-content">
+          <h1 class="slide-title">Hi!<br>I'm Yan</h1>
+          <p class="slide-subtitle">100% Html5 · Css3 · Javascript</p>
+          <a href="#" class="btn btn-primary">
+            Download CV <i class="fa-solid fa-briefcase"></i>
+          </a>
+        </div>
+      </div>
 
-  <!-- Slide 2 -->
-  <div class="slide slide-2">
-    <div class="slide-content">
-      <h1 class="slide-title">I am<br> Developer</h1>
-      <p class="slide-subtitle">100% Html5 · Css3 · Javascript</p>
-      <a href="https://simple-portifolio-two.vercel.app/#projetos" class="btn btn-secondary">
-        View Portfolio <i class="fa-solid fa-briefcase"></i>
-      </a>
-    </div>
-  </div>
+      <!-- Slide 2 -->
+      <div class="slide slide-2">
+        <div class="slide-content">
+          <h1 class="slide-title">I am<br> Developer</h1>
+          <p class="slide-subtitle">100% Html5 · Css3 · Javascript</p>
+          <a href="https://simple-portifolio-two.vercel.app/#projetos" class="btn btn-secondary">
+            View Portfolio <i class="fa-solid fa-briefcase"></i>
+          </a>
+        </div>
+      </div>
 
-  <!-- Controles Manuais -->
-  <div class="slider-controls">
-    <button class="manual-btn active" data-index="0">
-      <i class="fa-regular fa-circle"></i>
-    </button>
-    <button class="manual-btn" data-index="1">
-      <i class="fa-regular fa-circle"></i>
-    </button>
-  </div>
-
-</div>
+      <!-- Controles Manuais -->
+      <div class="slider-controls">
+        <button class="manual-btn active" data-index="0">
+          <i class="fa-regular fa-circle"></i>
+        </button>
+        <button class="manual-btn" data-index="1">
+          <i class="fa-regular fa-circle"></i>
+        </button>
+      </div>
 
     </div>
 
-    <section id="about" class="conteudo fade-inOut ">
+    </div>
+
+    <section id="section-about" class="conteudo fade-inOut ">
 
       <div class="about-me">
         <em class="em">ABOUT ME</em>
@@ -97,18 +98,19 @@
       </div>
       <div class="principal fade-inOut" id="about">
         <h2 class="about-me-text fadeToRight">WHO AM I?</h2>
+        <div class="about-p" id="about-p">
 
 
 
 
-        <p class="fadeToRight"><strong>Hi! I am Yan Isonel Pereira</strong> and Technician Of Information Technology
-          Since <strong>2017.</strong>
+          <p class="fadeToRight"><strong>Hi! I am Yan Isonel Pereira</strong> and Technician Of Information Technology
+            Since <strong>2017.</strong><br>
+           And Junior Front-End Engineer since <strong>2024.</strong>
+         <p> Seeking a front-end development intership to further develop my skills and gain <br> hands-on
+            experience in real-world projects</p>
+ </p>
 
-        <p class="fadeToRight"> And Front-End Engineer since <strong>2022.</strong></p>
-        <p class="fadeToRight"> Improving my skills!I'm Open to freelas and real projects </p>
-        <p class="fadeToRight">Seeking a front-end development intership to further develop my skills and gain hands-on
-          experience in real-world projects</p>
-        <p></p>
+        </div>
       </div>
 
 
@@ -124,14 +126,16 @@
           <h3>Web Design</h3>
         </div>
 
-        <div id="design2" class="fadeToUp">
-          <span class="icon4"><img src="images/soft1.jpg" alt="a"></span>
-          <h3>Software</h3>
-        </div>
 
         <div id="design3" class="fadeToUp-delay2">
           <span class="icon4"><img src="images/app1.png" alt="a"></span>
           <h3>Aplication</h3>
+
+        </div>
+        
+        <div id="design2" class="fadeToUp-delay3">
+          <span class="icon"><img src="images/soft1.jpg" alt="a"></span>
+          <h3>Software</h3>
         </div>
 
       </div>
@@ -191,7 +195,7 @@
               <span class="hex6">
                 <i class="fa-solid fa-mobile"></i>
               </span>
-              <p style="font-size: 10px;">True interactivity goes beyond clicks-it antiucipates needs, responds
+              <p>True interactivity goes beyond clicks-it antiucipates needs, responds
                 smoothly, and enhances the user experience</p>
             </span>
           </div>
