@@ -1,30 +1,6 @@
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 
-const e1 = document.querySelector('.oi');
-const e2 = document.querySelector('.funcao');
 
-
-const mostrarFunc = () => {
-
-  if( e1.style.display == "block"){
-    e1.style.display = "none";
-    e2.style.display = "block";
-    
-
-  }else{
-    e1.style.display = "block";
-    e2.style.display = "none";
-  }
-}
-setInterval(mostrarFunc,4000);
-window.revelar = ScrollReveal({reset:true})
-
-revelar.reveal('.fadeToUp',{
-    duration:2000,
-    distance:"30px",
-    origin:"bottom",
-  
-})
 
 
 

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./styles/slidesintro.css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
- 
+
 
   <title>Yan Portfolio</title>
 
@@ -51,47 +51,41 @@
   </aside>
 
   <main id="main" class="main">
-    <div class="slides">
+  <div class="slides">
 
-      <div class="home" id="home">
-        <div class="oi fade-inOut">
+  <!-- Slide 1 -->
+  <div class="slide slide-1 active">
+    <div class="slide-content">
+      <h1 class="slide-title">Hi!<br>I'm Yan</h1>
+      <p class="slide-subtitle">100% Html5 · Css3 · Javascript</p>
+      <a href="#" class="btn btn-primary">
+        Download CV <i class="fa-solid fa-briefcase"></i>
+      </a>
+    </div>
+  </div>
 
-          <h1 class="title fadeToUp fade-inOut">Hi!<br>I'm Yan </h1>
-          <h2 class="subtitle fadeToUp ">Cv 100% Html5, Css3 and Javascript</h2>
+  <!-- Slide 2 -->
+  <div class="slide slide-2">
+    <div class="slide-content">
+      <h1 class="slide-title">I am<br> Developer</h1>
+      <p class="slide-subtitle">100% Html5 · Css3 · Javascript</p>
+      <a href="https://simple-portifolio-two.vercel.app/#projetos" class="btn btn-secondary">
+        View Portfolio <i class="fa-solid fa-briefcase"></i>
+      </a>
+    </div>
+  </div>
 
-          <h2><a href="#" class="down fadeToUp" target="_blank">Download CV<i class="fa-solid fa-briefcase"></i>
-            </a></h2>
-          <div class="slider">
-            <input type="radio" name="radio.btn" id="radio1">
-            <input type="radio" name="radio.btn" id="radio2">
-            <div class="manual-navigation">
-              <label for="radio1" class=" manual-btn manual-btn-activo" onclick="mostrarFunc()"></label>
-              <label for="radio2" class="manual-btn" onclick="mostrarFunc()"></label>
+  <!-- Controles Manuais -->
+  <div class="slider-controls">
+    <button class="manual-btn active" data-index="0">
+      <i class="fa-regular fa-circle"></i>
+    </button>
+    <button class="manual-btn" data-index="1">
+      <i class="fa-regular fa-circle"></i>
+    </button>
+  </div>
 
-            </div>
-
-            <div class="navigation-auto">
-              <div class="auto-btn1"></div>
-              <div class="auto-btn2"></div>
-
-            </div>
-
-
-          </div>
-        </div>
-
-        <div id="funcao" class="funcao fade-inOut">
-          <h1 class="h1 ">I am<br>a Developer</h1>
-
-          <h2 class="subtitle ">Cv 100% Html5, Css3 and Javascript </h2>
-
-          <h2><a href="https://simple-portifolio-two.vercel.app/#projetos " targ class="down2"><span>View Portifolio <i
-                  class="fa-solid fa-briefcase"></i></span></a> </h2>
-
-            
-            
-        </div>
-      </div>
+</div>
 
     </div>
 
@@ -519,6 +513,7 @@
 
   <script src="https://unpkg.com/scrollreveal" defer></script>
   <script src="./js/script.js" defer></script>
+  <script src="./js/sliderTop.js" defer></script>
 
 </body>
 

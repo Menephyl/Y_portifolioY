@@ -38,3 +38,5 @@ comparar antes e depois dessa refaoração no fim do projeto
 
  o impressao.css me recorda que eu queria colocar um botao de imprimir e mostrar os dados em pdf. mas isso nao é necessário 
  
+
+ ao clicar em baixar cv, tem que disponibilizar download de um arquivo pdf 

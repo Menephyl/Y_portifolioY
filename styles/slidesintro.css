@@ -1,200 +1,140 @@
-/*sliders in top */
-
+/* slider.css */
 .slides {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
-  .slides input {
-    display: none;
-  }
+.slide {
+  position: absolute;
+  top: 0;
+   left: 0;
+  width: 100%;
+   height: 100%;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  background-size: cover;
+  background-position: center;
+}
 
-  .slider {
-    display: inherit;
-    padding: 32px;
-    margin: 50px 10px;
-  }
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
 
+.slide-1 { background-image: url("https://technext.github.io/jackson/images/img_bg_1.jpg"); }
+.slide-2 { background-image: url("https://technext.github.io/jackson/images/img_bg_2.jpg"); }
 
-  .oi {
-    display: block;
-    width: 100%;
-    height: 100vh;
-    background: url(https://technext.github.io/jackson/images/img_bg_1.jpg);
-    background-color: rgba(128, 128, 128, 0.056);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.slide::before {
+  content: "";
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  width: 100%;
+   height: 100%;
+  z-index: 0;
+}
 
+.slide-content {
+  position: absolute;
+  max-width: 480px;
+    color: #000;
+padding: 0 1rem;
 
-  .title {
-    display: flex;
-    font-size: 4em;
-    flex: auto;
-    top: 250px;
-    left: -10px;
-    font-family: 'Playfair Display', Georgia, serif;
-    font-weight: 700;
-    text-align: left;
-    height: 400px;
-    width: 490px;
-    position: relative;
-    animation-duration: 2.5s;
-    animation-name: 'fadeToUp';
-    animation-delay: 0.2s;
+}
 
-  }
+/* -- Atenção: ajuste de posição aqui -- */
+.slide-1 .slide-content {
+  top: 20%;
+  left: 1%;
+}
+.slide-2 .slide-content {
+  top: 20%;
+  left: 1.5%;
+}
 
-  .oi .subtitle {
-    font: 15px "Quicksand", Arial, sans-serif;
-    flex-direction: column;
-    width: 12.5rem;
-    height: 2.5rem;
-    margin-top: 7rem;
-    margin-left: 3.5rem;
-    text-align: left;
-    margin-bottom: 1rem;
-    position: relative;
-    animation-duration: 2.5s;
-    animation-name: 'fadeToUp';
-  }
+/* Tipografia */
+.slide-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 4.5rem;
+  line-height: 1;
+  margin: 0 0 0.2rem 0;
+  font-weight: 600;
+  text-align: left;
+}
 
-  .down {
-    display: flex;
-    font-size: 12px;
-    margin-top: 1rem;
-    margin-left: 3.5rem;
-    margin-bottom: 22rem;
-    height: 2.5rem;
-    width: 12.5rem;
-    border: 0.1px solid #000;
-    padding: 0.625rem 0.625rem;
-    position: relative;
-    text-transform: uppercase;
-    animation-duration: 1.5s;
-    animation-name: 'fadeToUp,';
-    /* fade-inOut';*/
-  }
+.slide-subtitle {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 0.5rem 0;
+}
 
-  .down i {
-    padding: 3px;
-  }
+/* Botões */
+.btn {
+  display: inline-flex;
+  align-items: center;
+ border: 1px black solid;
+  padding: 0.5rem;
+  border-radius: .1rem;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+ text-decoration: none;
+}
 
-  .main .funcao {
-    display: none;
-    background: url("https://technext.github.io/jackson/images/img_bg_2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    margin-left: 0;
-    margin-top: 0;
-    position: relative;
-    animation-name: 'fade-inOut';
-    animation-duration: 1.5s;
-    visibility: none;
+.btn-primary {
+  background-color: #fff;
+  color: #000;
+   border: 1px black solid;
+}
+.btn-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
 
-  }
+.btn-secondary {
+  background-color: transparent;
+    color: #000;
+     border: 1px black solid;
+}
+.btn-secondary:hover {
+  background-color: #fff;
+  color: #000;
+}
 
-  .h1 {
-    display: flex;
-    flex: auto;
-    top: 4.5em;
-    left: 1.5rem;
-    bottom: 1rem;
-    right: 20px;
-    position: relative;
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 1.5em;
-    font-weight: 700;
-    text-align: left;
-    color: #020000;
-    height: 25rem;
-    width: 30.625rem;
-    box-shadow: 0 0 1px rgba(51, 31, 31, 0.1);
-    font-size: 60px;
-    animation-name: 'fade-inOut';
-    animation-duration: 2s;
-  }
+.slider-controls {
+  position: absolute;
+  top: 90%;                 /* centraliza verticalmente */
+  left: 20px;               /* 40px da borda esquerda, igual ao slide-content */
+  transform: translateY(-50%);  
+  display: flex;
+  flex-direction: column;   /* empilha um botão embaixo do outro */
+  gap: 5px;                /* 10px de espaçamento entre eles */
+  z-index: 2;
+}
 
-  .funcao>h2 {
-    font: 15px "Quicksand", Arial, sans-serif;
-    display: flex;
-    flex: auto;
-    flex-direction: column;
-    top: 7.5rem;
-    left: 5.5rem;
-    width: 12.5rem;
-    height: 2.5rem;
-    text-align: left;
-    position: relative;
-    animation-name: 'fade-inOut';
-    animation-duration: 1.5s;
-  }
+.manual-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
+.manual-btn i {
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.5);
+  transition: color 0.3s ease;
+    background-color: rgba(116, 113, 113, 0.827);
+    border-radius: 50%;
+}
 
-  .funcao a {
-    display: flex;
-    width: 10.625rem;
-    text-align: center;
-    font-size: 12px;
-    border: 1px solid #202020;
-    margin: 0.7rem 0 20px 0;
-    padding: 5px;
-    text-transform: uppercase;
-    animation-name: 'fade-inOut';
-    animation-duration: 1.5s;
-  }
+.manual-btn.active i {
+ 
+  border-radius: 50%;
+  color: #007bff;
+  background-color: #fff;
 
-  .down2 {
-    font-size: 12px;
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 0px;
-    margin-top: 3.75rem;
-    border: 0.1px solid #000;
-
-  }
-
-  .down2 span {
-    padding-top: 5px;
-  }
-
-  .down2 i {
-    margin: 0;
-  }
-
-  #radio2 {
-    margin-top: 0.625rem;
-    margin-bottom: 1.250rem;
-
-  }
-
-  .manual-btn {
-    width: 0.8125rem;
-    display: flex;
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1.5s;
-    margin: 0.8125rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-left: -20px;
-  }
-
-  .manual-btn-activo {
-    display: flex;
-    flex: auto;
-    background-color: #fff;
-    border: 2px solid rgb(44, 152, 240);
-  }
-
-  .funcao>.manual-navigation {
-    margin-top: 33rem;
-    margin-left: 4.5rem;
-    margin-bottom: 0;
-  }
+}
