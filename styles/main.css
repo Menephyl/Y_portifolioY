@@ -475,6 +475,8 @@
     top: 0;
     left: 0;
     background-color: #007bff;
+   background-image: url(../images/Captura\ de\ tela\ 2025-09-09\ 163047.png);
+    background-position: center right;
     color: #fff;
     box-sizing: border-box;
 
@@ -541,6 +543,8 @@
     top: 0;
     left: 0;
     background-color: #007bff;
+     background-image: url(../images/pgta.jpg);
+    background-position: right;
     color: #fff;
     padding: 10px;
     box-sizing: border-box;
@@ -596,7 +600,7 @@
     transition: background-image 0.3s ease;
     background-position: center;
     margin: -150px 0 200px 10px;
-
+  color:black;
   }
 
   .con_3:hover {
@@ -611,17 +615,20 @@
     top: 0;
     left: 0;
     background-color: #007bff;
-    color: #fff;
+    background-image: url(../images/papplejs.png);
+    background-position: right;
+    color:black;
+    
     box-sizing: border-box;
-
   }
 
   .con_3:hover .content {
     display: block;
+    
   }
 
   .con_3 .content span {
-    color: #fff;
+      color:black;
     display: flex;
     top: 10px;
     left: 0;
@@ -678,6 +685,7 @@
     top: 0;
     left: 0;
     background-color: #007bff;
+    background-image: url(../images/pspotify.png);
     color: #fff;
     padding: 10px;
     box-sizing: border-box;
@@ -748,6 +756,8 @@
     top: 0;
     left: 0;
     background-color: #007bff;
+    background-image: url(../images/image.png);
+    background-position: right center;
     color: #fff;
     padding: 10px;
     box-sizing: border-box;
@@ -816,6 +826,7 @@
     top: 0;
     left: 0;
     background-color: #007bff;
+    background-image: url(../images/Captura\ de\ tela\ 2025-08-29\ 020817.png);
     color: #fff;
     padding: 10px;
     box-sizing: border-box;
