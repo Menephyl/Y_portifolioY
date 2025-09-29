@@ -1,6 +1,6 @@
 
 
-
+//debaixo pra cima
 window.revelar = ScrollReveal({reset:false})
 
 revelar.reveal('.fadeToUpFunc',{
@@ -56,6 +56,8 @@ revelar.reveal('.fadeToUp-delay6',{
     distance:"90px",
     delay:1000
 })
+
+// fade to right a
 window.revelar = ScrollReveal({reset:true})
 
 revelar.reveal('.fadeToRight',{
@@ -100,6 +102,9 @@ revelar.reveal('.fadeToRight-5',{
      delay:1200,
     origin:"left"
 })
+
+// fade to left
+
 
 window.revelar = ScrollReveal({reset:true})
 

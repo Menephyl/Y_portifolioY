@@ -1,0 +1,257 @@
+
+  .skills {
+    margin-top: 4rem;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-bottom: 10rem;
+    animation-duration: 3s;
+    animation-name: fade-inOut;
+    transition-delay: 3.5s;
+  }
+
+  #skills>em {
+    display: flex;
+    flex: 1;
+    position: relative;
+    top: 6rem;
+    left: 1rem;
+    bottom: 5rem;
+    color: #999999;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  #skills h2 {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: start;
+    display: flex;
+    flex: 1;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    margin-left: 20px;
+    padding: 10px 5px 0 0;
+
+  }
+
+  #skills p {
+    font: 15px 'Quicksand', arial, sans-serif;
+    text-align: justify;
+    width: 60%;
+  }
+
+  .progress-box-1 {
+    width: 300px;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .progress-box-2 {
+  
+    width: 300px;
+    height: 160px;
+  }
+
+  .progress-bar-o {
+    background-color: rgba(255, 115, 0, 0.884);
+    color: black;
+    height: 6px;
+    width: 70%;
+    font-size: 14px;
+    text-align: end;
+    border-radius: 3px;
+  }
+
+  .progress-bar-o::after {
+    width: 14px;
+    height: 14px;
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 115, 0);
+    margin-top: -3px;
+    margin-left: -13px;
+    margin-right: 0;
+  }
+
+  .progress-bar-b {
+    background-color: rgba(0, 55, 255, 0.623);
+    color: black;
+    font-size: 14px;
+    height: 6px;
+    width: 75%;
+    text-align: end;
+    border-radius: 3px;
+    font-weight: bolder;
+  }
+
+  .progress-bar-b::after {
+    width: 14px;
+    height: 14px;
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(0, 55, 255, 0.923);
+    margin-top: -3px;
+    margin-left: -14px;
+    margin-right: 0;
+  }
+
+  .progress-box-1 {
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  .progress-bar-y {
+    background-color: rgb(248, 248, 10);
+    height: 6px;
+    width: 85%;
+    font-size: 12px;
+    text-align: end;
+    border-radius: 3px;
+    color: black;
+  }
+
+  .progress-bar-y::after {
+    width: 14px;
+    height: 14px;
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(248, 248, 10);
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: 0;
+  }
+
+  .progress-box-2 {
+    width: 300px;
+    height: auto;
+    display: flex;
+    position: relative;
+    margin-top: -290px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+  }
+
+  .progress-bar-r {
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 42%;
+    font-size: 12px;
+    text-align: end;
+    border-radius: 3px;
+  }
+
+  .progress-bar-r::after {
+    background-color: rgb(255, 0, 0);
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: -5px;
+  }
+
+  .progress-bar-bl {
+    background-color: rgb(0, 217, 255);
+    color: black;
+    height: 6px;
+    width: 45%;
+    font-size: 12px;
+    text-align: end;
+    border-radius: 3px;
+
+  }
+
+  .progress-bar-bl::after {
+    background-color: rgb(0, 217, 255);
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-left: -5px;
+  }
+
+  .progress-bar-g {
+    background-color: rgb(21, 197, 89);
+    color: black;
+    height: 6px;
+    width: 45%;
+    font-size: 12px;
+    text-align: end;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+  .progress-bar-g::after {
+    background-color: rgb(21, 197, 89);
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-left: -5px;
+  }
+
+  .o {
+    position: relative;
+    color: rgba(255, 115, 0, 0.884);
+  }
+
+  .b {
+    position: relative;
+    color: rgba(0, 55, 255, 0.623);
+  }
+
+  .y {
+    position: relative;
+    color: rgba(232, 248, 10);
+  }
+
+  .bl {
+    position: relative;
+    color: rgb(0, 217, 255);
+  }
+
+  .r {
+    position: relative;
+    color: rgb(255, 0, 0);
+  }
+
+  .g {
+    position: relative;
+    color: rgb(21, 197, 89);
+  }
+
+
+/* mantém o ponto indicador posicionado corretamente */
+.progress-bar-o::after,
+.progress-bar-y::after,
+.progress-bar-r::after,
+.progress-bar-bl::after,
+.progress-bar-b::after,
+.progress-bar-g::after {
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.progress-bar-o { background: rgba(255,115,0,0.88); }
+.progress-bar-y { background: rgb(248,248,10); }
+.progress-bar-r { background: rgb(255,0,0); }
+.progress-bar-bl { background: rgb(0,217,255); }
+.progress-bar-b { background: rgba(0,55,255,0.623); }
+.progress-bar-g { background: rgb(21,197,89); }

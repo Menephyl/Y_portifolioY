@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./styles/animation.css">
   <link rel="stylesheet" href="./styles/slidesintro.css">
   <link rel="stylesheet" href="./styles/sectionabout.css">
+  <link rel="stylesheet" href="./styles/skills.css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 
@@ -99,10 +100,6 @@
       <div class="principal fade-inOut" id="about">
         <h2 class="about-me-text ">WHO AM I?</h2>
         <div class="about-p" id="about-p">
-
-
-
-
           <p class=""><strong>Hi! I am Yan Isonel Pereira</strong> and Technician Of Information Technology
             Since <strong>2017.</strong><br>
            And Junior Front-End Engineer since <strong>2024.</strong>
@@ -203,7 +200,7 @@
       </div>
     </section>
 
-    <section id="img01">
+    <section id="img01" class="counters"> <!-- contadores animados -->
       <div id="imagem" class="imagem">
         <!-- contador -->
         <span class="n  "><span id="numero"> 10 </span><br><span class="t1">COFFEE CUPS</span></span>
@@ -214,53 +211,63 @@
             class="t">PARTNERS</span> </span>
       </div>
     </section>
-    <div id="skills" class="skills fade-inOut">
-      <em class="">MY SPECIALITY </em>
-      <div class="skills">
-        <h2 class="-delay2">My Skills</h2>
-        <p class="">
-          My skills make results! Development of sites objectives, with better user experience. Stores, Commodities,
-          professional pages for too many other areas.
-        </p>
-        <div class="progress-box-1">
-          <div style="width:100%; text-align:left">
-            <p class="o ">HTML5 <span class="" style="padding-left: 5px;">87%</span></p>
-            <div class="progress-bar-o "></div><!-- direita  -->
-            <p class="y -3">Javascript<span style="padding-left: 5px;">45%</span></p>
-            <div class="progress-bar-y -3"></div><!-- direita  -->
-            <p class="r -4">Git<span style="padding-left: 5px;">21%</span></p>
-            <div class="progress-bar-r -4"></div><!-- direita  -->
-          </div>
-        </div>
-        <div class="progress-box-2">
-          <div style="width:100%; text-align:left">
-            <p class="bl ">React<span style="padding-left: 5px;">1%</span></p>
-            <div class="progress-bar-bl "></div>
-            <p class="b ">CSS3<span style="padding-left: 5px;">75%</span></p>
-            <div class="progress-bar-b "></div>
-            <p class="g -4">NodeJs<span style="padding-left: 5px;">1%</span></p>
-            <div class="progress-bar-g -4"></div>
-          </div>
-        </div>
+<div id="skills" class="skills fade-inOut">
+  <em>MY SPECIALITY</em>
+
+  <div  class="skills-inner">
+    <h2 class="-delay2">My Skills</h2>
+    <p>
+      My skills make results! Development of sites objectives, with better user experience. brStores, Commodities,
+      professional pages for too many other areas.
+    </p>
+
+    <div class="progress-box-1" aria-hidden="false">
+      <div style="width:100%; text-align:left">
+        <p class="o">HTML5 <span style="padding-left: 5px;">87%</span></p>
+        <div class="progress-bar-o" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-width="87%"></div>
+
+        <p class="y">Javascript <span style="padding-left: 5px;">85%</span></p>
+        <div class="progress-bar-y" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-width="85%"></div>
+
+        <p class="r">Git <span style="padding-left: 5px;">44%</span></p>
+        <div class="progress-bar-r" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-width="21%"></div>
       </div>
     </div>
+
+    <div class="progress-box-2" aria-hidden="false">
+      <div style="width:100%; text-align:left">
+        <p class="bl">React <span style="padding-left: 5px;">46%</span></p>
+        <div class="progress-bar-bl" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-width="1%"></div>
+
+        <p class="b">CSS3 <span style="padding-left: 5px;">75%</span></p>
+        <div class="progress-bar-b" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-width="75%"></div>
+
+        <p class="g">NodeJs <span style="padding-left: 5px;">42%</span></p>
+        <div class="progress-bar-g" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-width="1%"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- education -->
 
     <div id="education" class="education fade-inOut">
 
       <em class="em "> EDUCATION</em>
 
       <h1 class="">EDUCATION</h1>
+      
+      <div class="tileCourse">
 
-      <div class=" tileCourse">
-
-        <a class="active btn-show-hide">Diploma in information technology<i id="iMenos"
+        <a class="active btn-show-hide">Diploma in information technology <i id="iMenos"
             class="fa-solid fa-minus"></i></a>
-
-
         <div class="panel-body ">
-          <p>Technical course in computer science at The state school Godofredo Rangel. </p>
-          <p>Summary: Programming logic. Technical English. SQL Database. Fundamentals of computer networking, web
-            development nb </p>
+          <p>Programming Logic. <br>Technical English. 
+            <br>SQL Database. <br>
+            Fundamentals of computer networking,
+            <br> Web
+            development. </p>
+            <p>2017-Technical course in computer science at The state school Godofredo Rangel.With some practice and 100% dedication, I was able to enhance my skills and knowledge in the field. The introduction of TI works, office automation and programming logic were essential for my professional growth.</p>
         </div>
 
       </div>
@@ -269,8 +276,15 @@
         <a class="btn-show-hide2">Diploma in information technology<i id="iMais" class="fa-solid fa-plus"></i></a>
 
         <div class="panel-body2">
-          <p>Free courses'Curso em Video' by "Gutavo Guanabara"
-            Mussum Ipsum, cacilds vidis litro abertis. </p>
+          <p>Free courses in 'Curso em Video' by "Gutavo Guanabara"
+               <br> <span> HTML5</span>
+            <br>
+            <Span> Css3</Span>
+            <br>
+            <span>Javascript </span><br>
+            Git and Github.
+          </p>
+         
 
         </div>
       </div>
@@ -279,10 +293,10 @@
         <a class=" btn-show-hide3">High Scholl Secundary Education <i id="iMais2" class="fa-solid fa-plus"></i></a>
 
         <div class="panel-body3">
-          <p>Involvement in community volunteer projects. </p>
-          <p>Outstanding academic performance in key subjects.
+          <p>Involvement in community volunteer projects. Learning leadership and teamwork skills.</p>
+          <p>Outstanding academic performance in key subjects. focused on excelling in mathematics and science.
           </p>
-          <p> Active participation in extracurricular activities, such as the science club.
+          <p> Active participation in extracurricular activities, such as the science club. 
           </p>
         </div>
 
@@ -300,7 +314,7 @@
         <div class="works ">
           <div class="circle"><i class="fa-solid fa-pen"></i></div>
           <div class="work-description">
-            <h3>Front-End Developer Freelancer <span>2023-2024</span></h3>
+            <h3>Front-End Developer Freelancer <span>2023-today</span></h3>
             <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial
               two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but
               rooms think may</p>
@@ -334,7 +348,7 @@
         <div class="works -delay6">
           <div class="circle-p"><i class="fa-solid fa-pen"></i></div>
           <div class="work-description">
-            <h3>Tech Support Self Employed<span>2018-2020</span></h3>
+            <h3>Tech Analyst Support Self Employed<span>2017-2020</span></h3>
             <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial
               two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but
               rooms think may</p>
@@ -345,7 +359,7 @@
         <div class="works -4">
           <div class="circle-g"><i class="fa-solid fa-pen"></i></div>
           <div class="work-description">
-            <h3>Technician in Information Technology Independent<span>2017-2024</span></h3>
+            <h3>Technician in Information Technology Independent<span>2017-today</span></h3>
             <p> Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial
               two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but
               rooms think may</p>
@@ -353,6 +367,9 @@
         </div>
       </div>
     </div>
+
+
+
     <div id="projects" class="fade-inOut">
       <em class="em"> MY WORK</em>
       <h1 class="">RECENT WORK</h1>
@@ -518,8 +535,8 @@
   <script src="https://unpkg.com/scrollreveal" defer></script>
   <script src="./js/script.js" defer></script>
   <script src="./js/sliderTop.js" defer></script>
-  
-
-</body>
+  <script src="./js/windowReveal.js" defer></script>
+  <script src="./js/counters.js" defer></script>
+  <script src="./js/skills.js" defer></script>p
 
 </html>
