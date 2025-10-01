@@ -8,14 +8,16 @@
   overflow-x: hidden; /* garante que não apareça scroll lateral */
 }
 
-.contact em {
-  display: block;
+.contactem {
+  display: flex;
+  justify-content: flex-start;
+ margin-left: 1.4rem;
   color: #999;
   font: 400 12px "Quicksand", sans-serif;
-  margin-bottom: 0.5rem;
+  margin-bottom: -1.5rem;
 }
 
-.contact h1 {
+.contacth1 {
   font: 700 20px "Playfair Display", serif;
   margin-bottom: 2rem;
   text-align: left;

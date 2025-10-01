@@ -483,7 +483,8 @@
     background-color: #007bff;
     background-image: url(../images/Captura\ de\ tela\ 2025-09-09\ 163047.png);
     background-position: center right;
-    color: #fff;
+    color: #8f7b7b;
+    font-weight: 600;
     box-sizing: border-box;
     transition: ease-in-out 1.5s;
   }
@@ -664,8 +665,9 @@
   }
 
   .con_3 .content h3>a {
-    color: #fff;
+    color: #000000;
     font-size: 16px;
+    font-weight: 700;
   }
 
   .con_4 {
@@ -765,9 +767,9 @@
     background-image: url(../images/image.png);
     background-position: right center;
     color: #fff;
+    font-weight: 600;
     padding: 10px;
     box-sizing: border-box;
-
     transition: ease-in-out 1.5s;
   }
 
@@ -913,14 +915,16 @@
 .blog {
   padding: 4rem 2rem;
   text-align: left;
+  margin-bottom: -20rem;
 }
 
 .blog em {
   display: block;
   color: #999;
-  margin-bottom: 0.5rem;
+margin-left: 1.3rem;
   font-size: 12px;
   letter-spacing: 2px;
+  margin-bottom: -0.8rem;
 }
 
 .blog h1 {
