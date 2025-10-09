@@ -945,12 +945,12 @@ margin-left: 1.3rem;
   background: #fff;
   border-radius: 6px;
   overflow: hidden;
-  width: 250px;          /* largura fixa para todos */
+  width: 220px;          /* largura fixa para todos */
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
- 
+ margin-bottom: 220px;
 }
 
 .blog-card:hover {
