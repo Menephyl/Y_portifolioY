@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/103452_computer_settings_icon.png" type="image/x-icon">
-  <link rel="stylesheet" href="./style/reset.css">
+
   <link rel="stylesheet" href="./styles/sidebar.css">
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/animation.css">
@@ -554,13 +554,14 @@
         </div>
 
         <!-- Coluna direita -->
-        <form class="contact-form fadeToLeft-5">
-          <input type="text" placeholder="Name">
-          <input type="email" placeholder="Email">
-          <input type="text" placeholder="Subject">
-          <textarea placeholder="Message"></textarea>
-          <button type="submit">SEND MESSAGE</button>
-        </form>
+      <form id="contact-form" class="contact-form fadeToLeft-5">
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="text" name="subject" placeholder="Subject" required>
+  <textarea name="message" placeholder="Message" required></textarea>
+  <button type="submit">SEND MESSAGE</button>
+</form>
+
       </div>
     </section>
 
@@ -572,7 +573,10 @@
   <script src="./js/script.js" defer></script>
   <script src="./js/sliderTop.js" defer></script>
   <script src="./js/windowReveal.js" defer></script>
-  <script src="./js/counters.js" defer></script>
   <script src="./js/skills.js" defer></script>p
+
+<script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+
+<script src="./js/contact.js"defer></script>
 
 </html>
