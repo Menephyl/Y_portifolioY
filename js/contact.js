@@ -1,6 +1,8 @@
 function initContactForm() {
   // Inicializa com a Public Key
-  emailjs.init("6DV6L3XBr5Q-If4ug"); // exemplo da sua conta
+  emailjs.init({
+    publicKey: "6DV6L3XBr5Q-If4ug"
+  });
 
   const form = document.getElementById('contact-form');
   if (!form) return;
@@ -8,7 +10,7 @@ function initContactForm() {
   form.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_4877c1c', 'template_xuder97', this)
+    emailjs.sendForm('service_d6171km', 'template_xuder97', this)
       .then(() => {
         alert('Mensagem enviada com sucesso!');
         form.reset();
