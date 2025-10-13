@@ -1,0 +1,189 @@
+@media (max-width: 768px) {
+
+    /* Remove margens laterais e faz o main ocupar 100% da viewport no mobile */
+#main,
+.main {
+  width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+}
+
+/* 2️⃣ Responsivo até 768px */
+#aside {
+  transform: translateX(-100%);          /* esconde o menu */
+  transition: transform 1.5s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+#aside.menu-open {
+  transform: translateX(0);              /* mostra o menu */
+}
+
+.menu-toggle {
+  display: block;                         /* botão visível no mobile */
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  z-index: 1100;
+  cursor: pointer;
+}
+
+
+/* 3️⃣ Força slider full-screen, sem margens */
+.slides {
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  width: 100vw !important;
+  height: 100vh !important;
+  left: 0 !important;
+}
+
+/* centraliza o conteúdo de texto no slide, se quiser */
+.slide-content {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+/* ajusta controles para ficarem bem visíveis */
+.slider-controls {
+  top: 50% !important;
+  left: 1rem !important;
+  transform: translateY(-50%) !important;
+}
+
+/* 4️⃣ Aside full-screen quando aberto no mobile */
+#aside.menu-open {
+  width: 100vw !important;
+  height: 100vh !important;
+  transform: translateX(0) !important;
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1) !important;
+  z-index: 2000;
+}
+/* 1️⃣ Deixe o aside cobrindo toda a tela e fixo */
+#aside {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  transform: translateX(-100%) !important;  /* escondido por padrão */
+  transition: transform 1s ease !important;
+  z-index: 9999 !important;                  /* acima de tudo */
+}
+
+/* 2️⃣ Quando aberto, traga ele 100% para dentro */
+#aside.menu-open {
+  transform: translateX(0) !important;
+}
+
+/* 3️⃣ Botão permanece visível */
+.menu-toggle {
+  display: block;
+}
+
+/* 4️⃣ Esconda o main enquanto o menu estiver aberto */
+body.menu-open #main {
+  display: none !important;
+}
+
+/* posiciona o botão de close no inside do aside */
+.menu-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #000;
+  cursor: pointer;
+  z-index: 1001;
+  display: none;       /* fica visível só quando abrir o menu */
+}
+
+/* quando o aside estiver aberto, exibe o close e esconde o hambúrguer */
+#aside.menu-open .menu-close {
+  display: block;
+}
+#aside.menu-open ~ .menu-toggle {
+  display: none;
+}
+.slide-2 .slide-content {
+  top: 20%;
+  left: 1%;
+}
+
+
+/* Tipografia */
+.slide-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: 7rem 0rem 0.2rem 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.slide-subtitle {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 0.5rem 0;
+}
+
+/* Botões */
+.btn {
+  display: inline-flex;
+  align-items: center;
+ border: 1px black solid;
+  padding: 0.5rem;
+  border-radius: .1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+ text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #000;
+   border: 1px black solid;
+}
+.btn-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: transparent;
+    color: #000;
+     border: 1px black solid;
+}
+.btn-secondary:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.slider-controls {
+    position: absolute;
+    display: flex;
+    margin-top: -19rem;
+    flex-direction: column;   /* empilha um botão embaixo do outro */
+ 
+  left: 20px;               /* 40px da borda esquerda, igual ao slide-content */
+  transform: translateY(-50%);  
+  gap: 5px;                /* 10px de espaçamento entre eles */
+  z-index: 2;
+}
+}

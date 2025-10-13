@@ -1,4 +1,11 @@
 
+ .menu-toggle{
+  display: NONE;
+ }
+ .menu-close{
+  display: NONE;
+ }
+ 
  #aside{
   display: block;
    max-width: 300px;
@@ -141,4 +148,3 @@ letter-spacing: 1px;
 color: #449deb; 
 text-align: center;
 }
- 

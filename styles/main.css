@@ -1025,4 +1025,7 @@ margin-left: 1.3rem;
     text-decoration: none;
   }
 
-  
+  /* Transição suave em hovers */
+.card, .contact-form input, .contact-form button {
+  transition: all 0.3s ease;
+}

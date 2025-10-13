@@ -13,18 +13,25 @@
   <link rel="stylesheet" href="./styles/slidesintro.css">
   <link rel="stylesheet" href="./styles/sectionabout.css">
   <link rel="stylesheet" href="./styles/skills.css">
-  <link rel="stylesheet" href="./styles/form.css">
+   <link rel="stylesheet" href="./styles/form.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 
 
-  <title>Yan Portfolio</title>
+  <title>Yan Resumé</title>
 
 </head>
 
 <body>
+  <button id="menu-toggle" class="menu-toggle">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+<button id="menu-close" class="menu-close" aria-label="Fechar menu">
+  <i class="fa-solid fa-xmark"></i>
+</button>
 
-  <aside id="aside" class="menu-lateral-active">
+  <aside id="aside" class="menu-lateral-active menu-closed">
 
     <img src="images/yan.jpg" alt="profile">
     <h1 class="y1">Yan Menephyl</h1>
@@ -513,7 +520,8 @@
             <img src="https://technext.github.io/jackson/images/blog-3.jpg" alt="With Deguemon">
           </div>
           <div class="blog-content fadeToRight-2">
-            <span class="meta fadeToRight-2">April 14, 2018 | Web Design | <i class="fa-regular fa-comment"></i> 4</span>
+            <span class="meta fadeToRight-2">April 14, 2018 | Web Design | <i class="fa-regular fa-comment"></i>
+              4</span>
             <a href="" class="link-blog">
               <h3>With Deguemon</h3>
             </a>
@@ -554,31 +562,31 @@
         </div>
 
         <!-- Coluna direita -->
-      <form id="contact-form" class="contact-form fadeToLeft-5">
-  <input type="text" name="name" placeholder="Name" required>
-  <input type="email" name="email" placeholder="Email" required>
-  <input type="text" name="subject" placeholder="Subject" required>
-  <textarea name="message" placeholder="Message" required></textarea>
-  <button type="submit">SEND MESSAGE</button>
-</form>
+        <form id="contact-form" class="contact-form fadeToLeft-5">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit">SEND MESSAGE</button>
+        </form>
 
       </div>
     </section>
 
   </main>
   <script src="https://kit.fontawesome.com/ad0bcb4a1f.js" crossorigin="anonymous"></script>
-  
+
   <script src="https://unpkg.com/scrollreveal" defer></script>
-  
+
   <script src="./js/script.js" defer></script>
   <script src="./js/sliderTop.js" defer></script>
   <script src="./js/windowReveal.js" defer></script>
-  <script src="./js/skills.js" defer></script>p
-  
+  <script src="./js/skills.js" defer></script>
+  <script src="./js/responsivo.js" defer></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
-  
-  
-  <script src="./js/contact.js"defer></script>
+
+
+  <script src="./js/contact.js" defer></script>
 </body>
 
 </html>
