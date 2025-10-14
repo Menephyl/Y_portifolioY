@@ -277,7 +277,6 @@
     margin-bottom: 100px !important;
     padding: 50px;
     height: auto;
-  
 
   }
 
@@ -309,5 +308,7 @@
     margin-bottom: 20px;
     padding: 10px;
   }
+#desc span .hex{
 
+}
 }
