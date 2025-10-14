@@ -1,189 +1,313 @@
 @media (max-width: 768px) {
 
-    /* Remove margens laterais e faz o main ocupar 100% da viewport no mobile */
-#main,
-.main {
-  width: 100vw !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  float: none !important;
-}
+  #main,
+  .main {
 
-/* 2️⃣ Responsivo até 768px */
-#aside {
-  transform: translateX(-100%);          /* esconde o menu */
-  transition: transform 1.5s cubic-bezier(0.22, 1, 0.36, 1) !important;
-}
+    width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+  }
 
-#aside.menu-open {
-  transform: translateX(0);              /* mostra o menu */
-}
+  #aside {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    transform: translateX(-100%);
+    transition: transform 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+    z-index: 9999 !important;
+  }
 
-.menu-toggle {
-  display: block;                         /* botão visível no mobile */
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  background: none;
-  border: none;
-  font-size: 1.8rem;
-  z-index: 1100;
-  cursor: pointer;
-}
+  #aside.menu-open {
+    transform: translateX(0);
+  }
 
+  .menu-toggle {
+    position: fixed !important;
+    top: 1rem !important;
+    left: 1rem !important;
+    background: none !important;
+    border: none !important;
+    font-size: 1.8rem !important;
+    cursor: pointer !important;
+    z-index: 10001 !important;
+    display: block !important;
+  }
 
-/* 3️⃣ Força slider full-screen, sem margens */
-.slides {
-  width: 100vw !important;
-  height: 100vh !important;
-  margin: 0;
-  padding: 0;
-}
+  .menu-close {
+    position: fixed !important;
+    top: 1rem !important;
+    right: 1rem !important;
+    background: none !important;
+    border: none !important;
+    font-size: 1.8rem !important;
+    cursor: pointer !important;
+    z-index: 10002 !important;
+    display: none !important;
+  }
 
-.slide {
-  width: 100vw !important;
-  height: 100vh !important;
-  left: 0 !important;
-}
+  body.menu-open .menu-toggle {
+    display: none !important;
+  }
 
-/* centraliza o conteúdo de texto no slide, se quiser */
-.slide-content {
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-}
+  body.menu-open .menu-close {
+    display: block !important;
+  }
 
-/* ajusta controles para ficarem bem visíveis */
-.slider-controls {
-  top: 50% !important;
-  left: 1rem !important;
-  transform: translateY(-50%) !important;
-}
+  body.menu-open #main {
+    display: none !important;
+  }
 
-/* 4️⃣ Aside full-screen quando aberto no mobile */
-#aside.menu-open {
-  width: 100vw !important;
-  height: 100vh !important;
-  transform: translateX(0) !important;
-  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1) !important;
-  z-index: 2000;
-}
-/* 1️⃣ Deixe o aside cobrindo toda a tela e fixo */
-#aside {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  width: 100vw !important;
-  height: 100vh !important;
-  transform: translateX(-100%) !important;  /* escondido por padrão */
-  transition: transform 1s ease !important;
-  z-index: 9999 !important;                  /* acima de tudo */
-}
+  .slides {
+    width: 100vw !important;
+    height: 100vh !important;
+    margin: 0;
+    padding: 0;
+  }
 
-/* 2️⃣ Quando aberto, traga ele 100% para dentro */
-#aside.menu-open {
-  transform: translateX(0) !important;
-}
+  .slide {
+    width: 100vw !important;
+    height: 100vh !important;
+    left: 0 !important;
+  }
 
-/* 3️⃣ Botão permanece visível */
-.menu-toggle {
-  display: block;
-}
+  .slide-content {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
 
-/* 4️⃣ Esconda o main enquanto o menu estiver aberto */
-body.menu-open #main {
-  display: none !important;
-}
-
-/* posiciona o botão de close no inside do aside */
-.menu-close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: none;
-  border: none;
-  font-size: 1.8rem;
-  color: #000;
-  cursor: pointer;
-  z-index: 1001;
-  display: none;       /* fica visível só quando abrir o menu */
-}
-
-/* quando o aside estiver aberto, exibe o close e esconde o hambúrguer */
-#aside.menu-open .menu-close {
-  display: block;
-}
-#aside.menu-open ~ .menu-toggle {
-  display: none;
-}
-.slide-2 .slide-content {
-  top: 20%;
-  left: 1%;
-}
-
-
-/* Tipografia */
-.slide-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
-  line-height: 1;
-  margin: 7rem 0rem 0.2rem 0;
-  font-weight: 600;
-  text-align: center;
-}
-
-.slide-subtitle {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 0 0 0.5rem 0;
-}
-
-/* Botões */
-.btn {
-  display: inline-flex;
-  align-items: center;
- border: 1px black solid;
-  padding: 0.5rem;
-  border-radius: .1rem;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  cursor: pointer;
- text-decoration: none;
-}
-
-.btn-primary {
-  background-color: #fff;
-  color: #000;
-   border: 1px black solid;
-}
-.btn-primary:hover {
-  background-color: #007bff;
-  color: #fff;
-}
-
-.btn-secondary {
-  background-color: transparent;
-    color: #000;
-     border: 1px black solid;
-}
-.btn-secondary:hover {
-  background-color: #fff;
-  color: #000;
-}
-
-.slider-controls {
+  .slider-controls {
     position: absolute;
     display: flex;
-    margin-top: -19rem;
-    flex-direction: column;   /* empilha um botão embaixo do outro */
- 
-  left: 20px;               /* 40px da borda esquerda, igual ao slide-content */
-  transform: translateY(-50%);  
-  gap: 5px;                /* 10px de espaçamento entre eles */
-  z-index: 2;
-}
+    flex-direction: column;
+    left: 20px;
+    top: 10%;
+    transform: translateY(-50%);
+    gap: 5px;
+    z-index: 2;
+  }
+
+  .slide-2 .slide-content {
+    top: 20%;
+    left: 1%;
+  }
+
+  .slide-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 7rem 0 0.2rem 0;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .slide-subtitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+  }
+
+  .btn-primary {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .btn-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    color: #000;
+  }
+
+  .btn-secondary:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  #about-p {
+    text-align: left;
+    width: 375px !important;
+    text-wrap: wrap;
+  }
+
+  .rowservices {
+    width: 350px !important;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    gap: 10px !important;
+
+  }
+
+  .design {
+    width: 100%;
+    height: 154px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rowservices h3 {
+    display: flex;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  #design {
+    width: 100%;
+    height: 154px;
+    border-bottom: 3px solid #d60c0c;
+    margin-right: 3rem;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.578);
+
+  }
+
+  #design2 {
+    width: 100%;
+    height: 154px;
+  }
+
+  #design3 {
+    width: 100%;
+    height: 154px;
+  }
+
+  .hire {
+    max-height: 300px;
+    max-width: 300px;
+    position: relative;
+    margin-left: 20px;
+    background: #f9bf3f;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hire h2 {
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 20px;
+    letter-spacing: normal;
+    margin-bottom: 2px;
+  }
+
+  #hire a {
+    font-size: 12px;
+    font-family: 'Quicksand';
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .conteudo #expertise {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+    width: 380px !important;
+    width: 380px;
+    justify-content: center;
+    align-items: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0;
+    height: auto;
+    overflow-x: scroll;
+    gap: 20px;
+  }
+
+  .conteudo #expertise em {
+    display: flex;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+
+  #desc {
+    display: block;
+    flex-direction: column;
+    max-width: 380px;
+    margin-bottom: 100px !important;
+    padding: 50px;
+    height: auto;
+  
+
+  }
+
+  #desc span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px !important;
+    flex-direction: column;
+    margin-bottom: 180px !important;
+  
+
+  }
+  #desc span strong{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -40px;
+    margin-right: 10px;
+  }
+  #desc p {
+  justify-content: center;
+  align-items: center;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
 }
