@@ -2,8 +2,7 @@
 
   #main,
   .main {
-
-    width: 100vw !important;
+    min-width: 100vw !important;
     margin: 0 !important;
     padding: 0 !important;
     float: none !important;
@@ -153,7 +152,8 @@
     text-align: left;
     width: 45% !important;
     text-wrap: wrap;
-    opacity: 1;
+    opacity: 1 !important;
+
   }
 
   .rowservices {
@@ -164,7 +164,8 @@
     justify-content: center;
     align-items: left;
     gap: 40px !important;
-
+    margin: 0;
+    padding: 0;
   }
 
   .design {
@@ -204,11 +205,12 @@
   }
 
   .hire {
+    display: flex;
+    left: 10vw;
     max-height: 300px;
-    
+    min-width: 30%;
     max-width: 300px !important;
-    
-    position: relative;
+    position: absolute;
     margin-left: 20px;
     background: #f9bf3f;
     margin-top: 3.5rem;
@@ -253,18 +255,20 @@
     justify-content: center;
     align-items: left;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5px !important;
     padding: 0;
     height: auto;
     overflow-x: scroll;
     gap: 10px;
     overflow: hidden;
   }
-.conteudo #expertise h2 #expertise-subtitle{
-  position: relative;
-  height: 70px;
-  margin-bottom: 150px!important;
-}
+
+  .conteudo #expertise h2 #expertise-subtitle {
+    position: relative;
+    height: 70px;
+    margin-bottom: 150px !important;
+  }
+
   .conteudo #expertise em {
     display: flex;
     margin-left: 20px;
@@ -278,7 +282,7 @@
   }
 
   #desc {
-     width: 350px !important;
+    width: 350px !important;
     justify-content: center;
     align-items: center;
     display: block;
@@ -292,10 +296,10 @@
 
   #desc span {
     margin-top: 350px;
-   margin-right: 20px;
-   height: auto;
+    margin-right: 20px;
+    height: auto;
     display: flex;
-      width: 100% !important;
+    width: 100% !important;
     justify-content: center;
     align-items: center;
 
@@ -303,17 +307,18 @@
     margin-bottom: 180px !important;
   }
 
-    #desc span .hex {
+  #desc span .hex {
     display: flex;
-      width: 100px !important;
+    width: 100px !important;
     justify-content: center;
     align-items: center;
     max-width: 380px !important;
     flex-direction: column;
     margin-top: 50px !important;
     margin-bottom: 180px !important;
-    }
-  #desc span strong{
+  }
+
+  #desc span strong {
     justify-content: center;
     align-items: center;
     font-size: 15px;
@@ -322,94 +327,149 @@
     margin-top: -50px;
     margin-right: 10px;
   }
-  .strong_hex1{
+
+  .strong_hex1 {
     text-align: center;
     margin-top: 30px !important;
     padding: 10px !important;
     margin-bottom: 40px !important;
-   
+
   }
+
   #desc p {
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 20px;
     padding: 10px;
   }
- .conteudo #expertise .desc .hex::before,
-.conteudo #expertise .desc .hex::after {
-  
+
+  .conteudo #expertise .desc .hex::before,
+  .conteudo #expertise .desc .hex::after {
+
     content: '';
     position: absolute;
     width: 0;
     border-top: -50px solid transparent;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-}
+  }
+
   .hex::before {
     position: fixed !important;
     z-index: 9999 !important;
     top: -40px !important;
     left: 130px !important;
     border-bottom: 25px solid #007bff;
-}
+  }
 
-.hex::after {
+  .hex::after {
     bottom: -25px;
     left: -1px;
     border-top: 25px solid #007bff;
-}
-    #desc span .hex2 {
+  }
+
+  #desc span .hex2 {
     display: flex;
-      width: 100px !important;
+    width: 100px !important;
     justify-content: center;
     align-items: center;
     max-width: 380px !important;
     flex-direction: column;
     margin-bottom: 180px !important;
-    }
-       #desc span .hex3 {
+  }
+
+  #desc span .hex3 {
     display: flex;
-      width: 100px !important;
+    width: 100px !important;
     justify-content: center;
     align-items: center;
     max-width: 380px !important;
     flex-direction: column;
     margin-bottom: 180px !important;
-    }
-       #desc span .hex4 {
+  }
+
+  #desc span .hex4 {
     display: flex;
-      width: 100px !important;
+    width: 100px !important;
     justify-content: center;
     align-items: center;
     max-width: 380px !important;
     flex-direction: column;
     margin-bottom: 180px !important;
-    }
+  }
 
-       #desc span .hex5{
+  #desc span .hex5 {
     display: flex;
-      width: 100px !important;
+    width: 100px !important;
     justify-content: center;
     align-items: center;
     max-width: 380px !important;
     flex-direction: column;
     margin-bottom: 180px !important;
-    }
+  }
 
-       #desc span .hex6{
+  #desc span .hex6 {
     display: flex;
-      width: 100px !important;
+    width: 100px !important;
     justify-content: center;
     align-items: center;
     max-width: 380px !important;
     flex-direction: column;
     margin-bottom: 180px !important;
-    }
+  }
 
+  .imagem,
+  .counters {
+    display: flex;
+    flex-direction: column;
+    width: 70% !important;
+    height: 100% !important;
+    margin-top: 30px !important;
+    margin-bottom: 5rem !important;
+    width: 100vw !important;
+  }
 
+  .skills {
+    display: flex;
+    flex-direction: column;
+    width: 100vw !important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+    gap: 10px;
+  }
 
-    
+  .skills p {
+    text-align: justify !important;
+    padding: 10px !important;
+    margin-bottom: 20px !important;
+    width: 90vw !important;
+  }
+
+  .skills-inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw !important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+  }
+
+  .progress-box-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw !important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+  }
+
+  .progress-box-2 {
+    display: flex;
+    left: -80%;
+    flex-direction: column;
+    width: 100vw !important;
+    margin-top: 1rem !important;
+    margin-bottom: 5rem !important;
+  }
 }
