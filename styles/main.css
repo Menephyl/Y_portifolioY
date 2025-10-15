@@ -62,7 +62,8 @@
     background-color: #FFF;
     gap: 10px;
     padding: 5px;
-  overflow-x: hidden; /* garante que não apareça scroll lateral */
+    overflow-x: hidden;
+    /* garante que não apareça scroll lateral */
   }
 
 
@@ -195,7 +196,7 @@
     margin-left: 10px;
     border: 0.5px solid rgba(128, 128, 128, 0.468);
     margin-bottom: 20px;
-      margin-left: 1.1rem;
+    margin-left: 1.1rem;
   }
 
   .panel-body p {
@@ -218,7 +219,7 @@
     border: 0.5px solid rgba(128, 128, 128, 0.468);
     margin-bottom: 20px;
     font-size: 10px;
-      margin-left: 1.1rem;
+    margin-left: 1.1rem;
   }
 
   .panel-body2 p {
@@ -241,7 +242,7 @@
     margin-left: 10px;
     border: 0.5px solid rgba(128, 128, 128, 0.468);
     margin-bottom: 20px;
-      margin-left: 1.1rem;
+    margin-left: 1.1rem;
   }
 
   .panel-body3 p {
@@ -329,10 +330,7 @@
 
   }
 
-  #projects a {
-    text-decoration: none;
-    border: none;
-  }
+
 
   .works h3::before {
     content: ' ';
@@ -446,6 +444,11 @@
     color: #007bff;
   }
 
+  #projects a {
+    text-decoration: none;
+    border: none;
+  }
+
   .desc2 {
     height: auto;
     display: flex;
@@ -514,9 +517,9 @@
 
   .con_1 .content p {
     width: 250px;
-    height: 40px;
+    height: 20px;
     color: #020000;
-    margin-top: 140px;
+    margin-top: 7rem !important;
     margin-left: 5px;
     background-color: #8cc5db;
     border-radius: 5px;
@@ -585,9 +588,9 @@
 
   .con_2 .content p {
     width: 250px;
-    height: 40px;
+   height: 20px;
     color: #020000;
-    margin-top: 140px;
+      margin-top: 7rem !important;
     margin-left: 5px;
     background-color: #8cc5db;
     border-radius: 5px;
@@ -656,9 +659,9 @@
 
   .con_3 .content p {
     width: 250px;
-    height: 40px;
+   height: 20px;
     color: #020000;
-    margin-top: 140px;
+       margin-top: 7rem !important;
     margin-left: 5px;
     background-color: #8cc5db;
     border-radius: 5px;
@@ -726,9 +729,9 @@
 
   .con_4 .content p {
     width: 250px;
-    height: 40px;
+   height: 20px;
     color: #020000;
-    margin-top: 140px;
+     margin-top: 7rem !important;
     margin-left: 5px;
     background-color: #8cc5db;
     border-radius: 5px;
@@ -790,7 +793,7 @@
   .con_5 .content i {
     text-align: center;
     width: 30px;
-    height: 40px;
+     height: 40px;
     font-size: 18px;
     text-align: left;
     color: #020000;
@@ -799,9 +802,9 @@
 
   .con_5 .content p {
     width: 250px;
-    height: 40px;
+   height: 20px;
     color: #020000;
-    margin-top: 140px;
+        margin-top: 7rem !important;
     margin-left: 5px;
     background-color: #8cc5db;
     border-radius: 5px;
@@ -868,9 +871,9 @@
 
   .con_6 .content p {
     width: 250px;
-    height: 40px;
+    height: 20px;
     color: #020000;
-    margin-top: 140px;
+        margin-top: 7rem !important;
     margin-left: 5px;
     background-color: #8cc5db;
     border-radius: 5px;
@@ -908,106 +911,118 @@
     cursor: pointer;
     opacity: 0.5;
   }
+
   .fa-rotate-right {
     color: #fff;
   }
 
-.blog {
-  padding: 4rem 2rem;
-  text-align: left;
-  margin-bottom: -20rem;
-}
+  .blog {
+    padding: 4rem 2rem;
+    text-align: left;
+    margin-bottom: -20rem;
+  }
 
-.blog em {
-  display: block;
-  color: #999;
-margin-left: 1.3rem;
-  font-size: 12px;
-  letter-spacing: 2px;
-  margin-bottom: -0.8rem;
-}
+  .blog em {
+    display: block;
+    color: #999;
+    margin-left: 1.3rem;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: -0.8rem;
+  }
 
-.blog h1 {
-  font: 700 22px "Playfair Display", serif;
-  margin-bottom: 2.5rem;
-}
+  .blog h1 {
+    font: 700 22px "Playfair Display", serif;
+    margin-bottom: 2.5rem;
+  }
 
-/* Container dos cards */
-.blog-container {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap; /* quebra em telas menores */
-}
+  /* Container dos cards */
+  .blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* quebra em telas menores */
+  }
 
-/* Card do blog */
-.blog-card {
-  background: #fff;
-  border-radius: 6px;
-  overflow: hidden;
-  width: 220px;          /* largura fixa para todos */
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
- margin-bottom: 220px;
-}
-
-.blog-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-/* Imagem */
-.blog-card img {
-  width: 100%;
-  height: 200px;         /* altura fixa para todas */
-  object-fit: cover;     /* corta proporcionalmente */
-  display: block;
-}
-
-/* Conteúdo */
-.blog-content {
-  flex: 1;               /* força todos os cards a terem mesma altura */
-  padding: 1rem;
-  display: flex;
+  /* Card do blog */
+  .blog-card {
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 220px;
+    /* largura fixa para todos */
+    display: flex;
     flex-direction: column;
-  
-}
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 220px;
+  }
 
-.blog-content .meta {
-  font-size: 12px;
-  color: #777;
-  margin-bottom: 0.5rem;
-}
+  .blog-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
 
-.blog-content h3 {
-  font-size: 16px;
-  margin: 0.5rem 0;
-  color: #222;
-  flex-shrink: 0;
-  text-transform: uppercase;
-   text-decoration: none !important;
-    border: none !important;          /* remove qualquer borda */
-  outline: none !important; 
-}
+  /* Imagem */
+  .blog-card img {
+    width: 100%;
+    height: 200px;
+    /* altura fixa para todas */
+    object-fit: cover;
+    /* corta proporcionalmente */
+    display: block;
+  }
 
-.blog-content h3 a {
-  color: inherit;
-  transition: color 0.3s ease;
-  text-decoration: none !important;
-   border: none !important;          /* remove qualquer borda */
-  outline: none !important; 
-}
-.link-blog {
-  text-decoration: none;;
-}
-.blog-content p {
-  font-size: 14px;
-  color: #555;
-  line-height: 1.4;
-  margin-top: auto;      /* empurra o texto para alinhar */
-}
+  /* Conteúdo */
+  .blog-content {
+    flex: 1;
+    /* força todos os cards a terem mesma altura */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .blog-content .meta {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 0.5rem;
+  }
+
+  .blog-content h3 {
+    font-size: 16px;
+    margin: 0.5rem 0;
+    color: #222;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    border: none !important;
+    /* remove qualquer borda */
+    outline: none !important;
+  }
+
+  .blog-content h3 a {
+    color: inherit;
+    transition: color 0.3s ease;
+    text-decoration: none !important;
+    border: none !important;
+    /* remove qualquer borda */
+    outline: none !important;
+  }
+
+  .link-blog {
+    text-decoration: none;
+    ;
+  }
+
+  .blog-content p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+    margin-top: auto;
+    /* empurra o texto para alinhar */
+  }
 
   .btn-load2 {
     display: block;
@@ -1026,6 +1041,8 @@ margin-left: 1.3rem;
   }
 
   /* Transição suave em hovers */
-.card, .contact-form input, .contact-form button {
-  transition: all 0.3s ease;
-}
+  .card,
+  .contact-form input,
+  .contact-form button {
+    transition: all 0.3s ease;
+  }
