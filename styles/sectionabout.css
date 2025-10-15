@@ -43,6 +43,16 @@
 
 }
 
+#about-p p {
+    margin:0 10rem 0 0 ;
+    text-align: justify;
+    max-width: 40rem !important;
+    text-wrap: wrap;
+    opacity: 1 !important;
+    padding-right: 10px;
+
+}
+
 .principal p:nth-child(1) {
     text-align: justify;
     font: 400 15px "Quicksand", arial, sans-serif;
