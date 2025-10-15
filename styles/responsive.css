@@ -494,7 +494,6 @@
       height: auto !important;
   }
   #education p,.panel-body,.panel-body2,.panel-body3 {
-   
     flex-direction: column !important;
     padding: 5px !important;
     text-align: center !important;
@@ -505,4 +504,13 @@
     text-wrap: wrap !important;
     overflow: hidden !important;
   }
+
+  /*** ainda precisa mostrar o botao interativo ***/
+  #education #iiMenos,#iiMais,#iiMais2,#iiMenos2,#iiMais3,#iiMenos3 {
+    font-size: 12px !important;
+   margin:0;
+   padding: 0;
+   
+  }
+  
 }
